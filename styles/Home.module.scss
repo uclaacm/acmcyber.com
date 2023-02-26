@@ -4,11 +4,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 85vh;
 }
 
 .description {
-  display: inherit;
+  display: inline;
   justify-content: inherit;
   align-items: inherit;
   font-size: 0.85rem;
@@ -16,6 +16,9 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
 }
 
 .description a {
@@ -29,9 +32,6 @@
   position: relative;
   margin: 0;
   padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
 }
 
 .code {
