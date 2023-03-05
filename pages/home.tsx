@@ -3,12 +3,11 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.scss'
 import Navbar from '../components/Navbar'
-import CyberLogoLight from '@/public/Images/cyber-logo-light.png';
-import CyberWordmarkLight from '@/public/Images/cyber-wordmark-light.png';
 import HomeBanner from '@/public/Images/HomeBanner.svg';
 
 const bannerStyle = {
-  width: '100%'
+  position: 'relative',
+  width: '100vw'
 };
 
 export default function homePage() {
