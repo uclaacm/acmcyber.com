@@ -2,8 +2,8 @@ import styles from '@/styles/Navbar.module.scss'
 import Link from 'next/link'
 import Image from 'next/image';
 
-import CyberLogoLight from '@/public/Images/cyber-logo-light.png';
-import CyberWordmarkLight from '@/public/Images/cyber-wordmark-light.png';
+import CyberLogoLight from '@/public/images/cyber-logo-light.png';
+import CyberWordmarkLight from '@/public/images/cyber-wordmark-light.png';
 
 export default function Navbar() {
     return (
