@@ -7,7 +7,7 @@ const nextConfig = {
     loader: "akamai",
     path: "/",
   },
-  assetPrefix: !debug ? "https://cyber.uclaacm.com" : "",
+  assetPrefix: !debug ? "https://cyber.uclaacm.com" : "http://localhost:3000",
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
