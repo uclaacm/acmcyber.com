@@ -1,12 +1,12 @@
 import styles from '@/styles/Home.module.scss';
 import Navbar from '@/components/Navbar';
 
-export default function About() {
+export default function Archive() {
     return (
         <>
-        <Navbar/>
+        <Navbar />
         <main className={styles.main}>
-            <h1>About</h1>
+            <h1>Archive</h1>
             <div className={styles.description}>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum, ipsum eget congue varius, quam ex interdum nibh, sit amet rutrum purus ex ac mauris. Vestibulum blandit justo a diam semper, ac imperdiet nisi sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas felis justo, egestas quis purus a, suscipit egestas lorem. Suspendisse potenti. Aenean magna lorem, auctor in commodo et, rutrum vel justo. Donec sodales magna in eleifend pellentesque. Sed et pharetra est. Aenean faucibus leo et convallis laoreet. Phasellus ullamcorper, tortor eget accumsan lobortis, velit libero egestas lorem, auctor cursus lorem elit a odio. Vestibulum ut eleifend nunc. Aliquam erat volutpat. Sed tristique eleifend aliquam. Pellentesque porta imperdiet justo, vel maximus urna aliquet at. Donec felis ipsum, rhoncus ut facilisis non, facilisis vel neque. Cras ac ultricies quam.</p>
                 <p>Aliquam pharetra orci ac dui vehicula, et faucibus elit dictum. In nibh ligula, blandit in scelerisque at, venenatis viverra nulla. Phasellus et tristique est. Nam fringilla ultrices odio at tempus. Integer consequat placerat diam, ac vehicula metus tincidunt et. Proin lobortis sed est quis lobortis. Suspendisse neque magna, tristique at massa in, elementum placerat elit. Duis volutpat tristique mauris et posuere. Ut pulvinar nunc justo, sed gravida nibh finibus ut. Pellentesque leo tortor, ultrices at ex at, venenatis ullamcorper metus.</p>

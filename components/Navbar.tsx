@@ -2,8 +2,8 @@ import styles from '@/styles/Navbar.module.scss'
 import Link from 'next/link'
 import Image from 'next/image';
 
-import CyberLogoLight from '@/public/Images/cyber-logo-light.png';
-import CyberWordmarkLight from '@/public/Images/cyber-wordmark-light.png';
+import CyberLogoLight from '@/public/images/cyber-logo-light.svg';
+import CyberWordmarkLight from '@/public/images/cyber-wordmark-light.svg';
 
 export default function Navbar() {
     return (
@@ -23,9 +23,9 @@ export default function Navbar() {
         {/* RIGHT PART OF THE NAVBAR */}
          <div className="Right">
              <Link href="/events">EVENTS</Link>
-             <Link href="/challenges">ABOUT</Link>
-             <Link href="/scoreboard">PBR</Link>
-             <Link href="/login">ARCHIVE</Link>
+             <Link href="/about">ABOUT</Link>
+             <Link href="/pbr">PBR</Link>
+             <Link href="/archive">ARCHIVE</Link>
          </div>
    </div>
     )
