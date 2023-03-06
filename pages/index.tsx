@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
-import HomeBanner from '@/public/Images/HomeBanner.svg';
+import HomeBanner from '@/public/images/HomeBanner.svg';
 
 const bannerStyle = {
   position: 'relative',
