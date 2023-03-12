@@ -23,9 +23,9 @@ export default function Navbar() {
         {/* RIGHT PART OF THE NAVBAR */}
          <div className="Right">
              <Link href="/events">EVENTS</Link>
-             <Link href="/about">ABOUT</Link>
-             <Link href="/pbr">PBR</Link>
-             <Link href="/archive">ARCHIVE</Link>
+             <Link href="/challenges">ABOUT</Link>
+             <Link href="/scoreboard">PBR</Link>
+             <Link href="/login">ARCHIVE</Link>
          </div>
    </div>
     )
