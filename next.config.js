@@ -4,8 +4,8 @@ const debug = process.env.NODE_ENV !== "production";
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: "akamai",
-    path: "",
+    // loader: "akamai",
+    // path: "",
   },
   assetPrefix: !debug ? "https://cyber.uclaacm.com" : "",
   eslint: {
