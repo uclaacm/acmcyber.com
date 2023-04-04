@@ -1,5 +1,5 @@
-import styles from '@/styles/Navbar.module.scss'
-import Link from 'next/link'
+import styles from '@/styles/Navbar.module.scss';
+import Link from 'next/link';
 import Image from 'next/image';
 
 import CyberLogoLight from '@/public/images/cyber-logo-light.svg';
