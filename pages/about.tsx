@@ -1,10 +1,23 @@
 import styles from '@/styles/Home.module.scss';
 import Navbar from '@/components/Navbar';
+import fs from 'fs'
+import path from 'path'
+import yaml from 'js-yaml'
+import { GetServerSideProps } from 'next'
+import Image from 'next/image'
 
-export default function About() {
+type DataProps = {
+  data: Record<string, any>
+}
+
+export default function About({ data }: DataProps) {
+    const officerData = JSON.parse(JSON.stringify(data, null, 2));
     return (
         <>
         <Navbar/>
+        {officerData.map((officer: PersonInfoProps)=>(
+            <PersonInfo name={officer.name} major={officer.major} year={officer.year} photo={officer.photo}/>
+        ))}
         <main className={styles.main}>
             <h1>About</h1>
             <div className={styles.description}>
@@ -17,4 +30,49 @@ export default function About() {
         </main>
         </>
     )
+}
+export const getServerSideProps: GetServerSideProps<DataProps> = async (context) => {
+    const filePath = path.join(process.cwd(), '_data/officers.yml')
+    const fileContents = fs.readFileSync(filePath, 'utf8')
+    const data = yaml.load(fileContents)
+    return {
+        props: {
+        data
+        }
+    }
+}
+
+type PersonInfoProps = {
+    name: string;
+    major: string;
+    year: number;
+    photo: string;
+}
+
+function PersonInfo ({name, major, year, photo}: PersonInfoProps) {
+    return (
+        <div style={{
+            width: '200px',
+            height: '200px',
+            backgroundColor: '#f0f0f0',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flexDirection: 'column',
+            borderRadius: '8px',
+            boxShadow: '0 0 5px rgba(0, 0, 0, 0.1)',
+          }}
+        >
+            <Image
+            style={{ borderRadius: "50%", objectFit: "fill" }}
+            src={'/images/officerphotos/' + photo}
+            alt={`Profile picture of ${name}`}
+            width={100}
+            height={100}
+            />
+            <h3>{name}</h3>
+            <p>Major: {major}</p>
+            <p>Year: {year}</p>
+        </div>
+    );
 }
