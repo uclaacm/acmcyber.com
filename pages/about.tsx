@@ -15,8 +15,8 @@ export default function About({ data }: DataProps) {
     return (
         <>
         <Navbar/>
-        {officerData.map((officer: PersonInfoProps)=>(
-            <PersonInfo name={officer.name} major={officer.major} year={officer.year} photo={officer.photo}/>
+        {officerData.map((officer: PersonInfoProps, index: number)=>(
+            <PersonInfo key={index} name={officer.name} major={officer.major} year={officer.year} photo={officer.photo}/>
         ))}
         <main className={styles.main}>
             <h1>About</h1>
