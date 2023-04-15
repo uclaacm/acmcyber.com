@@ -5,13 +5,21 @@ import HomeBanner from "@/public/images/HomeBanner.svg";
 import Discord from "@/public/images/home-discord.svg";
 import Newsletter from "@/public/images/home-newsletter.png";
 import Footer from "../components/Footer";
+import { CSSProperties } from 'react';
+
+const bannerStyle: CSSProperties = {
+  position: 'relative',
+  width: '100%',
+  height: "auto",
+  objectFit: "contain"
+};
 
 export default function homePage() {
   return (
     <>
       <div className={styles["home"]}>
         <Navbar />
-        <Image src={HomeBanner} alt="ACM ACYBER" />
+        <Image src={HomeBanner} style={bannerStyle} alt="ACM ACYBER" />
         <div className={styles["home-boxes"]}>
           <div className={styles["home-box"]}>
             <h1>WELCOME TO ACM CYBER!</h1>

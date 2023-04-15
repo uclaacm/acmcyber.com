@@ -15,8 +15,8 @@ export default function About({ data }: DataProps) {
     return (
         <>
         <Navbar/>
-        {officerData.map((officer: PersonInfoProps)=>(
-            <PersonInfo name={officer.name} major={officer.major} year={officer.year} photo={officer.photo}/>
+        {officerData.map((officer: PersonInfoProps, index: number)=>(
+            <PersonInfo key={index} name={officer.name} major={officer.major} year={officer.year} photo={officer.photo}/>
         ))}
         <main className={styles.main}>
             <h1>About</h1>
@@ -34,7 +34,7 @@ export default function About({ data }: DataProps) {
 export const getServerSideProps: GetServerSideProps<DataProps> = async (context) => {
     const filePath = path.join(process.cwd(), '_data/officers.yml')
     const fileContents = fs.readFileSync(filePath, 'utf8')
-    const data = yaml.load(fileContents)
+    const data = yaml.load(fileContents) as DataProps
     return {
         props: {
         data
