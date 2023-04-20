@@ -13,6 +13,17 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+
+  exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
+    return {
+      "/": { page: "/" },
+      "/about": { page: "/about" },
+      "/archive": {page: "/archive"},
+      "/blog": { page: "/blog" },
+      "/events": {page: "/events"},
+      "/pbr": {page: "/pbr"}
+    };
+  },
 };
 
 module.exports = nextConfig;
