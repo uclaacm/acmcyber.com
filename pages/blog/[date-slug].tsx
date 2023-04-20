@@ -3,6 +3,8 @@ import html from 'remark-html';
 import matter from 'gray-matter';
 import path from 'path';
 import { GetStaticPaths } from 'next';
+import styles from '@/styles/Blog.module.scss'
+import Navbar from '../../components/Navbar' 
 
 const POSTS_DIRECTORY = '/data/blog_posts/';
 
@@ -30,7 +32,7 @@ export async function getPostData(name: String) {
 
 export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
     return {
-        paths: ['/blog/2023-01-02-pycjail'], //indicates that no page needs be created at build time
+        paths: ['/blog/2023-01-02-firstpost'], //indicates that no page needs be created at build time
         fallback: 'blocking' //indicates the type of fallback
     }
 }
@@ -60,7 +62,7 @@ export async function getStaticProps({ params }) {
         };
     }
     
-    const postData = await getPostData("2023-01-02-pycjail");
+    const postData = await getPostData("2023-01-02-firstpost");
   
     return {
       props: {
@@ -70,21 +72,17 @@ export async function getStaticProps({ params }) {
   }
 
 export default function Post({ postData }) {
-    return (
-      <div class="bg-gray-100">
-        {postData.title}
-        <br />
-        {postData.id}
-        <br />
-        {postData.date}
-        <br />
-        <article class="prose lg:prose-xl">
-          <h1 class='prose '>Test</h1>
-          <div class="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> 
-        </article>
-      </div>
-    );
-  }
+  return (
+    <div>
+      <Navbar/>
+      <div className={styles.md} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> 
+    </div>
+  );
+}
+
+// Can use:
+// postData.title
+// postData.date
 
   // TODO
   // uses dangerouslySetInnerHTML, might switch to something else
