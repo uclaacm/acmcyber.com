@@ -3,10 +3,11 @@ const debug = process.env.NODE_ENV !== "production";
 
 const nextConfig = {
   reactStrictMode: true,
-  // images: {
-  //   loader: "akamai",
-  //   path: "/",
-  // },
+  images: {
+    // loader: "akamai",
+    // path: "/",
+    unoptimized: true,
+  },
   assetPrefix: !debug ? "https://cyber.uclaacm.com" : "",
   eslint: {
     // Warning: This allows production builds to successfully complete even if
