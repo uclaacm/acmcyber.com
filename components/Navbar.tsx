@@ -31,6 +31,7 @@ export default function Navbar() {
              <Link href="/about">ABOUT</Link>
              <Link href="/pbr">PBR</Link>
              <Link href="/archive">ARCHIVE</Link>
+             <Link href="/blog">BLOG</Link>
          </div>
    </div>
     )
