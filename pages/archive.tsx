@@ -9,7 +9,11 @@ export default function Archive() {
         <main className={styles.main}>
             <h1>Archive</h1>
             <div className={styles.description}>
-                <Hyperlink link = "https://www.google.com" name = "test" title = "Google"/>
+                <ul>
+                    <li>
+                    <Hyperlink time = "January 1st 2023" title = "Google"/>
+                    </li>
+                </ul>
             </div>
         </main>
         </>
