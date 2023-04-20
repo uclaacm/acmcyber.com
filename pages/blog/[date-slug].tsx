@@ -32,7 +32,7 @@ export async function getPostData(name: String) {
 
 export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
     return {
-        paths: ['/blog/2023-01-02-firstpost'], //indicates that no page needs be created at build time
+        paths: ['/blog/2023-01-02-firstpost'],
         fallback: 'blocking' //indicates the type of fallback
     }
 }
@@ -75,7 +75,13 @@ export default function Post({ postData }) {
   return (
     <div>
       <Navbar/>
-      <div className={styles.md} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> 
+      <div className={styles.md}>
+        <h1>{postData.title}</h1>
+        <p>Written by {postData.authors.join(", ")}</p>
+        <p>{postData.date}</p>
+        <p>{postData.tags.join(", ")}</p>
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}/> 
+      </div>
     </div>
   );
 }
@@ -83,6 +89,10 @@ export default function Post({ postData }) {
 // Can use:
 // postData.title
 // postData.date
+// postData.authors: ['Marius']
+// postData.tags: ['Test', 'Useless']
+// postData.snippet: 'This is the first post'
+// postData.preview: "https://www.images.com/dog.png"
 
-  // TODO
-  // uses dangerouslySetInnerHTML, might switch to something else
+// TODO
+// uses dangerouslySetInnerHTML, might switch to something else
