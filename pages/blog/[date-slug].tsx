@@ -4,7 +4,8 @@ import matter from 'gray-matter';
 import path from 'path';
 import { GetStaticPaths } from 'next';
 import styles from '@/styles/Blog.module.scss'
-import Navbar from '../../components/Navbar' 
+import Navbar from '../../components/Navbar'
+import { promises as fsPromises } from 'fs';
 
 const POSTS_DIRECTORY = '/data/blog_posts/';
 
@@ -37,7 +38,7 @@ export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
     }
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps() {
 
     async function getPostData(name: String) {
         const fs = require('fs');
@@ -71,20 +72,30 @@ export async function getStaticProps({ params }) {
     };
   }
 
-export default function Post({ postData }) {
-  return (
-    <div>
-      <Navbar/>
-      <div className={styles.md}>
-        <h1>{postData.title}</h1>
-        <p>Written by {postData.authors.join(", ")}</p>
-        <p>{postData.date}</p>
-        <p>{postData.tags.join(", ")}</p>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}/> 
+
+  interface PostData {
+    title: string;
+    authors: string[];
+    date: string;
+    tags: string[];
+    contentHtml: string;
+  }
+  
+  export default function Post({ postData }: { postData: PostData }) {
+    return (
+      <div>
+        <Navbar/>
+        <div className={styles.md}>
+          <h1>{postData.title}</h1>
+          <p>Written by {postData.authors.join(", ")}</p>
+          <p>{postData.date}</p>
+          <p>{postData.tags.join(", ")}</p>
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}/> 
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
+  
 
 // Can use:
 // postData.title
