@@ -5,6 +5,7 @@ import path from 'path'
 import yaml from 'js-yaml'
 import { GetServerSideProps } from 'next'
 import Image from 'next/image'
+import React, { useEffect } from "react";
 
 type DataProps = {
   data: Record<string, any>
@@ -12,6 +13,11 @@ type DataProps = {
 
 export default function About({ data }: DataProps) {
     const officerData = JSON.parse(JSON.stringify(data, null, 2));
+
+    useEffect(() => {
+        document.title = "About | ACM Cyber at UCLA";  
+      }, []);
+    
     return (
         <>
         <Navbar/>

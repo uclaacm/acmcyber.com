@@ -6,6 +6,7 @@ import Discord from "@/public/images/home-discord.svg";
 import Newsletter from "@/public/images/home-newsletter.png";
 import Footer from "../components/Footer";
 import { CSSProperties } from 'react';
+import React, { useEffect } from "react";
 
 const bannerStyle: CSSProperties = {
   position: 'relative',
@@ -14,7 +15,11 @@ const bannerStyle: CSSProperties = {
   objectFit: "contain"
 };
 
-export default function homePage() {
+export default function HomePage() {
+  useEffect(() => {
+    document.title = "Home | ACM Cyber at UCLA";  
+  }, []);
+
   return (
     <>
       <div className={styles["home"]}>

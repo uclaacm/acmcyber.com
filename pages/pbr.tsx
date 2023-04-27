@@ -1,7 +1,12 @@
 import styles from '@/styles/Home.module.scss';
 import Navbar from '@/components/Navbar';
+import React, { useEffect } from "react";
 
 export default function PBR() {
+    useEffect(() => {
+        document.title = "PBR | ACM Cyber at UCLA";  
+      }, []);
+
     return (
         <>
         <Navbar/>

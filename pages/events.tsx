@@ -1,7 +1,7 @@
 import styles from '@/styles/Events.module.scss';
 import Navbar from '@/components/Navbar';
 import AllEvents from '@/data/events';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function eventSquare(id: number)
 {
@@ -15,6 +15,10 @@ export default function Events() {
     // parse all of the events into a list of objects [{event object}, ...]
     // display all of the events in the list (hint: use the map() function)
     const [display, setDisplay] = useState(false);
+
+    useEffect(() => {
+        document.title = "Events | ACM Cyber at UCLA";  
+      }, []);
     return (
         <>   
             <Navbar/>

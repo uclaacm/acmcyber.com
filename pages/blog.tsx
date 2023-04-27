@@ -1,7 +1,12 @@
 import styles from '@/styles/Home.module.scss';
 import Navbar from '@/components/Navbar';
+import React, { useEffect } from "react";
 
 export default function Blog() {
+    useEffect(() => {
+        document.title = "Blog | ACM Cyber at UCLA";  
+      }, []);
+
     return (
         <>
         <Navbar />
