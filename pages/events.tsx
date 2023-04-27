@@ -2,7 +2,8 @@ import styles from '@/styles/Events.module.scss';
 import Navbar from '@/components/Navbar';
 import Footer from "../components/Footer";
 import AllEvents from '@/data/events';
-import React, { useState } from 'react';
+import Head from 'next/head';
+import React, { useState } from 'react'; 
 
 function eventSquare(id: number)
 {
@@ -20,9 +21,12 @@ export default function Events() {
         <>   
             <div className={styles["fixed"]}>
             <Navbar/>
+            <Head>
+                <title>Events | ACM Cyber at UCLA</title>
+            </Head>
             </div>
             <div className={styles["page"]}>
-                <h1>EVENTS</h1>
+                <h1>Events</h1>
                 <div className={styles["buttonIcon"]}>
                     <button onClick={() => setDisplay(!display)}>
                         <h1>jan 01</h1>
