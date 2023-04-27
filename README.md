@@ -1,10 +1,10 @@
 # The ACM Cyber Website
+![Cyber Banner](public/images/HomeBanner.svg)
 Hi there! This repository holds the code for ACM Cyber @ UCLA's front-facing website, which can be viewed at [cyber.uclaacm.com](https://cyber.uclaacm.com/). You can find out more about ACM Cyber, the events we run, and resources for learning about cybersecurity!
 
 Our website is built with [Next.js](https://nextjs.org/) on top of [React](https://reactjs.org/), with a style and design system developed by our in-house designers and [ACM Design](https://design.uclaacm.com/). We use [ESLINT](https://eslint.org/) to lint our JS code. 
 
 ## Table of Contents
----
 - [Notes for Developers](#notes-for-developers)
     - [Development Setup](#development-setup)
     - [Contributing](#contributing)
@@ -12,7 +12,6 @@ Our website is built with [Next.js](https://nextjs.org/) on top of [React](https
 - [Acknowledgements](#acknowledgements)
 
 ## Notes for Developers
----
 ### Development Setup
 We'll follow a very traditional Node.js project setup. Before we start, make sure that you have the LTS version of Node (currently ~ 16.x) and a copy of `git` on your computer. We will use `yarn` to install our dependencies and run the website. 
 
@@ -79,11 +78,9 @@ If your code passes code review, then we can merge it into main.
 Congratulations! If you'd like, it's now safe to delete your branch.
 
 ## Contact
----
 Email: uclacyber@gmail.com
 
 Discord: https://discord.gg/j9dgf2q
 
 ## Acknowledgements
----
 Shout out to the ACM Cyber Website Development team for their hard work! 
