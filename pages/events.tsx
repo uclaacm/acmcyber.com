@@ -1,7 +1,8 @@
 import styles from '@/styles/Events.module.scss';
 import Navbar from '@/components/Navbar';
 import AllEvents from '@/data/events';
-import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
+import React, { useState } from 'react'; 
 
 function eventSquare(id: number)
 {
@@ -15,13 +16,12 @@ export default function Events() {
     // parse all of the events into a list of objects [{event object}, ...]
     // display all of the events in the list (hint: use the map() function)
     const [display, setDisplay] = useState(false);
-
-    useEffect(() => {
-        document.title = "Events | ACM Cyber at UCLA";  
-      }, []);
     return (
         <>   
             <Navbar/>
+            <Head>
+                <title>Events | ACM Cyber at UCLA</title>
+            </Head>
             <h1>Events</h1>
             <button onClick={() => setDisplay(!display)}>EVENT</button>
             <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(0)}</div>

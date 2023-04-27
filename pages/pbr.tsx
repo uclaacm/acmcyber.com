@@ -1,15 +1,14 @@
 import styles from '@/styles/Home.module.scss';
 import Navbar from '@/components/Navbar';
-import React, { useEffect } from "react";
+import Head from 'next/head';
 
 export default function PBR() {
-    useEffect(() => {
-        document.title = "PBR | ACM Cyber at UCLA";  
-      }, []);
-
     return (
         <>
         <Navbar/>
+        <Head>
+            <title>PBR | ACM Cyber at UCLA</title>
+        </Head>
         <main className={styles.main}>
             <h1>Psi Beta Rho</h1>
             <div className={styles.description}>

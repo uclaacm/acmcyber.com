@@ -1,11 +1,11 @@
 import styles from '@/styles/Home.module.scss';
 import Navbar from '@/components/Navbar';
-import fs from 'fs'
-import path from 'path'
-import yaml from 'js-yaml'
-import { GetServerSideProps } from 'next'
-import Image from 'next/image'
-import React, { useEffect } from "react";
+import fs from 'fs';
+import path from 'path';
+import yaml from 'js-yaml';
+import { GetServerSideProps } from 'next';
+import Image from 'next/image';
+import Head from 'next/head';
 
 type DataProps = {
   data: Record<string, any>
@@ -13,14 +13,13 @@ type DataProps = {
 
 export default function About({ data }: DataProps) {
     const officerData = JSON.parse(JSON.stringify(data, null, 2));
-
-    useEffect(() => {
-        document.title = "About | ACM Cyber at UCLA";  
-      }, []);
     
     return (
         <>
         <Navbar/>
+        <Head>
+            <title>About | ACM Cyber at UCLA</title>
+        </Head>
         {officerData.map((officer: PersonInfoProps, index: number)=>(
             <PersonInfo key={index} name={officer.name} major={officer.major} year={officer.year} photo={officer.photo}/>
         ))}
