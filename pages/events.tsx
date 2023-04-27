@@ -18,31 +18,29 @@ export default function Events() {
     const [display, setDisplay] = useState(false);
     return (
         <>   
-            <div className={styles["fixed"]}>
-            <Navbar/>
-            </div>
-            <div className={styles["page"]}>
-                <h1>EVENTS</h1>
-                <div className={styles["buttonIcon"]}>
-                    <button onClick={() => setDisplay(!display)}>
-                        <h1>jan 01</h1>
-                    </button>
-                    <button onClick={() => setDisplay(!display)}>
-                        <h1>jan 02</h1>
-                    </button>
-                    <button onClick={() => setDisplay(!display)}>
-                        <h1>jan 03</h1>
-                    </button>
+            <div className={styles["home"]}>
+                <Navbar/>
+                    <div className={styles["page"]}>
+                        
+                        <h1>EVENTS</h1>
+                        <div className={styles["flex"]}>
+                            <div className={styles["buttonGrid"]}>
+                                <button onClick={() => setDisplay(!display)}><span>jan 01</span></button>
+                                <button onClick={() => setDisplay(!display)}><span>jan 02</span></button>
+                                <button onClick={() => setDisplay(!display)}><span>jan 03</span></button>
+                                <button onClick={() => setDisplay(!display)}><span>jan 04</span></button>
+                                <button onClick={() => setDisplay(!display)}><span>jan 05</span></button>
+                                <button onClick={() => setDisplay(!display)}><span>jan 06</span></button>
 
-                    
-                    <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(0)}</div>
-                    <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(1)}</div>
-                </div>
-                
-            </div>
-            <div className={styles["fixed"]}>
-            <Footer/>
-            </div>
+                                
+                                <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(0)}</div>
+                                <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(1)}</div>
+                            </div>
+                        </div>         
+                    </div>
+                    <Footer/> 
+            </div> 
+            
         </>
     )
 }
