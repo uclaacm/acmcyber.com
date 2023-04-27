@@ -36,7 +36,7 @@ export default function About({ data }: DataProps) {
         </>
     )
 }
-export const getServerSideProps: GetServerSideProps<DataProps> = async (context) => {
+export const getStaticProps: GetStaticProps<DataProps> = async (context) => {
     const filePath = path.join(process.cwd(), 'data/officers.yml')
     const fileContents = fs.readFileSync(filePath, 'utf8')
     const data = yaml.load(fileContents) as DataProps

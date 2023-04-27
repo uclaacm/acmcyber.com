@@ -1,5 +1,6 @@
 import styles from '@/styles/Events.module.scss';
 import Navbar from '@/components/Navbar';
+import Footer from "../components/Footer";
 import AllEvents from '@/data/events';
 import Head from 'next/head';
 import React, { useState } from 'react'; 
@@ -18,14 +19,34 @@ export default function Events() {
     const [display, setDisplay] = useState(false);
     return (
         <>   
+            <div className={styles["fixed"]}>
             <Navbar/>
             <Head>
                 <title>Events | ACM Cyber at UCLA</title>
             </Head>
-            <h1>Events</h1>
-            <button onClick={() => setDisplay(!display)}>EVENT</button>
-            <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(0)}</div>
-            <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(1)}</div>
+            </div>
+            <div className={styles["page"]}>
+                <h1>Events</h1>
+                <div className={styles["buttonIcon"]}>
+                    <button onClick={() => setDisplay(!display)}>
+                        <h1>jan 01</h1>
+                    </button>
+                    <button onClick={() => setDisplay(!display)}>
+                        <h1>jan 02</h1>
+                    </button>
+                    <button onClick={() => setDisplay(!display)}>
+                        <h1>jan 03</h1>
+                    </button>
+
+                    
+                    <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(0)}</div>
+                    <div className={display ? styles.blurbShow : styles.blurbHide}>{eventSquare(1)}</div>
+                </div>
+                
+            </div>
+            <div className={styles["fixed"]}>
+            <Footer/>
+            </div>
         </>
     )
 }
