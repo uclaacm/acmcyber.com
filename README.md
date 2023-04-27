@@ -1,39 +1,89 @@
-# cyber.uclaacm.com
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The ACM Cyber Website
+Hi there! This repository holds the code for ACM Cyber @ UCLA's front-facing website, which can be viewed at [cyber.uclaacm.com](https://cyber.uclaacm.com/). You can find out more about ACM Cyber, the events we run, and resources for learning about cybersecurity!
 
-## Getting Started
+Our website is built with [Next.js](https://nextjs.org/) on top of [React](https://reactjs.org/), with a style and design system developed by our in-house designers and [ACM Design](https://design.uclaacm.com/). We use [ESLINT](https://eslint.org/) to lint our JS code. 
 
-First, run the development server:
+## Table of Contents
+---
+- [Notes for Developers](#notes-for-developers)
+    - [Development Setup](#development-setup)
+    - [Contributing](#contributing)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
+## Notes for Developers
+---
+### Development Setup
+We'll follow a very traditional Node.js project setup. Before we start, make sure that you have the LTS version of Node (currently ~ 16.x) and a copy of `git` on your computer. We will use `yarn` to install our dependencies and run the website. 
+
+First, we'll clone the repo and install all of our dependencies. You only need to do this once.
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+$ git clone https://github.com/uclaacm/cyber.uclaacm.com.git
+...
+$ cd cyber.uclaacm.com
+$ yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We can run the following commands to start the server:
+```bash
+$ yarn build
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+> $ next build
+> info  - Skipping linting
+> info  - Checking validity of types
+> Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
+> info  - Creating an optimized production build
+> info  - Compiled successfully
+> info  - Collecting page data
+> info  - Generating static pages (7/7)
+> info  - Finalizing page optimization
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+$ yarn start 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+> yarn run v1.22.19
+> $ next start
+> ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To run the website in a development environment, run the following command:
+```bash
+$ yarn run dev
 
-## Learn More
+> yarn run v1.22.19
+> $ next dev
+> ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+> event - compiled client and server successfully in 359 ms (198 modules)
+```
 
-To learn more about Next.js, take a look at the following resources:
+This should automatically open up a window in your browser with our website; if it doesn't, visit http://localhost:3000.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Note that next dev ships with "Fast Refresh" (their version of hot module reloading), so every time you modify a file, the app will automatically recompile and reload!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Contributing
+1. Before making any changes, run git pull to ensure your local repository is up to date.
+2. Make a new branch for your changes. main is a protected branch, so you cannot push to it.
+```
+    git checkout -b firstName/feature
+```
 
-## Deploy on Vercel
+Once you're ready, stage and commit your changes:
+```
+    git add .
+    git commit -m "Description of your changes"
+    git push
+```
+Make a pull request with your changes, and let a project lead know.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If your code passes code review, then we can merge it into main. 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Congratulations! If you'd like, it's now safe to delete your branch.
+
+## Contact
+---
+Email: uclacyber@gmail.com
+
+Discord: https://discord.gg/j9dgf2q
+
+## Acknowledgements
+---
+Shout out to the ACM Cyber Website Development team for their hard work! 
