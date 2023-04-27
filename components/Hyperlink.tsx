@@ -29,13 +29,13 @@ export default function Hyperlink(props: prop) {
     return (
         <div className={styles.main}>
         <h2 className={styles.time}>{props.time}</h2>
-        <div className={styles.box} onClick={handleclick}>
+        <button className={styles.box} onClick={handleclick}>
             <h4>{props.title}</h4>
             <div className={styles.taglist}>
                 <Tag name = "Reverse Engineering"/>
                 <Tag name = "PWN"/>
             </div>     
-        </div>
+        </button>
         <ul className={styles.list}>
                 <li>
                     <ArchiveItem title="revpwn" link="placeholder" tags={["revpwn"]}/>
