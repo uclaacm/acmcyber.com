@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
-import { GetServerSideProps } from 'next';
+import { GetStaticProps } from 'next';
 import Image from 'next/image';
 import Head from 'next/head';
 
