@@ -4,6 +4,7 @@
 
 .box {
     display: flex;
+    border-radius: 15px;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
@@ -14,9 +15,9 @@
     box-shadow: 0 1px 6px rgb(253, 253, 253), 0 1px 4px rgba(236, 230, 230, 0.653);
 }
 
-// .box > ul {
-//     background-color: white;
-// }
+.box > ul {
+    border-radius: 25%;
+}
 
 .taglist {
     display: flex;

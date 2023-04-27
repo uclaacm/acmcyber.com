@@ -38,7 +38,7 @@ export default function Hyperlink(props: prop) {
         </div>
         <ul className={styles.list}>
                 <li>
-                    Example of information
+                    <ArchiveItem title="revpwn" link="placeholder" tags={["revpwn"]}/>
                 </li>
                 <li>
                     Example of information2
