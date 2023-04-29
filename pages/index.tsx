@@ -5,24 +5,23 @@ import HomeBanner from "@/public/images/HomeBanner.svg";
 import Discord from "@/public/images/home-discord.svg";
 import Newsletter from "@/public/images/home-newsletter.png";
 import Footer from "../components/Footer";
-import { CSSProperties } from 'react';
-import Head from 'next/head';
+import { CSSProperties } from "react";
+import Head from "next/head";
 
 const bannerStyle: CSSProperties = {
-  position: 'relative',
-  width: '100%',
+  position: "relative",
+  width: "100%",
   height: "auto",
-  objectFit: "contain"
+  objectFit: "contain",
 };
 
 export default function HomePage() {
-
   return (
     <>
       <div className={styles["home"]}>
         <Navbar />
         <Head>
-            <title>Home | ACM Cyber at UCLA</title>
+          <title>Home | ACM Cyber at UCLA</title>
         </Head>
         <Image src={HomeBanner} style={bannerStyle} alt="ACM ACYBER" />
         <div className={styles["home-boxes"]}>
@@ -50,7 +49,8 @@ export default function HomePage() {
             <div className={styles["image-left"]}>
               <Image src={Discord} alt="Discord icon" width={50} height={50} />
               <p>
-                Want to know what we&apos;re doing? Join our <a href="https://discord.com/invite/j9dgf2q">Discord</a> to stay
+                Want to know what we&apos;re doing? Join our{" "}
+                <a href="https://discord.com/invite/j9dgf2q">Discord</a> to stay
                 updated on our latest activities!
               </p>
             </div>

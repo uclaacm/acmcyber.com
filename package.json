@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "yarn prettier -c pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
+    "fix": "yarn prettier -w pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
     "prepare": "husky install"
   },
   "dependencies": {
