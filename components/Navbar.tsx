@@ -23,7 +23,6 @@ export default function Navbar() {
       <div className="Right">
         <Link href="/events">EVENTS</Link>
         <Link href="/about">ABOUT</Link>
-        <Link href="/pbr">PBR</Link>
         <Link href="/archive">ARCHIVE</Link>
         <Link href="/blog">BLOG</Link>
       </div>
