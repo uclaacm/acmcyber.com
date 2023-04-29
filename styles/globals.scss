@@ -82,6 +82,10 @@
   margin: 0;
 }
 
+body {
+  @apply bg-red-500;
+}
+
 html,
 body {
   padding-top: 50px; /*adjust later when navbar height is final*/
