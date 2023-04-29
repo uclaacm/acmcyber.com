@@ -7,29 +7,29 @@ import styles from '@/styles/Blog.module.scss'
 import Navbar from '../../components/Navbar'
 import { promises as fsPromises } from 'fs';
 
-const POSTS_DIRECTORY = '/data/blog_posts/';
+const POSTS_DIRECTORY = '/data/blog/';
 
-export async function getPostData(name: String) {
-    const fullPath = path.join(POSTS_DIRECTORY, `${name}.md`);
-    const fileContents = await fsPromises.readFile(fullPath, 'utf8');
+// export async function getPostData(name: String) {
+//     const fullPath = path.join(POSTS_DIRECTORY, `${name}.md`);
+//     const fileContents = await fsPromises.readFile(fullPath, 'utf8');
   
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents);
+//     // Use gray-matter to parse the post metadata section
+//     const matterResult = matter(fileContents);
     
   
-    // Use remark to convert markdown into HTML string
-    const processedContent = await remark()
-      .use(html)
-      .process(matterResult.content);
-    const contentHtml = processedContent.toString();
+//     // Use remark to convert markdown into HTML string
+//     const processedContent = await remark()
+//       .use(html)
+//       .process(matterResult.content);
+//     const contentHtml = processedContent.toString();
   
-    // Combine the data with the id and contentHtml
-    return {
-      name,
-      contentHtml,
-      ...matterResult.data,
-    };
-  }
+//     // Combine the data with the id and contentHtml
+//     return {
+//       name,
+//       contentHtml,
+//       ...matterResult.data,
+//     };
+//   }
 
 export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
     return {
