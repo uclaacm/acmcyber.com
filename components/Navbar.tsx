@@ -6,18 +6,15 @@ import CyberLogoLight from '@/public/images/cyber-logo-light.svg';
 import CyberWordmarkLight from '@/public/images/cyber-wordmark-light.svg';
 
 export default function Navbar() {
-    function handleClick() {
-        window.location.href='/'; 
-    }
     return (
         <div className={styles.navbar}>
         
         {/* LEFT PART OF THE NAVBAR */}
          <div className="Left">
-            <button onClick={handleClick} className={styles.homebutton} >
+            <Link href="/" className={styles.homebutton} >
                 <Image src={CyberLogoLight} alt="ACM ACYBER"/>
                 <Image src={CyberWordmarkLight} alt=""/>
-            </button>
+            </Link>
          </div>
         
         {/* SPACER */}

@@ -1,10 +1,14 @@
 import styles from '@/styles/Home.module.scss';
 import Navbar from '@/components/Navbar';
+import Head from 'next/head';
 
 export default function Archive() {
     return (
         <>
         <Navbar />
+        <Head>
+            <title>Archive | ACM Cyber at UCLA</title>
+        </Head>
         <main className={styles.main}>
             <h1>Archive</h1>
             <div className={styles.description}>
