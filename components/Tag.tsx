@@ -1,12 +1,8 @@
-import styles from '@/styles/Tag.module.scss'
+import styles from "@/styles/Tag.module.scss";
 interface prop {
-    name: string;
+  name: string;
 }
 
 export default function Tag(props: prop) {
-    return(
-        <span className={styles.main}>
-            {props.name}
-        </span>
-    )
+  return <span className={styles.main}>{props.name}</span>;
 }
