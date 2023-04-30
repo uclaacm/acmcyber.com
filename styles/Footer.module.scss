@@ -1,50 +1,51 @@
-.footer {
+footer {
+  .footer {
     position: relative;
     display: flex;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #DDDDD4;
+    background-color: #ddddd4;
     color: #000000;
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-top: 5vh;
     align-items: center;
     font-family: Poppins;
 
     .left {
-        width: 21%;
-        padding-top: 2%;
-        margin-left: 5%;
+      width: 21%;
+      padding-top: 2%;
+      margin-left: 5%;
     }
 
     button {
-        position: absolute;
-        top: 33%;
-        width: auto;
-        height: auto;
-        font-size: 18px;
-        background: #2C2F36;
-        border-radius: 10px;
-        color: #DDDDD4;
-        text-align: center;
-        right: 5%;
-        padding: 1%;
+      position: absolute;
+      top: 33%;
+      width: auto;
+      height: auto;
+      font-size: 18px;
+      background: #2c2f36;
+      border-radius: 10px;
+      color: #ddddd4;
+      text-align: center;
+      right: 5%;
+      padding: 1%;
     }
 
     img {
-        height: auto;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 10px;
+      height: auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 10px;
     }
 
     p {
-        margin-left: 20px;
-        margin-right: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     a:hover {
-        text-decoration: underline;
+      text-decoration: underline;
     }
+  }
 }

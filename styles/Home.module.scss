@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: stretch;
   flex-wrap: wrap;
-  margin: 3rem;
+  padding: 3rem;
 }
 
 .home-box {
@@ -17,10 +17,11 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  color: white;
 
   h1 {
     color: #ffba44;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
     font-family: "Nova Mono", monospace;
     font-size: 3rem;
     text-align: center;
@@ -44,7 +45,6 @@
 
   .home-box {
     width: 100%;
-    margin-bottom: 2rem;
   }
 }
 

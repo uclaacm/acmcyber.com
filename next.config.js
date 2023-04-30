@@ -22,7 +22,6 @@ const nextConfig = {
       "/archive": {page: "/archive"},
       "/blog": { page: "/blog" },
       "/events": {page: "/events"},
-      "/pbr": {page: "/pbr"}
     };
   },
 };
