@@ -1,8 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import { getBlogPaths } from "./BlogUtils";
-import { GetStaticPathsContext } from "next";
 
 interface ButtonLinkProps {
   children: React.ReactNode;
