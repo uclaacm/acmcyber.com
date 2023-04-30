@@ -1,6 +1,4 @@
 import styles from "@/styles/Events.module.scss";
-import Navbar from "@/components/Navbar";
-import Footer from "../components/Footer";
 import AllEvents from "@/data/events";
 import Head from "next/head";
 import React, { useState } from "react";
@@ -23,7 +21,6 @@ export default function Events() {
   return (
     <>
       <div className={styles["fixed"]}>
-        <Navbar />
         <Head>
           <title>Events | ACM Cyber at UCLA</title>
         </Head>
@@ -48,9 +45,6 @@ export default function Events() {
             {eventSquare(1)}
           </div>
         </div>
-      </div>
-      <div className={styles["fixed"]}>
-        <Footer />
       </div>
     </>
   );

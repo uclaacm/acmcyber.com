@@ -1,5 +1,4 @@
 import styles from "@/styles/Home.module.scss";
-import Navbar from "@/components/Navbar";
 import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
@@ -16,7 +15,6 @@ export default function About({ data }: DataProps) {
 
   return (
     <>
-      <Navbar />
       <Head>
         <title>About | ACM Cyber at UCLA</title>
       </Head>

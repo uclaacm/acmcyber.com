@@ -1,11 +1,9 @@
 import styles from "@/styles/Home.module.scss";
-import Navbar from "@/components/Navbar";
 import Head from "next/head";
 
 export default function Blog() {
   return (
     <>
-      <Navbar />
       <main className={styles.main}>
         <Head>
           <title>Blog | ACM Cyber at UCLA</title>

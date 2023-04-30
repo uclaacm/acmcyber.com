@@ -11,7 +11,7 @@ export default function Navbar() {
       {/* LEFT PART OF THE NAVBAR */}
       <div className="Left">
         <Link href="/" className={styles.homebutton}>
-          <Image src={CyberLogoLight} alt="ACM ACYBER" />
+          <Image src={CyberLogoLight} alt="ACM CYBER" />
           <Image src={CyberWordmarkLight} alt="" />
         </Link>
       </div>
@@ -21,10 +21,10 @@ export default function Navbar() {
 
       {/* RIGHT PART OF THE NAVBAR */}
       <div className="Right">
-        <Link href="/events">EVENTS</Link>
-        <Link href="/about">ABOUT</Link>
-        <Link href="/archive">ARCHIVE</Link>
-        <Link href="/blog">BLOG</Link>
+        <Link href="/about">About</Link>
+        <Link href="/blog">Blog</Link>
+        <Link href="/events">Events</Link>
+        <Link href="/archive">Archive</Link>
       </div>
     </div>
   );
