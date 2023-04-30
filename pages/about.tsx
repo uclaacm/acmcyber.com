@@ -1,10 +1,7 @@
-import fs from "fs";
-import path from "path";
-import yaml from "js-yaml";
-
-import { GetStaticProps } from "next";
 import Image from "next/image";
 import Head from "next/head";
+
+import officers, { PersonInfoProps } from "@/data/officers";
 
 import styles from "@/styles/About.module.scss";
 
@@ -13,8 +10,6 @@ type DataProps = {
 };
 
 export default function About({ data }: DataProps) {
-  const officerData = JSON.parse(JSON.stringify(data, null, 2));
-
   return (
     <div className="page">
       <Head>
@@ -34,7 +29,7 @@ export default function About({ data }: DataProps) {
       <h2>Team</h2>
 
       <div className={styles.officersContainer}>
-        {officerData.map((officer: PersonInfoProps, index: number) => (
+        {officers.map((officer: PersonInfoProps, index: number) => (
           <PersonInfo
             key={index}
             name={officer.name}
@@ -48,24 +43,6 @@ export default function About({ data }: DataProps) {
     </div>
   );
 }
-export const getStaticProps: GetStaticProps<DataProps> = async () => {
-  const filePath = path.join(process.cwd(), "data/officers.yml");
-  const fileContents = fs.readFileSync(filePath, "utf8");
-  const data = yaml.load(fileContents) as DataProps;
-  return {
-    props: {
-      data,
-    },
-  };
-};
-
-type PersonInfoProps = {
-  name: string;
-  role: string;
-  major: string;
-  pronouns: string;
-  photo: string;
-};
 
 function PersonInfo({ name, role, major, pronouns, photo }: PersonInfoProps) {
   return (
