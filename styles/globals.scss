@@ -22,11 +22,21 @@ main {
   min-height: 50rem;
   color: white;
 
-  h1 {
+  h1,
+  h2,
+  h3 {
     color: #ffba44;
-    padding: 2rem;
     font-family: "Nova Mono", monospace;
+  }
+
+  h1 {
+    padding: 2rem;
     font-size: 3rem;
     text-align: center;
+  }
+
+  h2 {
+    padding: 1rem 0;
+    font-size: 2rem;
   }
 }

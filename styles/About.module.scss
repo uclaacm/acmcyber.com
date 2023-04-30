@@ -1,0 +1,22 @@
+.officersContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.personInfo {
+  color: #000;
+  text-align: center;
+  margin: 2rem 5rem;
+  font-size: larger;
+}
+
+.personImage {
+  border-radius: 50%;
+  object-fit: fill;
+  width: 200px;
+  height: 200px;
+}
