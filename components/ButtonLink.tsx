@@ -6,7 +6,7 @@ interface ButtonLinkProps {
     children: React.ReactNode;
     href: string;
     className: string;
-};
+}
 
 export default function ButtonLink(props: ButtonLinkProps) {
     const router = useRouter();
