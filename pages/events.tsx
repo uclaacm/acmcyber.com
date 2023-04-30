@@ -20,11 +20,9 @@ export default function Events() {
   const [display, setDisplay] = useState(false);
   return (
     <>
-      <div className={styles["fixed"]}>
-        <Head>
-          <title>Events | ACM Cyber at UCLA</title>
-        </Head>
-      </div>
+      <Head>
+        <title>Events | ACM Cyber at UCLA</title>
+      </Head>
       <div className={styles["page"]}>
         <h1>Events</h1>
         <div className={styles["buttonIcon"]}>

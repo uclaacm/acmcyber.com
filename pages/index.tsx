@@ -20,7 +20,9 @@ export default function HomePage() {
         <Head>
           <title>Home | ACM Cyber at UCLA</title>
         </Head>
-        <Image src={HomeBanner} style={bannerStyle} alt="ACM ACYBER" />
+
+        <Image src={HomeBanner} style={bannerStyle} alt="ACM CYBER" />
+
         <div className={styles["home-boxes"]}>
           <div className={styles["home-box"]}>
             <h1>WELCOME TO ACM CYBER!</h1>
