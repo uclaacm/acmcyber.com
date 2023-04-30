@@ -6,13 +6,14 @@
   background-color: #2c2f36;
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  padding-top: 7px;
+  padding-top: 10px;
   padding-bottom: 5px;
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   justify-content: center;
   align-items: center;
+  height: 5rem;
 }
 
 .navbar a {
@@ -25,10 +26,10 @@
 }
 
 .navbar img {
-  height: 40px;
+  height: 4rem;
   width: auto;
-  flex-shrink: 100;
   padding-left: 10px;
+  margin-top: 5px;
 }
 
 .spacer {
@@ -36,6 +37,5 @@
 }
 
 .homebutton {
-  all: unset;
   cursor: pointer;
 }

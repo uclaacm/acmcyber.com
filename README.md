@@ -62,14 +62,14 @@ Note that next dev ships with "Fast Refresh" (their version of hot module reload
 1. Before making any changes, run git pull to ensure your local repository is up to date.
 2. Make a new branch for your changes. main is a protected branch, so you cannot push to it.
 ```
-    git checkout -b firstName/feature
+git checkout -b firstName/feature
 ```
 
 Once you're ready, stage and commit your changes:
 ```
-    git add .
-    git commit -m "Description of your changes"
-    git push
+git add .
+git commit -m "Description of your changes"
+git push
 ```
 Make a pull request with your changes, and let a project lead know.
 
@@ -78,9 +78,9 @@ If your code passes code review, then we can merge it into main.
 Congratulations! If you'd like, it's now safe to delete your branch.
 
 ## Contact
-Email: uclacyber@gmail.com
+**Email:** uclacyber@gmail.com
 
-Discord: https://discord.gg/j9dgf2q
+**Discord:** https://discord.gg/j9dgf2q
 
 ## Acknowledgements
 Shout out to the ACM Cyber Website Development team for their hard work! 

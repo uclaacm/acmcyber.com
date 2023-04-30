@@ -1,10 +1,8 @@
 import styles from "styles/Home.module.scss";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
 import HomeBanner from "@/public/images/HomeBanner.svg";
 import Discord from "@/public/images/home-discord.svg";
 import Newsletter from "@/public/images/home-newsletter.png";
-import Footer from "../components/Footer";
 import { CSSProperties } from "react";
 import Head from "next/head";
 
@@ -19,11 +17,12 @@ export default function HomePage() {
   return (
     <>
       <div className={styles["home"]}>
-        <Navbar />
         <Head>
           <title>Home | ACM Cyber at UCLA</title>
         </Head>
-        <Image src={HomeBanner} style={bannerStyle} alt="ACM ACYBER" />
+
+        <Image src={HomeBanner} style={bannerStyle} alt="ACM CYBER" />
+
         <div className={styles["home-boxes"]}>
           <div className={styles["home-box"]}>
             <h1>WELCOME TO ACM CYBER!</h1>
@@ -76,7 +75,6 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );

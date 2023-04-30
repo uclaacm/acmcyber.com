@@ -1,6 +1,5 @@
 import styles from "@/styles/Events.module.scss";
-import Navbar from "@/components/Navbar";
-import Footer from "../components/Footer";
+
 import AllEvents from "@/data/events";
 import Head from "next/head";
 import React, { useState } from "react";
@@ -22,13 +21,10 @@ export default function Events() {
   const [display, setDisplay] = useState(false);
   return (
     <>
-      <div className={styles["fixed"]}>
-        <Navbar />
-        <Head>
-          <title>Events | ACM Cyber at UCLA</title>
-        </Head>
-      </div>
-      <div className={styles["page"]}>
+      <Head>
+        <title>Events | ACM Cyber at UCLA</title>
+      </Head>
+      <div className="page">
         <h1>Events</h1>
         <div className={styles["buttonIcon"]}>
           <button onClick={() => setDisplay(!display)}>
@@ -48,9 +44,6 @@ export default function Events() {
             {eventSquare(1)}
           </div>
         </div>
-      </div>
-      <div className={styles["fixed"]}>
-        <Footer />
       </div>
     </>
   );

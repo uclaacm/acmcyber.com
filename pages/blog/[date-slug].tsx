@@ -4,7 +4,6 @@ import matter from "gray-matter";
 import path from "path";
 import { GetStaticPaths } from "next";
 import styles from "@/styles/Blog.module.scss";
-import Navbar from "../../components/Navbar";
 
 const POSTS_DIRECTORY = "/data/blog/";
 
@@ -58,7 +57,6 @@ interface PostData {
 export default function Post({ postData }: { postData: PostData }) {
   return (
     <div>
-      <Navbar />
       <div className={styles.md}>
         <h1>{postData.title}</h1>
         <p>Written by {postData.authors.join(", ")}</p>
