@@ -4,6 +4,9 @@ import HomeBanner from '@/public/images/HomeBanner.svg';
 import Footer from '../components/Footer';
 import { CSSProperties } from 'react';
 
+import ButtonLink, { getPagePaths } from '../components/ButtonLink';
+import { useRouter } from 'next/router';
+
 const bannerStyle: CSSProperties = {
   position: 'relative',
   width: '100%',
@@ -12,8 +15,15 @@ const bannerStyle: CSSProperties = {
 };
 
 export default function homePage() {
+  // const router = useRouter();
+  // const basePath = router.pathname.split('/')[1];
+  // const aboutPath = `${basePath}/about`;
+  console.log(getPagePaths('/'));
   return (
     <>
+      {/* <ButtonLink href={aboutPath}>
+        Hello
+      </ButtonLink> */}
       <Navbar/>
       <Image src={HomeBanner} style={bannerStyle} alt="ACM CYBER" />
       <h1>WELCOME TO ACM CYBER!</h1>
