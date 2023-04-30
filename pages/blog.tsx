@@ -1,5 +1,6 @@
 import Head from "next/head";
-import React from "react";
+
+import ButtonLink from "@/components/ButtonLink";
 
 export default function Blog() {
   return (
@@ -53,6 +54,7 @@ export default function Blog() {
         efficitur sapien. Donec molestie nisl faucibus turpis molestie, eu
         dictum felis tincidunt.
       </p>
+      <ButtonLink href="/blog/2023-01-02-firstpost">Hello</ButtonLink>
     </div>
   );
 }

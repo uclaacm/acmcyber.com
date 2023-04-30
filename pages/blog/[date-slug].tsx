@@ -2,7 +2,6 @@ import { remark } from "remark";
 import html from "remark-html";
 import matter from "gray-matter";
 import path from "path";
-import { GetStaticPaths } from "next";
 import styles from "@/styles/Blog.module.scss";
 import { getBlogPostSlugs } from "../../components/BlogUtils";
 import React from "react";
@@ -53,7 +52,7 @@ interface PostData {
 
 export default function Post({ postData }: { postData: PostData }) {
   return (
-    <div>
+    <div className="page">
       <div className={styles.md}>
         <h1>{postData.title}</h1>
         <p>Written by {postData.authors.join(", ")}</p>
