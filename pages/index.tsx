@@ -5,9 +5,7 @@ import Discord from "@/public/images/home-discord.svg";
 import Newsletter from "@/public/images/home-newsletter.png";
 import { CSSProperties } from "react";
 import Head from "next/head";
-
-import ButtonLink, { getPagePaths } from '../components/ButtonLink';
-import { useRouter } from 'next/router';
+import ButtonLink from "@/components/ButtonLink";
 
 const bannerStyle: CSSProperties = {
   position: "relative",
@@ -19,6 +17,7 @@ const bannerStyle: CSSProperties = {
 export default function HomePage() {
   return (
     <>
+      <ButtonLink>Hello</ButtonLink>
       <div className={styles["home"]}>
         <Head>
           <title>Home | ACM Cyber at UCLA</title>

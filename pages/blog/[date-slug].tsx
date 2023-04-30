@@ -4,15 +4,12 @@ import matter from "gray-matter";
 import path from "path";
 import { GetStaticPaths } from "next";
 import styles from "@/styles/Blog.module.scss";
+import { getBlogPostSlugs } from "../../components/BlogUtils";
+import React from "react";
 
 const POSTS_DIRECTORY = "/data/blog/";
 
-export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
-  return {
-    paths: ["/blog/2023-01-02-firstpost"],
-    fallback: "blocking", //indicates the type of fallback
-  };
-};
+export const getStaticPaths = getBlogPostSlugs;
 
 export async function getStaticProps() {
   async function getPostData(name: String) {
