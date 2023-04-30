@@ -5,13 +5,13 @@ export interface Event {
 
 const eventsData: Event[] = [
   {
-    name: 'hello',
+    name: "hello",
     date: 10,
   },
   {
-    name: 'hello1',
+    name: "hello1",
     date: 101,
-  }
-]
+  },
+];
 
 export default eventsData;
