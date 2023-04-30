@@ -1,23 +1,12 @@
-import fs from "fs";
-import path from "path";
-import yaml from "js-yaml";
-import { GetStaticProps } from "next";
-import Image from "next/image";
 import Head from "next/head";
 
-type DataProps = {
-  data: Record<string, any>;
-};
-
-export default function About({ data }: DataProps) {
-  const officerData = JSON.parse(JSON.stringify(data, null, 2));
-
+export default function Blog() {
   return (
     <div className="page">
       <Head>
-        <title>About | ACM Cyber at UCLA</title>
+        <title>Blog | ACM Cyber at UCLA</title>
       </Head>
-      <h1>About</h1>
+      <h1>Blog</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
         elementum, ipsum eget congue varius, quam ex interdum nibh, sit amet
@@ -63,62 +52,6 @@ export default function About({ data }: DataProps) {
         efficitur sapien. Donec molestie nisl faucibus turpis molestie, eu
         dictum felis tincidunt.
       </p>
-
-      {officerData.map((officer: PersonInfoProps, index: number) => (
-        <PersonInfo
-          key={index}
-          name={officer.name}
-          major={officer.major}
-          year={officer.year}
-          photo={officer.photo}
-        />
-      ))}
-    </div>
-  );
-}
-export const getStaticProps: GetStaticProps<DataProps> = async () => {
-  const filePath = path.join(process.cwd(), "data/officers.yml");
-  const fileContents = fs.readFileSync(filePath, "utf8");
-  const data = yaml.load(fileContents) as DataProps;
-  return {
-    props: {
-      data,
-    },
-  };
-};
-
-type PersonInfoProps = {
-  name: string;
-  major: string;
-  year: number;
-  photo: string;
-};
-
-function PersonInfo({ name, major, year, photo }: PersonInfoProps) {
-  return (
-    <div
-      style={{
-        width: "200px",
-        height: "200px",
-        backgroundColor: "#f0f0f0",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-        borderRadius: "8px",
-        boxShadow: "0 0 5px rgba(0, 0, 0, 0.1)",
-      }}
-    >
-      <Image
-        style={{ borderRadius: "50%", objectFit: "fill" }}
-        src={"/images/officerphotos/" + photo}
-        alt={`Profile picture of ${name}`}
-        width={100}
-        height={100}
-      />
-      <h3>{name}</h3>
-      <p>Major: {major}</p>
-      <p>Year: {year}</p>
     </div>
   );
 }

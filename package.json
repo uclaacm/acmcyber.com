@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "yarn prettier -c pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
+    "fix": "yarn prettier -w pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -15,16 +16,17 @@
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "akamai": "^0.10.1",
-    "eslint": "8.34.0",
-    "eslint-config-next": "13.2.1",
     "eslint-plugin-prettier": "^4.2.1",
     "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "husky": "^8.0.3",
     "js-yaml": "^4.1.0",
     "next": "13.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.58.3",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.2",
+    "sass": "^1.59.3",
     "typescript": "4.9.5"
   },
   "devDependencies": {

@@ -1,7 +1,49 @@
-.blurbShow {
-    display:inline;
+.buttonIcon {
+  button {
+    background-image: linear-gradient(to bottom right, #ffc259, #fff7ab);
+    font-family: "Nova Mono", monospace;
+    font-size: 1rem;
+    height: 0;
+    padding-bottom: 30%;
+    width: 30%;
+    transform: rotate(45deg);
+    border: none;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin: 3rem;
+  }
+  h1 {
+    color: black;
+    height: 0;
+    padding-bottom: 30%;
+    width: 30%;
+    margin: 0;
+    transform: translateX(-30%) translateY(30%) rotate(-45deg);
+    vertical-align: center;
+    text-align: center justify;
+  }
 }
 
-.blurbHide{
-    display:none;
+@media only screen and (min-width: 710px) {
+  .buttonIcon {
+    button {
+      height: 200px;
+      width: 200px;
+      padding-bottom: 0;
+    }
+    h1 {
+      height: 200px;
+      width: 200px;
+      transform: translateX(-60px) translateY(60px) rotate(-45deg);
+      padding-bottom: 0;
+    }
+  }
+}
+
+.blurbShow {
+  display: inline;
+}
+
+.blurbHide {
+  display: none;
 }

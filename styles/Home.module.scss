@@ -1,2 +1,65 @@
-.banner{
-};
+.home {
+  background: linear-gradient(to bottom, #15213c, #ffeac0);
+}
+
+.home-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.home-box {
+  width: calc(50% - 1.5rem);
+  padding: 2rem;
+  background-color: #23293a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+  h1 {
+    color: #ffba44;
+    margin-bottom: 2rem;
+    font-family: "Nova Mono", monospace;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  p {
+    padding-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+  }
+
+  a {
+    text-decoration: underline;
+    color: #ffba44;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .home-boxes {
+    flex-direction: column;
+  }
+
+  .home-box {
+    width: 100%;
+  }
+}
+
+.image-left {
+  display: flex;
+  justify-content: space-between;
+  p {
+    margin-left: 1.5rem;
+  }
+}
+
+.image-right {
+  display: flex;
+  justify-content: space-between;
+  p {
+    margin-right: 1.5rem;
+  }
+}
