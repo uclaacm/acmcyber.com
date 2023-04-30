@@ -1,4 +1,5 @@
 import styles from "@/styles/Events.module.scss";
+
 import AllEvents from "@/data/events";
 import Head from "next/head";
 import React, { useState } from "react";
@@ -23,7 +24,7 @@ export default function Events() {
       <Head>
         <title>Events | ACM Cyber at UCLA</title>
       </Head>
-      <div className={styles["page"]}>
+      <div className="page">
         <h1>Events</h1>
         <div className={styles["buttonIcon"]}>
           <button onClick={() => setDisplay(!display)}>

@@ -15,3 +15,18 @@ a {
 main {
   padding-top: 5rem;
 }
+
+.page {
+  background: linear-gradient(to bottom, #15213c, #ffeac0);
+  padding: 10px 10%;
+  min-height: 50rem;
+  color: white;
+
+  h1 {
+    color: #ffba44;
+    padding: 2rem;
+    font-family: "Nova Mono", monospace;
+    font-size: 3rem;
+    text-align: center;
+  }
+}

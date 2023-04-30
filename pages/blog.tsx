@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Blog() {
   return (
-    <>
+    <div className="page">
       <Head>
         <title>Blog | ACM Cyber at UCLA</title>
       </Head>
@@ -52,6 +52,6 @@ export default function Blog() {
         efficitur sapien. Donec molestie nisl faucibus turpis molestie, eu
         dictum felis tincidunt.
       </p>
-    </>
+    </div>
   );
 }
