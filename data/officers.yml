@@ -1,8 +1,35 @@
-- name: Daniel
-  major: CS
-  year: 2nd
+- name: Benson Liu
+  role: Co-President
+  major: Computer Science
+  pronouns: he/him
+  photo: bliu.png
+- name: Salma Alandary
+  role: Co-President
+  major: Computer Science
+  pronouns: he/him
   photo: shark.jpg
-- name: Daniel2
-  major: CS2
-  year: 2n2
+- name: Daniel Yang
+  role: Officer
+  major: Computer Science
+  pronouns: he/him
+  photo: shark.jpg
+- name: Daniel Yang
+  role: Officer
+  major: Computer Science
+  pronouns: he/him
+  photo: shark.jpg
+- name: Daniel Yang
+  role: Officer
+  major: Computer Science
+  pronouns: he/him
+  photo: shark.jpg
+- name: Daniel Yang
+  role: Officer
+  major: Computer Science
+  pronouns: he/him
+  photo: shark.jpg
+- name: Daniel Yang
+  role: Officer
+  major: Computer Science
+  pronouns: he/him
   photo: shark.jpg
