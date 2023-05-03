@@ -1,8 +1,12 @@
+$small: calc(20vw + 1rem);
+$big: calc(200px + 1rem);
+
 .home {
   background: linear-gradient(to bottom, #15213c, #ffeac0);
 }
 
 .page {
+  display: grid;
   align-items: stretch;
   flex-wrap: wrap;
 
@@ -16,41 +20,95 @@
 }
 
 .flex {
-  display: inline-block;
+  display: inline-grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
 }
+
 .buttonGrid {
-  margin: -3rem 3rem 3rem 3rem;
-  translate: (-50%);
-  transform-origin: top right;
-  transform: rotate(-45deg);
-  button {
-    float: right;
-    background-image: linear-gradient(to bottom left, #ffc259, #fff7ab);
+  display: grid;
+  grid-template-columns: min-content;
+  gap: 1rem;
+  transform-origin: calc($small / 2) calc($small / 2);
+  rotate: 45deg;
+
+  .child {
+    background-image: linear-gradient(to bottom right, #ffc259, #fff7ab);
     font-family: "Nova Mono", monospace;
 
     border: none;
     border-radius: 1.5rem;
-    margin: 1rem;
 
     width: 20vw;
     height: 20vw;
     font-size: 4.75vw;
     color: black;
+    position: relative;
   }
 
-  button span {
+  $adapt: $small;
+  @for $i from 0 through 8 {
+    .child:nth-child(#{5*$i + 2}) {
+      left: calc(($i) * $adapt);
+      bottom: calc((4 * $i) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 3}) {
+      left: calc(($i + 1) * $adapt);
+      bottom: calc((4 * $i + 2) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 4}) {
+      left: calc(($i) * $adapt);
+      bottom: calc((4 * $i + 1) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 5}) {
+      left: calc(($i + 1) * $adapt);
+      bottom: calc((4 * $i + 3) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 6}) {
+      left: calc(($i + 2) * $adapt);
+      bottom: calc((4 * $i + 5) * $adapt);
+    }
+  }
+
+  .child span {
     display: inline-block;
-    transform: rotate(45deg);
+    transform: rotate(-45deg);
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .buttonGrid {
-    button {
+    transform-origin: calc($big / 2) calc($big / 2);
+    .child {
       height: 200px;
       width: 200px;
       padding-bottom: 0;
       font-size: 50px;
+    }
+
+    $adapt: $big;
+    @for $i from 0 through 8 {
+      .child:nth-child(#{5*$i + 2}) {
+        left: calc(($i) * $adapt);
+        bottom: calc((4 * $i) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 3}) {
+        left: calc(($i + 1) * $adapt);
+        bottom: calc((4 * $i + 2) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 4}) {
+        left: calc(($i) * $adapt);
+        bottom: calc((4 * $i + 1) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 5}) {
+        left: calc(($i + 1) * $adapt);
+        bottom: calc((4 * $i + 3) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 6}) {
+        left: calc(($i + 2) * $adapt);
+        bottom: calc((4 * $i + 5) * $adapt);
+      }
     }
   }
 }
