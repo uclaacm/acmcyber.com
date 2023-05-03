@@ -1,7 +1,8 @@
+import Head from "next/head";
+import { useState } from "react";
+
 import styles from "@/styles/Events.module.scss";
 import AllEvents from "@/data/events";
-import Head from "next/head";
-import React, { useState } from "react";
 
 function displayAll(type: number) {
   return (
@@ -20,7 +21,7 @@ export default function Events() {
   // display all of the events in the list (hint: use the map() function)
   const [isDisplay, switchDisplay] = useState(false);
   return (
-    <>
+    <div className="page">
       <Head>
         <title>Events | ACM Cyber at UCLA</title>
       </Head>
@@ -30,6 +31,6 @@ export default function Events() {
           <div className={styles["flex"]}>{displayAll(5)}</div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

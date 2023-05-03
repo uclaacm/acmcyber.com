@@ -1,6 +1,3 @@
-$small: calc(20vw + 1rem);
-$big: calc(200px + 1rem);
-
 .home {
   background: linear-gradient(to bottom, #15213c, #ffeac0);
 }
@@ -47,7 +44,8 @@ $big: calc(200px + 1rem);
     position: relative;
   }
 
-  $adapt: $small;
+  $adapt: calc(20vw + 1rem);
+
   @for $i from 0 through 8 {
     .child:nth-child(#{5*$i + 2}) {
       left: calc(($i) * $adapt);
@@ -87,7 +85,7 @@ $big: calc(200px + 1rem);
       font-size: 50px;
     }
 
-    $adapt: $big;
+    $adapt: calc(200px + 1rem);
     @for $i from 0 through 8 {
       .child:nth-child(#{5*$i + 2}) {
         left: calc(($i) * $adapt);
