@@ -1,24 +1,24 @@
+import * as fs from "node:fs/promises";
+import path from "node:path";
 import { remark } from "remark";
 import html from "remark-html";
 import matter from "gray-matter";
-import path from "path";
-import { GetStaticPaths } from "next";
 import styles from "@/styles/Blog.module.scss";
+import React from "react";
+import { GetStaticPropsContext } from "next";
+import { getPostIds, PostData, POSTS_DIRECTORY } from "@/utils/BlogPostData";
 
-const POSTS_DIRECTORY = "/data/blog/";
-
-export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
+export async function getStaticPaths() {
   return {
-    paths: ["/blog/2023-01-02-firstpost"],
-    fallback: "blocking", //indicates the type of fallback
+    paths: (await getPostIds()).map((id) => ({ params: { id } })),
+    fallback: false,
   };
-};
+}
 
-export async function getStaticProps() {
-  async function getPostData(name: String) {
-    const fs = require("fs");
-    const fullPath = path.join(process.cwd() + POSTS_DIRECTORY, `${name}.md`);
-    const fileContents = await fs.readFileSync(fullPath, "utf8");
+export async function getStaticProps(context: GetStaticPropsContext) {
+  async function getPostData(id: string) {
+    const fullPath = path.join(process.cwd(), POSTS_DIRECTORY, `${id}.md`);
+    const fileContents = await fs.readFile(fullPath, "utf8");
 
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
@@ -31,13 +31,18 @@ export async function getStaticProps() {
 
     // Combine the data with the id and contentHtml
     return {
-      name,
+      name: id,
       contentHtml,
       ...matterResult.data,
     };
   }
 
-  const postData = await getPostData("2023-01-02-firstpost");
+  const id = context.params!!["id"]!!;
+  if (id instanceof Array) {
+    throw "Refusing to render multiple blog posts at once (this should never occur)!";
+  }
+
+  const postData = await getPostData(id);
 
   return {
     props: {
@@ -46,17 +51,9 @@ export async function getStaticProps() {
   };
 }
 
-interface PostData {
-  title: string;
-  authors: string[];
-  date: string;
-  tags: string[];
-  contentHtml: string;
-}
-
 export default function Post({ postData }: { postData: PostData }) {
   return (
-    <div>
+    <div className="page">
       <div className={styles.md}>
         <h1>{postData.title}</h1>
         <p>Written by {postData.authors.join(", ")}</p>
