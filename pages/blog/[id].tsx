@@ -6,14 +6,11 @@ import matter from "gray-matter";
 import styles from "@/styles/Blog.module.scss";
 import React from "react";
 import { GetStaticPropsContext } from "next";
-
-const POSTS_DIRECTORY = "/data/blog/";
+import { getPostIds, PostData, POSTS_DIRECTORY } from "@/utils/BlogPostData";
 
 export async function getStaticPaths() {
   return {
-    paths: (await fs.readdir(path.join(process.cwd(), POSTS_DIRECTORY)))
-      .filter((filename) => filename.endsWith(".md"))
-      .map((filename) => ({ params: { id: path.basename(filename, ".md") } })),
+    paths: (await getPostIds()).map((id) => ({ params: { id } })),
     fallback: false,
   };
 }
@@ -52,14 +49,6 @@ export async function getStaticProps(context: GetStaticPropsContext) {
       postData,
     },
   };
-}
-
-interface PostData {
-  title: string;
-  authors: string[];
-  date: string;
-  tags: string[];
-  contentHtml: string;
 }
 
 export default function Post({ postData }: { postData: PostData }) {
