@@ -1,49 +1,110 @@
-.buttonIcon {
-  button {
+.home {
+  background: linear-gradient(to bottom, #15213c, #ffeac0);
+}
+
+.page {
+  display: grid;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  h1 {
+    color: #ffba44;
+    padding: 2rem;
+    font-family: "Nova Mono", monospace;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+.flex {
+  display: inline-grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.buttonGrid {
+  $adapt: calc(20vw + 1rem);
+  display: grid;
+  grid-template-columns: min-content;
+  gap: 1rem;
+  transform-origin: calc($adapt / 2) calc($adapt / 2);
+  rotate: 45deg;
+
+  .child {
     background-image: linear-gradient(to bottom right, #ffc259, #fff7ab);
     font-family: "Nova Mono", monospace;
-    font-size: 1rem;
-    height: 0;
-    padding-bottom: 30%;
-    width: 30%;
-    transform: rotate(45deg);
+
     border: none;
     border-radius: 1.5rem;
-    text-align: center;
-    margin: 3rem;
-  }
-  h1 {
+
+    width: 20vw;
+    height: 20vw;
+    font-size: 4.75vw;
     color: black;
-    height: 0;
-    padding-bottom: 30%;
-    width: 30%;
-    margin: 0;
-    transform: translateX(-30%) translateY(30%) rotate(-45deg);
-    vertical-align: center;
-    text-align: center justify;
+    position: relative;
+  }
+
+  @for $i from 0 through 8 {
+    .child:nth-child(#{5*$i + 2}) {
+      left: calc(($i) * $adapt);
+      bottom: calc((4 * $i) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 3}) {
+      left: calc(($i + 1) * $adapt);
+      bottom: calc((4 * $i + 2) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 4}) {
+      left: calc(($i) * $adapt);
+      bottom: calc((4 * $i + 1) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 5}) {
+      left: calc(($i + 1) * $adapt);
+      bottom: calc((4 * $i + 3) * $adapt);
+    }
+    .child:nth-child(#{5*$i + 6}) {
+      left: calc(($i + 2) * $adapt);
+      bottom: calc((4 * $i + 5) * $adapt);
+    }
+  }
+
+  .child span {
+    display: inline-block;
+    transform: rotate(-45deg);
   }
 }
 
-@media only screen and (min-width: 710px) {
-  .buttonIcon {
-    button {
+@media only screen and (min-width: 1000px) {
+  .buttonGrid {
+    $adapt: calc(200px + 1rem);
+    transform-origin: calc($adapt / 2) calc($adapt / 2);
+    .child {
       height: 200px;
       width: 200px;
       padding-bottom: 0;
+      font-size: 50px;
     }
-    h1 {
-      height: 200px;
-      width: 200px;
-      transform: translateX(-60px) translateY(60px) rotate(-45deg);
-      padding-bottom: 0;
+    @for $i from 0 through 8 {
+      .child:nth-child(#{5*$i + 2}) {
+        left: calc(($i) * $adapt);
+        bottom: calc((4 * $i) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 3}) {
+        left: calc(($i + 1) * $adapt);
+        bottom: calc((4 * $i + 2) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 4}) {
+        left: calc(($i) * $adapt);
+        bottom: calc((4 * $i + 1) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 5}) {
+        left: calc(($i + 1) * $adapt);
+        bottom: calc((4 * $i + 3) * $adapt);
+      }
+      .child:nth-child(#{5*$i + 6}) {
+        left: calc(($i + 2) * $adapt);
+        bottom: calc((4 * $i + 5) * $adapt);
+      }
     }
   }
-}
-
-.blurbShow {
-  display: inline;
-}
-
-.blurbHide {
-  display: none;
 }
