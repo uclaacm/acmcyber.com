@@ -3,11 +3,8 @@ import Image from "next/image";
 import HomeBanner from "@/public/images/HomeBanner.svg";
 import Discord from "@/public/images/home-discord.svg";
 import Newsletter from "@/public/images/home-newsletter.png";
-import { CSSProperties, useEffect, useState } from "react";
+import { CSSProperties } from "react";
 import Head from "next/head";
-
-import ButtonLink from "@/components/ButtonLink";
-import { PathSlug, getBlogPostPaths } from "@/components/BlogUtils";
 
 const bannerStyle: CSSProperties = {
   position: "relative",
@@ -17,17 +14,6 @@ const bannerStyle: CSSProperties = {
 };
 
 export default function HomePage() {
-  //Blog Links START
-  // const [blogPaths, setBlogPaths] = useState<string[]>([]);
-  // useEffect(() => {
-  //   const fetchPaths = async () => {
-  //     const data: PathSlug[] = await getBlogPostPaths();
-  //     setBlogPaths(data.map(json => json.params.slug));
-  //   };
-  //   fetchPaths();
-  // }, []);
-  // console.log(blogPaths)
-  //Blog Links END
   return (
     <>
       <div className={styles["home"]}>
