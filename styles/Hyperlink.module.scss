@@ -1,8 +1,19 @@
 .main {
+<<<<<<< HEAD
   text-align: left;
+=======
+    margin-top: 1rem;
+    text-align: left;
+>>>>>>> ac7dca8 (woops)
 }
 
+.main > h2 {
+    color: #FFBA44
+}
+
+
 .box {
+<<<<<<< HEAD
   display: flex;
   border-radius: 15px;
   justify-content: space-between;
@@ -13,10 +24,26 @@
   width: 100%;
   background-color: rgb(244, 0, 0);
   box-shadow: 0 1px 6px rgb(253, 253, 253), 0 1px 4px rgba(236, 230, 230, 0.653);
+=======
+    display: flex;
+    // border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 2pc;
+    margin-top: 20px;
+    width: 100%;
+    background-color: rgb(23, 29, 58);;
+    box-shadow: 0 1px 6px rgb(253, 253, 253), 0 1px 4px rgba(236, 230, 230, 0.653);
+>>>>>>> ac7dca8 (woops)
 }
 
 .box > ul {
   border-radius: 25%;
+}
+
+.box > h4 {
+    color: #FFBA44;
 }
 
 .taglist {
@@ -25,8 +52,18 @@
 }
 
 .list > li {
+<<<<<<< HEAD
   display: none;
   // list-style-type: none;
   background-color: rgb(163, 80, 80);
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+=======
+    display: none;
+    padding: .5rem;
+    // padding-bottom: 1rem;
+    // list-style-type: none;
+    background-color: rgb(23, 29, 58);
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+
+>>>>>>> ac7dca8 (woops)
 }

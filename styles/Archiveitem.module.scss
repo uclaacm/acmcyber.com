@@ -1,0 +1,29 @@
+.main {
+    font-size: large;
+    display: block;
+    // width: 100%;
+    justify-content: left;
+    align-items: flex-start;
+
+}
+
+.tags {
+    margin-bottom: 1rem;
+}
+
+.tags span {
+    font-size: large;
+    margin-bottom: 1rem;
+}
+
+.main > h3 {
+    font-size: larger;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.texts {
+    font-size: large;
+    // margin-bottom: 0.5rem;
+    display: block;
+}
