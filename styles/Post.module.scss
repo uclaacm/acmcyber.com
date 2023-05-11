@@ -1,0 +1,37 @@
+.post {
+  background: #23293a;
+  padding: 3rem 20% 10rem 20%;
+
+  h1 {
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    text-align: left;
+    padding: 2rem 0;
+  }
+
+  .postContent {
+    margin-top: 3rem;
+  }
+
+  .tags {
+    margin: 0.5rem 0;
+  }
+}
+
+.categorydate {
+  padding-top: 1rem;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.centerImage {
+  width: 80%;
+  margin: 0 auto 2rem auto;
+  display: block;
+}
