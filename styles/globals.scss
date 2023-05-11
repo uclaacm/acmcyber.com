@@ -41,3 +41,12 @@ main {
     font-size: 2rem;
   }
 }
+
+:root {
+  --depress-blue: #23293a;
+  --cool-blue: #15213c;
+  --cyber-yellow: #ffbd3f;
+  --card-blue: var(--cool-blue);
+  --card-border: 0.125rem solid var(--cyber-yellow);
+  --card-border-expanded: 0px 0px 0px 10px var(--cyber-yellow);
+}

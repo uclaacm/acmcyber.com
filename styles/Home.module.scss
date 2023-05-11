@@ -13,7 +13,7 @@
 .home-box {
   width: calc(50% - 1.5rem);
   padding: 2rem;
-  background-color: #23293a;
+  background-color: var(--card-blue);
   border-radius: 10px;
   display: flex;
   flex-direction: column;

@@ -1,10 +1,11 @@
 .blogPost {
-  background-color: #15213c;
+  background-color: var(--card-blue);
   padding: 2rem;
   margin: 3rem auto;
   width: 80%;
-  border: 2px solid #ffbd3f;
+  border: var(--card-border);
   border-radius: 2rem;
+  transition: box-shadow 0.2s;
 
   h3 {
     font-size: 2rem;
@@ -20,4 +21,8 @@
     padding: 0.25rem;
     border-radius: 5px;
   }
+}
+
+.blogPost:hover {
+  box-shadow: var(--card-border-expanded);
 }
