@@ -1,6 +1,6 @@
 ---
 title: Hello World
-authors: [Cybe McCybean]
+authors: [Cyber McCybean]
 date: 2023 01 02
 tags: [hello, world]
 ---

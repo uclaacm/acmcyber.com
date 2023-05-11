@@ -1,50 +1,36 @@
-import styles from "@/styles/Events.module.scss";
-
-import AllEvents from "@/data/events";
 import Head from "next/head";
-import React, { useState } from "react";
+import { useState } from "react";
 
-function eventSquare(id: number) {
+import styles from "@/styles/Events.module.scss";
+import AllEvents from "@/data/events";
+
+function displayAll(type: number) {
   return (
-    <p>
-      {AllEvents[id].name}
-      <br></br>
-      {AllEvents[id].date}
-    </p>
+    <div className={styles["buttonGrid"]}>
+      {AllEvents.map((event, index) => (
+        <button className={styles["child"]}>
+          <span>{event.name}</span>
+        </button>
+      ))}
+    </div>
   );
 }
-
 export default function Events() {
   // when page loads, read from data/events.yml
   // parse all of the events into a list of objects [{event object}, ...]
   // display all of the events in the list (hint: use the map() function)
-  const [display, setDisplay] = useState(false);
+  const [isDisplay, switchDisplay] = useState(false);
   return (
-    <>
+    <div className="page">
       <Head>
         <title>Events | ACM Cyber at UCLA</title>
       </Head>
-      <div className="page">
-        <h1>Events</h1>
-        <div className={styles["buttonIcon"]}>
-          <button onClick={() => setDisplay(!display)}>
-            <h1>jan 01</h1>
-          </button>
-          <button onClick={() => setDisplay(!display)}>
-            <h1>jan 02</h1>
-          </button>
-          <button onClick={() => setDisplay(!display)}>
-            <h1>jan 03</h1>
-          </button>
-
-          <div className={display ? styles.blurbShow : styles.blurbHide}>
-            {eventSquare(0)}
-          </div>
-          <div className={display ? styles.blurbShow : styles.blurbHide}>
-            {eventSquare(1)}
-          </div>
+      <div className={styles["home"]}>
+        <div className={styles["page"]}>
+          <h1>Events</h1>
+          <div className={styles["flex"]}>{displayAll(5)}</div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

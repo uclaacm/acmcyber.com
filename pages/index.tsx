@@ -75,6 +75,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        {/* <div>
+          {blogPaths.map((path, index) => <ButtonLink key={index} href={path}>"article"</ButtonLink>)}
+        </div> */}
       </div>
     </>
   );
