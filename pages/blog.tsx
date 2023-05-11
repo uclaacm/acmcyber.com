@@ -1,6 +1,7 @@
 import { getPostIds, getPostMetadata, PostData } from "@/utils/BlogPostData";
 import Head from "next/head";
 import Link from "next/link";
+import styles from "../styles/Blog.module.scss";
 
 export async function getStaticProps() {
   return {
@@ -30,10 +31,15 @@ export default function Blog({
       <h1>Blog</h1>
       {posts.map((post) => {
         return (
-          <div key={post.id}>
-            <p>{post.title}</p>
+          <div className={styles.blogPost} key={post.id}>
+            <h3>{post.title}</h3>
             <p>by {post.authors.join(", ")}</p>
-            <p>tags: {post.tags.map((x) => `[${x}]`).join(" ")}</p>
+            <p className={styles.tags}>
+              Tags:{" "}
+              {post.tags.map((x) => (
+                <span className={styles.tag}>{x}</span>
+              ))}
+            </p>
             <Link href={`/blog/${post.id}`}>Read More &raquo;</Link>
           </div>
         );

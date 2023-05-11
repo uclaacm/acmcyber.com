@@ -1,0 +1,23 @@
+.blogPost {
+  background-color: #15213c;
+  padding: 2rem;
+  margin: 3rem auto;
+  width: 80%;
+  border: 2px solid #ffbd3f;
+  border-radius: 2rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .tags {
+    padding: 0.5rem 0;
+  }
+
+  .tag {
+    background-color: #f44d89;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 5px;
+  }
+}
