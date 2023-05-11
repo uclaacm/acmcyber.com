@@ -18,8 +18,6 @@ interface prop {
   }[];
 }
 
-
-
 export default function ArchiveItem(props: prop) {
   return (
     <div className={styles.main}>
