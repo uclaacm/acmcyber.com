@@ -3,10 +3,12 @@ import path from "node:path";
 import { remark } from "remark";
 import html from "remark-html";
 import matter from "gray-matter";
-import styles from "@/styles/Blog.module.scss";
-import React from "react";
+import styles from "@/styles/Post.module.scss";
 import { GetStaticPropsContext } from "next";
 import { getPostIds, PostData, POSTS_DIRECTORY } from "@/utils/BlogPostData";
+import Image from "next/image";
+
+import stinkyimage from "https://reciprocity.com/wp-content/uploads/2021/08/blog_what-is-cybersecurity-framework_featured-img_730x270.jpg";
 
 export async function getStaticPaths() {
   return {
@@ -53,13 +55,25 @@ export async function getStaticProps(context: GetStaticPropsContext) {
 
 export default function Post({ postData }: { postData: PostData }) {
   return (
-    <div className="page">
-      <div className={styles.md}>
-        <h1>{postData.title}</h1>
-        <p>Written by {postData.authors.join(", ")}</p>
-        <p>{postData.date}</p>
-        <p>{postData.tags.join(", ")}</p>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+    <div className={`page ${styles.post}`}>
+      <div className={styles.categorydate}>
+        <p className={styles.alignleft}>placeholder</p>
+        <p className={styles.alignright}>{postData.date}</p>
+      </div>
+      <h1>{postData.title}</h1>
+      <img
+        className={styles.centerImage}
+        src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
+        alt="blog image"
+      />
+      <div>
+        <p>
+          <i>Written by {postData.authors.join(", ")}</i>
+        </p>
+        <p className={styles.tags}>Tags: {postData.tags.join(", ")}</p>
+        <div className={styles.postContent}>
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        </div>
       </div>
     </div>
   );

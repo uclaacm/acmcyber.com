@@ -23,4 +23,5 @@ export interface PostData {
   date: string;
   tags: string[];
   contentHtml: string;
+  image?: string;
 }
