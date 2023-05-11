@@ -2,23 +2,17 @@ import styles from "@/styles/Archive.module.scss";
 import Navbar from "@/components/Navbar";
 import Hyperlink from "@/components/Hyperlink";
 
+import archive from "@/data/archive";
+
 export default function Archive() {
   return (
-    <>
-      <Navbar />
-      <main className={styles.main}>
-        <h1>Archive</h1>
-        <div className={styles.description}>
-          <ul>
-            <li>
-              <Hyperlink time="January 1st 2023" title="Google" />
-            </li>
-            <li>
-              <Hyperlink time="January 1st 2023" title="Google" />
-            </li>
-          </ul>
-        </div>
-      </main>
-    </>
+    <div className="page">
+      <h1>Archive</h1>
+      <div className={styles.description}>
+        {archive.map((ele) => (
+          <Hyperlink time={ele["name"]} series={ele["series"]} />
+        ))}
+      </div>
+    </div>
   );
 }

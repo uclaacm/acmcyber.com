@@ -1,28 +1,21 @@
 .main {
   font-size: large;
-  display: block;
-  // width: 100%;
-  justify-content: left;
-  align-items: flex-start;
+  margin: auto;
+  background-color: #23293a;
+  padding: 2rem;
+  border-radius: 25px;
+  border-style: solid;
+  transition: box-shadow 0.2s;
+}
+
+.main:hover {
+  box-shadow: 0px 0px 5px 10px #ffbd3f;
+}
+
+.main li {
+  margin: 1rem;
 }
 
 .tags {
-  margin-bottom: 1rem;
-}
-
-.tags span {
-  font-size: large;
-  margin-bottom: 1rem;
-}
-
-.main > h3 {
-  font-size: larger;
-  margin-bottom: 1rem;
-  display: block;
-}
-
-.texts {
-  font-size: large;
-  // margin-bottom: 0.5rem;
-  display: block;
+  display: inline;
 }
