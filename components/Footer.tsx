@@ -33,7 +33,7 @@ export default function Footer() {
 
           <div className={styles.bottom}>
             {/* Copyright */}
-            <p className={styles.footerText}>© acm.cyber 2023</p>
+            <p className={styles.footerText}>© ACM Cyber 2023</p>
           </div>
         </div>
       </div>
