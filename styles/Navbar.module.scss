@@ -6,23 +6,22 @@
   background-color: #2c2f36;
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  padding-top: 10px;
+  // padding-top: 10px;
   padding-bottom: 5px;
+  // height: 5rem;
+
+  padding-right: 1rem;
   color: white;
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   justify-content: center;
   align-items: center;
-  height: 5rem;
+  flex-wrap: wrap;
 }
 
 .navbar a {
   padding: 15px;
   flex-shrink: 0;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
 }
 
 .navbar img {
@@ -36,6 +35,22 @@
   flex-grow: 1;
 }
 
+.hoverable:hover {
+  // text-decoration: underline;
+  background-color: #2c2f36;
+  filter: brightness(150%);
+}
+
 .homebutton {
   cursor: pointer;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
 }

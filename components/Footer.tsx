@@ -26,16 +26,13 @@ export default function Footer() {
             >
               <Image src={FacebookLogo} alt="Facebook Redirect" />
             </Link>
-            <Link
-              href="mailto:uclacyber@gmail.com"
-              target="blank"
-            >
+            <Link href="mailto:uclacyber@gmail.com" target="blank">
               <Image src={MailLogo} alt="Mail Redirect" />
             </Link>
           </div>
 
           <div className={styles.bottom}>
-          {/* Copyright */}
+            {/* Copyright */}
             <p className={styles.footerText}>© acm.cyber 2023</p>
           </div>
         </div>
