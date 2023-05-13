@@ -18,7 +18,12 @@ main {
 }
 
 .page {
-  background: linear-gradient(to bottom, #15213c, #ffeac0);
+  background: linear-gradient(
+    180deg,
+    #15213c 4.17%,
+    #505262 52.6%,
+    #8b8b85 100%
+  );
   padding: 10px 10%;
   min-height: 50rem;
   color: white;
