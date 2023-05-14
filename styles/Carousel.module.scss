@@ -1,19 +1,16 @@
-.main {
-  margin-top: 150px;
+.carousel {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 60vh;
 }
 
 .images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 20vh;
+  display: block;
+  height: 100%;
 }
 
 .images > img {
-  margin: 10px;
   aspect-ratio: 16/9;
   height: 100%;
 }

@@ -20,30 +20,22 @@ export function Carousel({ images }: CarouselProps) {
   }, [idx]);
 
   return (
-    <div className={styles.main}>
-      <span
+    <div className={styles.carousel}>
+      <div
         className={styles.prev}
-        onClick={() => setIdx(idx - (1 % images.length))}
+        onClick={() => setIdx((idx - 1) % images.length)}
       >
         &#10094;
-      </span>
+      </div>
       <div className={styles.images}>
         <img src={images[idx]} alt="ACM Cyber congregation" />
-        <img
-          src={images[idx + (1 % images.length)]}
-          alt="ACM Cyber congregation"
-        />
-        <img
-          src={images[idx + (2 % images.length)]}
-          alt="ACM Cyber congregation"
-        />
       </div>
-      <span
+      <div
         className={styles.next}
-        onClick={() => setIdx(idx + (1 % images.length))}
+        onClick={() => setIdx((idx + 1) % images.length)}
       >
         &#10095;
-      </span>
+      </div>
     </div>
   );
 }
