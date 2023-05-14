@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "@/styles/Carousel.module.scss";
 
-const msPerImage = 2000;
+const msPerImage = 4000;
 
 export interface CarouselProps {
   images: string[];
@@ -11,17 +11,28 @@ export function Carousel({ images }: CarouselProps) {
   const [idx, setIdx] = useState(0);
 
   useEffect(() => {
-    let ii = idx;
-    const interval = setInterval(() => {
-      ii = (ii + 1) % images.length;
-      setIdx(ii);
+    setTimeout(() => {
+      setIdx((idx + 1) % images.length);
     }, msPerImage);
-    return () => clearInterval(interval);
-  }, []);
+  }, [idx]);
 
   return (
-    <div className={styles.images}>
-      <img src={images[idx]} alt="ACM Cyber congregation" />
+    <div className={styles.main}>
+      <span
+        className={styles.prev}
+        onClick={() => setIdx(idx - (1 % images.length))}
+      >
+        &#10094;
+      </span>
+      <div className={styles.images}>
+        <img src={images[idx]} alt="ACM Cyber congregation" />
+      </div>
+      <span
+        className={styles.next}
+        onClick={() => setIdx(idx + (1 % images.length))}
+      >
+        &#10095;
+      </span>
     </div>
   );
 }

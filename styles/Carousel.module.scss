@@ -1,3 +1,9 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .images {
   display: flex;
   flex-direction: row;
@@ -8,4 +14,18 @@
 .images > img {
   aspect-ratio: 16/9;
   height: 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  width: auto;
+  padding: 16px;
+  color: #2a2d3e;
+  font-weight: 500;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
+  margin-top: 1.5rem;
 }
