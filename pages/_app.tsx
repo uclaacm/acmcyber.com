@@ -22,7 +22,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="./favicon.ico" />
         <meta name="theme-color" content="#ffba44" />
         {css.map((href) => (
-          <link rel="stylesheet" href={href} />
+          <link rel="stylesheet" href={href} key={href} />
         ))}
       </Head>
 

@@ -1,5 +1,5 @@
 ---
-title: 'WANTED: Cybrick'
+title: "WANTED: Cybrick"
 authors: [Cyber McCybean]
 date: 2023 05 03
 tags: [cybrick, hello]

@@ -5,7 +5,6 @@ export interface Event {
 
 const eventsData: Event[] = [
   {
-
     name: "jan 01",
     date: 10,
   },
