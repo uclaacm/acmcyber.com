@@ -1,7 +1,10 @@
 .carousel {
   --aspect-ratio: 2.05; /* this is > 16/9 and needed cause some images are wiide */
   --img-height: 60vh;
-  --img-width: calc(var(--aspect-ratio) * var(--img-height));
+  --img-width: min(
+    calc(100vw - 2rem),
+    calc(var(--aspect-ratio) * var(--img-height))
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +29,8 @@
 }
 
 .images img {
+  object-fit: contain;
+  width: var(--img-width);
   filter: opacity(0);
   transition: filter 200ms ease-out;
 }
@@ -36,6 +41,7 @@
 
 .prev,
 .next {
+  --active-color: rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,5 +59,18 @@
 .next:hover,
 .prev:active,
 .next:active {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--active-color);
+}
+
+/* make arrows invisible when screen smol */
+@media screen and (max-width: 600px) {
+  .prev,
+  .next {
+    z-index: 9;
+    filter: opacity(0);
+    transform: translateX(4rem);
+  }
+  .next {
+    transform: translateX(-4rem);
+  }
 }
