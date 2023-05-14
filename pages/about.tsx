@@ -1,11 +1,18 @@
+import Image from "next/image";
+
 import { NextSeo } from "next-seo";
+
+import officers, { PersonInfoProps } from "@/data/officers";
 
 import fs from "node:fs";
 
 import { Carousel } from "@/components/Carousel";
 
+import styles from "@/styles/About.module.scss";
+
 type DataProps = {
   images: string[];
+  data: Record<string, any>;
 };
 
 export function getStaticProps() {
@@ -16,7 +23,7 @@ export function getStaticProps() {
   return { props: { images } };
 }
 
-export default function About({ images }: DataProps) {
+export default function About({ images, data }: DataProps) {
   return (
     <>
       <NextSeo
@@ -49,7 +56,42 @@ export default function About({ images }: DataProps) {
           cybersecurity in the students at UCLA.
         </p>
         <Carousel images={images} />
+
+        <h2>Team</h2>
+
+        <div className={styles.officersContainer}>
+          {officers.map((officer: PersonInfoProps, index: number) => (
+            <PersonInfo
+              key={index}
+              name={officer.name}
+              role={officer.role}
+              major={officer.major}
+              pronouns={officer.pronouns}
+              photo={officer.photo}
+            />
+          ))}
+        </div>
       </div>
     </>
+  );
+}
+
+function PersonInfo({ name, role, major, pronouns, photo }: PersonInfoProps) {
+  return (
+    <div className={styles.personInfo}>
+      <Image
+        className={styles.personImage}
+        src={"/images/officers/" + photo}
+        alt={`Profile picture of ${name}`}
+        width={300}
+        height={300}
+      />
+      <h3>{name}</h3>
+      <p>
+        <i>{role}</i>
+      </p>
+      <p>{pronouns}</p>
+      <p>{major}</p>
+    </div>
   );
 }

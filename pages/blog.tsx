@@ -56,8 +56,10 @@ export default function Blog({
                 <p>by {post.authors.join(", ")}</p>
                 <p className={styles.tags}>
                   Tags:{" "}
-                  {post.tags.map((x) => (
-                    <span className={styles.tag}>{x}</span>
+                  {post.tags.map((x, i) => (
+                    <span className={styles.tag} key={i}>
+                      {x}
+                    </span>
                   ))}
                 </p>
                 <p>{post.description}</p>
