@@ -27,7 +27,7 @@ export function Carousel({ images }: CarouselProps) {
     <div className={styles.carousel}>
       <div
         className={styles.prev}
-        onClick={() => setIdx((idx - 1) % images.length)}
+        onClick={() => setIdx((idx - 1 + images.length) % images.length)}
       >
         &#10094;
       </div>
