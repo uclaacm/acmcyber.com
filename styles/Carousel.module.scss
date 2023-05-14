@@ -1,14 +1,18 @@
 .carousel {
+  --aspect-ratio: 2.05; /* this is > 16/9 and needed cause some images are wiide */
   --img-height: 60vh;
+  --img-width: calc(var(--aspect-ratio) * var(--img-height));
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
   height: var(--img-height);
 }
 
 .images {
   display: grid;
   height: 100%;
+  width: var(--img-width);
 }
 
 /* use grid to stack images */
@@ -18,12 +22,12 @@
   grid-column: 1 / -1;
   grid-row: -1 / 1;
   height: var(--img-height);
-  width: 100%;
+  width: var(--img-width);
 }
 
 .images img {
   filter: opacity(0);
-  transition: filter 500ms ease-in-out;
+  transition: filter 200ms ease-out;
 }
 
 .active {
@@ -32,12 +36,22 @@
 
 .prev,
 .next {
-  flex-grow: 1;
-  cursor: pointer;
-  position: relative;
-  color: var(--depress-blue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
   font-weight: 500;
   font-size: 40px;
-  transition: 600ms ease-out;
   user-select: none;
+  color: var(--depress-blue);
+  cursor: pointer;
+  transition: 200ms ease-out;
+}
+
+.prev:hover,
+.next:hover,
+.prev:active,
+.next:active {
+  background-color: rgba(255, 255, 255, 0.1);
 }
