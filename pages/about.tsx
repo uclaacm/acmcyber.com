@@ -4,26 +4,9 @@ import { NextSeo } from "next-seo";
 
 import officers, { PersonInfoProps } from "@/data/officers";
 
-import fs from "node:fs";
-
-import { Carousel } from "@/components/Carousel";
-
 import styles from "@/styles/About.module.scss";
 
-type DataProps = {
-  images: string[];
-  data: Record<string, any>;
-};
-
-export function getStaticProps() {
-  const images = [...fs.readdirSync("./public/images/carousel")].map(
-    (p) => `images/carousel/${p}`
-  );
-
-  return { props: { images } };
-}
-
-export default function About({ images, data }: DataProps) {
+export default function About() {
   return (
     <>
       <NextSeo
@@ -55,7 +38,6 @@ export default function About({ images, data }: DataProps) {
           something entirely different. We aim to nurture the love of
           cybersecurity in the students at UCLA.
         </p>
-        <Carousel images={images} />
 
         <h2>Team</h2>
 

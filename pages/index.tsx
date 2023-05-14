@@ -4,6 +4,10 @@ import { NextSeo } from "next-seo";
 
 import { CSSProperties } from "react";
 
+import fs from "node:fs";
+
+import { Carousel } from "@/components/Carousel";
+
 import HomeBanner from "@/public/images/HomeBanner.svg";
 
 import styles from "styles/Home.module.scss";
@@ -15,7 +19,19 @@ const bannerStyle: CSSProperties = {
   objectFit: "contain",
 };
 
-export default function HomePage() {
+type DataProps = {
+  images: string[];
+};
+
+export function getStaticProps() {
+  const images = [...fs.readdirSync("./public/images/carousel")].map(
+    (p) => `images/carousel/${p}`
+  );
+
+  return { props: { images } };
+}
+
+export default function HomePage({ images }: DataProps) {
   return (
     <>
       <NextSeo
@@ -80,6 +96,8 @@ export default function HomePage() {
             </p>
           </div>
         </div>
+
+        <Carousel images={images} />
       </div>
     </>
   );
