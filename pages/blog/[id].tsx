@@ -1,7 +1,7 @@
 import * as fs from "node:fs/promises";
 import path from "node:path";
 import { marked } from "marked";
-import hljs from 'highlight.js';
+import hljs from "highlight.js";
 import matter from "gray-matter";
 import styles from "@/styles/Post.module.scss";
 import { GetStaticPropsContext } from "next";
