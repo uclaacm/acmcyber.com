@@ -1,5 +1,6 @@
 import * as fs from "node:fs/promises";
 import path from "node:path";
+// @ts-ignore
 import { marked } from "marked";
 import hljs from "highlight.js";
 import matter from "gray-matter";
