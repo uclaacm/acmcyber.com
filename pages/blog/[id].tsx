@@ -98,6 +98,10 @@ export default function Post({ postData }: { postData: PostData }) {
             <i>Written by {postData.authors.join(", ")}</i>
           </p>
           <p className={styles.tags}>Tags: {postData.tags.join(", ")}</p>
+          <p>
+            <i>{postData.description}</i>
+          </p>
+          <hr />
           <div className={styles.postContent}>
             <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
           </div>
