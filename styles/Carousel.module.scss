@@ -29,7 +29,7 @@
 }
 
 .images img {
-  object-fit: contain;
+  object-fit: crop;
   width: var(--img-width);
   filter: opacity(0);
   transition: filter 200ms ease-out;
