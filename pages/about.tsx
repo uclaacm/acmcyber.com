@@ -1,10 +1,20 @@
 import Head from "next/head";
+import fs from "node:fs";
+import { Carousel } from "@/components/Carousel.tsx";
 
 type DataProps = {
-  data: Record<string, any>;
+  images: string[];
 };
 
-export default function About({ data }: DataProps) {
+export function getStaticProps() {
+  const images = [...fs.readdirSync("./public/images/carousel")].map(
+    (p) => `images/carousel/${p}`
+  );
+
+  return { props: { images } };
+}
+
+export default function About({ images }: DataProps) {
   return (
     <div className="page">
       <Head>
@@ -20,6 +30,7 @@ export default function About({ data }: DataProps) {
         entirely different. We aim to nurture the love of cybersecurity in the
         students at UCLA.
       </p>
+      <Carousel images={images} />
     </div>
   );
 }

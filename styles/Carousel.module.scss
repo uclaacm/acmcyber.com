@@ -1,0 +1,11 @@
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 60vh;
+}
+
+.images > img {
+  aspect-ratio: 16/9;
+  height: 100%;
+}
