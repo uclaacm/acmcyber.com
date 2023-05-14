@@ -1,6 +1,6 @@
 import Head from "next/head";
 import fs from "node:fs";
-import { Carousel } from "@/components/Carousel.tsx";
+import { Carousel } from "@/components/Carousel";
 
 type DataProps = {
   images: string[];
