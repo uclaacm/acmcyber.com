@@ -1,5 +1,6 @@
-import Head from "next/head";
 import Image from "next/image";
+
+import { NextSeo } from "next-seo";
 
 import { CSSProperties } from "react";
 
@@ -17,11 +18,25 @@ const bannerStyle: CSSProperties = {
 export default function HomePage() {
   return (
     <>
+      <NextSeo
+        title="Home | ACM Cyber at UCLA"
+        description="ACM Cyber at UCLA is a group of students dedicated to creating a community in which both experts and beginners alike can grow in the field of cybersecurity skills and knowledge. We want to make cybersecurity simple and accessible for everyone!"
+        openGraph={{
+          images: [
+            {
+              url: "https://cyber.uclaacm.com/images/cyber-motif-applied.png",
+              width: 990,
+              height: 555,
+              alt: "ACM Cyber logo",
+            },
+          ],
+          site_name: "ACM Cyber at UCLA",
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+        }}
+      />
       <div className="page">
-        <Head>
-          <title>Home | ACM Cyber at UCLA</title>
-        </Head>
-
         <Image src={HomeBanner} style={bannerStyle} alt="ACM Cyber" />
 
         <div className={styles["home-boxes"]}>

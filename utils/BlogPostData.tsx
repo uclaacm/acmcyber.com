@@ -23,6 +23,7 @@ export interface PostData {
   date: string;
   category: string;
   tags: string[];
+  description: string;
   contentHtml: string;
   image?: string;
 }

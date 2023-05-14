@@ -1,5 +1,6 @@
-import Head from "next/head";
 import { useState } from "react";
+
+import { NextSeo } from "next-seo";
 
 import styles from "@/styles/Events.module.scss";
 import AllEvents from "@/data/events";
@@ -21,16 +22,33 @@ export default function Events() {
   // display all of the events in the list (hint: use the map() function)
   const [isDisplay, switchDisplay] = useState(false);
   return (
-    <div className="page">
-      <Head>
-        <title>Events | ACM Cyber at UCLA</title>
-      </Head>
-      <div className={styles["home"]}>
-        <div className={styles["page"]}>
-          <h1>Events</h1>
-          <div className={styles["flex"]}>{displayAll(5)}</div>
+    <>
+      <NextSeo
+        title="Events | ACM Cyber at UCLA"
+        description="Some of the upcoming events for ACM Cyber at UCLA!"
+        openGraph={{
+          images: [
+            {
+              url: "https://cyber.uclaacm.com/images/cyber-motif-applied.png",
+              width: 990,
+              height: 555,
+              alt: "ACM Cyber logo",
+            },
+          ],
+          site_name: "ACM Cyber at UCLA",
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+        }}
+      />
+      <div className="page">
+        <div className={styles["home"]}>
+          <div className={styles["page"]}>
+            <h1>Events</h1>
+            <div className={styles["flex"]}>{displayAll(5)}</div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
