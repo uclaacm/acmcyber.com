@@ -28,7 +28,15 @@ export function Carousel({ images }: CarouselProps) {
         &#10094;
       </div>
       <div className={styles.images}>
-        <img src={images[idx]} alt="ACM Cyber congregation" />
+        {images.map((src, i) => (
+          <div>
+            <img
+              className={i == idx && styles.active}
+              src={src}
+              alt="ACM Cyber congregation"
+            />
+          </div>
+        ))}
       </div>
       <div
         className={styles.next}
