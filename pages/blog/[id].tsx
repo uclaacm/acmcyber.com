@@ -1,3 +1,4 @@
+import Head from "next/head";
 import * as fs from "node:fs/promises";
 import path from "node:path";
 // @ts-ignore
@@ -53,25 +54,33 @@ export default function Post({ postData }: { postData: PostData }) {
     hljs.highlightAll();
   }, []);
   return (
-    <div className={`page ${styles.post}`}>
-      <div className={styles.categorydate}>
-        <p className={styles.alignleft}>{postData.category}</p>
-        <p className={styles.alignright}>{postData.date}</p>
-      </div>
-      <h1>{postData.title}</h1>
-      <img
-        src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
-        alt="blog image"
-      />
-      <div>
-        <p>
-          <i>Written by {postData.authors.join(", ")}</i>
-        </p>
-        <p className={styles.tags}>Tags: {postData.tags.join(", ")}</p>
-        <div className={styles.postContent}>
-          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+    <>
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/monokai-sublime.min.css"
+        />
+      </Head>
+      <div className={`page ${styles.post}`}>
+        <div className={styles.categorydate}>
+          <p className={styles.alignleft}>{postData.category}</p>
+          <p className={styles.alignright}>{postData.date}</p>
+        </div>
+        <h1>{postData.title}</h1>
+        <img
+          src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
+          alt="blog image"
+        />
+        <div>
+          <p>
+            <i>Written by {postData.authors.join(", ")}</i>
+          </p>
+          <p className={styles.tags}>Tags: {postData.tags.join(", ")}</p>
+          <div className={styles.postContent}>
+            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
