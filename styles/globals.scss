@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap";
 @import "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/monokai-sublime.min.css";
+// @import "prismjs/themes/prism-dark.min.css";
 
 * {
   box-sizing: border-box;
@@ -40,6 +42,19 @@ main {
     padding: 1rem 0;
     font-size: 2rem;
   }
+
+  blockquote {
+    border-left: 5px solid #FFBD3F;
+    padding-left: 1rem;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+  code {
+    font-family: "IBM Plex Mono", "Consolas", "Lucida Console", monospace;
+  }
+
 }
 
 :root {
