@@ -6,9 +6,6 @@
   background-color: #2c2f36;
   box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
-  // padding-top: 10px;
-  padding-bottom: 5px;
-  // height: 5rem;
 
   padding-right: 1rem;
   color: white;
@@ -25,10 +22,10 @@
 }
 
 .navbar img {
-  height: 4rem;
+  height: 2rem;
   width: auto;
   padding-left: 10px;
-  margin-top: 5px;
+  // margin-top: 5px;
 }
 
 .spacer {
@@ -36,7 +33,6 @@
 }
 
 .hoverable:hover {
-  // text-decoration: underline;
   background-color: #2c2f36;
   filter: brightness(150%);
 }

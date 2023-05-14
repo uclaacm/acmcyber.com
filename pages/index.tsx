@@ -1,10 +1,11 @@
-import styles from "styles/Home.module.scss";
-import Image from "next/image";
-import HomeBanner from "@/public/images/HomeBanner.svg";
-import Discord from "@/public/images/home-discord.svg";
-import Newsletter from "@/public/images/home-newsletter.png";
-import { CSSProperties } from "react";
 import Head from "next/head";
+import Image from "next/image";
+
+import { CSSProperties } from "react";
+
+import HomeBanner from "@/public/images/HomeBanner.svg";
+
+import styles from "styles/Home.module.scss";
 
 const bannerStyle: CSSProperties = {
   position: "relative",
@@ -16,12 +17,12 @@ const bannerStyle: CSSProperties = {
 export default function HomePage() {
   return (
     <>
-      <div className={styles["home"]}>
+      <div className="page">
         <Head>
           <title>Home | ACM Cyber at UCLA</title>
         </Head>
 
-        <Image src={HomeBanner} style={bannerStyle} alt="ACM CYBER" />
+        <Image src={HomeBanner} style={bannerStyle} alt="ACM Cyber" />
 
         <div className={styles["home-boxes"]}>
           <div className={styles["home-box"]}>
@@ -45,39 +46,25 @@ export default function HomePage() {
           </div>
           <div className={styles["home-box"]}>
             <h1>JOIN US!</h1>
-            <div className={styles["image-left"]}>
-              <Image src={Discord} alt="Discord icon" width={50} height={50} />
-              <p>
-                Want to know what we&apos;re doing? Join our{" "}
-                <a href="https://discord.com/invite/j9dgf2q">Discord</a> to stay
-                updated on our latest activities!
-              </p>
-            </div>
+            <p>
+              Want to know what we&apos;re doing? Join our{" "}
+              <a href="https://discord.com/invite/j9dgf2q">Discord</a> to stay
+              updated on our latest activities!
+            </p>
             <p>
               Want to learn or practice more? Check out our archive for video
               recordings of past workshops as well as our workshops and
               challenges site for practice challenges!
             </p>
-            <div className={styles["image-right"]}>
-              <p>
-                Curious about cybersecurity? Sign up for our{" "}
-                <a href="https://tinyurl.com/acmcybernewsletter">newsletter</a>{" "}
-                where we send out a newsletter every week about upcoming ACM
-                Cyber events, interesting cybersecurity news, breakdown the
-                steps to past security exploits, and write-ups about CTFs!
-              </p>
-              <Image
-                src={Newsletter}
-                alt="Newsletter icon"
-                width={50}
-                height={50}
-              />
-            </div>
+            <p>
+              Curious about cybersecurity? Sign up for our{" "}
+              <a href="https://tinyurl.com/acmcybernewsletter">newsletter</a>{" "}
+              where we send out a newsletter every week about upcoming ACM Cyber
+              events, interesting cybersecurity news, breakdown the steps to
+              past security exploits, and write-ups about CTFs!
+            </p>
           </div>
         </div>
-        {/* <div>
-          {blogPaths.map((path, index) => <ButtonLink key={index} href={path}>"article"</ButtonLink>)}
-        </div> */}
       </div>
     </>
   );
