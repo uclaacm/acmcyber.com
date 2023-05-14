@@ -1,10 +1,16 @@
-import styles from "styles/Home.module.scss";
 import Image from "next/image";
-import HomeBanner from "@/public/images/HomeBanner.svg";
-import Discord from "@/public/images/home-discord.svg";
-import Newsletter from "@/public/images/home-newsletter.png";
+
+import { NextSeo } from "next-seo";
+
 import { CSSProperties } from "react";
-import Head from "next/head";
+
+import fs from "node:fs";
+
+import { Carousel } from "@/components/Carousel";
+
+import HomeBanner from "@/public/images/HomeBanner.svg";
+
+import styles from "styles/Home.module.scss";
 
 const bannerStyle: CSSProperties = {
   position: "relative",
@@ -13,15 +19,41 @@ const bannerStyle: CSSProperties = {
   objectFit: "contain",
 };
 
-export default function HomePage() {
+type DataProps = {
+  images: string[];
+};
+
+export function getStaticProps() {
+  const images = [...fs.readdirSync("./public/images/carousel")].map(
+    (p) => `images/carousel/${p}`
+  );
+
+  return { props: { images } };
+}
+
+export default function HomePage({ images }: DataProps) {
   return (
     <>
-      <div className={styles["home"]}>
-        <Head>
-          <title>Home | ACM Cyber at UCLA</title>
-        </Head>
-
-        <Image src={HomeBanner} style={bannerStyle} alt="ACM CYBER" />
+      <NextSeo
+        title="Home | ACM Cyber at UCLA"
+        description="ACM Cyber at UCLA is a group of students dedicated to creating a community in which both experts and beginners alike can grow in the field of cybersecurity skills and knowledge. We want to make cybersecurity simple and accessible for everyone!"
+        openGraph={{
+          images: [
+            {
+              url: "https://cyber.uclaacm.com/images/cyber-motif-applied.png",
+              width: 990,
+              height: 555,
+              alt: "ACM Cyber logo",
+            },
+          ],
+          site_name: "ACM Cyber at UCLA",
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+        }}
+      />
+      <div className="page">
+        <Image src={HomeBanner} style={bannerStyle} alt="ACM Cyber" />
 
         <div className={styles["home-boxes"]}>
           <div className={styles["home-box"]}>
@@ -45,39 +77,27 @@ export default function HomePage() {
           </div>
           <div className={styles["home-box"]}>
             <h1>JOIN US!</h1>
-            <div className={styles["image-left"]}>
-              <Image src={Discord} alt="Discord icon" width={50} height={50} />
-              <p>
-                Want to know what we&apos;re doing? Join our{" "}
-                <a href="https://discord.com/invite/j9dgf2q">Discord</a> to stay
-                updated on our latest activities!
-              </p>
-            </div>
+            <p>
+              Want to know what we&apos;re doing? Join our{" "}
+              <a href="https://discord.com/invite/j9dgf2q">Discord</a> to stay
+              updated on our latest activities!
+            </p>
             <p>
               Want to learn or practice more? Check out our archive for video
               recordings of past workshops as well as our workshops and
               challenges site for practice challenges!
             </p>
-            <div className={styles["image-right"]}>
-              <p>
-                Curious about cybersecurity? Sign up for our{" "}
-                <a href="https://tinyurl.com/acmcybernewsletter">newsletter</a>{" "}
-                where we send out a newsletter every week about upcoming ACM
-                Cyber events, interesting cybersecurity news, breakdown the
-                steps to past security exploits, and write-ups about CTFs!
-              </p>
-              <Image
-                src={Newsletter}
-                alt="Newsletter icon"
-                width={50}
-                height={50}
-              />
-            </div>
+            <p>
+              Curious about cybersecurity? Sign up for our{" "}
+              <a href="https://tinyurl.com/acmcybernewsletter">newsletter</a>{" "}
+              where we send out a newsletter every week about upcoming ACM Cyber
+              events, interesting cybersecurity news, breakdown the steps to
+              past security exploits, and write-ups about CTFs!
+            </p>
           </div>
         </div>
-        {/* <div>
-          {blogPaths.map((path, index) => <ButtonLink key={index} href={path}>"article"</ButtonLink>)}
-        </div> */}
+
+        <Carousel images={images} />
       </div>
     </>
   );

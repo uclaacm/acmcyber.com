@@ -1,5 +1,6 @@
-import Head from "next/head";
 import { useState } from "react";
+
+import { NextSeo } from "next-seo";
 
 import styles from "@/styles/Events.module.scss";
 import { default as ALL_EVENTS, Event } from "@/data/events";
@@ -59,9 +60,24 @@ export default function Events() {
   const now = new Date();
   return (
     <div className={`page ${styles["events"]}`}>
-      <Head>
-        <title>Events | ACM Cyber at UCLA</title>
-      </Head>
+      <NextSeo
+        title="Events | ACM Cyber at UCLA"
+        description="Some of the upcoming events for ACM Cyber at UCLA!"
+        openGraph={{
+          images: [
+            {
+              url: "https://cyber.uclaacm.com/images/cyber-motif-applied.png",
+              width: 990,
+              height: 555,
+              alt: "ACM Cyber logo",
+            },
+          ],
+          site_name: "ACM Cyber at UCLA",
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+        }}
+      />
       <h1>This Week</h1>
       {displayAll(
         (e) => isEventStillRelevant(e, now) && isEventThisWeek(e, now)

@@ -9,22 +9,28 @@ export default function Navbar() {
   return (
     <div className={styles.navbar}>
       {/* LEFT PART OF THE NAVBAR */}
-      <div className="Left">
-        <Link href="/" className={styles.homebutton}>
-          <Image src={CyberLogoLight} alt="ACM CYBER" />
-          <Image src={CyberWordmarkLight} alt="" />
-        </Link>
-      </div>
+      <Link className={[styles.left, styles.homebutton].join(" ")} href="/">
+        <Image src={CyberLogoLight} alt="ACM CYBER" />
+        <Image src={CyberWordmarkLight} alt="" />
+      </Link>
 
       {/* SPACER */}
       <div className={styles.spacer} />
 
       {/* RIGHT PART OF THE NAVBAR */}
-      <div className="Right">
-        <Link href="/about">About</Link>
-        <Link href="/blog">Blog</Link>
-        <Link href="/events">Events</Link>
-        <Link href="/archive">Archive</Link>
+      <div className={styles.right}>
+        <Link className={styles.hoverable} href="/about">
+          About
+        </Link>
+        <Link className={styles.hoverable} href="/blog">
+          Blog
+        </Link>
+        <Link className={styles.hoverable} href="/events">
+          Events
+        </Link>
+        <Link className={styles.hoverable} href="/archive">
+          Archive
+        </Link>
       </div>
     </div>
   );

@@ -21,7 +21,9 @@ export interface PostData {
   title: string;
   authors: string[];
   date: string;
+  category: string;
   tags: string[];
+  description: string;
   contentHtml: string;
   image?: string;
 }
