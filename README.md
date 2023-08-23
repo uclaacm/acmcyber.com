@@ -28,15 +28,15 @@ $ cd cyber.uclaacm.com
 $ yarn install
 ```
 
+If you're working in VSCode, make sure to accept the popup about detecting a new Typescript interpreter - this makes Typescript typechecking play nice with Yarn's compressed packages! If you've forgotten to do this and are now facing a wall of red squiggles, just go to any Typescript file (`.tsx`), press `Ctrl+Shift+P` / `Shift+Cmd+P`, select `Typescript: Select Typescript Version...`, and then select `Use Workspace Version`.
+
 We can run the following commands to start the server:
 
 ```bash
 $ yarn build
 
-> $ next build
 > info  - Skipping linting
 > info  - Checking validity of types
-> Read more: https://nextjs.org/docs/messages/sharp-missing-in-production
 > info  - Creating an optimized production build
 > info  - Compiled successfully
 > info  - Collecting page data
@@ -45,9 +45,7 @@ $ yarn build
 
 $ yarn start
 
-> yarn run v1.22.19
-> $ next start
-> ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+> ready - started server on 0.0.0.0:3000, url: http://localhost:300
 ```
 
 To run the website in a development environment, run the following command:
@@ -55,8 +53,6 @@ To run the website in a development environment, run the following command:
 ```bash
 $ yarn run dev
 
-> yarn run v1.22.19
-> $ next dev
 > ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 > event - compiled client and server successfully in 359 ms (198 modules)
 ```
