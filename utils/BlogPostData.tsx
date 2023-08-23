@@ -1,6 +1,7 @@
 import * as fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
+import { OpenGraphMedia } from "next-seo/lib/types";
 
 export const POSTS_DIRECTORY = "/data/blog/";
 
@@ -25,5 +26,5 @@ export interface PostData {
   tags: string[];
   description: string;
   contentHtml: string;
-  image?: string;
+  image?: OpenGraphMedia;
 }

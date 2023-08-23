@@ -1,31 +1,16 @@
 import Image from "next/image";
 
-import { NextSeo } from "next-seo";
-
 import officers, { PersonInfoProps } from "@/data/officers";
 
 import styles from "@/styles/About.module.scss";
+import CyberSeo from "@/components/CyberSeo";
 
 export default function About() {
   return (
     <>
-      <NextSeo
-        title="About | ACM Cyber at UCLA"
+      <CyberSeo
+        title="About"
         description="Learn more about ACM Cyber at UCLA!"
-        openGraph={{
-          images: [
-            {
-              url: "https://cyber.uclaacm.com/images/cyber-motif-applied.png",
-              width: 990,
-              height: 555,
-              alt: "ACM Cyber logo",
-            },
-          ],
-          site_name: "ACM Cyber at UCLA",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
       />
       <div className="page">
         <h1>About</h1>

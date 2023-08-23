@@ -8,7 +8,7 @@ const nextConfig = {
     // path: "/",
     unoptimized: true,
   },
-  assetPrefix: !debug ? "https://cyber.uclaacm.com" : "",
+  assetPrefix: !debug ? "https://cyber.uclaacm.com" : "./",
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
@@ -22,9 +22,10 @@ const nextConfig = {
     return {
       "/": { page: "/" },
       "/about": { page: "/about" },
+      "/events": { page: "/events" },
+      "/labs": { page: "/labs" },
       "/archive": { page: "/archive" },
       "/blog": { page: "/blog" },
-      "/events": { page: "/events" },
     };
   },
 };
