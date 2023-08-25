@@ -45,16 +45,16 @@
 
   /* yes this hamburger code is stolen directly from myself @ lactf ~ andrew */
 
-  .hamburger-toggle,
-  .hamburger-container {
+  .hamburgerToggle,
+  .hamburgerContainer {
     display: none;
   }
 
-  .hamburger-container {
+  .hamburgerContainer {
     margin-right: 24px;
   }
 
-  .hamburger-button {
+  .hamburgerButton {
     &,
     &::before,
     &::after {
@@ -78,24 +78,24 @@
     }
   }
 
-  .hamburger-toggle:checked {
-    & ~ .hamburger-container .hamburger-button::before {
+  .hamburgerToggle:checked {
+    & ~ .hamburgerContainer .hamburgerButton::before {
       margin-top: 0px;
       transform: rotate(405deg);
     }
 
-    & ~ .hamburger-container .hamburger-button {
+    & ~ .hamburgerContainer .hamburgerButton {
       background: transparent;
     }
 
-    & ~ .hamburger-container .hamburger-button::after {
+    & ~ .hamburgerContainer .hamburgerButton::after {
       margin-top: 0px;
       transform: rotate(-405deg);
     }
   }
 
   @media (max-width: 810px) {
-    .hamburger-container {
+    .hamburgerContainer {
       display: flex;
       width: 30px;
       height: 48px;
@@ -105,7 +105,7 @@
       align-items: center;
     }
 
-    .hamburger-toggle {
+    .hamburgerToggle {
       & ~ ul > a {
         display: contents;
         height: 0;
@@ -147,11 +147,11 @@
       width: 100vw;
     }
 
-    .hamburger-toggle:not(:checked) ~ .hamburger-container {
+    .hamburgerToggle:not(:checked) ~ .hamburgerContainer {
       margin-bottom: 16px;
     }
 
-    .hamburger-container {
+    .hamburgerContainer {
       width: 100vw;
       margin-right: 0;
     }
@@ -163,10 +163,10 @@
   filter: brightness(150%);
 }
 
-.tropical-image-strikes-again :not(img) {
+.tropicalImageStrikesAgain :not(img) {
   transition: filter ease-in-out 0.25s;
 }
 
-.tropical-image-strikes-again:hover :not(img) {
+.tropicalImageStrikesAgain:hover :not(img) {
   filter: brightness(200%);
 }

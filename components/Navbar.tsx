@@ -9,14 +9,14 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <input
-        className={styles["hamburger-toggle"]}
+        className={styles.hamburgerToggle}
         id="hamburger-toggle"
         type="checkbox"
       ></input>
 
       {/* LEFT PART OF THE NAVBAR */}
       <Link
-        className={`${styles.logo} ${styles["tropical-image-strikes-again"]}`}
+        className={`${styles.logo} ${styles.tropicalImageStrikesAgain}`}
         href="/"
       >
         <Image src={CyberLogo} alt="ACM Cyber Logo" />
@@ -27,11 +27,8 @@ export default function Navbar() {
       <div className={styles.spacer} />
 
       {/* RIGHT PART OF THE NAVBAR */}
-      <label
-        className={styles["hamburger-container"]}
-        htmlFor="hamburger-toggle"
-      >
-        <div className={styles["hamburger-button"]}></div>
+      <label className={styles.hamburgerContainer} htmlFor="hamburger-toggle">
+        <div className={styles.hamburgerButton}></div>
       </label>
 
       <ul className={styles.right}>

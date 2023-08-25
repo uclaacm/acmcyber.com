@@ -13,8 +13,8 @@ export default function CyberWordmark({
   return (
     <>
       <span style={{ fontSize: fontSize, lineHeight: lineHeight, ...style }}>
-        <span className={styles["cyber-logo-wordmark"]}>
-          acm<span className={styles["cyber-logo-wordmark-period"]}>.</span>
+        <span className={styles.cyberLogoWordmark}>
+          acm<span className={styles.cyberLogoWordmarkPeriod}>.</span>
           cyber
         </span>
       </span>
