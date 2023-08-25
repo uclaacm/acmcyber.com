@@ -1,45 +1,67 @@
-.home-boxes {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-wrap: wrap;
-  padding: 3rem;
-}
+.welcomeHero {
+  --welcome-hero-height: calc(100vh - 80px);
+  --diamond-scale: 0.65;
+  --diamond-length: calc(
+    var(--diamond-scale) * max(min(100vw, var(--welcome-hero-height)), 800px)
+  );
+  --diamond-x: calc((100vw - var(--diamond-length)) / 2);
+  --diamond-y: calc((var(--welcome-hero-height) - var(--diamond-length)) / 2);
+  --diamond-center-y: calc(var(--diamond-y) + var(--diamond-length) * 0.454);
 
-.home-box {
-  width: calc(50% - 1.5rem);
-  padding: 2rem;
-  background-color: var(--card-blue);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  color: white;
+  height: max(var(--welcome-hero-height), 28rem);
+  overflow: hidden;
 
-  h1 {
-    color: #ffba44;
-    margin-bottom: 2rem;
-    font-family: "Nova Mono", monospace;
-    font-size: 3rem;
+  .cyberDiamondRelativeContainer {
+    position: relative;
+
+    .cyberDiamond {
+      position: absolute;
+      width: var(--diamond-length);
+      height: var(--diamond-length);
+      transform: translate(var(--diamond-x), max(var(--diamond-y), -3rem)) rotate(45deg);
+      border: 12px solid var(--cyber-gold);
+      border-radius: 40px;
+      background: radial-gradient(#FFBA4400, #FFBA4414);
+    }
+  }
+
+  .cyberDiamondInner {
+    position: relative;
     text-align: center;
-  }
 
-  p {
-    padding-bottom: 1rem;
-    font-family: "Poppins", sans-serif;
-  }
+    .welcomeTo {
+      position: absolute;
+      width: 100vw;
+      padding-top: 2rem;
+      transform: translateY(max(calc(var(--diamond-center-y) - 10rem), 2rem));
+      font-family: "Poppins";
+      font-size: min(calc(0.15 * min(var(--diamond-length), 90vw)), 24pt);
+      color: white;
+    }
 
-  a {
-    text-decoration: underline;
-    color: #ffba44;
-  }
-}
+    .acmCyber1 {
+      position: absolute;
+      display: block;
+      width: 100vw;
+      font-size: calc(0.1 * min(var(--diamond-length), 90vw));
+      transform: translate(-0.2em, max(calc(var(--diamond-center-y) - 4rem), 8rem));
 
-@media screen and (max-width: 710px) {
-  .home-boxes {
-    flex-direction: column;
-  }
+      & > span::after {
+        content: "!";
+      }
+    }
 
-  .home-box {
-    width: 100%;
+    .elevatorPitchWrap {
+      position: absolute;
+      width: 100vw;
+
+      .elevatorPitch {
+        margin: auto;
+        max-width: calc(0.6 * var(--diamond-length));
+        transform: translateY(max(calc(var(--diamond-center-y) + 5rem), 17rem));
+        font-size: min(calc(0.12 * min(var(--diamond-length), 90vw)), 15pt);
+        color: white;
+      }
+    }
   }
 }

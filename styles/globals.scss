@@ -40,7 +40,7 @@ body {
 }
 
 main {
-  margin-top: 3rem;
+  margin-top: 80px;
 }
 
 a {
@@ -50,8 +50,7 @@ a {
 
 .page {
   background: var(--soul-dark);
-  padding: 10px 10%;
-  min-height: 50rem;
+  min-height: calc(100vh - 80px - 182px);
   color: white;
 
   h1,
