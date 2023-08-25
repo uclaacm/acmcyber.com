@@ -13,7 +13,7 @@ export default function Document() {
         />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=IBM+Plex+Mono&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=NTR&family=IBM+Plex+Mono&display=swap"
         />
       </Head>
       <body>

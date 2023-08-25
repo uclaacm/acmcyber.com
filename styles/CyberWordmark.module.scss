@@ -1,0 +1,23 @@
+.cyber-logo-wordmark {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 5px;
+
+  font-family: "Westwood Sans 0.5";
+  font-weight: 800;
+  font-size: 1.8em;
+  letter-spacing: 0.015em;
+  transform: scaleX(104%);
+  transform-origin: left;
+
+  user-select: none;
+
+  color: transparent;
+  background: var(--logo-linear);
+  background-clip: text;
+
+  .cyber-logo-wordmark-period {
+    font-size: 2.4rem;
+    line-height: 0px;
+  }
+}
