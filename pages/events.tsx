@@ -3,10 +3,13 @@ import { useState } from "react";
 import styles from "@/styles/Events.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import AllEvents from "@/data/events";
+import { styler } from "@/utils";
+
+const s = styler(styles);
 
 function displayAll(type: number) {
   return (
-    <div className={styles["buttonGrid"]}>
+    <div className={s`buttonGrid`}>
       {AllEvents.map((event, index) => (
         <button className={styles["child"]}>
           <span>{event.name}</span>
@@ -27,10 +30,10 @@ export default function Events() {
         description="Some of the upcoming events for ACM Cyber at UCLA!"
       />
       <div className="page">
-        <div className={styles["home"]}>
-          <div className={styles["page"]}>
+        <div className={s`home`}>
+          <div className={s`page`}>
             <h1>Events</h1>
-            <div className={styles["flex"]}>{displayAll(5)}</div>
+            <div className={s`flex`}>{displayAll(5)}</div>
           </div>
         </div>
       </div>
