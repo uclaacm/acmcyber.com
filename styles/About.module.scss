@@ -8,7 +8,6 @@
 }
 
 .personInfo {
-  color: #000;
   text-align: center;
   margin: 2rem 5rem;
   font-size: larger;
@@ -16,7 +15,14 @@
 
 .personImage {
   border-radius: 50%;
-  object-fit: fill;
+  object-fit: cover;
   width: 200px;
   height: 200px;
+  margin: 0 0 1rem 0;
+}
+
+.aboutImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
