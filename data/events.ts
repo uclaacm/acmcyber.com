@@ -13,7 +13,7 @@ const eventsData: Event[] = [
     location: matsci,
   },
   {
-    name: 'Cyber Talk: Binary Exploitation',
+    name: 'Cyber Talk: Binary Exploitation OWO UWU',
     date: new Date(),
     time: '6:00 - 8:00 PM (PST)',
     location: matsci,

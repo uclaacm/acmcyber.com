@@ -10,8 +10,8 @@
 .events {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 2rem;
-  align-items: stretch;
 }
 
 .event-card {
@@ -19,11 +19,22 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-  flex: 1; // keep all events same width
   box-sizing: border-box;
   border: 0.25rem solid transparent;
   border-radius: var(--border-radius);
-  max-width: min(25rem, 80vw); // do not want too wide image
+  width: 20rem;
+}
+
+@media screen and (max-width: 600px) {
+  .events {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .event-card {
+    width: 100%;
+  }
 }
 
 .event-card:hover {
@@ -35,6 +46,7 @@
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
   width: 100%;
+  flex: 1;
 }
 
 .event-card .details {
