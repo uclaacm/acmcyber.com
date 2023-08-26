@@ -44,7 +44,7 @@
       position: absolute;
       display: block;
       width: 100vw;
-      font-size: calc(0.1 * min(var(--diamond-length), 90vw));
+      font-size: min(calc(0.1 * min(var(--diamond-length), 90vw)), 40pt);
       transform: translate(
         -0.2em,
         max(calc(var(--diamond-center-y) - 4rem), 8rem)
