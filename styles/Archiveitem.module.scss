@@ -1,21 +1,39 @@
 .main {
   font-size: large;
   margin: auto;
-  background-color: var(--card-blue);
-  padding: 2rem;
-  border: var(--card-border);
-  border-radius: 25px;
-  transition: box-shadow 0.2s;
+  display: grid;
 }
 
 .main:hover {
   box-shadow: var(--card-border-expanded);
 }
 
-.main li {
+.listItem {
+  background-color: var(--cyber-black);
+  margin: 1.5rem 1rem;
+  padding: 0.3rem;
+  border: var(--card-border);
+  border-radius: 25px;
+  transition: box-shadow 0.2s;
+  width: 20rem;
+  float: left;
+  height: 15rem;
+}
+.section {
   margin: 1rem;
 }
 
-.tags {
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--cyber-gold);
   display: inline;
+}
+.link {
+  font-size: 1rem;
+  color: var(--organic-oranges);
+  text-decoration: underline;
+}
+.link:hover {
+  color: var(--flag-pink);
 }

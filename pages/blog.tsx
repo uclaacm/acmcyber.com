@@ -9,12 +9,10 @@ export async function getStaticProps() {
   return {
     props: {
       posts: await Promise.all(
-        (
-          await getPostIds()
-        ).map(
+        (await getPostIds()).map(
           async (id) =>
-            await getPostMetadata(id).then((data) => ({ id, ...data }))
-        )
+            await getPostMetadata(id).then((data) => ({ id, ...data })),
+        ),
       ),
     },
   };
