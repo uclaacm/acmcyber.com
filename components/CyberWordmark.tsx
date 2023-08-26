@@ -19,7 +19,16 @@ export default function CyberWordmark({
         style={{ fontSize: fontSize, lineHeight: lineHeight, ...style }}
       >
         <span className={styles.cyberLogoWordmark}>
-          acm<span className={styles.cyberLogoWordmarkPeriod}>.</span>
+          acm
+          <span
+            className={styles.cyberLogoWordmarkPeriod}
+            style={{
+              /* chrome/safari bugfix: this MUST be applied as an inline style and I don't know why - Andrew */
+              filter: "unset",
+            }}
+          >
+            .
+          </span>
           cyber
         </span>
       </span>
