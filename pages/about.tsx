@@ -40,7 +40,7 @@ export default function About() {
                 key={index}
                 name={officer.name}
                 role={officer.role}
-                major={officer.major}
+                bio={officer.bio}
                 pronouns={officer.pronouns}
                 photo={officer.photo}
               />
@@ -55,7 +55,7 @@ export default function About() {
                 key={index}
                 name={officer.name}
                 role={officer.role}
-                major={officer.major}
+                bio={officer.bio}
                 pronouns={officer.pronouns}
                 photo={officer.photo}
               />
@@ -67,7 +67,7 @@ export default function About() {
   );
 }
 
-function PersonInfo({ name, role, major, pronouns, photo }: PersonInfoProps) {
+function PersonInfo({ name, role, bio, pronouns, photo }: PersonInfoProps) {
   return (
     <div className={styles.personInfo}>
       <Image
@@ -82,7 +82,7 @@ function PersonInfo({ name, role, major, pronouns, photo }: PersonInfoProps) {
       <p>
         <i>{role}</i>
       </p>
-      <p>{major}</p>
+      <p>{bio}</p>
     </div>
   );
 }
