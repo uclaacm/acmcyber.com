@@ -18,7 +18,8 @@ export default function HomePage() {
             <CyberWordmark className={styles.acmCyber1} />
             <div className={styles.elevatorPitchWrap}>
               <p className={styles.elevatorPitch}>
-                We’re a student-run organization on a mission to <b>make cybersecurity simple and accessible to everyone</b>.
+                We’re a student-run organization on a mission to{" "}
+                <b>make cybersecurity simple and accessible to everyone</b>.
               </p>
             </div>
           </div>

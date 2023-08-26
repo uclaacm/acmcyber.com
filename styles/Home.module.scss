@@ -18,10 +18,11 @@
       position: absolute;
       width: var(--diamond-length);
       height: var(--diamond-length);
-      transform: translate(var(--diamond-x), max(var(--diamond-y), -3rem)) rotate(45deg);
+      transform: translate(var(--diamond-x), max(var(--diamond-y), -3rem))
+        rotate(45deg);
       border: 12px solid var(--cyber-gold);
       border-radius: 40px;
-      background: radial-gradient(#FFBA4400, #FFBA4414);
+      background: radial-gradient(#ffba4400, #ffba4414);
     }
   }
 
@@ -44,7 +45,10 @@
       display: block;
       width: 100vw;
       font-size: calc(0.1 * min(var(--diamond-length), 90vw));
-      transform: translate(-0.2em, max(calc(var(--diamond-center-y) - 4rem), 8rem));
+      transform: translate(
+        -0.2em,
+        max(calc(var(--diamond-center-y) - 4rem), 8rem)
+      );
 
       & > span::after {
         content: "!";

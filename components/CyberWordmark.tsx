@@ -14,7 +14,10 @@ export default function CyberWordmark({
 }) {
   return (
     <>
-      <span className={className ?? ""} style={{ fontSize: fontSize, lineHeight: lineHeight, ...style }}>
+      <span
+        className={className ?? ""}
+        style={{ fontSize: fontSize, lineHeight: lineHeight, ...style }}
+      >
         <span className={styles.cyberLogoWordmark}>
           acm<span className={styles.cyberLogoWordmarkPeriod}>.</span>
           cyber
