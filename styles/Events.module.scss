@@ -20,9 +20,11 @@
   flex-direction: column;
   gap: 0;
   box-sizing: border-box;
-  border: 0.25rem solid transparent;
+  border: 2px solid transparent;
   border-radius: var(--border-radius);
   width: 20rem;
+  border-color: var(--cyber-gold);
+  position: relative;
 }
 
 @media screen and (max-width: 600px) {
@@ -39,7 +41,7 @@
 
 .event-card:hover {
   cursor: pointer;
-  border-color: var(--cyber-gold);
+  box-shadow: 0 0 10px var(--cyber-gold);
 }
 
 .event-card img {
@@ -60,4 +62,14 @@
 
 .upcoming .event-card .details {
   background-color: var(--cyber-grey);
+}
+
+.event-card .type {
+  position: absolute;
+  margin: 1rem 1.5rem;
+  background-color: #f44d89;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: larger;
 }

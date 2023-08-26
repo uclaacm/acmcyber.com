@@ -25,6 +25,7 @@ const isFuture = (today: Date, date: Date): bool =>
 
 const Event = (event: (typeof AllEvents)[0], i: number) => (
   <a className={s`event-card`} key={i}>
+    <span className={s`type`}>{event.type}</span>
     <img src="/images/archive.svg" alt="Placeholder Image" />
     <div className={s`details`}>
       <h3>{event.name}</h3>

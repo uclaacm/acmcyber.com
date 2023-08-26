@@ -1,4 +1,3 @@
-import Head from "next/head";
 import * as fs from "node:fs/promises";
 import path from "node:path";
 // @ts-ignore
@@ -66,12 +65,6 @@ export default function Post({ postData }: { postData: PostData }) {
         }
       />
 
-      <Head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/monokai-sublime.min.css"
-        />
-      </Head>
       <div className={`page ${styles.post}`}>
         <div className={styles.categorydate}>
           <p className={styles.alignleft}>{postData.category}</p>

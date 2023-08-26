@@ -1,6 +1,6 @@
 ---
-title: "WANTED: Cybrick"
-authors: [Cyber McCybean]
+title: "Bruh Lolz"
+authors: [Cyber McCybean, Bruh McCybean]
 date: 2023 05 03
 category: events
 tags: [cybrick, hello]
