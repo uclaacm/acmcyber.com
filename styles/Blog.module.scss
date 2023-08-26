@@ -72,3 +72,32 @@
 .blogPost:hover {
   box-shadow: 0 0 10px var(--cyber-gold);
 }
+
+.categorySelectHeading {
+  font-size: 1.25rem;
+  margin: 0 1rem 0 0;
+  color: var(--cyber-gold);
+}
+
+ul.categorySelect {
+  list-style-type: none;
+  display: inline;
+  flex-direction: row;
+
+  li {
+    display: inline-block;
+    padding: 0.5rem;
+    border: var(--cyber-gold) 1px solid;
+  }
+
+  li:hover {
+    background-color: var(--cyber-gold);
+    color: var(--soul-dark);
+    cursor: pointer;
+  }
+
+  .selected {
+    background-color: var(--cyber-gold);
+    color: var(--soul-dark);
+  }
+}

@@ -2,7 +2,7 @@
 title: "Bruh Lolz"
 authors: [Cyber McCybean, Bruh McCybean]
 date: 2023 05 03
-category: events
+category: Events
 tags: [cybrick, hello]
 description: "We want a Cybrick!"
 ---
