@@ -16,7 +16,7 @@
   --cyber-gold: #ffba44;
   --shadowed-light: #86652d;
   --soul-dark: #0e1116;
-  --orange-linear: linear-gradient(90deg, #ffba44, #ff8c4c);
+  --orange-linear: linear-gradient(85deg, #ffba44, #ff8c4c 60%);
   --logo-linear: linear-gradient(
     61.43deg,
     #ffffff 36.4583%,
@@ -53,21 +53,34 @@ a {
   min-height: calc(100vh - 80px - 182px);
   color: white;
 
-  h1,
-  h2,
-  h3 {
-    color: #ffba44;
+  .content {
+    width: 80%;
+    margin: 0 auto;
   }
 
   h1 {
-    padding: 2rem;
-    font-size: 3rem;
+    display: block;
+    width: fit-content;
+    margin: 0rem auto 2rem auto;
+    padding-top: 1rem;
+    
+    font-size: 4rem;
     text-align: center;
+
+    color: transparent;
+    background: var(--orange-linear);
+    background-clip: text;
   }
 
   h2 {
-    padding: 1rem 0;
+    padding: 2rem 0 1rem 0;
     font-size: 2rem;
+
+    color: var(--organic-oranges);
+  }
+
+  h3 {
+    color: var(--cyber-gold);
   }
 
   blockquote {
@@ -86,9 +99,4 @@ a {
     font-size: 1.125rem;
     line-height: 1.5;
   }
-}
-
-.content {
-  width: 60%;
-  margin: 0 auto;
 }
