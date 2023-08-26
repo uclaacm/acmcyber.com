@@ -31,9 +31,22 @@ export default function Events() {
       />
       <div className="page">
         <div className={s`home`}>
-          <div className={s`page`}>
-            <h1>Events</h1>
-            <div className={s`flex`}>{displayAll(5)}</div>
+          <h1>Events</h1>
+          <div className={s`this-week`}>
+            <h2>This Week</h2>
+            <div className={s`events`}>
+              {AllEvents.map((event) => (
+                <a className={s`event-card`}>
+                  <img src="/images/archive.svg" alt="Placeholder Image" />
+                  <div className={s`details`}>
+                    <h3>{event.name}</h3>
+                    <div className={s`date`}>{event.date.toDateString()}</div>
+                    <div className={s`time`}>{event.time}</div>
+                    <div className={s`location`}>{event.location}</div>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>

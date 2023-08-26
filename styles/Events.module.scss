@@ -1,106 +1,150 @@
-.page {
-  display: grid;
+.this-week {
+  background-color: #242424;
+  padding: 1rem;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
   align-items: stretch;
-  flex-wrap: wrap;
-
-  h1 {
-    color: #ffba44;
-    padding: 2rem;
-    font-family: "Nova Mono", monospace;
-    font-size: 3rem;
-    text-align: center;
-  }
 }
 
-.flex {
-  display: inline-grid;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3rem;
+.event-card {
+  --border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1; // keep all events same width
+  box-sizing: border-box;
+  border: 0.25rem solid transparent;
+  border-radius: var(--border-radius);
+  max-width: min(25rem, 80vw); // do not want too wide image
 }
 
-.buttonGrid {
-  $adapt: calc(20vw + 1rem);
-  display: grid;
-  grid-template-columns: min-content;
-  gap: 1rem;
-  transform-origin: calc($adapt / 2) calc($adapt / 2);
-  rotate: 45deg;
-
-  .child {
-    background-image: linear-gradient(to bottom right, #ffc259, #fff7ab);
-    font-family: "Nova Mono", monospace;
-
-    border: none;
-    border-radius: 1.5rem;
-
-    width: 20vw;
-    height: 20vw;
-    font-size: 4.75vw;
-    color: black;
-    position: relative;
-  }
-
-  @for $i from 0 through 8 {
-    .child:nth-child(#{5*$i + 2}) {
-      left: calc(($i) * $adapt);
-      bottom: calc((4 * $i) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 3}) {
-      left: calc(($i + 1) * $adapt);
-      bottom: calc((4 * $i + 2) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 4}) {
-      left: calc(($i) * $adapt);
-      bottom: calc((4 * $i + 1) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 5}) {
-      left: calc(($i + 1) * $adapt);
-      bottom: calc((4 * $i + 3) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 6}) {
-      left: calc(($i + 2) * $adapt);
-      bottom: calc((4 * $i + 5) * $adapt);
-    }
-  }
-
-  .child span {
-    display: inline-block;
-    transform: rotate(-45deg);
-  }
+.event-card:hover {
+  cursor: pointer;
+  border-color: var(--cyber-gold);
 }
 
-@media only screen and (min-width: 1000px) {
-  .buttonGrid {
-    $adapt: calc(200px + 1rem);
-    transform-origin: calc($adapt / 2) calc($adapt / 2);
-    .child {
-      height: 200px;
-      width: 200px;
-      padding-bottom: 0;
-      font-size: 50px;
-    }
-    @for $i from 0 through 8 {
-      .child:nth-child(#{5*$i + 2}) {
-        left: calc(($i) * $adapt);
-        bottom: calc((4 * $i) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 3}) {
-        left: calc(($i + 1) * $adapt);
-        bottom: calc((4 * $i + 2) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 4}) {
-        left: calc(($i) * $adapt);
-        bottom: calc((4 * $i + 1) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 5}) {
-        left: calc(($i + 1) * $adapt);
-        bottom: calc((4 * $i + 3) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 6}) {
-        left: calc(($i + 2) * $adapt);
-        bottom: calc((4 * $i + 5) * $adapt);
-      }
-    }
-  }
+.event-card img {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  width: 100%;
 }
+
+.event-card .details {
+  background-color: var(--soul-dark);
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: calc(0.5 * var(--border-radius));
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+// .page {
+//   display: grid;
+//   align-items: stretch;
+//   flex-wrap: wrap;
+//
+//   h1 {
+//     color: #ffba44;
+//     padding: 2rem;
+//     font-family: "Nova Mono", monospace;
+//     font-size: 3rem;
+//     text-align: center;
+//   }
+// }
+//
+// .flex {
+//   display: inline-grid;
+//   align-items: center;
+//   justify-content: center;
+//   margin-top: 3rem;
+// }
+//
+// .buttonGrid {
+//   $adapt: calc(20vw + 1rem);
+//   display: grid;
+//   grid-template-columns: min-content;
+//   gap: 1rem;
+//   transform-origin: calc($adapt / 2) calc($adapt / 2);
+//   rotate: 45deg;
+//
+//   .child {
+//     background-image: linear-gradient(to bottom right, #ffc259, #fff7ab);
+//     font-family: "Nova Mono", monospace;
+//
+//     border: none;
+//     border-radius: 1.5rem;
+//
+//     width: 20vw;
+//     height: 20vw;
+//     font-size: 4.75vw;
+//     color: black;
+//     position: relative;
+//   }
+//
+//   @for $i from 0 through 8 {
+//     .child:nth-child(#{5*$i + 2}) {
+//       left: calc(($i) * $adapt);
+//       bottom: calc((4 * $i) * $adapt);
+//     }
+//     .child:nth-child(#{5*$i + 3}) {
+//       left: calc(($i + 1) * $adapt);
+//       bottom: calc((4 * $i + 2) * $adapt);
+//     }
+//     .child:nth-child(#{5*$i + 4}) {
+//       left: calc(($i) * $adapt);
+//       bottom: calc((4 * $i + 1) * $adapt);
+//     }
+//     .child:nth-child(#{5*$i + 5}) {
+//       left: calc(($i + 1) * $adapt);
+//       bottom: calc((4 * $i + 3) * $adapt);
+//     }
+//     .child:nth-child(#{5*$i + 6}) {
+//       left: calc(($i + 2) * $adapt);
+//       bottom: calc((4 * $i + 5) * $adapt);
+//     }
+//   }
+//
+//   .child span {
+//     display: inline-block;
+//     transform: rotate(-45deg);
+//   }
+// }
+//
+// @media only screen and (min-width: 1000px) {
+//   .buttonGrid {
+//     $adapt: calc(200px + 1rem);
+//     transform-origin: calc($adapt / 2) calc($adapt / 2);
+//     .child {
+//       height: 200px;
+//       width: 200px;
+//       padding-bottom: 0;
+//       font-size: 50px;
+//     }
+//     @for $i from 0 through 8 {
+//       .child:nth-child(#{5*$i + 2}) {
+//         left: calc(($i) * $adapt);
+//         bottom: calc((4 * $i) * $adapt);
+//       }
+//       .child:nth-child(#{5*$i + 3}) {
+//         left: calc(($i + 1) * $adapt);
+//         bottom: calc((4 * $i + 2) * $adapt);
+//       }
+//       .child:nth-child(#{5*$i + 4}) {
+//         left: calc(($i) * $adapt);
+//         bottom: calc((4 * $i + 1) * $adapt);
+//       }
+//       .child:nth-child(#{5*$i + 5}) {
+//         left: calc(($i + 1) * $adapt);
+//         bottom: calc((4 * $i + 3) * $adapt);
+//       }
+//       .child:nth-child(#{5*$i + 6}) {
+//         left: calc(($i + 2) * $adapt);
+//         bottom: calc((4 * $i + 5) * $adapt);
+//       }
+//     }
+//   }
+// }
