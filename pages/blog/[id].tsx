@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { NextSeo } from "next-seo";
 import * as fs from "node:fs/promises";
 import path from "node:path";
 // @ts-ignore
@@ -10,6 +9,7 @@ import styles from "@/styles/Post.module.scss";
 import { GetStaticPropsContext } from "next";
 import { getPostIds, PostData, POSTS_DIRECTORY } from "@/utils/BlogPostData";
 import { useEffect } from "react";
+import CyberSeo from "@/components/CyberSeo";
 
 export async function getStaticPaths() {
   return {
@@ -56,25 +56,14 @@ export default function Post({ postData }: { postData: PostData }) {
   }, []);
   return (
     <>
-      <NextSeo
-        title={postData.title + " | ACM Cyber at UCLA"}
+      <CyberSeo
+        title={postData.title}
         description={postData.description}
-        openGraph={{
-          images: [
-            {
-              url:
-                postData.image ??
-                "https://cyber.uclaacm.com/images/cyber-motif-applied.png",
-              width: 990,
-              height: 555,
-              alt: "ACM Cyber logo",
-            },
-          ],
-          site_name: "ACM Cyber at UCLA",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
+        images={
+          postData.image === null || postData.image === undefined
+            ? undefined
+            : [postData.image]
+        }
       />
 
       <Head>

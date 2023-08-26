@@ -1,35 +1,161 @@
 .navbar {
-  width: 100vw;
   display: flex;
   position: fixed;
-  top: 0;
-  background-color: #2c2f36;
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
-
-  padding-right: 1rem;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
+  top: 0;
+  width: 100vw;
+  padding: 0 15px 0 16px;
+  z-index: 1000;
+  overflow-x: hidden;
 
-.navbar a {
-  padding: 15px;
-  flex-shrink: 0;
-}
+  color: white;
+  background-color: var(--soul-dark);
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
+  font-family: "NTR", sans-serif;
+  font-size: 1.5rem;
 
-.navbar img {
-  height: 2rem;
-  width: auto;
-  padding-left: 10px;
-  // margin-top: 5px;
-}
+  .logo {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 16px;
 
-.spacer {
-  flex-grow: 1;
+    img {
+      height: 48px;
+      width: auto;
+    }
+  }
+
+  .spacer {
+    flex-grow: 1;
+  }
+
+  .right a {
+    display: inline-block;
+    line-height: 40px;
+    padding: 20px 24px;
+    text-transform: uppercase;
+
+    li {
+      list-style: none;
+    }
+  }
+
+  /* yes this hamburger code is stolen directly from myself @ lactf ~ andrew */
+
+  .hamburgerToggle,
+  .hamburgerContainer {
+    display: none;
+  }
+
+  .hamburgerContainer {
+    margin-right: 24px;
+  }
+
+  .hamburgerButton {
+    &,
+    &::before,
+    &::after {
+      display: block;
+      position: absolute;
+      height: 4px;
+      width: 30px;
+      background-color: white;
+      border-radius: 2px;
+      transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    &::before {
+      content: "";
+      margin-top: -8px;
+    }
+
+    &::after {
+      content: "";
+      margin-top: 8px;
+    }
+  }
+
+  .hamburgerToggle:checked {
+    & ~ .hamburgerContainer .hamburgerButton::before {
+      margin-top: 0px;
+      transform: rotate(405deg);
+    }
+
+    & ~ .hamburgerContainer .hamburgerButton {
+      background: transparent;
+    }
+
+    & ~ .hamburgerContainer .hamburgerButton::after {
+      margin-top: 0px;
+      transform: rotate(-405deg);
+    }
+  }
+
+  @media (max-width: 810px) {
+    .hamburgerContainer {
+      display: flex;
+      width: 30px;
+      height: 48px;
+      padding: 16px;
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hamburgerToggle {
+      & ~ ul > a {
+        display: contents;
+        height: 0;
+        margin: -50px;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1),
+          margin 400ms cubic-bezier(0.23, 1, 0.32, 1);
+
+        li {
+          display: none;
+        }
+      }
+
+      &:checked {
+        & ~ ul {
+          width: 100vw;
+          overflow: hidden scroll;
+
+          & > a {
+            display: block;
+            height: 100px;
+            margin: 0;
+            line-height: unset;
+            text-align: center;
+            padding: 25px 24px 23px 24px;
+
+            li {
+              display: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 350px) {
+    .logo {
+      width: 100vw;
+    }
+
+    .hamburgerToggle:not(:checked) ~ .hamburgerContainer {
+      margin-bottom: 16px;
+    }
+
+    .hamburgerContainer {
+      width: 100vw;
+      margin-right: 0;
+    }
+  }
 }
 
 .hoverable:hover {
@@ -37,16 +163,10 @@
   filter: brightness(150%);
 }
 
-.homebutton {
-  cursor: pointer;
+.tropicalImageStrikesAgain :not(img) {
+  transition: filter ease-in-out 0.25s;
 }
 
-.right {
-  display: flex;
-  justify-content: center;
-}
-
-.left {
-  display: flex;
-  justify-content: center;
+.tropicalImageStrikesAgain:hover :not(img) {
+  filter: brightness(200%);
 }

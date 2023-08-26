@@ -1,8 +1,7 @@
 import { useState } from "react";
 
-import { NextSeo } from "next-seo";
-
 import styles from "@/styles/Events.module.scss";
+import CyberSeo from "@/components/CyberSeo";
 import AllEvents from "@/data/events";
 
 function displayAll(type: number) {
@@ -23,23 +22,9 @@ export default function Events() {
   const [isDisplay, switchDisplay] = useState(false);
   return (
     <>
-      <NextSeo
-        title="Events | ACM Cyber at UCLA"
+      <CyberSeo
+        title="Events"
         description="Some of the upcoming events for ACM Cyber at UCLA!"
-        openGraph={{
-          images: [
-            {
-              url: "https://cyber.uclaacm.com/images/cyber-motif-applied.png",
-              width: 990,
-              height: 555,
-              alt: "ACM Cyber logo",
-            },
-          ],
-          site_name: "ACM Cyber at UCLA",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
       />
       <div className="page">
         <div className={styles["home"]}>

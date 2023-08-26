@@ -22,9 +22,15 @@ const nextConfig = {
     return {
       "/": { page: "/" },
       "/about": { page: "/about" },
+      "/events": { page: "/events" },
+      "/labs": { page: "/labs" },
       "/archive": { page: "/archive" },
       "/blog": { page: "/blog" },
-      "/events": { page: "/events" },
+      ...(debug
+        ? {
+            _next: { page: "_next" },
+          }
+        : {}),
     };
   },
 };
