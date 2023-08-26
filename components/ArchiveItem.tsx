@@ -22,29 +22,35 @@ export default function ArchiveItem(props: prop) {
   return (
     <div className={styles.main}>
       <h3>{props.name}</h3>
-      <ul>
+      <div>
         {props.events.map((ele) => (
-          <li>
-            <p style={{ display: "inline", margin: "1rem" }}>
-              <p
-                style={{ color: "#FFBD3F", display: "inline", margin: ".5rem" }}
-              >
-                {ele.date}:
+          <div className={styles.listItem}>
+            <div className={styles.section}>
+              <p className={styles.title}>
+                {ele.date}: {ele.name}
               </p>
-              {ele.name} {ele.description}
-              <a href={ele.recording} style={{ margin: ".5rem" }}>
-                Recording
-              </a>
-              <a href={ele.slides}>Slides</a>
-            </p>
-            <div className={styles.tags}>
+
+              <p>
+                <a href={ele.recording} className={styles.link}>
+                  (Recording)
+                </a>
+                <> </>
+                <a href={ele.slides} className={styles.link}>
+                  (Slides)
+                </a>
+              </p>
+
+              <p style={{ fontSize: "1rem" }}>{ele.description}</p>
+            </div>
+
+            <div className={styles.section}>
               {ele.tags.map((e) => (
                 <Tag name={e} />
               ))}
             </div>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
