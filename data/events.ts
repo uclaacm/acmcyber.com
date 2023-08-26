@@ -1,7 +1,9 @@
 export interface Event {
   name: string;
-  type: 'Cyber Lab',
-  date: number;
+  type: string;
+  date: Date;
+  time: string;
+  location: string;
 }
 
 const matsci = 'Math Sciences 5200';

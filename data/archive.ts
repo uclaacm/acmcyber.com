@@ -1,3 +1,25 @@
+export interface ArchivedEvent {
+  name: string;
+  type: string;
+  date: Date;
+  time: string;
+  location?: string;
+  description: string;
+  recording: string;
+  slides: string;
+  tags: string[];
+}
+
+export interface SeriesArchive {
+  seriesName: string;
+  events: ArchivedEvent[];
+}
+
+export interface QuarterArchive {
+  name: string;
+  series: SeriesArchive[];
+}
+
 const archive = [
   {
     name: "Winter 2023",
