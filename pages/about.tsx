@@ -22,7 +22,7 @@ export default function About() {
             className={styles.aboutImage}
           />
 
-          <h2>Who Are We</h2>
+          <h2>Who We Are</h2>
           <p>
             We are a group of hackers & developers passionate about
             cybersecurity. We break things for fun and work to improve our
