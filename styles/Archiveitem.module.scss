@@ -2,10 +2,10 @@
   font-size: large;
   margin: auto;
   display: grid;
-}
 
-.main:hover {
-  box-shadow: var(--card-border-expanded);
+  &:hover {
+    box-shadow: var(--card-border-expanded);
+  }
 }
 
 .listItem {
@@ -18,16 +18,18 @@
   transition: box-shadow 0.2s;
   width: 20rem;
   height: 12rem;
-  text-align:left;
-}
-.listItem:hover {
-  cursor: pointer;
-  box-shadow: 0 0 10px var(--cyber-gold);
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--cyber-gold);
+  }
 }
 
 .section {
   display: block;
-  width:100%;
+  width: 100%;
 }
 
 .graphic {

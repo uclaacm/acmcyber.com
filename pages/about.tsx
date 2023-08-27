@@ -1,7 +1,6 @@
 import Image from "next/image";
 
-import officers, { PersonInfoProps } from "@/data/officers";
-import members from "@/data/members";
+import members, { PersonInfoProps } from "@/data/members";
 
 import styles from "@/styles/About.module.scss";
 import CyberSeo from "@/components/CyberSeo";
@@ -31,21 +30,6 @@ export default function About() {
             entirely different. We aim to nurture the love of cybersecurity in
             the students at UCLA!
           </p>
-
-          <h2>Officers</h2>
-
-          <div className={styles.officersContainer}>
-            {officers.map((officer: PersonInfoProps, index: number) => (
-              <PersonInfo
-                key={index}
-                name={officer.name}
-                role={officer.role}
-                bio={officer.bio}
-                pronouns={officer.pronouns}
-                photo={officer.photo}
-              />
-            ))}
-          </div>
 
           <h2>Members</h2>
 

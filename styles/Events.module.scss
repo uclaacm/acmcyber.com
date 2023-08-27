@@ -1,4 +1,29 @@
+.eventTypeDescription {
+  margin: 1rem 0;
+
+  p {
+    margin: 1rem 0;
+  }
+
+  button {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: var(--flag-pink);
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    transition: 50ms ease-out;
+  }
+
+  button:hover {
+    text-decoration: underline;
+  }
+}
+
 .this-week {
+  margin-top: 2.5rem;
   background-color: var(--cyber-grey);
   padding: 0rem 10% 2.5rem 10%;
 }
@@ -30,6 +55,7 @@
   gap: 0;
   width: 20rem;
   position: relative;
+  transition: box-shadow 0.2s;
 }
 
 @media screen and (max-width: 600px) {

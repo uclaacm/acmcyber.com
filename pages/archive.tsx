@@ -1,6 +1,6 @@
 import { NextSeo } from "next-seo";
 
-import Hyperlink from "@/components/Hyperlink";
+import ArchiveSection from "@/components/ArchiveSection";
 
 import styles from "@/styles/Archive.module.scss";
 
@@ -19,7 +19,7 @@ export default function Archive() {
         <div className={"content"}> 
           <div className={styles.description}>
           {archive.map((ele) => (
-            <Hyperlink time={ele["name"]} series={ele["series"]} />
+            <ArchiveSection time={ele["name"]} series={ele["series"]} />
           ))}
           </div>
         </div>
