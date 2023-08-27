@@ -10,29 +10,34 @@ type EventCB = (event: Event) => void;
 /**
  * Sets the time-of-day of the given date to midnight in the date's current timezone.
  */
-function dropTimeOfDay(date: Date) {
-  date.setHours(0);
-  date.setMinutes(0);
-  date.setSeconds(0);
-  date.setMilliseconds(0);
-  return date;
+function dropTimeOfDay(date: Date): Date {
+  let clone = new Date(date);
+  clone.setHours(0);
+  clone.setMinutes(0);
+  clone.setSeconds(0);
+  clone.setMilliseconds(0);
+  return clone;
+}
+
+/**
+ * Sets the day-of-week of the given date to Sunday in the date's current timezone.
+ */
+function dropDay(date: Date): Date {
+  let clone = new Date(date);
+  clone.setDate(clone.getDate() - clone.getDay());
+  return clone;
 }
 
 /**
  * @returns true if this event has happened within the current week or will happen in the future
  */
-function isEventStillRelevant(event: Event, now: Date) {
-  let startOfWeek = dropTimeOfDay(new Date(now));
-  startOfWeek.setMilliseconds(
-    startOfWeek.getMilliseconds() - startOfWeek.getDay() * 604_800_000
-  );
+function isEventStillRelevant(event: Event, startOfWeek: Date) {
   return event.date >= startOfWeek;
 }
 
-function isEventThisWeek(event: Event, now: Date) {
-  let normalizedDate = dropTimeOfDay(new Date(event.date));
-  let normalizedNow = dropTimeOfDay(new Date(now));
-  return normalizedDate.getTime() - normalizedNow.getTime() <= 604_800_000;
+function isEventThisWeek(event: Event, startOfWeek: Date) {
+  let normalizedDate = dropTimeOfDay(event.date);
+  return normalizedDate.getTime() - startOfWeek.getTime() <= 604_800_000;
 }
 
 const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
@@ -98,9 +103,11 @@ export default function Events() {
   // the date nextjs pre-renders this page
   useEffect(() => setToday(new Date()), []);
 
-  const thisWeek = AllEvents.filter((e) => isEventThisWeek(e, today));
+  const startOfWeek = dropTimeOfDay(dropDay(today));
+  const thisWeek = AllEvents.filter((e) => isEventThisWeek(e, startOfWeek));
   const upcomingEvents = AllEvents.filter(
-    (e) => isEventStillRelevant(e, today) && !isEventThisWeek(e, today)
+    (e) =>
+      isEventStillRelevant(e, startOfWeek) && !isEventThisWeek(e, startOfWeek)
   );
 
   return (
