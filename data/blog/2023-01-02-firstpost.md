@@ -1,12 +1,13 @@
 ---
 title: Hello World
 authors: [Cyber McCybean]
-date: 2023 01 02
 category: News
 tags: [hello, world]
 description: "Hello World"
 image: https://reciprocity.com/wp-content/uploads/2021/08/blog_what-is-cybersecurity-framework_featured-img_730x270.jpg
 ---
+
+<img src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg" alt="blog image" />
 
 In today's digital age, cybersecurity is more important than ever. With so much sensitive information being stored and transmitted online, it is essential for businesses to implement strong security measures to protect themselves and their customers. Unfortunately, even the most secure systems can sometimes be breached, as was the case with a recent cybersecurity incident that affected our company.
 

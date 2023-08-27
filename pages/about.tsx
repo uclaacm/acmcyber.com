@@ -72,7 +72,11 @@ function PersonInfo({ name, role, bio, pronouns, photo }: PersonInfoProps) {
     <div className={styles.personInfo}>
       <Image
         className={styles.personImage}
-        src={"/images/members/" + photo}
+        src={
+          photo !== ""
+            ? "/images/members/" + photo
+            : "/images/cyber-logo-light.png"
+        }
         alt={`Profile picture of ${name}`}
         width={300}
         height={300}

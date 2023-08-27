@@ -1,7 +1,6 @@
 ---
 title: "WANTED: Cybrick"
-authors: [Cyber McCybean]
-date: 2023 05 03
+authors: [Cyber McCybean, Bruh McCybea, alskdjaslkjd]
 category: Events
 tags: [cybrick, hello]
 description: "We want a Cybrick!"
