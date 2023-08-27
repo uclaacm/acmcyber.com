@@ -2,28 +2,40 @@ import { useEffect, useState } from "react";
 
 import styles from "@/styles/Events.module.scss";
 import CyberSeo from "@/components/CyberSeo";
-import AllEvents, { eventTypes } from "@/data/events";
+import AllEvents, { Event } from "@/data/events";
 import { styler } from "@/utils";
 
 const s = styler(styles);
 type TEvent = (typeof AllEvents)[0];
 type EventCB = (event: Event) => void;
 
-// from chatgpt
-const isThisWeek = (today: Date, date: Date): Boolean => {
-  // Calculate day of the week (0 - Sunday, 1 - Monday, ..., 6 - Saturday)
-  const dayOfWeek1 = (today.getDay() + 6) % 7;
-  const dayOfWeek2 = (date.getDay() + 6) % 7;
+/**
+ * Sets the time-of-day of the given date to midnight in the date's current timezone.
+ */
+function dropTimeOfDay(date: Date) {
+  date.setHours(0);
+  date.setMinutes(0);
+  date.setSeconds(0);
+  date.setMilliseconds(0);
+  return date;
+}
 
-  // Calculate the difference in days between the two dates
-  const dayDifference = Math.abs(today - date) / (1000 * 60 * 60 * 24);
+/**
+ * @returns true if this event has happened within the current week or will happen in the future
+ */
+function isEventStillRelevant(event: Event, now: Date) {
+  let startOfWeek = dropTimeOfDay(new Date(now));
+  startOfWeek.setMilliseconds(
+    startOfWeek.getMilliseconds() - startOfWeek.getDay() * 604_800_000
+  );
+  return event.date >= startOfWeek;
+}
 
-  // Check if the dates are within 6 days of each other and share the same day of the week
-  return dayDifference <= 6 && dayOfWeek1 === dayOfWeek2;
-};
-
-const isFuture = (today: Date, date: Date): Boolean =>
-  !isThisWeek(today, date) && date > today;
+function isEventThisWeek(event: Event, now: Date) {
+  let normalizedDate = dropTimeOfDay(new Date(event.date));
+  let normalizedNow = dropTimeOfDay(new Date(now));
+  return normalizedDate.getTime() - normalizedNow.getTime() <= 604_800_000;
+}
 
 const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
   (
@@ -43,6 +55,7 @@ type EventPopupProps = {
   event: TEvent;
   close: () => void;
 };
+
 const EventPopup = ({ close, event }: EventPopupProps) => {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
@@ -78,8 +91,10 @@ export default function Events() {
   // the date nextjs pre-renders this page
   useEffect(() => setToday(new Date()), []);
 
-  const thisWeek = AllEvents.filter((e) => isThisWeek(today, e.date));
-  const upcomingEvents = AllEvents.filter((e) => isFuture(today, e.date));
+  const thisWeek = AllEvents.filter((e) => isEventThisWeek(e, today));
+  const upcomingEvents = AllEvents.filter(
+    (e) => isEventStillRelevant(e, today) && !isEventThisWeek(e, today)
+  );
 
   return (
     <>
