@@ -1,9 +1,22 @@
 .post {
   padding: 3rem 20% 10rem 20%;
 
+  .category {
+    background-color: var(--flag-pink);
+    padding: 0.25rem;
+    border-radius: 5px;
+    font-size: larger;
+  }
+
+  .category:hover {
+    text-decoration: underline;
+  }
+
   h1 {
-    text-align: left;
-    padding: 2rem 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: var(--cyber-gold);
   }
 
   .postContent {
@@ -11,6 +24,17 @@
   }
 
   .tags {
+    margin: 0.5rem 0;
+
+    .tag {
+      background-color: var(--flag-pink);
+      padding: 0.25rem;
+      border-radius: 5px;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .description {
     margin: 0.5rem 0;
   }
 
@@ -23,6 +47,8 @@
 
 .categorydate {
   padding-top: 1rem;
+  display: inline-block;
+  width: 100%;
 }
 
 .alignleft {
