@@ -1,4 +1,4 @@
-import styles from "@/styles/Hyperlink.module.scss";
+import styles from "@/styles/ArchiveSection.module.scss";
 
 import ArchiveItem from "./ArchiveItem";
 
@@ -12,12 +12,13 @@ interface prop {
       recording: string;
       slides: string;
       tags: string[];
+      graphicPath: string;
     }[];
   }[];
   time: string;
 }
 
-export default function Hyperlink(props: prop) {
+export default function ArchiveSection(props: prop) {
   return (
     <div className={styles.main}>
       <h2>{props.time} </h2>
