@@ -1,70 +1,83 @@
-footer {
-  .footer {
-    // position: relative;
-    // left: 0;
-    // bottom: 0;
+footer.footer {
+  display: flex;
+  min-height: 200px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10%;
+  padding-bottom: 1rem;
+  background-color: var(--cyber-gold);
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14pt;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    justify-content: center;
-
-    width: 100%;
-    background-color: #ddddd4;
-    color: #000000;
-    padding: 3rem 0;
-    font-family: Poppins;
-
-    .center {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-    }
-
-    button {
-      position: absolute;
-      top: 33%;
-      width: auto;
-      height: auto;
-      font-size: 18px;
-      background: #2c2f36;
-      border-radius: 10px;
-      color: #ddddd4;
-      text-align: center;
-      right: 5%;
-      padding: 1%;
-    }
-
-    img {
-      height: auto;
-    }
+  .socials {
+    margin: 1rem 0px;
 
     p {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .footerText {
-      font-size: 1.25rem;
-    }
-
-    .vertCenter {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .top {
-      display: flex;
-      gap: 1rem;
-    }
-
-    .bottom {
+      text-transform: uppercase;
       text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .socialsList {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: row;
+      gap: 10px;
+
+      a {
+        width: 40px;
+        height: 40px;
+
+        &:first-of-type {
+          // the discord logo is not square
+          margin-right: 10px;
+        }
+
+        div {
+          transform: scale(40%);
+          transform-origin: 0% 0%;
+          background: var(--soul-dark);
+          object-fit: contain;
+
+          &:hover {
+            filter: brightness(1820%);
+          }
+        }
+      }
+    }
+  }
+
+  .legal {
+    margin: 1rem 0px;
+    text-align: center;
+  }
+
+  .joinUsOrElse {
+    display: block;
+    margin: 1rem 0px;
+    padding: 0.2rem;
+    border: 0.5rem solid var(--flag-pink);
+    border-radius: 0.5rem;
+    color: white;
+    background-color: var(--flag-pink);
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 0%;
+      height: 2px;
+      background-color: white;
+      transition: width 100ms linear;
+    }
+
+    &:hover::after {
+      width: 100%;
     }
   }
 }
