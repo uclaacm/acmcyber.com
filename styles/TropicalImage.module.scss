@@ -1,0 +1,9 @@
+.tropicalImg {
+  display: inline-block;
+  vertical-align: middle;
+  transition: filter ease-in-out 0.2s;
+}
+
+.tropicalImg:hover {
+  filter: brightness(400%);
+}

@@ -38,15 +38,12 @@ export default function Navbar() {
         <Link className={styles.hoverable} href="/events">
           <li>Events</li>
         </Link>
-        <Link className={styles.hoverable} href="/pbr">
-          <li>PBR</li>
-        </Link>
-        <Link className={styles.hoverable} href="/labs">
-          <li>Labs</li>
-        </Link>
         <Link className={styles.hoverable} href="/blog">
           <li>Blog</li>
         </Link>
+        {/* <Link className={styles.hoverable} href="/archive">
+          <li>Archive</li>
+        </Link> */}
       </ul>
     </nav>
   );

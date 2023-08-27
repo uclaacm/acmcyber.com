@@ -1,4 +1,3 @@
-import Head from "next/head";
 import * as fs from "node:fs/promises";
 import path from "node:path";
 // @ts-ignore
@@ -10,6 +9,7 @@ import { GetStaticPropsContext } from "next";
 import { getPostIds, PostData, POSTS_DIRECTORY } from "@/utils/BlogPostData";
 import { useEffect } from "react";
 import CyberSeo from "@/components/CyberSeo";
+import Link from "next/link";
 
 export async function getStaticPaths() {
   return {
@@ -22,6 +22,14 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   async function getPostData(id: string) {
     const fullPath = path.join(process.cwd(), POSTS_DIRECTORY, `${id}.md`);
     const fileContents = await fs.readFile(fullPath, "utf8");
+    let dateStr = fullPath
+      .split("/")
+      [fullPath.split("/").length - 1].split("-")
+      .slice(0, 3);
+    let dateArr = new Date(`${dateStr[1]}/${dateStr[2]}/${dateStr[0]}`)
+      .toDateString()
+      .split(" ");
+    let date = `${dateArr[1]} ${dateArr[2]}, ${dateArr[3]}`;
 
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
@@ -31,7 +39,8 @@ export async function getStaticProps(context: GetStaticPropsContext) {
     // Combine the data with the id and contentHtml
     return {
       name: id,
-      contentHtml,
+      date: date,
+      contentHtml: contentHtml,
       ...matterResult.data,
     };
   }
@@ -66,33 +75,39 @@ export default function Post({ postData }: { postData: PostData }) {
         }
       />
 
-      <Head>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/monokai-sublime.min.css"
-        />
-      </Head>
       <div className={`page ${styles.post}`}>
-        <div className={styles.categorydate}>
-          <p className={styles.alignleft}>{postData.category}</p>
-          <p className={styles.alignright}>{postData.date}</p>
-        </div>
+        <Link href="/blog">
+          <span className={styles.category}>{postData.category}</span>
+        </Link>
         <h1>{postData.title}</h1>
-        <img
-          src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg"
-          alt="blog image"
-        />
-        <div>
-          <p>
-            <i>Written by {postData.authors.join(", ")}</i>
+        <div className={styles.categorydate}>
+          <p className={styles.alignleft}>
+            <i>By {postData.authors.join(", ")}</i>
           </p>
-          <p className={styles.tags}>Tags: {postData.tags.join(", ")}</p>
-          <p>
+          <p className={styles.alignright}>{postData.date.toString()}</p>
+        </div>
+        <div>
+          <p className={styles.tags}>
+            Tags:{" "}
+            {postData.tags.map((tag) => (
+              <span className={styles.tag}>{tag}</span>
+            ))}
+          </p>
+          <p className={styles.description}>
             <i>{postData.description}</i>
           </p>
           <hr />
+
           <div className={styles.postContent}>
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            {postData.contentHtml !== undefined ? (
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: String(postData.contentHtml),
+                }}
+              />
+            ) : (
+              "No post content found."
+            )}
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@
       position: absolute;
       display: block;
       width: 100vw;
-      font-size: calc(0.1 * min(var(--diamond-length), 90vw));
+      font-size: min(calc(0.1 * min(var(--diamond-length), 90vw)), 40pt);
       transform: translate(
         -0.2em,
         max(calc(var(--diamond-center-y) - 4rem), 8rem)
@@ -66,6 +66,248 @@
         font-size: min(calc(0.12 * min(var(--diamond-length), 90vw)), 15pt);
         color: white;
       }
+    }
+  }
+}
+
+.motto {
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+  b {
+    font-weight: inherit;
+    font-style: normal;
+  }
+
+  em {
+    font-weight: inherit;
+    font-style: oblique;
+  }
+}
+
+p.motto {
+  font-weight: bold;
+  font-size: 15pt;
+  margin-bottom: 1rem;
+}
+
+h1.motto {
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24pt;
+  margin-bottom: 5rem;
+}
+
+.comeToTheDarkSide {
+  width: 100vw;
+  padding: 6rem 10%;
+
+  .cyberThings {
+    max-width: 800px;
+    margin: 0 auto;
+
+    > a {
+      pointer-events: none;
+
+      .cyberThing {
+        --cyber-thing-width: 0.09;
+        --inner-padding: 0.2;
+        position: relative;
+        width: calc(100% * (1 - var(--cyber-thing-width)));
+        min-height: 11rem;
+        height: fit-content;
+        margin: 50px 0rem;
+        border: 4px solid var(--cyber-gold);
+        border-radius: 40px;
+        background: linear-gradient(
+          #ffba4405 0%,
+          #ffba4400 50%,
+          #ffba4405 100%
+        );
+        pointer-events: all;
+
+        &:hover {
+          background: linear-gradient(
+            #ffba4414 0%,
+            #ffba4400 50%,
+            #ffba4414 100%
+          );
+        }
+
+        .cyberThingIcon {
+          --border-width: 4px;
+          --extra-size: 2.75;
+          --size: calc(11rem / 1.41 + var(--border-width) * var(--extra-size));
+          --rot-offset: calc(var(--size) * 0.41);
+          position: absolute;
+          background: var(--cyber-gold);
+          width: var(--size);
+          height: var(--size);
+          --parent-parent-width: min(80vw, 800px);
+          --parent-width: var(--parent-parent-width) *
+            (1 - var(--cyber-thing-width));
+          transform-style: preserve-3d;
+          // prettier-ignore
+          transform: translate(
+            calc(
+              var(--left) * calc(var(--parent-parent-width) * -1 * var(--inner-padding)) +
+              var(--right) * calc(var(--parent-width) - var(--border-width) * 2.5 - var(--size)) +
+              var(--dir) * (0.5 * var(--size) - 28px)
+            ),
+            calc(
+              -1 * (var(--border-width) +
+              (-1 * var(--rot-offset) + var(--border-width) * var(--extra-size) * 1.41) / 2)
+            )
+          ) rotate(45deg);
+          border: var(--border-width) solid var(--cyber-gold);
+          border-radius: 20px;
+
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          flex-direction: column;
+
+          &::before {
+            content: "";
+            --offset: 12px;
+            position: absolute;
+            width: calc(11rem / 1.41);
+            height: calc(11rem / 1.41);
+            // prettier-ignore
+            transform: translate(
+                calc(var(--dir) * var(--offset) - var(--left) * var(--border-width)),
+                calc(-1 * (var(--dir) * var(--offset) + var(--right) * var(--border-width)))
+              )
+              translateZ(-10px);
+            background: #86652d;
+            border: var(--border-width) solid #86652d;
+            border-radius: 20px;
+          }
+
+          p,
+          img {
+            transform: translateZ(1px) rotate(-45deg);
+            user-select: none;
+            pointer-events: none;
+          }
+
+          p {
+            padding-bottom: 8%;
+            text-align: center;
+            font-weight: 800;
+            font-size: calc(0.35 * var(--size));
+            transition: font-size 100ms linear, padding-bottom 100ms linear;
+          }
+
+          img {
+            margin: auto;
+            object-fit: contain;
+            width: calc(0.75 * var(--size));
+            height: calc(0.75 * var(--size));
+            transition: width 100ms linear, height 100ms linear;
+          }
+        }
+
+        &:hover .cyberThingIcon {
+          p {
+            font-size: calc(0.4 * var(--size));
+            padding-bottom: 12%;
+          }
+          img {
+            width: calc(0.83 * var(--size));
+            height: calc(0.83 * var(--size));
+          }
+        }
+
+        h2 {
+          font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana,
+            sans-serif;
+        }
+      }
+
+      &:nth-child(2n + 1) {
+        .cyberThing {
+          --dir: -1;
+          --left: 1;
+          --right: 0;
+          margin-left: calc(100% * var(--cyber-thing-width));
+          padding-left: calc(100% * var(--inner-padding));
+          text-align: left;
+
+          & > p::after {
+            content: "→";
+            margin-left: 0.5em;
+            font-weight: 800;
+            color: var(--cyber-gold);
+            transition: margin-left 100ms linear;
+          }
+        }
+
+        &:hover .cyberThing p::after {
+          margin-left: 1em;
+        }
+      }
+
+      &:nth-child(2n) {
+        .cyberThing {
+          --dir: 1;
+          --left: 0;
+          --right: 1;
+          margin-right: calc(100% * var(--cyber-thing-width));
+          padding-right: calc(100% * var(--inner-padding));
+          text-align: right;
+
+          & > p::before {
+            content: "←";
+            margin-right: 0.5em;
+            font-weight: 800;
+            color: var(--cyber-gold);
+            transition: margin-right 100ms linear;
+          }
+        }
+
+        &:hover .cyberThing p::before {
+          margin-right: 1em;
+        }
+      }
+
+      @media (max-width: 750px) {
+        .cyberThing .cyberThingIcon {
+          display: none;
+        }
+
+        &:nth-child(n) {
+          .cyberThing {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.weHaveCookies {
+  padding-bottom: 16rem;
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+
+    div {
+      width: 60px;
+      height: 60px;
+      transform: scale(80%);
+      object-fit: contain;
+      background: var(--cyber-gold);
     }
   }
 }

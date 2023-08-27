@@ -1,106 +1,200 @@
-.page {
-  display: grid;
-  align-items: stretch;
-  flex-wrap: wrap;
+.eventTypeDescription {
+  margin: 1rem 0;
 
-  h1 {
-    color: #ffba44;
-    padding: 2rem;
-    font-family: "Nova Mono", monospace;
-    font-size: 3rem;
-    text-align: center;
+  p {
+    margin: 1rem 0;
   }
-}
 
-.flex {
-  display: inline-grid;
-  align-items: center;
-  justify-content: center;
-  margin-top: 3rem;
-}
-
-.buttonGrid {
-  $adapt: calc(20vw + 1rem);
-  display: grid;
-  grid-template-columns: min-content;
-  gap: 1rem;
-  transform-origin: calc($adapt / 2) calc($adapt / 2);
-  rotate: 45deg;
-
-  .child {
-    background-image: linear-gradient(to bottom right, #ffc259, #fff7ab);
-    font-family: "Nova Mono", monospace;
-
+  button {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: var(--flag-pink);
+    color: white;
     border: none;
-    border-radius: 1.5rem;
-
-    width: 20vw;
-    height: 20vw;
-    font-size: 4.75vw;
-    color: black;
-    position: relative;
+    font-size: larger;
+    font-weight: bold;
+    transition: 50ms ease-out;
   }
 
-  @for $i from 0 through 8 {
-    .child:nth-child(#{5*$i + 2}) {
-      left: calc(($i) * $adapt);
-      bottom: calc((4 * $i) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 3}) {
-      left: calc(($i + 1) * $adapt);
-      bottom: calc((4 * $i + 2) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 4}) {
-      left: calc(($i) * $adapt);
-      bottom: calc((4 * $i + 1) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 5}) {
-      left: calc(($i + 1) * $adapt);
-      bottom: calc((4 * $i + 3) * $adapt);
-    }
-    .child:nth-child(#{5*$i + 6}) {
-      left: calc(($i + 2) * $adapt);
-      bottom: calc((4 * $i + 5) * $adapt);
-    }
-  }
-
-  .child span {
-    display: inline-block;
-    transform: rotate(-45deg);
+  button:hover {
+    text-decoration: underline;
   }
 }
 
-@media only screen and (min-width: 1000px) {
-  .buttonGrid {
-    $adapt: calc(200px + 1rem);
-    transform-origin: calc($adapt / 2) calc($adapt / 2);
-    .child {
-      height: 200px;
-      width: 200px;
-      padding-bottom: 0;
-      font-size: 50px;
-    }
-    @for $i from 0 through 8 {
-      .child:nth-child(#{5*$i + 2}) {
-        left: calc(($i) * $adapt);
-        bottom: calc((4 * $i) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 3}) {
-        left: calc(($i + 1) * $adapt);
-        bottom: calc((4 * $i + 2) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 4}) {
-        left: calc(($i) * $adapt);
-        bottom: calc((4 * $i + 1) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 5}) {
-        left: calc(($i + 1) * $adapt);
-        bottom: calc((4 * $i + 3) * $adapt);
-      }
-      .child:nth-child(#{5*$i + 6}) {
-        left: calc(($i + 2) * $adapt);
-        bottom: calc((4 * $i + 5) * $adapt);
-      }
-    }
+.this-week {
+  margin-top: 2.5rem;
+  background-color: var(--cyber-grey);
+  padding: 0rem 10% 2.5rem 10%;
+}
+
+.upcoming {
+  padding: 0rem 10% 2.5rem 10%;
+}
+
+.events {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@mixin gold-border {
+  --border-radius: 2rem;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius);
+  border-color: var(--cyber-gold);
+}
+
+.event-card {
+  @include gold-border;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 20rem;
+  position: relative;
+  transition: box-shadow 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+  .events {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .event-card {
+    width: 100%;
+  }
+}
+
+.event-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--cyber-gold);
+}
+
+.event-card img {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  width: 100%;
+  flex: 1;
+}
+
+.event-card .details {
+  background-color: var(--soul-dark);
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: calc(0.5 * var(--border-radius));
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.upcoming .event-card .details {
+  background-color: var(--cyber-grey);
+}
+
+.event-card .type {
+  position: absolute;
+  margin: 1rem 1.5rem;
+  background-color: #f44d89;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+// popup styling, TODO extract to generic component
+// popup-container does the scrim where it covers rest of page, makes it darker
+.popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9000; // remove a 0 to make it not cover navbar
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: color-mix(in srgb, var(--soul-dark), transparent 10%);
+
+  // fade-in transition
+  filter: opacity(0);
+  transition: 50ms ease-out;
+}
+.popup-container.mounted {
+  filter: opacity(100%);
+}
+.popup-container.mounted .popup {
+  transform: scale(1);
+}
+
+.popup {
+  @include gold-border;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  background-color: var(--soul-dark);
+  color: white;
+  min-width: 30vw;
+
+  // start out popup smol, will become beeg when .mounted on popup-container
+  transform-origin: center;
+  transform: scale(0);
+  transition: 50ms ease-out;
+}
+
+.popup .content {
+  padding: 1rem;
+}
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+}
+
+// popup's first child is the x button
+.popup *:nth-child(2) {
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+}
+
+.x-button {
+  --color: white;
+  width: 1.5rem; // pls do not change lol
+  height: 1.5rem; // pls do not change lolz
+  border-radius: 10%;
+  transition: 50ms ease-out;
+}
+.x-button:hover {
+  cursor: pointer;
+  animation: spin 1.5s linear infinite;
+}
+.x-button::after,
+.x-button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  height: 4px; // thickness
+  width: 1.5rem; // length of each x-button
+  background-color: var(--color);
+  border-radius: 2px;
+  transform: translate(0px, 10px) rotate(405deg); // 10px was handpicked :(
+  transition: 50ms ease-out;
+}
+.x-button::after {
+  transform: translate(0px, 10px) rotate(-405deg); // i manually tried every size
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
 }
