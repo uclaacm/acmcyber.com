@@ -51,13 +51,13 @@ export default function HomePage() {
               icon={Flag}
               title="LA CTF"
               description="Our annual CTF competition & security conference!"
-              link="/events"
+              link="https://lac.tf"
             />
             <CyberThing
               icon={Boba}
               title="And More!"
               description="Career panels, talks, socials, and much more!"
-              link="https://lactf.uclaacm.com/"
+              link="/events"
             />
           </div>
         </div>
