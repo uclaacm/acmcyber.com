@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import styles from "@/styles/Events.module.scss";
 import CyberSeo from "@/components/CyberSeo";
-import AllEvents from "@/data/events";
+import AllEvents, { eventTypes } from "@/data/events";
 import { styler } from "@/utils";
 
 const s = styler(styles);
@@ -10,7 +10,7 @@ type TEvent = (typeof AllEvents)[0];
 type EventCB = (event: Event) => void;
 
 // from chatgpt
-const isThisWeek = (today: Date, date: Date): bool => {
+const isThisWeek = (today: Date, date: Date): Boolean => {
   // Calculate day of the week (0 - Sunday, 1 - Monday, ..., 6 - Saturday)
   const dayOfWeek1 = (today.getDay() + 6) % 7;
   const dayOfWeek2 = (date.getDay() + 6) % 7;
@@ -22,7 +22,7 @@ const isThisWeek = (today: Date, date: Date): bool => {
   return dayDifference <= 6 && dayOfWeek1 === dayOfWeek2;
 };
 
-const isFuture = (today: Date, date: Date): bool =>
+const isFuture = (today: Date, date: Date): Boolean =>
   !isThisWeek(today, date) && date > today;
 
 const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
@@ -93,6 +93,24 @@ export default function Events() {
         )}
         <div className={s`home`}>
           <h1>Events</h1>
+          <div className="content">
+            {eventTypes.map((type, i) => (
+              <div key={i} className={styles.eventTypeDescription}>
+                <h2>{type.name}</h2>
+                <p>{type.description}</p>
+                {type.link === undefined ? null : (
+                  <button
+                    onClick={() => {
+                      window.location.href = type.link;
+                    }}
+                  >
+                    Link
+                  </button>
+                )}
+              </div>
+            ))}
+          </div>
+
           {/* This Week section */}
           <div className={s`this-week`}>
             <h2>This Week</h2>
