@@ -27,17 +27,23 @@ export default function ArchiveItem(props: prop) {
         {props.events.map((ele) => (
           <button className={styles.listItem}>
             <div className={styles.section}>
-              <img className={styles.graphic} src={ele.graphicPath} alt="Placeholder Image"/>
-              
+              <img
+                className={styles.graphic}
+                src={ele.graphicPath}
+                alt="Placeholder Image"
+              />
+
               <div className={styles.title}>{ele.name}</div>
 
               <div className={styles.date}>{ele.date.toDateString()}</div>
 
               <div className={styles.links}>
-                <a href={ele.recording} className={styles.link}
-                  ><img className={styles.icon} src="/images/utube.svg"></img></a>
-                <a href={ele.slides} className={styles.link}
-                  ><img className={styles.icon} src="/images/slides.svg"></img></a>
+                <a href={ele.recording} className={styles.link}>
+                  <img className={styles.icon} src="/images/utube.svg"></img>
+                </a>
+                <a href={ele.slides} className={styles.link}>
+                  <img className={styles.icon} src="/images/slides.svg"></img>
+                </a>
               </div>
             </div>
           </button>

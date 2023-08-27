@@ -16,14 +16,13 @@ export default function Archive() {
       />
       <div className="page">
         <h1>Archive</h1>
-        <div className={"content"}> 
+        <div className={"content"}>
           <div className={styles.description}>
-          {archive.map((ele) => (
-            <ArchiveSection time={ele["name"]} series={ele["series"]} />
-          ))}
+            {archive.map((ele) => (
+              <ArchiveSection time={ele["name"]} series={ele["series"]} />
+            ))}
           </div>
         </div>
-        
       </div>
     </>
   );
