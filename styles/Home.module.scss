@@ -70,25 +70,35 @@
   }
 }
 
+.motto {
+  font-family: "Open Sans";
+  text-align: center;
+
+  b {
+    font-weight: inherit;
+    font-style: normal;
+  }
+
+  em {
+    font-weight: inherit;
+    font-style: oblique;
+  }
+}
+
+p.motto {
+  font-weight: bold;
+  font-size: 15pt;
+  margin-bottom: 1rem;
+}
+
+h1.motto {
+  font-size: 24pt;
+  margin-bottom: 5rem;
+}
+
 .comeToTheDarkSide {
   width: 100vw;
   padding: 6rem 10%;
-
-  .motto {
-    font-family: "Open Sans";
-    text-align: center;
-  }
-
-  p.motto {
-    font-weight: bold;
-    font-size: 15pt;
-    margin-bottom: 1rem;
-  }
-
-  h1.motto {
-    font-size: 24pt;
-    margin-bottom: 5rem;
-  }
 
   .cyberThings {
     max-width: 800px;
@@ -270,6 +280,28 @@
           }
         }
       }
+    }
+  }
+}
+
+.weHaveCookies {
+  padding-bottom: 16rem;
+
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+
+    div {
+      width: 60px;
+      height: 60px;
+      transform: scale(80%);
+      object-fit: contain;
+      background: var(--cyber-gold);
     }
   }
 }

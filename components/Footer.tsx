@@ -4,8 +4,8 @@ import Image from "next/image";
 
 import DiscordLogo from "@/public/images/discord.svg";
 import InstagramLogo from "@/public/images/instagram.svg";
-import FacebookLogo from "@/public/images/fblogo.svg";
-import MailLogo from "@/public/images/maillogo.svg";
+import FacebookLogo from "@/public/images/facebook.svg";
+import MailLogo from "@/public/images/newsletter.svg";
 
 export default function Footer() {
   return (

@@ -3,8 +3,12 @@ import Image from "next/image";
 import styles from "styles/Home.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import CyberWordmark from "@/components/CyberWordmark";
+import DiscordLogo from "@/public/images/discord.svg";
 import Flag from "@/public/images/flag.svg";
+import InstagramLogo from "@/public/images/instagram.svg";
+import LinkedinLogo from "@/public/images/linkedin.svg";
 import TestTube from "@/public/images/test-tube.svg";
+import TropicalImage from "@/components/TropicalImage";
 
 export default function HomePage() {
   return (
@@ -50,6 +54,22 @@ export default function HomePage() {
               description="is our annual CTF competition!"
               link="https://lactf.uclaacm.com/"
             />
+          </div>
+        </div>
+        <div className={styles.weHaveCookies}>
+          <h1 className={styles.motto}>
+            Ready to start <em>your</em> cyber journey?
+          </h1>
+          <div className={styles.socials}>
+            <a href="https://discord.com/invite/j9dgf2q">
+              <TropicalImage img={DiscordLogo} alt="Discord logo" />
+            </a>
+            <a href="https://www.instagram.com/uclacyber">
+              <TropicalImage img={InstagramLogo} alt="Instagram logo" />
+            </a>
+            <a href="https://www.linkedin.com/company/uclacyber">
+              <TropicalImage img={LinkedinLogo} alt="Linkedin Logo" />
+            </a>
           </div>
         </div>
       </div>
