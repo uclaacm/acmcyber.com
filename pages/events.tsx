@@ -93,7 +93,7 @@ export default function Events() {
         )}
         <div className={s`home`}>
           <h1>Events</h1>
-          <div className="content">
+          {/* <div className="content">
             {eventTypes.map((type, i) => (
               <div key={i} className={styles.eventTypeDescription}>
                 <h2>{type.name}</h2>
@@ -109,7 +109,7 @@ export default function Events() {
                 )}
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* This Week section */}
           <div className={s`this-week`}>

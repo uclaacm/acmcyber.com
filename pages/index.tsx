@@ -1,10 +1,9 @@
-import Image from "next/image";
-
 import styles from "styles/Home.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import CyberWordmark from "@/components/CyberWordmark";
 import DiscordLogo from "@/public/images/discord.svg";
 import Flag from "@/public/images/flag.svg";
+import Boba from "@/public/images/boba.svg";
 import InstagramLogo from "@/public/images/instagram.svg";
 import LinkedinLogo from "@/public/images/linkedin.svg";
 import TestTube from "@/public/images/test-tube.svg";
@@ -39,19 +38,25 @@ export default function HomePage() {
             <CyberThing
               textIcon="ψβρ"
               title="Psi Beta Rho (PBR)"
-              description="is our competitive Capture the Flag (CTF) team!"
+              description="UCLA's competitive Capture the Flag (CTF) team!"
               link="https://pbr.uclaacm.com/"
             />
             <CyberThing
               icon={TestTube}
               title="Cyber Labs"
-              description="is where we research cyber and build cool things!"
+              description="Hands-on security projects!"
               link="/events"
             />
             <CyberThing
               icon={Flag}
               title="LA CTF"
-              description="is our annual CTF competition!"
+              description="Our annual CTF competition & security conference!"
+              link="/events"
+            />
+            <CyberThing
+              icon={Boba}
+              title="And More!"
+              description="Career panels, talks, socials, and much more!"
               link="https://lactf.uclaacm.com/"
             />
           </div>
