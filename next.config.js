@@ -25,6 +25,7 @@ const nextConfig = {
       "/events": { page: "/events" },
       "/archive": { page: "/archive" },
       "/blog": { page: "/blog" },
+      "/404": { page: "/404" },
       ...(debug
         ? {
             _next: { page: "_next" },
