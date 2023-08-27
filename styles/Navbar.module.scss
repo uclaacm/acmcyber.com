@@ -6,9 +6,10 @@
   flex-wrap: wrap;
   top: 0;
   width: 100vw;
+  max-height: 100vh;
   padding: 0 15px 0 16px;
   z-index: 1000;
-  overflow-x: hidden;
+  overflow: hidden scroll;
 
   color: white;
   background-color: var(--soul-dark);
@@ -109,7 +110,7 @@
       & ~ ul > a {
         display: contents;
         height: 0;
-        margin: -50px;
+        margin: -10px;
         padding: 0;
         border: 0;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1),
@@ -123,15 +124,14 @@
       &:checked {
         & ~ ul {
           width: 100vw;
-          overflow: hidden scroll;
 
           & > a {
             display: block;
-            height: 100px;
+            height: 60px;
             margin: 0;
             line-height: unset;
             text-align: center;
-            padding: 25px 24px 23px 24px;
+            padding: 4px 0 5px 0;
 
             li {
               display: unset;
