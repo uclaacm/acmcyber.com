@@ -63,7 +63,9 @@ const EventPopup = ({ close, event }: EventPopupProps) => {
   useEffect(() => setMounted(true), []);
   return (
     <div
-      className={styles[`popup-container ${mounted && "mounted"}`]}
+      className={`${styles["popup-container"]} ${
+        mounted ? styles["mounted"] : null
+      }`}
       onClick={close}
     >
       <div className={styles["popup"]}>
