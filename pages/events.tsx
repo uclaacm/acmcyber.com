@@ -114,13 +114,19 @@ export default function Events() {
           {/* This Week section */}
           <div className={s`this-week`}>
             <h2>This Week</h2>
-            <div className={s`events`}>{thisWeek.map(Event(setPopup))}</div>
+            <div className={s`events`}>
+              {thisWeek.length === 0
+                ? "No events this week. Come back later!"
+                : thisWeek.map(Event(setPopup))}
+            </div>
           </div>
           {/* Upcoming section */}
           <div className={s`upcoming`}>
             <h2>Upcoming</h2>
             <div className={s`events`}>
-              {upcomingEvents.map(Event(setPopup))}
+              {upcomingEvents.length === 0
+                ? "No upcoming events currently scheduled. Come back later!"
+                : upcomingEvents.map(Event(setPopup))}
             </div>
           </div>
         </div>

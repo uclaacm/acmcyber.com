@@ -41,9 +41,9 @@ export default function Navbar() {
         <Link className={styles.hoverable} href="/blog">
           <li>Blog</li>
         </Link>
-        <Link className={styles.hoverable} href="/archive">
+        {/* <Link className={styles.hoverable} href="/archive">
           <li>Archive</li>
-        </Link>
+        </Link> */}
       </ul>
     </nav>
   );

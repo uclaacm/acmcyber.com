@@ -47,78 +47,14 @@ export interface Event {
 }
 
 const matsci = 'Math Sciences 5200';
-const defaultDescription = 'Come join us to learn about exploiting binaries and pwn!';
+const defaultDescription = 'Example description.';
 
 const eventsData: Event[] = [
   {
-    name: 'Cyber Talk: Binary Exploitation',
+    name: 'Example Cyber Event',
     description: defaultDescription,
     type: EventKind.CyLab,
     date: new Date(),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation OWO UWU',
-    description: defaultDescription,
-    type: EventKind.PBR,
-    date: new Date(),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation',
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date('5/9/23'),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation',
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date('5/9/24'),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation',
-    description: defaultDescription,
-    type: EventKind.PBR,
-    date: new Date('5/9/24'),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation',
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date('5/9/24'),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation',
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date('5/9/24'),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation',
-    description: defaultDescription,
-    type: EventKind.PBR,
-    date: new Date('5/9/24'),
-    time: '6:00 - 8:00 PM (PST)',
-    location: matsci,
-  },
-  {
-    name: 'Cyber Talk: Binary Exploitation',
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date('5/9/24'),
     time: '6:00 - 8:00 PM (PST)',
     location: matsci,
   },

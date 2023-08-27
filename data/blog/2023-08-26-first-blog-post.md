@@ -1,10 +1,9 @@
 ---
-title: Hello World
+title: First Blog Post
 authors: [Cyber McCybean]
-category: News
-tags: [hello, world]
-description: "Hello World"
-image: https://reciprocity.com/wp-content/uploads/2021/08/blog_what-is-cybersecurity-framework_featured-img_730x270.jpg
+category: Projects
+tags: [example]
+description: Our first blog post on the new website!
 ---
 
 <img src="https://www.theforage.com/blog/wp-content/uploads/2022/12/what-is-cybersecurity.jpg" alt="blog image" />
