@@ -6,6 +6,8 @@ import AllEvents from "@/data/events";
 import { styler } from "@/utils";
 
 const s = styler(styles);
+type TEvent = (typeof AllEvents)[0];
+type EventCB = (event: Event) => void;
 
 // from chatgpt
 const isThisWeek = (today: Date, date: Date): bool => {
@@ -23,24 +25,53 @@ const isThisWeek = (today: Date, date: Date): bool => {
 const isFuture = (today: Date, date: Date): bool =>
   !isThisWeek(today, date) && date > today;
 
-const Event = (event: (typeof AllEvents)[0], i: number) => (
-  <a className={s`event-card`} key={i}>
-    <span className={s`type`}>{event.type}</span>
-    <img src="/images/archive.svg" alt="Placeholder Image" />
-    <div className={s`details`}>
-      <h3>{event.name}</h3>
-      <div className={s`date`}>{event.date.toDateString()}</div>
-      <div className={s`time`}>{event.time}</div>
-      <div className={s`location`}>{event.location}</div>
+const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
+  (
+    <div className={s`event-card`} key={i} onClick={() => showPopup(event)}>
+      <span className={s`type`}>{event.type}</span>
+      <img src="/images/archive.svg" alt="Placeholder Image" />
+      <div className={s`details`}>
+        <h3>{event.name}</h3>
+        <div className={s`date`}>{event.date.toDateString()}</div>
+        <div className={s`time`}>{event.time}</div>
+        <div className={s`location`}>{event.location}</div>
+      </div>
     </div>
-  </a>
-);
+  );
+
+type EventPopupProps = {
+  event: TEvent;
+  close: () => void;
+};
+const EventPopup = ({ close, event }: EventPopupProps) => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  return (
+    <div className={s`popup-container ${mounted && "mounted"}`} onClick={close}>
+      <div className={s`popup`}>
+        <div className={s`top-bar`}>
+          <div className={s`x-button`} onClick={close} />
+        </div>
+        <img src="/images/archive.svg" alt="Placeholder Image" />
+        <div className={s`content`}>
+          <h3>{event.name}</h3>
+          <div className={s`date`}>{event.date.toDateString()}</div>
+          <div className={s`time`}>{event.time}</div>
+          <div className={s`location`}>{event.location}</div>
+          <div className={s`description`}>{event.description}</div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default function Events() {
   // when page loads, read from data/events.yml
   // parse all of the events into a list of objects [{event object}, ...]
   // display all of the events in the list (hint: use the map() function)
 
+  const [popup, setPopup] = useState(AllEvents[0]);
+  // const [ popup, setPopup ] = useState(null as TEvent | null);
   const [today, setToday] = useState(new Date());
 
   // reload `today` because page may be accessed at a date later than
@@ -57,17 +88,22 @@ export default function Events() {
         description="Some of the upcoming events for ACM Cyber at UCLA!"
       />
       <div className="page">
+        {popup !== null && (
+          <EventPopup event={popup} close={() => setPopup(null)} />
+        )}
         <div className={s`home`}>
           <h1>Events</h1>
           {/* This Week section */}
           <div className={s`this-week`}>
             <h2>This Week</h2>
-            <div className={s`events`}>{thisWeek.map(Event)}</div>
+            <div className={s`events`}>{thisWeek.map(Event(setPopup))}</div>
           </div>
           {/* Upcoming section */}
           <div className={s`upcoming`}>
             <h2>Upcoming</h2>
-            <div className={s`events`}>{upcomingEvents.map(Event)}</div>
+            <div className={s`events`}>
+              {upcomingEvents.map(Event(setPopup))}
+            </div>
           </div>
         </div>
       </div>
