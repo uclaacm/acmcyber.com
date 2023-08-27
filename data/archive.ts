@@ -8,6 +8,7 @@ export interface ArchivedEvent {
   recording: string;
   slides: string;
   tags: string[];
+  graphicPath: string;
 }
 
 export interface SeriesArchive {
@@ -35,6 +36,7 @@ const archive = [
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "sql", "hacking"],
+            graphicPath: "/images/archive.svg",
           },
           {
             name: "XSS",
@@ -43,6 +45,7 @@ const archive = [
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "xss", "hacking"],
+            graphicPath: "/images/archive.svg",
           },
           {
             name: "XSS",
@@ -51,6 +54,7 @@ const archive = [
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "xss", "hacking"],
+            graphicPath: "/images/archive.svg",
           },
           {
             name: "XSS",
@@ -59,6 +63,7 @@ const archive = [
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "xss", "hacking"],
+            graphicPath: "/images/archive.svg",
           },
           {
             name: "XSS",
@@ -67,6 +72,7 @@ const archive = [
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "xss", "hacking"],
+            graphicPath: "/images/archive.svg",
           },
         ],
       },
@@ -85,6 +91,7 @@ const archive = [
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "binwalk", "hacking"],
+            graphicPath: "/images/archive.svg",
           },
           {
             name: "IDK",
@@ -93,6 +100,7 @@ const archive = [
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["test1"],
+            graphicPath: "/images/archive.svg",
           },
         ],
       },
