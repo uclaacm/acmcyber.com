@@ -17,7 +17,7 @@
   border-radius: 2rem;
   transition: box-shadow 0.2s;
   width: 20rem;
-  height: 10rem;
+  height: 12rem;
   text-align:left;
 }
 .listItem:hover {
@@ -30,24 +30,6 @@
   width:100%;
 }
 
-.title {
-  vertical-align: top;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--cyber-gold);
-  margin: 0.5rem 0.7rem 0rem 1rem;
-}
-.link {
-  vertical-align: top;
-  font-size: 1rem;
-  color: white;
-  text-decoration: underline;
-  margin: 0rem 0rem 0rem 1rem;
-}
-.link:hover {
-  color: var(--flag-pink);
-}
-
 .graphic {
   vertical-align: top;
   border-top-left-radius: 2rem;
@@ -56,3 +38,28 @@
   height: 5rem;
   object-fit: cover;
 }
+.title {
+  vertical-align: top;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--cyber-gold);
+  margin: 0.7rem 1rem 0.5rem 1rem;
+}
+.date {
+  vertical-align: top;
+  font-size: 1rem;
+  color: var(--organic-oranges);
+  margin: 0rem 1rem 0.7rem 1rem;
+}
+
+.link {
+  margin: 0rem 0rem 0rem 1.5rem;
+}
+.icon {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.icon:hover {
+  opacity: 0.5;
+}
+

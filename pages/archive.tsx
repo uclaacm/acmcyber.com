@@ -16,11 +16,14 @@ export default function Archive() {
       />
       <div className="page">
         <h1>Archive</h1>
-        <div className={styles.description}>
+        <div className={"content"}> 
+          <div className={styles.description}>
           {archive.map((ele) => (
             <Hyperlink time={ele["name"]} series={ele["series"]} />
           ))}
+          </div>
         </div>
+        
       </div>
     </>
   );

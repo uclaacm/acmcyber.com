@@ -7,7 +7,7 @@ interface prop {
     seriesName: string;
     events: {
       name: string;
-      date: string;
+      date: Date;
       description: string;
       recording: string;
       slides: string;

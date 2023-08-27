@@ -10,7 +10,7 @@ interface prop {
   name: string;
   events: {
     name: string;
-    date: string;
+    date: Date;
     description: string;
     recording: string;
     slides: string;
@@ -29,29 +29,17 @@ export default function ArchiveItem(props: prop) {
             <div className={styles.section}>
               <img className={styles.graphic} src={ele.graphicPath} alt="Placeholder Image"/>
               
-              <p className={styles.title}>
-                {ele.date}: {ele.name}
-              </p>
+              <div className={styles.title}>{ele.name}</div>
 
-              <p>
-                <a href={ele.recording} className={styles.link}>
-                  Recording
-                </a>
-                <a href={ele.slides} className={styles.link}>
-                  Slides
-                </a>
-              </p>
+              <div className={styles.date}>{ele.date.toDateString()}</div>
 
-              {/*<p style={{ fontSize: "1rem" }}>{ele.description}</p>*/}
+              <div className={styles.links}>
+                <a href={ele.recording} className={styles.link}
+                  ><img className={styles.icon} src="/images/utube.svg"></img></a>
+                <a href={ele.slides} className={styles.link}
+                  ><img className={styles.icon} src="/images/slides.svg"></img></a>
+              </div>
             </div>
-
-            {/*
-            <div className={styles.section}>
-              {ele.tags.map((e) => (
-                <Tag name={e} />
-              ))}
-            </div>
-            */}
           </button>
         ))}
       </div>
