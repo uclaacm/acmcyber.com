@@ -27,8 +27,12 @@ export default function ArchiveItem(props: prop) {
         {props.events.map((ele) => (
           <button className={styles.listItem}>
             <div className={styles.section}>
-              <img className={styles.graphic} src={ele.graphicPath} alt="Placeholder Image"/>
-              
+              <img
+                className={styles.graphic}
+                src={ele.graphicPath}
+                alt="Placeholder Image"
+              />
+
               <p className={styles.title}>
                 {ele.date}: {ele.name}
               </p>
