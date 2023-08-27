@@ -63,7 +63,7 @@ export default function HomePage() {
         </div>
         <div className={styles.weHaveCookies}>
           <h1 className={styles.motto}>
-            Ready to start <em>your</em> cyber journey?
+            Ready to start <em>your</em> cybersecurity journey?
           </h1>
           <div className={styles.socials}>
             <a href="https://discord.com/invite/j9dgf2q">
