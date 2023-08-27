@@ -7,33 +7,26 @@ import AllEvents, { Event } from "@/data/events";
 type TEvent = (typeof AllEvents)[0];
 type EventCB = (event: Event) => void;
 
-/**
- * Sets the time-of-day of the given date to midnight in the date's current timezone.
- */
-function dropTimeOfDay(date: Date) {
-  date.setHours(0);
-  date.setMinutes(0);
-  date.setSeconds(0);
-  date.setMilliseconds(0);
-  return date;
-}
-
-/**
- * @returns true if this event has happened within the current week or will happen in the future
- */
-function isEventStillRelevant(event: Event, now: Date) {
-  let startOfWeek = dropTimeOfDay(new Date(now));
-  startOfWeek.setMilliseconds(
-    startOfWeek.getMilliseconds() - startOfWeek.getDay() * 604_800_000
-  );
-  return event.date >= startOfWeek;
-}
-
-function isEventThisWeek(event: Event, now: Date) {
-  let normalizedDate = dropTimeOfDay(new Date(event.date));
-  let normalizedNow = dropTimeOfDay(new Date(now));
-  return normalizedDate.getTime() - normalizedNow.getTime() <= 604_800_000;
-}
+// see https://discord.com/channels/510986939319713803/512782757064343553/1145225529876824115
+const isSameWeek = (d1: Date, d2: Date): boolean => {
+  const dayMs = 1000 * 60 * 60 * 24;
+  const t1 = d1.getTime();
+  const t2 = d2.getTime();
+  // cannot be more than a week apart
+  if (Math.abs(t1 - t2) >= dayMs * 7) {
+    return false;
+  }
+  const day1 = d1.getDay();
+  const day2 = d2.getDay();
+  // same day of week = return true iff same date
+  if (day1 == day2) {
+    return d1.getDate() == d2.getDate();
+  } else if (day1 < day2) {
+    return t1 < t2;
+  } else {
+    return t1 > t2;
+  }
+};
 
 const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
   (
@@ -90,7 +83,6 @@ export default function Events() {
   // parse all of the events into a list of objects [{event object}, ...]
   // display all of the events in the list (hint: use the map() function)
 
-  // const [popup, setPopup] = useState(AllEvents[0]);
   const [popup, setPopup] = useState(null as TEvent | null);
   const [today, setToday] = useState(new Date());
 
@@ -98,9 +90,9 @@ export default function Events() {
   // the date nextjs pre-renders this page
   useEffect(() => setToday(new Date()), []);
 
-  const thisWeek = AllEvents.filter((e) => isEventThisWeek(e, today));
+  const thisWeek = AllEvents.filter((e) => isSameWeek(e.date, today));
   const upcomingEvents = AllEvents.filter(
-    (e) => isEventStillRelevant(e, today) && !isEventThisWeek(e, today)
+    (e) => e.date > today && !isSameWeek(e.date, today)
   );
 
   return (
@@ -115,23 +107,6 @@ export default function Events() {
         )}
         <div className={styles["home"]}>
           <h1>Events</h1>
-          {/* <div className="content">
-            {eventTypes.map((type, i) => (
-              <div key={i} className={styles.eventTypeDescription}>
-                <h2>{type.name}</h2>
-                <p>{type.description}</p>
-                {type.link === undefined ? null : (
-                  <button
-                    onClick={() => {
-                      window.location.href = type.link;
-                    }}
-                  >
-                    Link
-                  </button>
-                )}
-              </div>
-            ))}
-          </div> */}
 
           {/* This Week section */}
           <div className={styles["this-week"]}>
@@ -142,6 +117,7 @@ export default function Events() {
                 : thisWeek.map(Event(setPopup))}
             </div>
           </div>
+
           {/* Upcoming section */}
           <div className={styles["upcoming"]}>
             <h2>Upcoming</h2>
