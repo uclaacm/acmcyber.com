@@ -23,7 +23,6 @@ const nextConfig = {
       "/": { page: "/" },
       "/about": { page: "/about" },
       "/events": { page: "/events" },
-      "/labs": { page: "/labs" },
       "/archive": { page: "/archive" },
       "/blog": { page: "/blog" },
       ...(debug
