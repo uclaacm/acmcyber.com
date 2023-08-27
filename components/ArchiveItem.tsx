@@ -33,9 +33,9 @@ export default function ArchiveItem(props: prop) {
                 alt="Placeholder Image"
               />
 
-              <p className={styles.title}>
+              <h4 className={styles.title}>
                 {ele.date}: {ele.name}
-              </p>
+              </h4>
 
               <p>
                 <a href={ele.recording} className={styles.link}>

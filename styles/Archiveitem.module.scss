@@ -2,10 +2,10 @@
   font-size: large;
   margin: auto;
   display: grid;
-}
 
-.main:hover {
-  box-shadow: var(--card-border-expanded);
+  &:hover {
+    box-shadow: var(--card-border-expanded);
+  }
 }
 
 .listItem {
@@ -18,11 +18,13 @@
   transition: box-shadow 0.2s;
   width: 20rem;
   height: 10rem;
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: left;
-}
-.listItem:hover {
-  cursor: pointer;
-  box-shadow: 0 0 10px var(--cyber-gold);
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--cyber-gold);
+  }
 }
 
 .section {
@@ -37,15 +39,17 @@
   color: var(--cyber-gold);
   margin: 0.5rem 0.7rem 0rem 1rem;
 }
+
 .link {
   vertical-align: top;
   font-size: 1rem;
   color: white;
   text-decoration: underline;
   margin: 0rem 0rem 0rem 1rem;
-}
-.link:hover {
-  color: var(--flag-pink);
+
+  &:hover {
+    color: var(--flag-pink);
+  }
 }
 
 .graphic {

@@ -71,7 +71,7 @@
 }
 
 .motto {
-  font-family: "Open Sans";
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 
   b {
@@ -92,6 +92,7 @@ p.motto {
 }
 
 h1.motto {
+  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 24pt;
   margin-bottom: 5rem;
 }
@@ -215,6 +216,11 @@ h1.motto {
             width: calc(0.83 * var(--size));
             height: calc(0.83 * var(--size));
           }
+        }
+
+        h2 {
+          font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana,
+            sans-serif;
         }
       }
 
