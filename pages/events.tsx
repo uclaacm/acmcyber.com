@@ -70,8 +70,8 @@ export default function Events() {
   // parse all of the events into a list of objects [{event object}, ...]
   // display all of the events in the list (hint: use the map() function)
 
-  const [popup, setPopup] = useState(AllEvents[0]);
-  // const [ popup, setPopup ] = useState(null as TEvent | null);
+  // const [popup, setPopup] = useState(AllEvents[0]);
+  const [popup, setPopup] = useState(null as TEvent | null);
   const [today, setToday] = useState(new Date());
 
   // reload `today` because page may be accessed at a date later than
