@@ -3,9 +3,7 @@ import { useEffect, useState } from "react";
 import styles from "@/styles/Events.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import AllEvents, { Event } from "@/data/events";
-import { styler } from "@/utils";
 
-const s = styler(styles);
 type TEvent = (typeof AllEvents)[0];
 type EventCB = (event: Event) => void;
 
@@ -39,14 +37,18 @@ function isEventThisWeek(event: Event, now: Date) {
 
 const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
   (
-    <div className={s`event-card`} key={i} onClick={() => showPopup(event)}>
-      <span className={s`type`}>{event.type}</span>
+    <div
+      className={styles["event-card"]}
+      key={i}
+      onClick={() => showPopup(event)}
+    >
+      <span className={styles["type"]}>{event.type}</span>
       <img src="/images/archive.svg" alt="Placeholder Image" />
-      <div className={s`details`}>
+      <div className={styles["details"]}>
         <h3>{event.name}</h3>
-        <div className={s`date`}>{event.date.toDateString()}</div>
-        <div className={s`time`}>{event.time}</div>
-        <div className={s`location`}>{event.location}</div>
+        <div className={styles["date"]}>{event.date.toDateString()}</div>
+        <div className={styles["time"]}>{event.time}</div>
+        <div className={styles["location"]}>{event.location}</div>
       </div>
     </div>
   );
@@ -60,18 +62,21 @@ const EventPopup = ({ close, event }: EventPopupProps) => {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
   return (
-    <div className={s`popup-container ${mounted && "mounted"}`} onClick={close}>
-      <div className={s`popup`}>
-        <div className={s`top-bar`}>
-          <div className={s`x-button`} onClick={close} />
+    <div
+      className={styles[`popup-container ${mounted && "mounted"}`]}
+      onClick={close}
+    >
+      <div className={styles["popup"]}>
+        <div className={styles["top-bar"]}>
+          <div className={styles["x-button"]} onClick={close} />
         </div>
         <img src="/images/archive.svg" alt="Placeholder Image" />
-        <div className={s`content`}>
+        <div className={styles["content"]}>
           <h3>{event.name}</h3>
-          <div className={s`date`}>{event.date.toDateString()}</div>
-          <div className={s`time`}>{event.time}</div>
-          <div className={s`location`}>{event.location}</div>
-          <div className={s`description`}>{event.description}</div>
+          <div className={styles["date"]}>{event.date.toDateString()}</div>
+          <div className={styles["time"]}>{event.time}</div>
+          <div className={styles["location"]}>{event.location}</div>
+          <div className={styles["description"]}>{event.description}</div>
         </div>
       </div>
     </div>
@@ -87,7 +92,7 @@ export default function Events() {
   const [popup, setPopup] = useState(null as TEvent | null);
   const [today, setToday] = useState(new Date());
 
-  // reload `today` because page may be accessed at a date later than
+  // reload "today" because page may be accessed at a date later than
   // the date nextjs pre-renders this page
   useEffect(() => setToday(new Date()), []);
 
@@ -106,7 +111,7 @@ export default function Events() {
         {popup !== null && (
           <EventPopup event={popup} close={() => setPopup(null)} />
         )}
-        <div className={s`home`}>
+        <div className={styles["home"]}>
           <h1>Events</h1>
           {/* <div className="content">
             {eventTypes.map((type, i) => (
@@ -127,18 +132,18 @@ export default function Events() {
           </div> */}
 
           {/* This Week section */}
-          <div className={s`this-week`}>
+          <div className={styles["this-week"]}>
             <h2>This Week</h2>
-            <div className={s`events`}>
+            <div className={styles["events"]}>
               {thisWeek.length === 0
                 ? "No events this week. Come back later!"
                 : thisWeek.map(Event(setPopup))}
             </div>
           </div>
           {/* Upcoming section */}
-          <div className={s`upcoming`}>
+          <div className={styles["upcoming"]}>
             <h2>Upcoming</h2>
-            <div className={s`events`}>
+            <div className={styles["events"]}>
               {upcomingEvents.length === 0
                 ? "No upcoming events currently scheduled. Come back later!"
                 : upcomingEvents.map(Event(setPopup))}
