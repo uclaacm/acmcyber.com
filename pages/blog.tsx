@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { useState } from "react";
 
 import styles from "../styles/Blog.module.scss";
@@ -49,7 +47,7 @@ export default function Blog({
 
     return res.map((post) => {
       return (
-        <Link href={`/blog/${post.id}`} key={post.id}>
+        <a href={`/blog/${post.id}`} key={post.id}>
           <div className={styles.blogPost}>
             <span className={styles.category}>{post.category}</span>
             <img
@@ -78,7 +76,7 @@ export default function Blog({
               <p className={styles.description}>{post.description}</p>
             </div>
           </div>
-        </Link>
+        </a>
       );
     });
   }

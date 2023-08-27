@@ -3,12 +3,13 @@ const debug = process.env.NODE_ENV !== "production";
 
 const nextConfig = {
   reactStrictMode: true,
+  output: "export",
   images: {
     // loader: "akamai",
     // path: "/",
     unoptimized: true,
   },
-  assetPrefix: !debug ? "https://cyber.uclaacm.com" : "",
+  assetPrefix: !debug ? "http://0.0.0.0:8000/" : "",
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.

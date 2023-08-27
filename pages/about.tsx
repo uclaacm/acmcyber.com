@@ -5,6 +5,10 @@ import members, { PersonInfoProps } from "@/data/members";
 import styles from "@/styles/About.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 
+export const config = {
+  unstable_runtimeJS: false,
+};
+
 export default function About() {
   return (
     <>

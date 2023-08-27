@@ -9,7 +9,6 @@ import { GetStaticPropsContext } from "next";
 import { getPostIds, PostData, POSTS_DIRECTORY } from "@/utils/BlogPostData";
 import { useEffect } from "react";
 import CyberSeo from "@/components/CyberSeo";
-import Link from "next/link";
 
 export async function getStaticPaths() {
   return {
@@ -76,9 +75,9 @@ export default function Post({ postData }: { postData: PostData }) {
       />
 
       <div className={`page ${styles.post}`}>
-        <Link href="/blog">
+        <a href="/blog">
           <span className={styles.category}>{postData.category}</span>
-        </Link>
+        </a>
         <h1>{postData.title}</h1>
         <div className={styles.categorydate}>
           <p className={styles.alignleft}>

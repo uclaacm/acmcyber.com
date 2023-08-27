@@ -1,5 +1,4 @@
 import styles from "@/styles/Footer.module.scss";
-import Link from "next/link";
 
 import DiscordLogo from "@/public/images/discord.svg";
 import InstagramLogo from "@/public/images/instagram.svg";
@@ -14,21 +13,18 @@ export default function Footer() {
         {/* Socials */}
         <p>Find us on Social Media</p>
         <div className={styles.socialsList}>
-          <Link href="https://discord.com/invite/j9dgf2q" target="_blank">
+          <a href="https://discord.com/invite/j9dgf2q" target="_blank">
             <TropicalImage img={DiscordLogo} alt="Discord Redirect" />
-          </Link>
-          <Link href="https://www.instagram.com/uclacyber" target="_blank">
+          </a>
+          <a href="https://www.instagram.com/uclacyber" target="_blank">
             <TropicalImage img={InstagramLogo} alt="Instagram Redirect" />
-          </Link>
-          <Link
-            href="https://www.facebook.com/groups/uclacyber"
-            target="_blank"
-          >
+          </a>
+          <a href="https://www.facebook.com/groups/uclacyber" target="_blank">
             <TropicalImage img={FacebookLogo} alt="Facebook Redirect" />
-          </Link>
-          <Link href="mailto:uclacyber@gmail.com" target="_blank">
+          </a>
+          <a href="mailto:uclacyber@gmail.com" target="_blank">
             <TropicalImage img={MailLogo} alt="Mail Redirect" />
-          </Link>
+          </a>
         </div>
       </div>
 

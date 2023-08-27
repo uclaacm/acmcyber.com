@@ -1,11 +1,13 @@
-import { NextSeo } from "next-seo";
-
 import ArchiveSection from "@/components/ArchiveSection";
 
 import styles from "@/styles/Archive.module.scss";
 
 import CyberSeo from "@/components/CyberSeo";
 import archive from "@/data/archive";
+
+export const config = {
+  unstable_runtimeJS: false,
+};
 
 export default function Archive() {
   return (

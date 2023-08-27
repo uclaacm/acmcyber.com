@@ -9,6 +9,10 @@ import LinkedinLogo from "@/public/images/linkedin.svg";
 import TestTube from "@/public/images/test-tube.svg";
 import TropicalImage from "@/components/TropicalImage";
 
+export const config = {
+  unstable_runtimeJS: false,
+};
+
 export default function HomePage() {
   return (
     <>

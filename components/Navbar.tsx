@@ -15,13 +15,13 @@ export default function Navbar() {
       ></input>
 
       {/* LEFT PART OF THE NAVBAR */}
-      <Link
+      <a
         className={`${styles.logo} ${styles.tropicalImageStrikesAgain}`}
         href="/"
       >
         <Image src={CyberLogo} alt="ACM Cyber Logo" />
         <CyberWordmark fontSize="16px" lineHeight="40px" />
-      </Link>
+      </a>
 
       {/* SPACER */}
       <div className={styles.spacer} />
@@ -32,18 +32,18 @@ export default function Navbar() {
       </label>
 
       <ul className={styles.right}>
-        <Link className={styles.hoverable} href="/about">
+        <a className={styles.hoverable} href="/about">
           <li>About</li>
-        </Link>
-        <Link className={styles.hoverable} href="/events">
+        </a>
+        <a className={styles.hoverable} href="/events">
           <li>Events</li>
-        </Link>
-        <Link className={styles.hoverable} href="/blog">
+        </a>
+        <a className={styles.hoverable} href="/blog">
           <li>Blog</li>
-        </Link>
-        {/* <Link className={styles.hoverable} href="/archive">
+        </a>
+        {/* <a className={styles.hoverable} href="/archive">
           <li>Archive</li>
-        </Link> */}
+        </a> */}
       </ul>
     </nav>
   );
