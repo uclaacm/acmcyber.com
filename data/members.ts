@@ -156,7 +156,7 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Mark Epstein",
-    role: "Cyber Lab",
+    role: "Psi Beta Rho, Cyber Lab",
     bio: "2nd year Computer Science major",
     pronouns: "he/him",
     photo: "mark.jpg",
