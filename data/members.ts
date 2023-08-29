@@ -143,7 +143,7 @@ const members: PersonInfoProps[] = [
   {
     name: "John Li",
     role: "Cyber Lab",
-    bio: "3nd year Computer Science major",
+    bio: "3rd year Computer Science major",
     pronouns: "he/him",
     photo: "",
   },
@@ -164,7 +164,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Nik Brandt",
     role: "Cyber Lab",
-    bio: "3nd year Computer Science major",
+    bio: "3rd year Computer Science major",
     pronouns: "he/him",
     photo: "",
   },
@@ -178,7 +178,7 @@ const members: PersonInfoProps[] = [
   {
       name: "Sanjna Tailor",
       role: "Cyber Lab",
-      bio: "3nd year Computer Science major",
+      bio: "3rd year Computer Science major",
       pronouns: "she/her",
       photo: "",
   },
