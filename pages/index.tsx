@@ -39,7 +39,7 @@ export default function HomePage() {
               textIcon="ψβρ"
               title="Psi Beta Rho (PBR)"
               description="UCLA's competitive Capture the Flag (CTF) team!"
-              link="https://pbr.uclaacm.com/"
+              link="https://pbr.acmcyber.com/"
             />
             <CyberThing
               icon={TestTube}
