@@ -58,6 +58,22 @@ const eventsData: Event[] = [
     time: '6:00 - 8:00 PM (PST)',
     location: matsci,
   },
+  {
+    name: 'ACM Fall General Meeting 2023',
+    description: defaultDescription,
+    type: EventKind.Misc,
+    date: new Date("2023-10-02"),
+    time: '6:00 - 8:00 PM (PST)',
+    location: "TBD",
+  },
+  {
+    name: 'Cyber Fall General Meeting 2023',
+    description: defaultDescription,
+    type: EventKind.Misc,
+    date: new Date("2023-10-09"),
+    time: '6:00 - 8:00 PM (PST)',
+    location: "TBD",
+  },
 ];
 
 export default eventsData;
