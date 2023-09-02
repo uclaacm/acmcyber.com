@@ -7,8 +7,8 @@ on:
     types: [opened, reopened]
 
 jobs:
-  run-linters:
-    name: Run Linters
+  test-build:
+    name: Test Build
     runs-on: ubuntu-latest
 
     steps:
