@@ -10,6 +10,9 @@
 
   height: max(var(--welcome-hero-height), 28rem);
   overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/images/collage.png") no-repeat;
+  background-size: cover;
 
   .cyberDiamondRelativeContainer {
     position: relative;
@@ -23,6 +26,7 @@
       border: 12px solid var(--cyber-gold);
       border-radius: 40px;
       background: radial-gradient(#ffba4400, #ffba4414);
+      background-color: rgba(0, 0, 0, 0.8);
     }
   }
 
