@@ -1,8 +1,6 @@
-export interface ArchivedEvent {
+export interface EventArchive {
   name: string;
-  type: string;
   date: Date;
-  time: string;
   location?: string;
   description: string;
   recording: string;
@@ -12,8 +10,8 @@ export interface ArchivedEvent {
 }
 
 export interface SeriesArchive {
-  seriesName: string;
-  events: ArchivedEvent[];
+  name: string;
+  events: EventArchive[];
 }
 
 export interface QuarterArchive {
@@ -21,26 +19,29 @@ export interface QuarterArchive {
   series: SeriesArchive[];
 }
 
-const archive = [
+const archive: QuarterArchive[] = [
+  /*WINTER2023*/
   {
     name: "Winter 2023",
     series: [
       {
-        seriesName: "Cyber Academy: Web Hacking",
+        name: "Cyber Academy: Web Hacking",
         events: [
           {
             name: "Week 6: SQL Injection",
             date: new Date('5/9/24'),
+            location: "Math Sciences 5200",
             description:
-              "Event description Event descriptionEvent description Event description",
+              "Event description event description event description event description event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "sql", "hacking"],
             graphicPath: "/images/archive.svg",
           },
           {
-            name: "XSS",
+            name: "Week 5: XSS",
             date: new Date('5/9/24'),
+            location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
@@ -48,54 +49,64 @@ const archive = [
             graphicPath: "/images/archive.svg",
           },
           {
-            name: "XSS",
+            name: "Example 3",
             date: new Date('5/9/24'),
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
-            tags: ["web", "xss", "hacking"],
-            graphicPath: "/images/archive.svg",
+            tags: ["test3"],
+            graphicPath: "/images/cyber-symposium.png",
           },
           {
-            name: "XSS",
+            name: "Example 2",
             date: new Date('5/9/24'),
+            location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
-            tags: ["web", "xss", "hacking"],
-            graphicPath: "/images/archive.svg",
+            tags: ["test2"],
+            graphicPath: "/images/cyber-symposium.png",
           },
           {
-            name: "XSS",
+            name: "Example 1",
             date: new Date('5/9/24'),
+            location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
-            tags: ["web", "xss", "hacking"],
+            tags: ["test1"],
             graphicPath: "/images/archive.svg",
           },
         ],
       },
+      
+      {
+        name: "Special Topics",
+        events: [],
+      },
     ],
   },
+
+  /*FALL2022*/
   {
-    name: "Fall 2023",
+    name: "Fall 2022",
     series: [
       {
-        seriesName: "Cyber Academy: Forensics",
+        name: "Cyber Academy: Forensics",
         events: [
           {
-            name: "Binwalk",
+            name: "Example 2",
             date: new Date('5/9/24'),
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
-            tags: ["web", "binwalk", "hacking"],
+            tags: ["test2"],
             graphicPath: "/images/cyber-symposium.png",
           },
           {
-            name: "IDK",
+            name: "Example 1",
             date: new Date('5/9/24'),
+            location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
@@ -106,12 +117,12 @@ const archive = [
       },
     ],
   },
+  
+  /*Spring2022*/
+  {
+    name: "Spring 2022",
+    series: [],
+  },
 ];
-
-/* 
-    quarter {
-
-    }
-*/
 
 export default archive;
