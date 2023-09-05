@@ -29,7 +29,7 @@ const archive: QuarterArchive[] = [
         events: [
           {
             name: "Week 6: SQL Injection",
-            date: new Date('5/9/24'),
+            date: new Date("5/9/24"),
             location: "Math Sciences 5200",
             description:
               "Event description event description event description event description event description",
@@ -40,7 +40,7 @@ const archive: QuarterArchive[] = [
           },
           {
             name: "Week 5: XSS",
-            date: new Date('5/9/24'),
+            date: new Date("5/9/24"),
             location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
@@ -50,7 +50,7 @@ const archive: QuarterArchive[] = [
           },
           {
             name: "Example 3",
-            date: new Date('5/9/24'),
+            date: new Date("5/9/24"),
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
@@ -59,7 +59,7 @@ const archive: QuarterArchive[] = [
           },
           {
             name: "Example 2",
-            date: new Date('5/9/24'),
+            date: new Date("5/9/24"),
             location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
@@ -69,7 +69,7 @@ const archive: QuarterArchive[] = [
           },
           {
             name: "Example 1",
-            date: new Date('5/9/24'),
+            date: new Date("5/9/24"),
             location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
@@ -79,7 +79,7 @@ const archive: QuarterArchive[] = [
           },
         ],
       },
-      
+
       {
         name: "Special Topics",
         events: [],
@@ -96,7 +96,7 @@ const archive: QuarterArchive[] = [
         events: [
           {
             name: "Example 2",
-            date: new Date('5/9/24'),
+            date: new Date("5/9/24"),
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
@@ -105,7 +105,7 @@ const archive: QuarterArchive[] = [
           },
           {
             name: "Example 1",
-            date: new Date('5/9/24'),
+            date: new Date("5/9/24"),
             location: "Math Sciences 5200",
             description: "Event description",
             recording: "https://youtube.com/<link_here>",
@@ -117,7 +117,7 @@ const archive: QuarterArchive[] = [
       },
     ],
   },
-  
+
   /*Spring2022*/
   {
     name: "Spring 2022",
