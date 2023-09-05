@@ -28,22 +28,23 @@ const isSameWeek = (d1: Date, d2: Date): boolean => {
   }
 };
 
-const Event = (showPopup: EventCB) => (event: TEvent, i: number) => (
-  <div
-    className={styles["event-card"]}
-    key={i}
-    onClick={() => showPopup(event)}
-  >
-    <span className={styles["type"]}>{event.type}</span>
-    <img src="/images/archive.svg" alt="Placeholder Image" />
-    <div className={styles["details"]}>
-      <h3>{event.name}</h3>
-      <div className={styles["date"]}>{event.date.toDateString()}</div>
-      <div className={styles["time"]}>{event.time}</div>
-      <div className={styles["location"]}>{event.location}</div>
+const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
+  (
+    <div
+      className={styles["event-card"]}
+      key={i}
+      onClick={() => showPopup(event)}
+    >
+      <span className={styles["type"]}>{event.type}</span>
+      <img src="/images/archive.svg" alt="Placeholder Image" />
+      <div className={styles["details"]}>
+        <h3>{event.name}</h3>
+        <div className={styles["date"]}>{event.date.toDateString()}</div>
+        <div className={styles["time"]}>{event.time}</div>
+        <div className={styles["location"]}>{event.location}</div>
+      </div>
     </div>
-  </div>
-);
+  );
 
 type EventPopupProps = {
   event: TEvent;
@@ -91,7 +92,7 @@ export default function Events() {
 
   const thisWeek = AllEvents.filter((e) => isSameWeek(e.date, today));
   const upcomingEvents = AllEvents.filter(
-    (e) => e.date > today && !isSameWeek(e.date, today),
+    (e) => e.date > today && !isSameWeek(e.date, today)
   );
 
   return (

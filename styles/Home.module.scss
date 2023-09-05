@@ -10,8 +10,7 @@
 
   height: max(var(--welcome-hero-height), 28rem);
   overflow: hidden;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
     url("/images/collage.png") no-repeat;
   background-size: cover;
 
@@ -200,9 +199,7 @@ h1.motto {
             text-align: center;
             font-weight: 800;
             font-size: calc(0.35 * var(--size));
-            transition:
-              font-size 100ms linear,
-              padding-bottom 100ms linear;
+            transition: font-size 100ms linear, padding-bottom 100ms linear;
           }
 
           img {
@@ -210,9 +207,7 @@ h1.motto {
             object-fit: contain;
             width: calc(0.75 * var(--size));
             height: calc(0.75 * var(--size));
-            transition:
-              width 100ms linear,
-              height 100ms linear;
+            transition: width 100ms linear, height 100ms linear;
           }
         }
 
