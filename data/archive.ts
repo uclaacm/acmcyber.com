@@ -32,7 +32,11 @@ const archive: QuarterArchive[] = [
             date: new Date("5/9/24"),
             location: "Math Sciences 5200",
             description:
-              "Event description event description event description event description event description",
+              "Lorem ipsum dolor sit amet, consectetur \
+                adipiscing elit, sed do eiusmod tempor \
+                incididunt ut labore et dolore magna aliqua. \
+                Ut enim ad minim veniam, quis nostrud exercitation \
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             recording: "https://youtube.com/<link_here>",
             slides: "https://docs.google.com/",
             tags: ["web", "sql", "hacking"],

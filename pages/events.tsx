@@ -65,7 +65,11 @@ const EventPopup = ({ close, event }: EventPopupProps) => {
         <div className={styles["top-bar"]}>
           <div className={styles["x-button"]} onClick={close} />
         </div>
-        <img src="/images/archive.svg" alt="Placeholder Image" />
+        <img
+          src="/images/archive.svg"
+          alt="Placeholder Image"
+          className={styles["graphic"]}
+        />
         <div className={styles["content"]}>
           <h3>{event.name}</h3>
           <div className={styles["date"]}>{event.date.toDateString()}</div>

@@ -116,7 +116,7 @@ const PopUp = ({ event, close }: PopupProps) => {
         </div>
 
         <img
-          className={styles.graphic}
+          className={popUpStyle["graphic"]}
           src={event.graphicPath}
           alt="Placeholder Image"
         />
@@ -127,17 +127,19 @@ const PopUp = ({ event, close }: PopupProps) => {
           <div className={popUpStyle["location"]}>{event.location}</div>
           <div className={popUpStyle["description"]}>{event.description}</div>
 
-          <div>
-            {"Recording: "}
-            <a href={event.recording} className={styles.hyperlink}>
-              {event.recording}
-            </a>
-          </div>
-          <div>
-            {"Slides: "}
-            <a href={event.slides} className={styles.hyperlink}>
-              {event.slides}
-            </a>
+          <div className={styles.section}>
+            <div>
+              {"Recording: "}
+              <a href={event.recording} className={styles.hyperlink}>
+                {event.recording}
+              </a>
+            </div>
+            <div>
+              {"Slides: "}
+              <a href={event.slides} className={styles.hyperlink}>
+                {event.slides}
+              </a>
+            </div>
           </div>
 
           <div className={styles.section}>

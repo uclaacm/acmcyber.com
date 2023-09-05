@@ -140,7 +140,7 @@
   justify-content: center;
   background-color: var(--soul-dark);
   color: white;
-  min-width: 30vw;
+  width: 50vw;
 
   // start out popup smol, will become beeg when .mounted on popup-container
   transform-origin: center;
@@ -201,4 +201,15 @@
 
 .date {
   color: var(--organic-oranges);
+}
+.description {
+  margin: 0.5rem;
+}
+.graphic {
+  vertical-align: top;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
 }
