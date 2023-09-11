@@ -83,15 +83,25 @@ const Event = (showPopUp: any) => (props: EventArchive) => {
         <div className={styles.date}>{props.date.toDateString()}</div>
 
         <div className={styles.links}>
-          <span><img className={styles.icon} src="/images/utube.svg"/>
-          <a href={props.recording} className={styles.link}>
-            Recording
-          </a>
+          <span>
+            <img className={styles.icon} src="/images/utube.svg" />
+            {props.slides !== undefined ? (
+              <a href={props.recording} className={styles.link}>
+                Recording
+              </a>
+            ) : (
+              <p className={styles.nolink}>No Recording</p>
+            )}
           </span>
           <span>
-          <img className={styles.icon} src="/images/slides.svg" />
-          <a href={props.slides} className={styles.link}>Slides
-          </a>
+            <img className={styles.icon} src="/images/slides.svg" />
+            {props.slides !== undefined ? (
+              <a href={props.slides} className={styles.link}>
+                Slides
+              </a>
+            ) : (
+              <p className={styles.nolink}>No Slides</p>
+            )}
           </span>
         </div>
       </div>
@@ -129,8 +139,8 @@ const PopUp = ({ event, close }: PopupProps) => {
           <h3>{event.name}</h3>
           <div className={popUpStyle["date"]}>{event.date.toDateString()}</div>
           <div className={popUpStyle["location"]}>{event.location}</div>
-          <div className={styles.section}>
-            Tags: 
+          <div className={styles.tags}>
+            <span>Tags: </span>
             {event.tags.map((e) => (
               <Tag name={e} />
             ))}
@@ -139,13 +149,15 @@ const PopUp = ({ event, close }: PopupProps) => {
 
           <div className={styles.section}>
             <div>
-              {"Recording: "}
+              <img className={styles.icon} src="/images/utube.svg" />
+              <span>Recording: </span>
               <a href={event.recording} className={styles.hyperlink}>
                 {event.recording}
               </a>
             </div>
             <div>
-              {"Slides: "}
+              <img className={styles.icon} src="/images/slides.svg" />
+              <span>Slides: </span>
               <a href={event.slides} className={styles.hyperlink}>
                 {event.slides}
               </a>
