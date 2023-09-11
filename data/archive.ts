@@ -3,8 +3,8 @@ export interface EventArchive {
   date: Date;
   location?: string;
   description: string;
-  recording: string;
-  slides: string;
+  recording?: string;
+  slides?: string;
   tags: string[];
   graphicPath: string;
 }
@@ -47,8 +47,6 @@ const archive: QuarterArchive[] = [
             date: new Date("5/9/24"),
             location: "Math Sciences 5200",
             description: "Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
             tags: ["web", "xss", "hacking"],
             graphicPath: "/images/archive.svg",
           },

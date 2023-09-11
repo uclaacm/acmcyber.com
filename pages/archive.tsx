@@ -83,12 +83,16 @@ const Event = (showPopUp: any) => (props: EventArchive) => {
         <div className={styles.date}>{props.date.toDateString()}</div>
 
         <div className={styles.links}>
+          <span><img className={styles.icon} src="/images/utube.svg"/>
           <a href={props.recording} className={styles.link}>
-            <img className={styles.icon} src="/images/utube.svg"></img>
+            Recording
           </a>
-          <a href={props.slides} className={styles.link}>
-            <img className={styles.icon} src="/images/slides.svg"></img>
+          </span>
+          <span>
+          <img className={styles.icon} src="/images/slides.svg" />
+          <a href={props.slides} className={styles.link}>Slides
           </a>
+          </span>
         </div>
       </div>
     </button>
@@ -125,6 +129,12 @@ const PopUp = ({ event, close }: PopupProps) => {
           <h3>{event.name}</h3>
           <div className={popUpStyle["date"]}>{event.date.toDateString()}</div>
           <div className={popUpStyle["location"]}>{event.location}</div>
+          <div className={styles.section}>
+            Tags: 
+            {event.tags.map((e) => (
+              <Tag name={e} />
+            ))}
+          </div>
           <div className={popUpStyle["description"]}>{event.description}</div>
 
           <div className={styles.section}>
@@ -140,12 +150,6 @@ const PopUp = ({ event, close }: PopupProps) => {
                 {event.slides}
               </a>
             </div>
-          </div>
-
-          <div className={styles.section}>
-            {event.tags.map((e) => (
-              <Tag name={e} />
-            ))}
           </div>
         </div>
       </div>

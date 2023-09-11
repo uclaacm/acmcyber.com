@@ -56,17 +56,30 @@
   margin: 0rem 1rem 0.7rem 1rem;
 }
 
+.links {
+  vertical-align: top;
+  margin: 0rem 1rem 0.7rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .link {
-  margin: 0rem 0rem 0rem 1.5rem;
+  position: relative;
+  font-size: 1rem;
+  text-align: justify;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .icon {
-  width: 1.125rem;
-  height: 1.125rem;
-  &:hover {
-    cursor: pointer;
-    opacity: 0.5;
-  }
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
 }
 
 .hyperlink {
