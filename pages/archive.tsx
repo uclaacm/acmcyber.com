@@ -57,14 +57,15 @@ const Quarter = (showPopUp: any) => (props: QuarterArchive) => {
 
 const Series = (showPopUp: any) => (props: SeriesArchive) => {
   return (
-    <>
+    <div className={styles.seriesArchive}>
       <h3>{props.name}</h3>
+      <p className={styles.seriesDescription}>{props.description}</p>
       <div className={styles.series}>
         {props.events.length === 0
           ? "No events available."
           : props.events.map(Event(showPopUp))}
       </div>
-    </>
+    </div>
   );
 };
 
@@ -148,20 +149,24 @@ const PopUp = ({ event, close }: PopupProps) => {
           <div className={popUpStyle["description"]}>{event.description}</div>
 
           <div className={styles.section}>
-            <div>
-              <img className={styles.icon} src="/images/utube.svg" />
-              <span>Recording: </span>
-              <a href={event.recording} className={styles.hyperlink}>
-                {event.recording}
-              </a>
-            </div>
-            <div>
-              <img className={styles.icon} src="/images/slides.svg" />
-              <span>Slides: </span>
-              <a href={event.slides} className={styles.hyperlink}>
-                {event.slides}
-              </a>
-            </div>
+            {event.recording !== undefined ? (
+              <div>
+                <img className={styles.icon} src="/images/utube.svg" />
+                <span>Recording: </span>
+                <a href={event.recording} className={styles.hyperlink}>
+                  {event.recording}
+                </a>
+              </div>
+            ) : null}
+            {event.slides !== undefined ? (
+              <div>
+                <img className={styles.icon} src="/images/slides.svg" />
+                <span>Slides: </span>
+                <a href={event.slides} className={styles.hyperlink}>
+                  {event.slides}
+                </a>
+              </div>
+            ) : null}
           </div>
         </div>
       </div>
