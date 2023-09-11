@@ -103,7 +103,7 @@ const members: PersonInfoProps[] = [
     role: "Psi Beta Rho, Cyber Lab",
     bio: "2nd year Computer Science major",
     pronouns: "he/him",
-    photo: "",
+    photo: "kaiphait.webp",
   },
   {
     name: "Anthony Fangqing Yu",
