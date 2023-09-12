@@ -86,7 +86,7 @@ const Event = (showPopUp: any) => (props: EventArchive) => {
         <div className={styles.links}>
           <span>
             <img className={styles.icon} src="/images/utube.svg" />
-            {props.slides !== undefined ? (
+            {props.recording !== undefined ? (
               <a href={props.recording} className={styles.link}>
                 Recording
               </a>
