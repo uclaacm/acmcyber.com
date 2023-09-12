@@ -1,19 +1,18 @@
-export interface ArchivedEvent {
+export interface EventArchive {
   name: string;
-  type: string;
   date: Date;
-  time: string;
   location?: string;
   description: string;
-  recording: string;
-  slides: string;
+  recording?: string;
+  slides?: string;
   tags: string[];
   graphicPath: string;
 }
 
 export interface SeriesArchive {
-  seriesName: string;
-  events: ArchivedEvent[];
+  name: string;
+  description: string;
+  events: EventArchive[];
 }
 
 export interface QuarterArchive {
@@ -21,97 +20,32 @@ export interface QuarterArchive {
   series: SeriesArchive[];
 }
 
-const archive = [
+const archive: QuarterArchive[] = [
+  /* WINTER 2023 */
   {
     name: "Winter 2023",
     series: [
       {
-        seriesName: "Cyber Academy: Web Hacking",
+        name: "Example Cyber Series",
+        description: "Learn how to hack websites!",
         events: [
           {
-            name: "Week 6: SQL Injection",
-            date: new Date('5/9/24'),
+            name: "Example Archived Event",
+            date: new Date("5/9/24"),
+            location: "Math Sciences 5200",
             description:
-              "Event description Event descriptionEvent description Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
+              "Lorem ipsum dolor sit amet, consectetur \
+                adipiscing elit, sed do eiusmod tempor \
+                incididunt ut labore et dolore magna aliqua. \
+                Ut enim ad minim veniam, quis nostrud exercitation \
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             tags: ["web", "sql", "hacking"],
             graphicPath: "/images/archive.svg",
-          },
-          {
-            name: "XSS",
-            date: new Date('5/9/24'),
-            description: "Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
-            tags: ["web", "xss", "hacking"],
-            graphicPath: "/images/archive.svg",
-          },
-          {
-            name: "XSS",
-            date: new Date('5/9/24'),
-            description: "Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
-            tags: ["web", "xss", "hacking"],
-            graphicPath: "/images/archive.svg",
-          },
-          {
-            name: "XSS",
-            date: new Date('5/9/24'),
-            description: "Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
-            tags: ["web", "xss", "hacking"],
-            graphicPath: "/images/archive.svg",
-          },
-          {
-            name: "XSS",
-            date: new Date('5/9/24'),
-            description: "Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
-            tags: ["web", "xss", "hacking"],
-            graphicPath: "/images/archive.svg",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    name: "Fall 2023",
-    series: [
-      {
-        seriesName: "Cyber Academy: Forensics",
-        events: [
-          {
-            name: "Binwalk",
-            date: new Date('5/9/24'),
-            description: "Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
-            tags: ["web", "binwalk", "hacking"],
-            graphicPath: "/images/cyber-symposium.png",
-          },
-          {
-            name: "IDK",
-            date: new Date('5/9/24'),
-            description: "Event description",
-            recording: "https://youtube.com/<link_here>",
-            slides: "https://docs.google.com/",
-            tags: ["test1"],
-            graphicPath: "/images/cyber-symposium.png",
           },
         ],
       },
     ],
   },
 ];
-
-/* 
-    quarter {
-
-    }
-*/
 
 export default archive;
