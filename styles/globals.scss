@@ -16,6 +16,12 @@
   --cyber-gold: #ffba44;
   --shadowed-light: #86652d;
   --soul-dark: #0e1116;
+
+  // pre-computed color-mix(in srgb, var(--soul-dark), transparent 10%);
+  // as older safaris don't support color-mix
+  // was done by converting --soul-dark to rgb and then adding alpha channel of 0.9
+  --soul-dark-shim: rgba(14, 17, 22, 0.9);
+
   --orange-linear: linear-gradient(85deg, #ffba44, #ff8c4c 60%);
   --logo-linear: linear-gradient(
     61.43deg,
