@@ -22,9 +22,9 @@ We'll follow a very traditional Node.js project setup. Before we start, make sur
 First, we'll clone the repo and install all of our dependencies. You only need to do this once.
 
 ```bash
-$ git clone https://github.com/uclaacm/cyber.uclaacm.com.git
+$ git clone https://github.com/uclaacm/acmcyber.com.git
 ...
-$ cd cyber.uclaacm.com
+$ cd acmcyber.com
 $ yarn install
 ```
 
@@ -40,12 +40,12 @@ $ yarn build
 > info  - Creating an optimized production build
 > info  - Compiled successfully
 > info  - Collecting page data
-> info  - Generating static pages (7/7)
+> info  - Generating static pages (8/8)
 > info  - Finalizing page optimization
 
 $ yarn start
 
-> ready - started server on 0.0.0.0:3000, url: http://localhost:300
+> ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 ```
 
 To run the website in a development environment, run the following command:
