@@ -1,31 +1,140 @@
-.officersContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
-.personInfo {
-  text-align: center;
-  margin: 0.5rem 2rem;
-  font-size: larger;
-  width: 300px;
-  height: 500px;
-  overflow: hidden;
-}
-
-.personImage {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 200px;
-  height: 200px;
-  margin: 0 0 1rem 0;
-}
-
 .aboutImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.cyberThings {
+  max-width: 800px;
+  margin: 0 auto;
+
+  > span {
+    .cyberThing {
+      --cyber-thing-width: 0.09;
+      --inner-padding: 0.2;
+      position: relative;
+      width: calc(100% * (1 - var(--cyber-thing-width)));
+      min-height: 11rem;
+      height: fit-content;
+      margin: 50px 0rem;
+      pointer-events: all;
+
+      
+
+      .cyberThingIcon {
+        --border-width: 4px;
+        --extra-size: 2.75;
+        --size: calc(11rem / 1.41 + var(--border-width) * var(--extra-size));
+        --rot-offset: calc(var(--size) * 0.41);
+        position: absolute;
+        background: var(--cyber-gold);
+        width: var(--size);
+        height: var(--size);
+        --parent-parent-width: min(80vw, 800px);
+        --parent-width: var(--parent-parent-width) *
+          (1 - var(--cyber-thing-width));
+        transform-style: preserve-3d;
+        // prettier-ignore
+        top: 50%;
+        transform: translate(
+          calc(
+            var(--left) * calc(var(--parent-parent-width) * -1 * var(--inner-padding)) +
+            var(--right) * calc(var(--parent-width) - var(--border-width) * 2.5 - var(--size)) +
+            var(--dir) * (0.5 * var(--size) - 28px)
+          ), -50%
+        ) rotate(45deg);
+        border: var(--border-width) solid var(--cyber-gold);
+        border-radius: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+
+        &::before {
+          content: "";
+          --offset: 12px;
+          position: absolute;
+          width: calc(11rem / 1.41);
+          height: calc(11rem / 1.41);
+          // prettier-ignore
+          transform: translate(
+              calc(var(--dir) * var(--offset) - var(--left) * var(--border-width)),
+              calc(-1 * (var(--dir) * var(--offset) + var(--right) * var(--border-width)))
+            )
+            translateZ(-10px);
+          background: #86652d;
+          border: var(--border-width) solid #86652d;
+          border-radius: 20px;
+        }
+
+        p,
+        img {
+          transform: translateZ(1px) rotate(-45deg);
+          user-select: none;
+          pointer-events: none;
+        }
+
+        p {
+          padding-bottom: 8%;
+          text-align: center;
+          font-weight: 800;
+          font-size: calc(0.35 * var(--size));
+          transition: font-size 100ms linear, padding-bottom 100ms linear;
+        }
+
+        img {
+          margin: auto;
+          object-fit: contain;
+          width: calc(0.75 * var(--size));
+          height: calc(0.75 * var(--size));
+          transition: width 100ms linear, height 100ms linear;
+        }
+      }
+
+      h2 {
+        font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana,
+          sans-serif;
+      }
+    }
+
+    &:nth-child(2n + 1) {
+      .cyberThing {
+        --dir: -1;
+        --left: 1;
+        --right: 0;
+        margin-left: calc(100% * var(--cyber-thing-width));
+        padding-left: calc(100% * var(--inner-padding));
+        text-align: left;
+      }
+    }
+
+    &:nth-child(2n) {
+      .cyberThing {
+        --dir: 1;
+        --left: 0;
+        --right: 1;
+        margin-right: calc(100% * var(--cyber-thing-width));
+        padding-right: calc(100% * var(--inner-padding));
+        text-align: right;
+      }
+    }
+
+    @media (max-width: 750px) {
+      .cyberThing .cyberThingIcon {
+        display: none;
+      }
+
+      &:nth-child(n) {
+        .cyberThing {
+          width: 100%;
+          margin-left: 0;
+          margin-right: 0;
+          padding-left: 10%;
+          padding-right: 10%;
+          padding-bottom: 2rem;
+        }
+      }
+    }
+  }
 }

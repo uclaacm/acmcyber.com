@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import members, { PersonInfoProps } from "@/data/members";
+import { eventTypes, EventType } from "@/data/events";
 
 import styles from "@/styles/About.module.scss";
 import CyberSeo from "@/components/CyberSeo";
@@ -30,6 +31,24 @@ export default function About() {
             entirely different. We aim to nurture the love of cybersecurity in
             the students at UCLA!
           </p>
+
+          <h2>What We Do</h2>
+          <p>
+            ACM Cyber is home to a wide variety of events and projects, the most notable of which are listed below.
+          </p>
+          <div className={styles.cyberThings}>
+          {eventTypes.map((event: EventType, index: number) => (
+            <EventInfo
+              key={index}
+              name={event.name}
+              description={event.description}
+              link={event.link}
+              icon={event.icon}
+              iconAlt={event.iconAlt}
+              textIcon={event.textIcon}
+              />
+          ))}
+          </div>
 
           <h2>Members</h2>
 
@@ -72,5 +91,25 @@ function PersonInfo({ name, role, bio, pronouns, photo }: PersonInfoProps) {
       </p>
       <p>{bio}</p>
     </div>
+  );
+}
+
+function EventInfo({name, description, link, icon, iconAlt, textIcon}: EventType) {
+  return (
+    <span>
+      <div className={styles.cyberThing}>
+        <div className={styles.cyberThingIcon} draggable="true">
+          {textIcon ? (
+            <p role="img" aria-label={iconAlt}>
+              {textIcon}
+            </p>
+          ) : (
+            <img src={"/images/" + icon} alt={iconAlt} />
+          )}
+        </div>
+        <h2>{name}</h2>
+        <p>{description}</p>
+      </div>
+    </span>
   );
 }
