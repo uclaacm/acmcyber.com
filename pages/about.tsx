@@ -34,7 +34,7 @@ export default function About() {
 
           <h2>What We Do</h2>
           <p>
-            ACM Cyber is home to a wide variety of events and projects hosted throughout the year. Check out our main initiatives below!
+            ACM Cyber is home to a wide variety of events and projects hosted throughout the year. Check out our main initiatives
           </p>
           <div className={styles.cyberThings}>
           {eventTypes.map((event: EventType, index: number) => (
@@ -49,21 +49,7 @@ export default function About() {
               />
           ))}
           </div>
-
-          <h2>Members</h2>
-
-          <div className={styles.officersContainer}>
-            {members.map((officer: PersonInfoProps, index: number) => (
-              <PersonInfo
-                key={index}
-                name={officer.name}
-                role={officer.role}
-                bio={officer.bio}
-                pronouns={officer.pronouns}
-                photo={officer.photo}
-              />
-            ))}
-          </div>
+          <h2/>
         </div>
       </div>
     </>
