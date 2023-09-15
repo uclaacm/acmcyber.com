@@ -34,7 +34,7 @@ export default function About() {
 
           <h2>What We Do</h2>
           <p>
-            ACM Cyber is home to a wide variety of events and projects, the most notable of which are listed below.
+            ACM Cyber is home to a wide variety of events and projects hosted throughout the year. Check out our main initiatives below!
           </p>
           <div className={styles.cyberThings}>
           {eventTypes.map((event: EventType, index: number) => (
