@@ -19,8 +19,6 @@
       margin: 50px 0rem;
       pointer-events: all;
 
-      
-
       .cyberThingIcon {
         --border-width: 4px;
         --extra-size: 2.75;
@@ -37,12 +35,17 @@
         // prettier-ignore
         top: 50%;
         transform: translate(
-          calc(
-            var(--left) * calc(var(--parent-parent-width) * -1 * var(--inner-padding)) +
-            var(--right) * calc(var(--parent-width) - var(--border-width) * 2.5 - var(--size)) +
-            var(--dir) * (0.5 * var(--size) - 28px)
-          ), -50%
-        ) rotate(45deg);
+            calc(
+              var(--left) *
+                calc(var(--parent-parent-width) * -1 * var(--inner-padding)) +
+                var(--right) *
+                calc(
+                  var(--parent-width) - var(--border-width) * 2.5 - var(--size)
+                ) + var(--dir) * (0.5 * var(--size) - 28px)
+            ),
+            -50%
+          )
+          rotate(45deg);
         border: var(--border-width) solid var(--cyber-gold);
         border-radius: 20px;
 

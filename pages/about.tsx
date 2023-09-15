@@ -34,22 +34,23 @@ export default function About() {
 
           <h2>What We Do</h2>
           <p>
-            ACM Cyber is home to a wide variety of events and projects hosted throughout the year. Check out our main initiatives below!
+            ACM Cyber is home to a wide variety of events and projects hosted
+            throughout the year. Check out our main initiatives below!
           </p>
           <div className={styles.cyberThings}>
-          {eventTypes.map((event: EventType, index: number) => (
-            <EventInfo
-              key={index}
-              name={event.name}
-              description={event.description}
-              link={event.link}
-              icon={event.icon}
-              iconAlt={event.iconAlt}
-              textIcon={event.textIcon}
+            {eventTypes.map((event: EventType, index: number) => (
+              <EventInfo
+                key={index}
+                name={event.name}
+                description={event.description}
+                link={event.link}
+                icon={event.icon}
+                iconAlt={event.iconAlt}
+                textIcon={event.textIcon}
               />
-          ))}
+            ))}
           </div>
-          <h2/>
+          <h2 />
         </div>
       </div>
     </>
@@ -80,7 +81,14 @@ function PersonInfo({ name, role, bio, pronouns, photo }: PersonInfoProps) {
   );
 }
 
-function EventInfo({name, description, link, icon, iconAlt, textIcon}: EventType) {
+function EventInfo({
+  name,
+  description,
+  link,
+  icon,
+  iconAlt,
+  textIcon,
+}: EventType) {
   return (
     <span>
       <div className={styles.cyberThing}>
