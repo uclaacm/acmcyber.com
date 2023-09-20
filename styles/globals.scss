@@ -35,6 +35,20 @@
   --soft-lazer: #ffba4414;
   --cyber-black: #242424;
   --cyber-grey: #242424;
+
+  // andy's code highlighting theme
+  --orange-linear-transparent: linear-gradient(
+    85deg,
+    rgba(255, 186, 68, 0.9), /* Start color with transparency */
+    rgba(255, 140, 76, 0.9)   /* End color with transparency */
+  );
+  
+  --normal-code: white;
+  --type-function: #ffba44;
+  --code-string: #D45113;
+  --code-number: #813405;
+  --keyword-pink: #f44d8a;
+  --comment-grey: rgb(152, 152, 152);
 }
 
 html,
