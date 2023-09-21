@@ -1,6 +1,6 @@
 # The ACM Cyber Website
 
-![Cyber Banner](public/images/HomeBanner.svg)
+![Cyber Banner](.github/overview.png)
 Hi there! This repository holds the code for ACM Cyber @ UCLA's front-facing website, which can be viewed at [cyber.uclaacm.com](https://cyber.uclaacm.com/). You can find out more about ACM Cyber, the events we run, and resources for learning about cybersecurity!
 
 Our website is built with [Next.js](https://nextjs.org/) on top of [React](https://reactjs.org/), with a style and design system developed by our in-house designers and [ACM Design](https://design.uclaacm.com/). We use [ESLINT](https://eslint.org/) to lint our JS code.
