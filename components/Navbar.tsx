@@ -47,6 +47,9 @@ export default function Navbar() {
         <Link className={styles.hoverable} href="/archive">
           <li>Archive</li>
         </Link>
+        <Link className={styles.join} href="/join">
+          <li>Join Us</li>
+        </Link>
       </ul>
     </nav>
   );

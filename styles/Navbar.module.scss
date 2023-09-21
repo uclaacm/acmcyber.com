@@ -95,7 +95,7 @@
     }
   }
 
-  @media (max-width: 890px) {
+  @media (max-width: 1016px) {
     .hamburgerContainer {
       display: flex;
       width: 30px;
@@ -161,6 +161,19 @@
 .hoverable:hover {
   background-color: #2c2f36;
   filter: brightness(150%);
+}
+
+.join li {
+  color: var(--cyber-gold);
+  border: 2px solid var(--cyber-gold);
+  border-radius: 1rem;
+  padding: 0.5rem 0.7rem 0.2rem 0.7rem;
+  margin: -0.8rem 0;
+}
+
+.join li:hover {
+  background-color: var(--cyber-gold);
+  color: var(--soul-dark);
 }
 
 .tropicalImageStrikesAgain :not(img) {
