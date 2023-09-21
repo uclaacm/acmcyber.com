@@ -17,8 +17,8 @@ export default function About() {
         <div className="content">
           <h1>About</h1>
           <img
-            src="/images/cyber-symposium.png"
-            alt="ACM Cyber x ACM AI Spring 2023 projects symposium."
+            src="/images/ctf-experts.png"
+            alt="A talk from two CTF experts."
             className={styles.aboutImage}
           />
 
