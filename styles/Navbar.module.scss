@@ -111,7 +111,7 @@
     color: var(--cyber-gold);
     background-color: transparent;
     border: 2px solid var(--cyber-gold);
-    border-radius: 1rem;
+    border-radius: 0.8rem;
     padding: 0.1rem 0;
     font-family: "NTR", sans-serif;
     font-size: 1.5rem;
@@ -120,6 +120,18 @@
   button.join:hover {
     background-color: var(--cyber-gold);
     color: white;
+  }
+
+  @media (min-width: 1042px) {
+    button.join {
+      height: 40px;
+      transform: translateY(10px);
+
+      > a {
+        transform: translateY(-10px);
+        line-height: 40px;
+      }
+    }
   }
 
   @media (max-width: 1042px) {
