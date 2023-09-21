@@ -35,6 +35,9 @@ export default function Navbar() {
         <Link className={styles.hoverable} href="/about">
           <li>About</li>
         </Link>
+        <Link className={styles.hoverable} href="/members">
+          <li>Members</li>
+        </Link>
         <Link className={styles.hoverable} href="/events">
           <li>Events</li>
         </Link>
@@ -44,6 +47,14 @@ export default function Navbar() {
         <Link className={styles.hoverable} href="/archive">
           <li>Archive</li>
         </Link>
+        <li>
+          <button
+            onClick={() => (window.location.href = "/join")}
+            className={styles.join}
+          >
+            <Link href="/join">Join Us</Link>
+          </button>
+        </li>
       </ul>
     </nav>
   );

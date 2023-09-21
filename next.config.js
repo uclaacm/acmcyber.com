@@ -22,9 +22,11 @@ const nextConfig = {
     return {
       "/": { page: "/" },
       "/about": { page: "/about" },
+      "/members": { page: "/members" },
       "/events": { page: "/events" },
       "/archive": { page: "/archive" },
       "/blog": { page: "/blog" },
+      "/join": { page: "/join" },
       "/404": { page: "/404" },
       ...(debug
         ? {

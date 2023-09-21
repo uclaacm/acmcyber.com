@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "styles/Home.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import CyberWordmark from "@/components/CyberWordmark";
@@ -7,6 +8,7 @@ import Boba from "@/public/images/boba.svg";
 import InstagramLogo from "@/public/images/instagram.svg";
 import LinkedinLogo from "@/public/images/linkedin.svg";
 import TestTube from "@/public/images/test-tube.svg";
+import CyberLogoInverted from "@/public/images/cyber-logo-light-inverted.png";
 import TropicalImage from "@/components/TropicalImage";
 
 export default function HomePage() {
@@ -36,6 +38,12 @@ export default function HomePage() {
           <h1 className={styles.motto}>ACM Cyber has something for you.</h1>
           <div className={styles.cyberThings}>
             <CyberThing
+              icon={CyberLogoInverted}
+              title="Cyber Academy"
+              description="Learn cybersecurity skills from beginner to advanced topics!"
+              link="/about#cyber-academy"
+            />
+            <CyberThing
               textIcon="ψβρ"
               title="Psi Beta Rho (PBR)"
               description="UCLA's competitive Capture the Flag (CTF) team!"
@@ -43,9 +51,9 @@ export default function HomePage() {
             />
             <CyberThing
               icon={TestTube}
-              title="Cyber Labs"
+              title="Cyber Lab"
               description="Hands-on security projects!"
-              link="/events"
+              link="/about#cyber-lab"
             />
             <CyberThing
               icon={Flag}
@@ -57,7 +65,7 @@ export default function HomePage() {
               icon={Boba}
               title="And More!"
               description="Career panels, talks, socials, and much more!"
-              link="/events"
+              link="/about#misc"
             />
           </div>
         </div>
@@ -99,7 +107,7 @@ function CyberThing({
 }) {
   iconAlt = iconAlt ?? title + " Logo";
   return (
-    <a href={link} draggable="false">
+    <Link href={link} draggable="false">
       <div className={styles.cyberThing}>
         <div className={styles.cyberThingIcon} draggable="true">
           {textIcon ? (
@@ -113,6 +121,6 @@ function CyberThing({
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-    </a>
+    </Link>
   );
 }

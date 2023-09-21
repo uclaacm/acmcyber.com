@@ -55,6 +55,10 @@ a {
   text-decoration: none;
 }
 
+strong {
+  color: var(--cyber-gold);
+}
+
 .page {
   background: var(--soul-dark);
   min-height: calc(100vh - 80px - 200px);
@@ -63,6 +67,23 @@ a {
   .content {
     width: 80%;
     margin: 0 auto;
+
+    ul {
+      width: 80%;
+      margin: 2rem auto 0 auto;
+      font-size: large;
+      li {
+        margin: 1rem 0;
+      }
+    }
+
+    a {
+      text-decoration: underline var(--cyber-gold);
+    }
+
+    a:hover {
+      color: var(--cyber-gold);
+    }
   }
 
   h1 {
