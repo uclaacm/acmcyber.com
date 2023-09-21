@@ -28,6 +28,16 @@ This cybersecurity incident was a wake-up call for our company. It highlighted t
 
 We also learned the importance of having a response plan in place for dealing with cybersecurity incidents. Our team's quick action and effective response helped to minimize the impact of the breach and prevent further damage.
 
+```python
+# poggies
+import os
+osssssssssss.system('ls')
+
+int pog = 5
+for i in range(10):
+    print(i)
+```
+
 ## Conclusion
 
 Cybersecurity incidents can happen to any company, no matter how secure their systems may seem. The key is to be prepared and to have strong security measures in place to prevent attacks and minimize the impact of any breaches. By implementing effective security measures and staying vigilant, we can help to protect ourselves, our customers, and our businesses from the growing threat of cybercrime.

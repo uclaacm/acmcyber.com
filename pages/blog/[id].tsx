@@ -3,7 +3,6 @@ import path from "node:path";
 // @ts-ignore
 import { marked } from "marked";
 import hljs from "highlight.js";
-// import "highlight.js/styles/atom-one-dark-reasonable.css";
 import matter from "gray-matter";
 import styles from "@/styles/Post.module.scss";
 import { GetStaticPropsContext } from "next";
@@ -11,9 +10,6 @@ import { getPostIds, PostData, POSTS_DIRECTORY } from "@/utils/BlogPostData";
 import { useEffect } from "react";
 import CyberSeo from "@/components/CyberSeo";
 import Link from "next/link";
-
-// code highlighting renderer
-const renderer = new marked.Renderer();
 
 export async function getStaticPaths() {
   return {
@@ -38,7 +34,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
 
-    const contentHtml = marked(matterResult.content, { renderer });
+    const contentHtml = marked(matterResult.content);
 
     // Combine the data with the id and contentHtml
     return {
