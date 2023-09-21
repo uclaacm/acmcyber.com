@@ -1,6 +1,3 @@
-import Image from "next/image";
-
-import members, { PersonInfoProps } from "@/data/members";
 import { eventTypes, EventType } from "@/data/events";
 
 import styles from "@/styles/About.module.scss";
@@ -54,30 +51,6 @@ export default function About() {
         </div>
       </div>
     </>
-  );
-}
-
-function PersonInfo({ name, role, bio, pronouns, photo }: PersonInfoProps) {
-  return (
-    <div className={styles.personInfo}>
-      <Image
-        className={styles.personImage}
-        src={
-          photo !== ""
-            ? "/images/members/" + photo
-            : "/images/cyber-logo-light.png"
-        }
-        alt={`Profile picture of ${name}`}
-        width={300}
-        height={300}
-      />
-      <h3>{name}</h3>
-      <p>{pronouns}</p>
-      <p>
-        <i>{role}</i>
-      </p>
-      <p>{bio}</p>
-    </div>
   );
 }
 

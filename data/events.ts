@@ -24,7 +24,7 @@ export const eventTypes = [
   {
     name: EventKind.CyLab,
     description: 'ACM Cyber\'s newest offering, Cyber Lab is home to a rotating variety of quarter-long projects, planned to give you the freedom to learn something new and apply what you already know in a practical setting. With help from current officers, alumni mentors, and other members of ACM Cyber, you can create a unique product by the end of the quarter.  From building your own operating system, to video game hacking, to adversarial AI, Cyber Lab has it all!  Be sure to keep a lookout for our future projects and even submit ideas of your own.',
-    icon: "test-tube.png"
+    icon: "test-tube.svg"
   },
   {
     name: EventKind.PBR,
@@ -36,12 +36,12 @@ export const eventTypes = [
     name: EventKind.LACTF,
     description: 'Our largest event of the year, LA CTF is an annual cybersecurity competition with speakers, career events, challenges, and prizes, hosted right here at UCLA. Whether you are tackling your first exploit or have professional experience, there will be something just right for you!  Participation and planning sessions are open to all.',
     link: 'https://lac.tf',
-    icon: "flag.png"
+    icon: "flag.svg"
   },
   {
     name: EventKind.Misc,
     description: 'Alongside our other events, we also offer socials, member talks, speaker events, career panels, and more! Our club not only helps develop peoples\' careers but also grows the community of hacking enthusiasts!',
-    icon: "boba.png"
+    icon: "boba.svg"
   },
 ];
 
