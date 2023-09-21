@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "styles/Home.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import CyberWordmark from "@/components/CyberWordmark";
@@ -40,7 +41,7 @@ export default function HomePage() {
               icon={CyberLogo}
               title="Cyber Academy"
               description="Learn cybersecurity skills from beginner to advanced topics!"
-              link="/events"
+              link="/about#cyber-academy"
             />
             <CyberThing
               textIcon="ψβρ"
@@ -52,7 +53,7 @@ export default function HomePage() {
               icon={TestTube}
               title="Cyber Lab"
               description="Hands-on security projects!"
-              link="/events"
+              link="/about#cyber-lab"
             />
             <CyberThing
               icon={Flag}
@@ -64,7 +65,7 @@ export default function HomePage() {
               icon={Boba}
               title="And More!"
               description="Career panels, talks, socials, and much more!"
-              link="/events"
+              link="/about#misc"
             />
           </div>
         </div>
@@ -106,7 +107,7 @@ function CyberThing({
 }) {
   iconAlt = iconAlt ?? title + " Logo";
   return (
-    <a href={link} draggable="false">
+    <Link href={link} draggable="false">
       <div className={styles.cyberThing}>
         <div className={styles.cyberThingIcon} draggable="true">
           {textIcon ? (
@@ -120,6 +121,6 @@ function CyberThing({
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-    </a>
+    </Link>
   );
 }

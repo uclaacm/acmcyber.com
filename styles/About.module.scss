@@ -11,6 +11,8 @@
   margin: 0 auto;
 
   > span {
+    scroll-margin-top: 80px;
+
     .cyberThing {
       --cyber-thing-width: 0.09;
       --inner-padding: 0.2;

@@ -40,6 +40,7 @@ export default function About() {
                 key={index}
                 name={event.name}
                 description={event.description}
+                id={event.id}
                 link={event.link}
                 icon={event.icon}
                 iconAlt={event.iconAlt}
@@ -58,12 +59,13 @@ function EventInfo({
   name,
   description,
   link,
+  id,
   icon,
   iconAlt,
   textIcon,
 }: EventType) {
   return (
-    <span>
+    <span id={id}>
       <div className={styles.cyberThing}>
         <div className={styles.cyberThingIcon} draggable="true">
           {textIcon ? (
