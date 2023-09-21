@@ -21,7 +21,7 @@ export const eventTypes = [
     name: EventKind.CyAc,
     description: 'Cyber Academy is a weekly track designed to introduce you to the world of cybersecurity and help you expand your knowledge, regardless of your current skill level. Each week, we\'ll explore various cybersecurity topics in 15-20 minute talks and provide you with the opportunity to apply your learning through engaging "capture-the-flag"-style challenges. You\'ll also have the chance to collaborate with your peers in smaller groups to do some hands-on hacking! At Cyber Academy, we strive to open the door to all that cybersecurity has to offer, helping you learn and apply the foundational skills essential for success in this dynamic field.',
     id: "cyber-academy",
-    icon: "cyber-logo-light.png"
+    icon: "cyber-logo-light-inverted.png"
   },
   {
     name: EventKind.CyLab,

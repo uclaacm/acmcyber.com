@@ -8,7 +8,7 @@ import Boba from "@/public/images/boba.svg";
 import InstagramLogo from "@/public/images/instagram.svg";
 import LinkedinLogo from "@/public/images/linkedin.svg";
 import TestTube from "@/public/images/test-tube.svg";
-import CyberLogo from "@/public/images/cyber-logo-light.svg";
+import CyberLogoInverted from "@/public/images/cyber-logo-light-inverted.png";
 import TropicalImage from "@/components/TropicalImage";
 
 export default function HomePage() {
@@ -38,7 +38,7 @@ export default function HomePage() {
           <h1 className={styles.motto}>ACM Cyber has something for you.</h1>
           <div className={styles.cyberThings}>
             <CyberThing
-              icon={CyberLogo}
+              icon={CyberLogoInverted}
               title="Cyber Academy"
               description="Learn cybersecurity skills from beginner to advanced topics!"
               link="/about#cyber-academy"
