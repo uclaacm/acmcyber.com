@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-import members, { PersonInfoProps } from "@/data/members";
+import { eventTypes, EventType } from "@/data/events";
 
 import styles from "@/styles/About.module.scss";
 import CyberSeo from "@/components/CyberSeo";
@@ -16,8 +14,8 @@ export default function About() {
         <div className="content">
           <h1>About</h1>
           <img
-            src="/images/cyber-symposium.png"
-            alt="ACM Cyber x ACM AI Spring 2023 projects symposium."
+            src="/images/ctf-experts.png"
+            alt="A talk from two CTF experts."
             className={styles.aboutImage}
           />
 
@@ -31,46 +29,56 @@ export default function About() {
             the students at UCLA!
           </p>
 
-          <h2>Members</h2>
-
-          <div className={styles.officersContainer}>
-            {members.map((officer: PersonInfoProps, index: number) => (
-              <PersonInfo
+          <h2>What We Do</h2>
+          <p>
+            ACM Cyber is home to a wide variety of events and projects hosted
+            throughout the year. Check out our main initiatives below!
+          </p>
+          <div className={styles.cyberThings}>
+            {eventTypes.map((event: EventType, index: number) => (
+              <EventInfo
                 key={index}
-                name={officer.name}
-                role={officer.role}
-                bio={officer.bio}
-                pronouns={officer.pronouns}
-                photo={officer.photo}
+                name={event.name}
+                description={event.description}
+                id={event.id}
+                link={event.link}
+                icon={event.icon}
+                iconAlt={event.iconAlt}
+                textIcon={event.textIcon}
               />
             ))}
           </div>
+          <h2 />
         </div>
       </div>
     </>
   );
 }
 
-function PersonInfo({ name, role, bio, pronouns, photo }: PersonInfoProps) {
+function EventInfo({
+  name,
+  description,
+  link,
+  id,
+  icon,
+  iconAlt,
+  textIcon,
+}: EventType) {
   return (
-    <div className={styles.personInfo}>
-      <Image
-        className={styles.personImage}
-        src={
-          photo !== ""
-            ? "/images/members/" + photo
-            : "/images/cyber-logo-light.png"
-        }
-        alt={`Profile picture of ${name}`}
-        width={300}
-        height={300}
-      />
-      <h3>{name}</h3>
-      <p>{pronouns}</p>
-      <p>
-        <i>{role}</i>
-      </p>
-      <p>{bio}</p>
-    </div>
+    <span id={id}>
+      <div className={styles.cyberThing}>
+        <div className={styles.cyberThingIcon} draggable="true">
+          {textIcon ? (
+            <p role="img" aria-label={iconAlt}>
+              {textIcon}
+            </p>
+          ) : (
+            <img src={"/images/" + icon} alt={iconAlt} />
+          )}
+        </div>
+        <h2>{name}</h2>
+        <p>{description}</p>
+      </div>
+    </span>
   );
 }
