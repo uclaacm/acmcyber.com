@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 import "@/styles/globals.scss";
+import "@/styles/firstboot.scss";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

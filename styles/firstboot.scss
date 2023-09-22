@@ -1,0 +1,70 @@
+body.firstBoot {
+  background-color: var(--soul-dark);
+
+  @keyframes first-boot-body-finish {
+    from {
+      overflow-y: hidden;
+    }
+    to {
+      overflow-y: unset;
+    }
+  }
+  animation: 0ms linear 5500ms 1 normal both running first-boot-body-finish;
+
+  nav {
+    @keyframes first-boot-nav-finish {
+      from {
+        box-shadow: 0px 1px 15px transparent;
+      }
+      to {
+        box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);
+      }
+    }
+
+    @keyframes first-boot-nav-child-finish {
+      from {
+        opacity: 0%;
+      }
+      to {
+        opacity: 100%;
+      }
+    }
+
+    @keyframes first-boot-nav {
+      from {
+        height: 0px;
+      }
+      to {
+        height: 80px;
+      }
+    }
+
+    animation: 600ms ease-in 5500ms 1 normal both running first-boot-nav-finish;
+    > * {
+      animation: 0ms linear 5500ms 1 normal both running
+        first-boot-nav-child-finish;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 80px;
+      background: black;
+      animation: 600ms ease-out 250ms 1 normal both running first-boot-nav,
+        600ms ease-in 5500ms 1 reverse forwards running first-boot-nav;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: calc(80px * var(--cinema-bar-height));
+    background: black;
+    animation: 600ms ease-out 250ms 1 normal both running first-boot-nav,
+      600ms ease-in 5500ms 1 reverse forwards running first-boot-nav;
+  }
+}

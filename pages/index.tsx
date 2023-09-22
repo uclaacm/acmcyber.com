@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "styles/Home.module.scss";
+import styles from "@/styles/Home.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import CyberWordmark from "@/components/CyberWordmark";
 import DiscordLogo from "@/public/images/discord.svg";
@@ -11,19 +11,44 @@ import TestTube from "@/public/images/test-tube.svg";
 import CyberLogoInverted from "@/public/images/cyber-logo-light-inverted.png";
 import TropicalImage from "@/components/TropicalImage";
 
+const firstBootStyle = styles.firstBoot;
+export { firstBootStyle };
+
 export default function HomePage() {
+  if (typeof window !== "undefined") {
+    // @ts-ignore
+    if (window.firstBoot) {
+      // @ts-ignore
+      // rendering code seems to get called twice, so deduplicate here
+      window.firstBoot = false;
+      document.body.scrollTo(0, 40);
+      setTimeout(() => {
+        document.body.classList.remove("firstBoot");
+        document.body.classList.remove(firstBootStyle);
+        if (window.localStorage.getItem("debug-first-boot") === null) {
+          window.localStorage.setItem("first-boot", "true");
+        }
+      }, 6100);
+    }
+  }
+
   return (
     <>
       <CyberSeo title="Home" />
       <div className="page">
         <div className={styles.welcomeHero}>
           <div className={styles.cyberDiamondRelativeContainer}>
+            <div className={styles.collage} />
             <div className={styles.cyberDiamond} />
           </div>
           <div className={styles.cyberDiamondInner}>
-            <p className={styles.welcomeTo}>Welcome to</p>
-            <CyberWordmark className={styles.acmCyber1} />
-            <div className={styles.elevatorPitchWrap}>
+            <div className={styles.textWrap}>
+              <p className={styles.welcomeTo}>Welcome to</p>
+            </div>
+            <div className={styles.textWrap}>
+              <CyberWordmark className={styles.acmCyber1} />
+            </div>
+            <div className={styles.textWrap}>
               <p className={styles.elevatorPitch}>
                 We’re a student-run organization on a mission to{" "}
                 <b>make cybersecurity simple and accessible to everyone</b>.

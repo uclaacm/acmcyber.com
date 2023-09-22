@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { firstBootStyle } from "@/pages/index";
 
 export default function Document() {
   return (
@@ -17,6 +18,23 @@ export default function Document() {
         />
       </Head>
       <body>
+        {/* Handle first boot style changes as early as possible to prevent the dreaded Flash of Unstyled Content™ */}
+        <script
+          id="first-boot"
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (window.location.pathname === "/") {
+                if(!matchMedia("(prefers-reduced-motion) or (max-width: 350px)").matches && window.localStorage.getItem("first-boot") === null) {
+                  document.body.classList.add("firstBoot");
+                  document.body.classList.add(${JSON.stringify(
+                    firstBootStyle
+                  )});
+                  window.firstBoot = true;
+                }
+              }
+            `,
+          }}
+        />
         <Main />
         <NextScript />
       </body>
