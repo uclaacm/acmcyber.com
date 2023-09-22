@@ -19,9 +19,11 @@ export default function Join() {
             Want to join UCLA's premier cybersecurity club?{" "}
             <strong>All experiences welcome!</strong> Our membership form opens
             at the start of every quarter. Join our{" "}
-            <a href="https://discord.com/invite/j9dgf2q">Discord</a> to stay up
-            to date! All of our events are open to the public, so feel free to
-            join us at any time!
+            <a href="https://discord.com/invite/j9dgf2q" className="link">
+              Discord
+            </a>{" "}
+            to stay up to date! All of our events are open to the public, so
+            feel free to join us at any time!
           </p>
 
           <h2>What do I have to do?</h2>
@@ -54,7 +56,11 @@ export default function Join() {
             <li>
               <strong>Community:</strong> Join a community of like-minded peers
               enthusiastic about hacking! Your photo and bio will also be added
-              to our <a href="/members">members page</a>!
+              to our{" "}
+              <a href="/members" className="link">
+                members page
+              </a>
+              !
             </li>
             <li>
               <strong>Cyber Pals:</strong> Our mentorship/peer program that

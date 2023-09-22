@@ -59,6 +59,14 @@ strong {
   color: var(--cyber-gold);
 }
 
+.link {
+  text-decoration: underline var(--cyber-gold);
+}
+
+.link:hover {
+  color: var(--cyber-gold);
+}
+
 .page {
   background: var(--soul-dark);
   min-height: calc(100vh - 80px - 200px);
@@ -75,14 +83,6 @@ strong {
       li {
         margin: 1rem 0;
       }
-    }
-
-    a {
-      text-decoration: underline var(--cyber-gold);
-    }
-
-    a:hover {
-      color: var(--cyber-gold);
     }
   }
 
