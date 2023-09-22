@@ -1,0 +1,64 @@
+pre {
+  background: var(--soft-lazer);
+  border-radius: 0.5rem;
+  padding: 1em;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: var(--comment-grey);
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: var(--type-function);
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: var(--type-function);
+}
+
+.hljs-attribute {
+  color: var(--normal-code);
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: var(--code-string);
+}
+
+.hljs-title,
+.hljs-section {
+  color: var(--normal-code);
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: var(--keyword-pink);
+}
+
+.hljs {
+  color: var(--normal-code);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}

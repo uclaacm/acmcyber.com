@@ -63,6 +63,7 @@ export default function Post({ postData }: { postData: PostData }) {
   useEffect(() => {
     hljs.highlightAll();
   }, []);
+
   return (
     <>
       <CyberSeo
