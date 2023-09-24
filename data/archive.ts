@@ -20,14 +20,23 @@ export interface QuarterArchive {
   series: SeriesArchive[];
 }
 
+enum archDes
+{
+  CyAc = 'Cyber Academy is a weekly track designed to introduce you to the world of cybersecurity and help you expand your knowledge, regardless of your current skill level. Each week, we\'ll explore various cybersecurity topics in 15-20 minute talks and provide you with the opportunity to apply your learning through engaging "capture-the-flag"-style challenges. You\'ll also have the chance to collaborate with your peers in smaller groups to do some hands-on hacking! At Cyber Academy, we strive to open the door to all that cybersecurity has to offer, helping you learn and apply the foundational skills essential for success in this dynamic field.',
+  CyLab = 'ACM Cyber\'s newest offering, Cyber Lab is home to a rotating variety of quarter-long projects, planned to give you the freedom to learn something new and apply what you already know in a practical setting. With help from current officers, alumni mentors, and other members of ACM Cyber, you can create a unique product by the end of the quarter.  From building your own operating system, to video game hacking, to adversarial AI, Cyber Lab has it all!  Be sure to keep a lookout for our future projects and even submit ideas of your own.',
+  CySpecialTop = 'Cyber Special Topics explores the intersection of cybersecurity with other fields through exciting talks and demos. Each week, you\'ll be able to gain practical experience and insights that can be applied universally in the dynamic landscape of cybersecurity.',
+  LACTF = 'Our largest event of the year, LA CTF is an annual cybersecurity competition with speakers, career events, challenges, and prizes, hosted right here at UCLA. Whether you are tackling your first exploit or have professional experience, there will be something just right for you!  Participation and planning sessions are open to all.',
+  Miscellaneous = 'Alongside our other events, we also offer socials, member talks, speaker events, career panels, and more! Our club not only helps develop peoples\' careers but also grows the community of hacking enthusiasts!',
+}
+
 const archive: QuarterArchive[] = [
   /* SPRING 2023 */
   {
     name: "Spring 2023",
     series: [
       {
-        name: "CyberAcademy",
-        description: "Learn how to hack websites",
+        name: "Cyber Academy",
+        description: archDes.CyAc,
         events: [
           {
             name: "Intro to Reverse Engineering",
@@ -90,7 +99,7 @@ const archive: QuarterArchive[] = [
       },
       {
         name: "Cyber Lab", 
-        description: "Learn how to develop your own secure operating system!", 
+        description: archDes.CyLab, 
         events: [
           {
             name: "Secure OS Lab", 
@@ -212,7 +221,7 @@ const archive: QuarterArchive[] = [
       },
       {
         name: "Miscellaneous", 
-        description: "Get to know us better", 
+        description: archDes.Miscellaneous, 
         events: [
           {
             name: "Spring General Meeting", 
@@ -322,7 +331,7 @@ const archive: QuarterArchive[] = [
     series: [
       {
         name: "Cyber Academy", 
-        description: "Learn how to hack websites", 
+        description: archDes.CyAc, 
         events: [
           {
             name: "Intro to Web Hacking", 
@@ -404,7 +413,7 @@ const archive: QuarterArchive[] = [
       },
       {
         name: "Cyber Special Topics", 
-        description: "Cyber in Other Fields", 
+        description: archDes.CySpecialTop, 
         events: [
           {
             name: "AI Security", 
@@ -475,8 +484,29 @@ const archive: QuarterArchive[] = [
         ]
       },
       {
+        name: "LA CTF", 
+        description: archDes.LACTF, 
+        events: [
+          {
+            name: "LA CTF",
+            date: new Date("2/10/23"),
+            location: "lactf.uclaacm.com",
+            description:
+              "We are happy to introduce LA CTF 2023, a \
+              42-hour cybersecurity event hosted by ACM Cyber \
+              at UCLA and team Psi Beta Rho. This event will take \
+              place from Feb 10-12 and features a variety of challenges \
+              and events for all skill levels. Everyone is welcome \
+              to participate and learn!",
+            tags: ["LA CTF"],
+            recording: "https://www.youtube.com/watch?v=FlIbDth-R1M&list=PLPO7_kXilXFZbOQEvLo9I4CE_wFiJn8SS&ab_channel=ACMatUCLA",
+            graphicPath: "images/archive/w23/la-ctf.jpeg"
+          },
+        ]
+      },
+      {
         name: "Miscellaneous", 
-        description: "Get to know us better", 
+        description: archDes.Miscellaneous, 
         events: [
           {
             name: "Winter General Meeting", 
@@ -505,21 +535,6 @@ const archive: QuarterArchive[] = [
                 Westwood together to grab dinner adn boba afterwards.", 
             tags: ["social", "colab", "studio"], 
             graphicPath: "images/archive/w23/social.jpeg",
-          },
-          {
-            name: "LA CTF", 
-            date: new Date ("2/10/23"), 
-            location: "lactf.uclaacm.com", 
-            description: 
-              "We are happy to introduce LA CTF 2023, a \
-                42-hour cybersecurity event hosted by ACM Cyber \
-                at UCLA and team Psi Beta Rho. This event will take \
-                place from Feb 10-12 and features a variety of challenges \
-                and events for all skill levels. Everyone is welcome \
-                to participate and learn!", 
-            tags: ["LA CTF"], 
-            recording: "https://www.youtube.com/watch?v=FlIbDth-R1M&list=PLPO7_kXilXFZbOQEvLo9I4CE_wFiJn8SS&ab_channel=ACMatUCLA",
-            graphicPath: "images/archive/w23/la-ctf.jpeg"
           },
         ]
       },
