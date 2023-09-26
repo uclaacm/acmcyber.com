@@ -44,7 +44,7 @@ const archive: QuarterArchive[] = [
                 come to learn more about what Psi Beta Rho, UCLA's top-notch \
                 cybersecurity and capture-the-flag team, is doing this spring so \
                 you can apply your skills in exciting and competitive ways!", 
-            slides: "bit.ly/cyber-spring-gm-23", 
+            slides: "https://bit.ly/cyber-spring-gm-23", 
             tags: ["gm"], 
             graphicPath: "/images/archive/s23/gm.jpg",
           }, 
