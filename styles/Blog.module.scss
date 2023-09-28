@@ -101,3 +101,9 @@ ul.categorySelect {
     color: var(--soul-dark);
   }
 }
+
+@media screen and (max-width: 600px) {
+  ul.categorySelect {
+    flex-direction: column;
+  }
+}
