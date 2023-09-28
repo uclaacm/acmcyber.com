@@ -94,7 +94,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Victoria Choi",
     role: "Officer",
-    bio: "2nd year Computer Science major",
+    bio: "Hi I'm Victoria! I'm a second year computer science major from Chino Hills. I like to crochet, play golf, and go on picnics/boba runs.",
     pronouns: "she/her",
     photo: "victoria.jpg",
   },
