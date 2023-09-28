@@ -111,13 +111,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9000; // remove a 0 to make it not cover navbar
+  z-index: 9000; // div by 10 to make it not cover navbar
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: color-mix(in srgb, var(--soul-dark), transparent 10%);
+  background: var(--soul-dark-shim);
 
   // fade-in transition
   filter: opacity(0);
@@ -140,7 +140,8 @@
   justify-content: center;
   background-color: var(--soul-dark);
   color: white;
-  min-width: 30vw;
+  overflow: auto;
+  width: min(30rem, 50vw);
 
   // start out popup smol, will become beeg when .mounted on popup-container
   transform-origin: center;
@@ -150,6 +151,13 @@
 
 .popup .content {
   padding: 1rem;
+}
+
+// on phones, popup will look like a goofy tv remote without this
+@media screen and (max-width: 600px) {
+  .popup {
+    width: calc(100% - 2rem);
+  }
 }
 
 .top-bar {
@@ -197,4 +205,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.date {
+  color: var(--organic-oranges);
+}
+.description {
+  margin: 0.5rem 0;
+}
+
+.graphic {
+  vertical-align: top;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
 }

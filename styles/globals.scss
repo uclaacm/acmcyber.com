@@ -16,6 +16,12 @@
   --cyber-gold: #ffba44;
   --shadowed-light: #86652d;
   --soul-dark: #0e1116;
+
+  // pre-computed color-mix(in srgb, var(--soul-dark), transparent 10%);
+  // as older safaris don't support color-mix
+  // was done by converting --soul-dark to rgb and then adding alpha channel of 0.9
+  --soul-dark-shim: rgba(14, 17, 22, 0.9);
+
   --orange-linear: linear-gradient(85deg, #ffba44, #ff8c4c 60%);
   --logo-linear: linear-gradient(
     61.43deg,
@@ -29,6 +35,20 @@
   --soft-lazer: #ffba4414;
   --cyber-black: #242424;
   --cyber-grey: #242424;
+
+  // andy's code highlighting theme
+  --orange-linear-transparent: linear-gradient(
+    85deg,
+    rgba(255, 186, 68, 0.9),
+    rgba(255, 140, 76, 0.9)
+  );
+
+  --normal-code: white;
+  --type-function: #ffba44;
+  --code-string: #d45113;
+  --code-number: #813405;
+  --keyword-pink: #f44d8a;
+  --comment-grey: rgb(152, 152, 152);
 }
 
 html,
@@ -49,6 +69,18 @@ a {
   text-decoration: none;
 }
 
+strong {
+  color: var(--cyber-gold);
+}
+
+.link {
+  text-decoration: underline var(--cyber-gold);
+}
+
+.link:hover {
+  color: var(--cyber-gold);
+}
+
 .page {
   background: var(--soul-dark);
   min-height: calc(100vh - 80px - 200px);
@@ -57,6 +89,15 @@ a {
   .content {
     width: 80%;
     margin: 0 auto;
+
+    ul {
+      width: 80%;
+      margin: 2rem auto 0 auto;
+      font-size: large;
+      li {
+        margin: 1rem 0;
+      }
+    }
   }
 
   h1 {

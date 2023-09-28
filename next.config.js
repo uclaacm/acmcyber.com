@@ -4,8 +4,6 @@ const debug = process.env.NODE_ENV !== "production";
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    // loader: "akamai",
-    // path: "/",
     unoptimized: true,
   },
   assetPrefix: !debug ? "https://www.acmcyber.com" : "",
@@ -17,14 +15,16 @@ const nextConfig = {
 
   exportPathMap: async function (
     defaultPathMap,
-    { dev, dir, outDir, distDir, buildId },
+    { dev, dir, outDir, distDir, buildId }
   ) {
     return {
       "/": { page: "/" },
       "/about": { page: "/about" },
+      "/members": { page: "/members" },
       "/events": { page: "/events" },
       "/archive": { page: "/archive" },
       "/blog": { page: "/blog" },
+      "/join": { page: "/join" },
       "/404": { page: "/404" },
       ...(debug
         ? {
