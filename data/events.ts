@@ -54,6 +54,7 @@ export const eventTypes = [
 export interface Event {
   name: string;
   type: EventKind;
+  image?: string;
   date: Date;
   time: string;
   location: string;
@@ -70,6 +71,7 @@ const eventsData: Event[] = [
   {
     name: "ACM Fall GM",
     description: defaultDescription,
+    image: "/images/events/acm-gm-f23.png",
     type: EventKind.Misc,
     date: new Date("10/2/23"),
     time: "7:00 - 9:00 PM (PST)",
@@ -78,6 +80,7 @@ const eventsData: Event[] = [
   {
     name: "Cyber Fall GM",
     description: defaultDescription,
+    image: "/images/events/gm-f23.png",
     type: EventKind.Misc,
     date: new Date("10/4/23"),
     time: time,
