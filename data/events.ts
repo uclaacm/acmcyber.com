@@ -68,6 +68,14 @@ const defaultDescription = "We are a group of hackers & developers passionate ab
 
 const eventsData: Event[] = [
   {
+    name: "ACM Fall GM",
+    description: defaultDescription,
+    type: EventKind.Misc,
+    date: new Date("10/2/23"),
+    time: "7:00 - 9:00 PM (PST)",
+    location: "Ackerman Grand Ballroom",
+  },
+  {
     name: "Cyber Fall GM",
     description: defaultDescription,
     type: EventKind.Misc,
@@ -76,7 +84,7 @@ const eventsData: Event[] = [
     location: CyLabLoc,
   },
   {
-    name: "Setup and Intro to Linux",
+    name: "Setup & Intro to Linux",
     description: defaultDescription,
     type: EventKind.CyAc,
     date: new Date("10/9/23"),
@@ -84,7 +92,7 @@ const eventsData: Event[] = [
     location: CyAcLoc,
   },
   {
-    name: "Usable Security Talk",
+    name: "Usable Security",
     description: defaultDescription,
     type: EventKind.CyLab,
     date: new Date("10/11/23"),
@@ -108,7 +116,7 @@ const eventsData: Event[] = [
     location: CyLabLoc,
   },
   {
-    name: "CTF #1: Intro to Pwn",
+    name: "Intro to Binary Exploitation (Pwn)",
     description: defaultDescription, 
     type: EventKind.PBR, 
     date: new Date("10/21/23"),
@@ -116,7 +124,7 @@ const eventsData: Event[] = [
     location: "TBD",
   },
   {
-    name: "OSINT/Social Engineering",
+    name: "OSINT & Social Engineering",
     description: defaultDescription,
     type: EventKind.CyAc,
     date: new Date("10/23/23"),
@@ -131,22 +139,22 @@ const eventsData: Event[] = [
     time: time,
     location: CyLabLoc,
   },
-  {
-    name: "Study Social",
-    description: defaultDescription,
-    type: EventKind.Misc,
-    date: new Date("10/30/23"),
-    time: "TBD",
-    location: "TBD",
-  },
-  {
-    name: "Study Social",
-    description: defaultDescription,
-    type: EventKind.Misc,
-    date: new Date("11/01/23"),
-    time: "TBD",
-    location: "TBD",
-  },
+  // {
+  //   name: "Study Social",
+  //   description: defaultDescription,
+  //   type: EventKind.Misc,
+  //   date: new Date("10/30/23"),
+  //   time: "TBD",
+  //   location: "TBD",
+  // },
+  // {
+  //   name: "Study Social",
+  //   description: defaultDescription,
+  //   type: EventKind.Misc,
+  //   date: new Date("11/01/23"),
+  //   time: "TBD",
+  //   location: "TBD",
+  // },
   {
     name: "Robert Chen, OtterSec Guest Speaker",
     description: defaultDescription,
@@ -155,16 +163,16 @@ const eventsData: Event[] = [
     time: time,
     location: CyAcLoc,
   },
+  // {
+  //   name: "Professor Tian Guest Speaker",
+  //   description: defaultDescription,
+  //   type: EventKind.CyLab,
+  //   date: new Date("11/08/23"),
+  //   time: time,
+  //   location: CyLabLoc,
+  // },
   {
-    name: "Professor Tian Guest Speaker",
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date("11/08/23"),
-    time: time,
-    location: CyLabLoc,
-  },
-  {
-    name: "CTF #2: Federated Learning Attacks & Defenses",
+    name: "Federated Learning Attacks & Defenses",
     description: defaultDescription,
     type: EventKind.PBR,
     date: new Date("11/11/23"),
@@ -196,7 +204,7 @@ const eventsData: Event[] = [
     location: CyAcLoc,
   },
   {
-    name: "CTF #3: Garbled Circuits",
+    name: "Garbled Circuits",
     description: defaultDescription,
     type: EventKind.PBR,
     date: new Date("11/25/23"),
@@ -212,7 +220,7 @@ const eventsData: Event[] = [
     location: CyAcLoc,
   },
   {
-    name: "Careers in Cyber",
+    name: "Careers in Cybersecurity",
     description: defaultDescription,
     type: EventKind.CyLab,
     date: new Date("11/29/23"),
@@ -226,22 +234,6 @@ const eventsData: Event[] = [
     date: new Date("12/04/23"),
     time: time,
     location: CyAcLoc,
-  },
-  {
-    name: 'ACM Fall General Meeting 2023',
-    description: defaultDescription,
-    type: EventKind.Misc,
-    date: new Date("2023-10-02"),
-    time: '6:00 - 8:00 PM (PST)',
-    location: "TBD",
-  },
-  {
-    name: 'Cyber Fall General Meeting 2023',
-    description: defaultDescription,
-    type: EventKind.Misc,
-    date: new Date("2023-10-09"),
-    time: '6:00 - 8:00 PM (PST)',
-    location: "TBD",
   },
 ];
 
