@@ -17,8 +17,12 @@ export default function Join() {
 
           <p>
             Want to join UCLA's premier cybersecurity club?{" "}
-            <strong>All experiences welcome!</strong> Our membership form opens
-            at the start of every quarter. Join our{" "}
+            <strong>All levels of experience welcome!</strong> Our{" "}
+            <strong>membership form</strong> is now open. Fill it out{" "}
+            <a href="https://forms.gle/GdVhrvbpyvJJWASe6" className="link">
+              here
+            </a>{" "}
+            to officially join ACM Cyber! Join our{" "}
             <a href="https://discord.com/invite/j9dgf2q" className="link">
               Discord
             </a>{" "}
