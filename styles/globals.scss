@@ -74,7 +74,8 @@ strong {
 }
 
 .link {
-  text-decoration: underline var(--cyber-gold);
+  text-decoration-line: underline;
+  text-decoration-color: var(--cyber-gold);
 }
 
 .link:hover {
