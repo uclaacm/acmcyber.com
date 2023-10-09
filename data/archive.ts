@@ -30,6 +30,27 @@ enum archDes
 }
 
 const archive: QuarterArchive[] = [
+  /* FALL 2023 */
+  {
+    name: "Fall 2023",
+    series: [
+      {
+        name: "Miscellaneous",
+        description: archDes.Miscellaneous,
+        events: [
+          {
+            name: "Cyber Fall GM",
+            description: "Interested in solving technical puzzles 🧩 ? Want to learn more about cybersecurity 🔐 ? Excited to work on cool projects with cool people? ACM Cyber is the club for you! Join us for Cyber's first General Meeting on Wednesday, October 4th from 6-8 pm to learn about what we have planned for this quarter!  Come on out to Franz 2258A to solve some challenges, participate in fun activities, and make some friends.  Regardless of experience level, we have something for you.  There will be free t-shirts 👕 so be sure to stop by! P.S. Be sure to bring a laptop to try out some of our challenges yourself.",
+            graphicPath: "/images/events/gm-f23.png",
+            date: new Date("10/4/23"),
+            location: "Franz 2258A",
+            tags: ["gm"],
+            slides: "https://docs.google.com/presentation/d/10Fqgo-kACmAP981LaxP0K0ugOSIazlcI2mbGDYK3njw/edit?usp=sharing"
+          },
+        ]
+      }
+    ],
+  },
   /* SPRING 2023 */
   {
     name: "Spring 2023",
