@@ -61,7 +61,7 @@ export interface Event {
   description: string;
 }
 
-const CyLabLoc = "Franz 2258A";
+const CyLabLoc = "Boelter 4760";
 const CyAcLoc = "Boelter 4760";
 const time = "6:00 - 8:00 PM (PST)";
 
