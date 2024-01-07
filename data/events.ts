@@ -1,3 +1,20 @@
+import eventsData from "./events.json" assert { type: "json" }
+
+export interface CyaneaEvent {
+  id: string
+  title: string
+  type?: string | string[] | null
+  description: string
+  location: string
+  banner?: string | null
+  start: number
+  end: number
+  links?: Record<string, string> | null
+  meta?: Record<string, any> | null
+}
+
+export default eventsData as CyaneaEvent[];
+
 export interface EventType {
   name: string;
   description: string;
@@ -14,6 +31,7 @@ enum EventKind {
   CyLab = "Cyber Lab",
   LACTF = "LA CTF",
   Misc = "Miscellaneous",
+  Special = "Cyber Special Topics",
 }
 
 export const eventTypes = [
@@ -49,195 +67,10 @@ export const eventTypes = [
     id: "misc",
     icon: "boba.svg"
   },
+  {
+    name: EventKind.Special,
+    description: "Cyber Special Topics explores the intersection of cybersecurity with other fields through exciting talks and demos. Each week, you\'ll be able to gain practical experience and insights that can be applied universally in the dynamic landscape of cybersecurity.",
+    id: "cyber-special-topics",
+    textIcon: "</>",
+  }
 ];
-
-export interface Event {
-  name: string;
-  type: EventKind;
-  image?: string;
-  date: Date;
-  time: string;
-  location: string;
-  description: string;
-}
-
-const CyLabLoc = "Boelter 4760";
-const CyAcLoc = "Boelter 4760";
-const time = "6:00 - 8:00 PM (PST)";
-
-const defaultDescription = "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!"
-
-const eventsData: Event[] = [
-  {
-    name: "ACM Fall GM",
-    description: defaultDescription,
-    image: "/images/events/acm-gm-f23.png",
-    type: EventKind.Misc,
-    date: new Date("10/2/23"),
-    time: "7:00 - 9:00 PM (PST)",
-    location: "Ackerman Grand Ballroom",
-  },
-  {
-    name: "Cyber Fall GM",
-    description: defaultDescription,
-    image: "/images/events/gm-f23.png",
-    type: EventKind.Misc,
-    date: new Date("10/4/23"),
-    time: time,
-    location: CyLabLoc,
-  },
-  {
-    name: "Setup & Intro to Linux",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("10/9/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-  {
-    name: "Usable Security",
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date("10/11/23"),
-    time: time,
-    location: CyLabLoc,
-  },
-  {
-    name: "File Forensics",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("10/16/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-  {
-    name: "Machine Unlearning",
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date("10/18/23"),
-    time: time,
-    location: CyLabLoc,
-  },
-  {
-    name: "Intro to Binary Exploitation (Pwn)",
-    description: defaultDescription, 
-    type: EventKind.PBR, 
-    date: new Date("10/21/23"),
-    time: "12:00 - 6:00 PM (PST)", 
-    location: "TBD",
-  },
-  {
-    name: "OSINT & Social Engineering",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("10/23/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-  {
-    name: "Starbleed",
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date("10/25/23"),
-    time: time,
-    location: CyLabLoc,
-  },
-  // {
-  //   name: "Study Social",
-  //   description: defaultDescription,
-  //   type: EventKind.Misc,
-  //   date: new Date("10/30/23"),
-  //   time: "TBD",
-  //   location: "TBD",
-  // },
-  // {
-  //   name: "Study Social",
-  //   description: defaultDescription,
-  //   type: EventKind.Misc,
-  //   date: new Date("11/01/23"),
-  //   time: "TBD",
-  //   location: "TBD",
-  // },
-  {
-    name: "Robert Chen, OtterSec Guest Speaker",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("11/06/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-  // {
-  //   name: "Professor Tian Guest Speaker",
-  //   description: defaultDescription,
-  //   type: EventKind.CyLab,
-  //   date: new Date("11/08/23"),
-  //   time: time,
-  //   location: CyLabLoc,
-  // },
-  {
-    name: "Federated Learning Attacks & Defenses",
-    description: defaultDescription,
-    type: EventKind.PBR,
-    date: new Date("11/11/23"),
-    time: "TBD",
-    location: "TBD",
-  },
-  {
-    name: "Intro to Web Hacking",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("11/13/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-  {
-    name: "Cyber CTF Infrastructure",
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date("11/15/23"),
-    time: time,
-    location: CyLabLoc,
-  },
-  {
-    name: "Intro to Ghidra",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("11/20/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-  {
-    name: "Garbled Circuits",
-    description: defaultDescription,
-    type: EventKind.PBR,
-    date: new Date("11/25/23"),
-    time: "TBD",
-    location: "TBD",
-  },
-  {
-    name: "Quines and Polygots",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("11/27/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-  {
-    name: "Careers in Cybersecurity",
-    description: defaultDescription,
-    type: EventKind.CyLab,
-    date: new Date("11/29/23"),
-    time: time,
-    location: CyLabLoc,
-  },
-  {
-    name: "AI x Cyber: Symposium",
-    description: defaultDescription,
-    type: EventKind.CyAc,
-    date: new Date("12/04/23"),
-    time: time,
-    location: CyAcLoc,
-  },
-];
-
-export default eventsData;
