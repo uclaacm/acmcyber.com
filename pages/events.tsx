@@ -24,7 +24,7 @@ const Event = ({
       <span className={styles["type"]}>
         {typeof event.type === "string"
           ? event.type
-          : event.type?.find((x) => eventTypes.some(t => x === t.name))}
+          : event.type?.find((x) => eventTypes.some((t) => x === t.name))}
       </span>
       <img
         src={event.banner ?? "/images/cyber-motif-applied.png"}
