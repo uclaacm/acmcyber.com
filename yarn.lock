@@ -296,6 +296,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/luxon@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@types/luxon@npm:3.4.0"
+  checksum: cafe745e81765e71230a42520caf77d69556e22d50a464dcebd3b7da3989ab9c137de54dbfef60639ea4274326a57b762120c0088d3fb093c25f1ca752146c64
+  languageName: node
+  linkType: hard
+
 "@types/marked@npm:^4.3.0":
   version: 4.3.1
   resolution: "@types/marked@npm:4.3.1"
@@ -1193,6 +1200,7 @@ __metadata:
   resolution: "cyber.uclaacm.com@workspace:."
   dependencies:
     "@types/js-yaml": "npm:^4.0.5"
+    "@types/luxon": "npm:^3.4.0"
     "@types/marked": "npm:^4.3.0"
     "@types/node": "npm:18.14.1"
     "@types/react": "npm:18.0.28"
@@ -1213,6 +1221,7 @@ __metadata:
     gray-matter: "npm:^4.0.3"
     highlight.js: "npm:^11.8.0"
     husky: "npm:^8.0.3"
+    luxon: "npm:^3.4.4"
     marked: "npm:^5.0.2"
     next: "npm:13.2.1"
     next-seo: "npm:^6.0.0"
@@ -3005,6 +3014,13 @@ __metadata:
   version: 10.0.1
   resolution: "lru-cache@npm:10.0.1"
   checksum: 5bb91a97a342a41fd049c3494b44d9e21a7d4843f9284d0a0b26f00bb0e436f1f627d0641c78f88be16b86b4231546c5ee4f284733fb530c7960f0bcd7579026
+  languageName: node
+  linkType: hard
+
+"luxon@npm:^3.4.4":
+  version: 3.4.4
+  resolution: "luxon@npm:3.4.4"
+  checksum: c14164bc338987349075a08e63ea3ff902866735f7f5553a355b27be22667919765ff96fde4d3413d0e9a0edc4ff9e2e74ebcb8f86eae0ce8b14b27330d87d6e
   languageName: node
   linkType: hard
 

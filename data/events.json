@@ -1,0 +1,748 @@
+[
+  {
+    "id": "f23-misc-acm-gm",
+    "title": "ACM Fall GM",
+    "type": [
+      "Miscellaneous"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Ackerman Grand Ballroom",
+    "banner": "https://acmcyber.com/images/events/acm-gm-f23.png",
+    "start": 1696298400000,
+    "end": 1696305600000
+  },
+  {
+    "id": "f23-cyac-intro-linux",
+    "title": "Setup & Intro to Linux",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1696899600000,
+    "end": 1696906800000
+  },
+  {
+    "id": "f23-cylab-usable-security",
+    "title": "Usable Security",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1697072400000,
+    "end": 1697079600000
+  },
+  {
+    "id": "f23-cyac-file-forensics",
+    "title": "File Forensics",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1697504400000,
+    "end": 1697511600000
+  },
+  {
+    "id": "f23-cylab-machine-unlearning",
+    "title": "Machine Unlearning",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1697677200000,
+    "end": 1697684400000
+  },
+  {
+    "id": "f23-pbr-pwn",
+    "title": "Intro to Binary Exploitation (Pwn)",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "TBD",
+    "start": 1697914800000,
+    "end": 1697936400000
+  },
+  {
+    "id": "f23-cyac-osint",
+    "title": "OSINT & Social Engineering",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1698109200000,
+    "end": 1698116400000
+  },
+  {
+    "id": "f23-cylab-starbleed",
+    "title": "Starbleed",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1698282000000,
+    "end": 1698289200000
+  },
+  {
+    "id": "f23-cyac-robert-chen-talk",
+    "title": "Robert Chen, OtterSec Guest Speaker",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1699322400000,
+    "end": 1699329600000
+  },
+  {
+    "id": "f23-pbr-federated-learning",
+    "title": "Federated Learning Attacks & Defenses",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "TBD",
+    "start": 1699689600000,
+    "end": 1699775999999
+  },
+  {
+    "id": "f23-cyac-web",
+    "title": "Intro to Web Hacking",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1699927200000,
+    "end": 1699934400000
+  },
+  {
+    "id": "f23-cylab-ctf-infra",
+    "title": "Cyber CTF Infrastructure",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1700100000000,
+    "end": 1700107200000
+  },
+  {
+    "id": "f23-cyac-ghidra",
+    "title": "Intro to Ghidra",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1700532000000,
+    "end": 1700539200000
+  },
+  {
+    "id": "f23-pbr-garbled-circuits",
+    "title": "Garbled Circuits",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "TBD",
+    "start": 1700899200000,
+    "end": 1700985599999
+  },
+  {
+    "id": "f23-cyac-quines-polyglots",
+    "title": "Quines and Polygots",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1701136800000,
+    "end": 1701144000000
+  },
+  {
+    "id": "f23-cylab-careers",
+    "title": "Careers in Cybersecurity",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1701309600000,
+    "end": 1701316800000
+  },
+  {
+    "id": "f23-cyac-xai-symposium",
+    "title": "AI x Cyber: Symposium",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
+    "location": "Boelter 4760",
+    "start": 1701741600000,
+    "end": 1701748800000
+  },
+  {
+    "id": "f23-misc-cyber-gm",
+    "title": "Cyber Fall GM",
+    "type": [
+      "Miscellaneous",
+      "gm"
+    ],
+    "description": "Interested in solving technical puzzles 🧩 ? Want to learn more about cybersecurity 🔐 ? Excited to work on cool projects with cool people? ACM Cyber is the club for you! Join us for Cyber's first General Meeting on Wednesday, October 4th from 6-8 pm to learn about what we have planned for this quarter! Come on out to Franz 2258A to solve some challenges, participate in fun activities, and make some friends. Regardless of experience level, we have something for you. There will be free t-shirts 👕 so be sure to stop by! P.S. Be sure to bring a laptop to try out some of our challenges yourself.",
+    "location": "Franz 2258A",
+    "banner": "https://acmcyber.com/images/events/gm-f23.png",
+    "start": 1696467600000,
+    "end": 1696474800000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/10Fqgo-kACmAP981LaxP0K0ugOSIazlcI2mbGDYK3njw/edit?usp=sharing"
+    }
+  },
+  {
+    "id": "s23-cyac-intro-to-rev",
+    "title": "Intro to Reverse Engineering",
+    "type": [
+      "Cyber Academy",
+      "JavaScript",
+      "Python",
+      "Java",
+      "x86 assembly",
+      "CS 33"
+    ],
+    "description": "Solve puzzles and learn how to break apart daunting problems, effectively use a debugger, and more! We'll also be hosting CS 33 office hours after the presentation!",
+    "location": "Math Sciences 5200",
+    "banner": "https://acmcyber.com/images/archive/s23/ca1.png",
+    "start": 1681887600000,
+    "end": 1681973999999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=1rCRidLqqfQ&ab_channel=ACMCyberatUCLA",
+      "slides": "https://docs.google.com/presentation/d/1g6hSUa8xw4DSUsWCB67ISVl3hr4Oa0Br018jm6JKwAc/"
+    }
+  },
+  {
+    "id": "s23-cyac-rev",
+    "title": "Binary Analysis Tools",
+    "type": [
+      "Cyber Academy",
+      "GDB",
+      "x86 assembly",
+      "CS 33"
+    ],
+    "description": "Interested in learning how to break down and analyze computer programs? Taking CS 33 and in need of some help with bomb lab? We'll teach you how to take your skills with gdb to next level and introduce you to new techniques and software to make your life easier!",
+    "location": "Math Sciences 5200",
+    "banner": "https://acmcyber.com/images/archive/s23/ca2.png",
+    "start": 1682492400000,
+    "end": 1682578799999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1Fy4SlWqw2bgghYNlqCnUMPdTazy7c8OUDs36PGbxdrE/"
+    }
+  },
+  {
+    "id": "s23-cyac-pwn",
+    "title": "Binary Exploitation Tools",
+    "type": [
+      "Cyber Academy",
+      "Buffer Overflow",
+      "x86 assembly",
+      "CS 33"
+    ],
+    "description": "Ever wonder how hackers write their own exploits? We'll be going over tools for binary exploitation from the basics of how to perform and script traditional attacks such as buffer overflow, stack smashing, and ret2libc - no experience necessary!",
+    "location": "Math Sciences 5200",
+    "banner": "https://acmcyber.com/images/archive/s23/ca3.jpg",
+    "start": 1683702000000,
+    "end": 1683788399999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=cjqwrXddaXA&ab_channel=ACMCyberatUCLA",
+      "slides": "https://docs.google.com/presentation/d/16hK9KOXvV4CHQmMKx-1cyBQczWH0rw_IvJ_uOJwthvg/"
+    }
+  },
+  {
+    "id": "s23-cyac-software-verification",
+    "title": "Software Verification",
+    "type": [
+      "Cyber Academy",
+      "Software",
+      "x86 assembly"
+    ],
+    "description": "Ever wonder if you could write 100% bug-free code? We'll be looking at the tools and algorithms behind building provably secure code, from SAT solvers to modern theorem provers like Z3 - no experience necessary!",
+    "location": "Math Sciences 5200",
+    "banner": "https://acmcyber.com/images/archive/s23/ca4.png",
+    "start": 1684306800000,
+    "end": 1684393199999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1XgPHU-Ofk6xF8o8-Lx7iMEfphnwZZIUZ365wj2Q6WFs/"
+    }
+  },
+  {
+    "id": "s23-cylab-secure1",
+    "title": "Secure OS Lab",
+    "type": [
+      "Cyber Lab",
+      "Secure OS"
+    ],
+    "description": "Want to learn how to develop your own bootloader and kernel? We'll start covering the boot process by printing messages from memory and reading data from the disk",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/archive/s23/os1.jpg",
+    "start": 1681974000000,
+    "end": 1682060399999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1yElJYugO-_lSTGBXlb6FVdqlML304uOAmm-xPvMBFdc/"
+    }
+  },
+  {
+    "id": "s23-cylab-secure2",
+    "title": "Secure OS Lab",
+    "type": [
+      "Cyber Lab",
+      "Secure OS"
+    ],
+    "description": "Want to learn how to develop your own bootloader and kernel? We'll continue by learning more about 32-bit protected mode and loading our own kernel!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/archive/s23/os2.jpg",
+    "start": 1682578800000,
+    "end": 1682665199999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/12Z0Tn4lNYquPzBBBFD0AQUVEcHLuInqSGfto2vIPiRM/"
+    }
+  },
+  {
+    "id": "s23-cylab-secure-aaron-talk",
+    "title": "Secure OS Lab: Aaron Yoo",
+    "type": [
+      "Cyber Lab",
+      "Speaker",
+      "Career",
+      "Industry"
+    ],
+    "description": "Don't forget to come to Secure OS Lab for an exciting talk from ACM Cyber alumni, Aaron Yoo. Aaron is currently a currently a software engineer at Apple, and if you are interested in learning more about his experience with OS development and what working at Apple is like, be sure to show up!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/archive/s23/aaron.jpg",
+    "start": 1683788400000,
+    "end": 1683874799999
+  },
+  {
+    "id": "s23-cylab-secure3",
+    "title": "Secure OS Lab",
+    "type": [
+      "Cyber Lab",
+      "Secure OS"
+    ],
+    "description": "We'll continue our work by adding features to make our OS more secure!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/archive/s23/os3.png",
+    "start": 1684393200000,
+    "end": 1684479599999
+  },
+  {
+    "id": "s23-cylab-secure4",
+    "title": "Secure OS Lab",
+    "type": [
+      "Cyber Lab",
+      "Secure OS"
+    ],
+    "description": "We'll continue our work by adding features to make our OS more secure!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/archive/s23/os3.png",
+    "start": 1684998000000,
+    "end": 1685084399999
+  },
+  {
+    "id": "s23-cylab-malware1",
+    "title": "Malware Lab",
+    "type": [
+      "Cyber Lab",
+      "Malware"
+    ],
+    "description": "Let's develop our own rootkits! We'll start by covering syscalls and shared libraries to set a foundation for our core rootkit.",
+    "location": "Kerckhoff 131",
+    "banner": "https://acmcyber.com/images/archive/s23/malware1.jpg",
+    "start": 1681714800000,
+    "end": 1681801199999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1EFRjWrZO-xo2kFhywVZy9M7Y5B-amZuXKzCrS-XNfLQ/"
+    }
+  },
+  {
+    "id": "s23-cylab-malware2",
+    "title": "Malware Lab",
+    "type": [
+      "Cyber Lab",
+      "Malware"
+    ],
+    "description": "Let's develop our own rootkits! We'll continue by learning more about networking and sockets this week.",
+    "location": "Kerckhoff 131",
+    "banner": "https://acmcyber.com/images/archive/s23/malware2.jpeg",
+    "start": 1682319600000,
+    "end": 1682405999999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/19CA9Lu7Mfybz7OL6jksWFF0hEyisUwTRJRgKflugenY/"
+    }
+  },
+  {
+    "id": "s23-cylab-malware3",
+    "title": "Malware Lab",
+    "type": [
+      "Cyber Lab",
+      "Malware"
+    ],
+    "description": "Now that we've covered the basics of a rootkit, are you excited to design your own features? We'll guide you through exploitation, payloads, and get started with expanding our rootkit!",
+    "location": "Kerckhoff 131",
+    "banner": "https://acmcyber.com/images/archive/s23/malware3.jpeg",
+    "start": 1683529200000,
+    "end": 1683615599999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1U2sHxWP64e9oxL_PAg-F9cti82FOHWIan8AGZFJG8Ec/"
+    }
+  },
+  {
+    "id": "s23-cylab-malware-sanjana-talk",
+    "title": "Malware Lab: Sanjana Sarda",
+    "type": [
+      "Cyber Lab",
+      "Speaker",
+      "Career",
+      "Industry"
+    ],
+    "description": "Don't forget to come to Malware Lab for an exciting talk from ACM Cyber alumni, Sanjana Sarda. Sanjana is currently an Offensive Security Engineer at Anduril Industries. If you are interested in learning more about her experience in the security industry, be sure to show up!",
+    "location": "Kerckhoff 131",
+    "banner": "https://acmcyber.com/images/archive/s23/sanjana.png",
+    "start": 1684134000000,
+    "end": 1684220399999
+  },
+  {
+    "id": "s23-cylab-malware4",
+    "title": "Malware Lab",
+    "type": [
+      "Cyber Lab",
+      "Malware"
+    ],
+    "description": "We'll continue our work in expanding our rootkit!",
+    "location": "Kerckhoff 131",
+    "banner": "https://acmcyber.com/images/archive/s23/malware4.jpeg",
+    "start": 1684738800000,
+    "end": 1684825199999
+  },
+  {
+    "id": "s23-misc-gm",
+    "title": "Spring General Meeting",
+    "type": [
+      "Miscellaneous",
+      "gm"
+    ],
+    "description": "Learn about what we have planned for this quarter! Not only will Cyber Academy cover topics with real industry applications like reverse engineering, program analysis, formal verification, and more, ACM Cyber is also launching a brand new Cyber Lab track where you'll have the opportunity to work on hands-on projects like rootkit malware writing and secure OS development. Furthermore, come to learn more about what Psi Beta Rho, UCLA's top-notch cybersecurity and capture-the-flag team, is doing this spring so you can apply your skills in exciting and competitive ways!",
+    "location": "Math Sciences 5200",
+    "banner": "https://acmcyber.com/images/archive/s23/gm.jpg",
+    "start": 1681282800000,
+    "end": 1681369199999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1La3eOp-ceUE9-D77Zn7aeIL9hWmUgs2Th5bIodbzt70/"
+    }
+  },
+  {
+    "id": "s23-misc-xstudio-social",
+    "title": "Cyber x Studio: Social",
+    "type": [
+      "Miscellaneous",
+      "social",
+      "ACM Studio",
+      "colab"
+    ],
+    "description": "Confident in your racing ability? Join ACM Cyber and ACM Studio in our competitive Mario Kart tournament! Wager your pride on the tracks, meet new people from both committees, or cheer from the pit stop and play board games!",
+    "location": "Kerckhoff 131",
+    "banner": "https://acmcyber.com/images/archive/s23/mariokart.jpeg",
+    "start": 1682060400000,
+    "end": 1682146799999
+  },
+  {
+    "id": "s23-misc-william-talk",
+    "title": "William Wang",
+    "type": [
+      "Miscellaneous",
+      "Speaker",
+      "Career",
+      "Industry"
+    ],
+    "description": "Looking to sharpen your computer science and cybersecurity skills while engaging in thrilling competitions? Look no further than PBR: UCLA's top-notch cybersecurity team! Join us this week for an exciting talk from ACM Cyber alumni Will Wang who plays CTFs with DiceGang and does blockchain security research at OtterSec! If you're interested in learning about his experience with CTFs and his current work in the security industry, join us!",
+    "location": "Ackerman 3517",
+    "banner": "https://acmcyber.com/images/archive/s23/william.jpg",
+    "start": 1683615600000,
+    "end": 1683701999999
+  },
+  {
+    "id": "s23-misc-liveoverflow-talk",
+    "title": "LiveOverflow",
+    "type": [
+      "Miscellaneous",
+      "Speaker",
+      "Career",
+      "Industry"
+    ],
+    "description": "Want to hear directly from a YouTuber with over 800k subscribers? Make sure to tune into our LiveOverflow talk and Q&A where he'll be talking about his experiences with playing CTFs and pursuing a career in cybersecuirty! LiveOverflow is a YouTuber who makes videos about various IT security topics and his experiences competing in hacking competitions.",
+    "location": "https://ucla.zoom.us/j/93047506842",
+    "banner": "https://acmcyber.com/images/archive/s23/liveoverflow.png",
+    "start": 1683961200000,
+    "end": 1684047599999
+  },
+  {
+    "id": "s23-misc-xteachla-cipher",
+    "title": "Cyber x TeachLA: Cipher Lab",
+    "type": [
+      "Miscellaneous",
+      "ACM TeachLA",
+      "teach",
+      "colab",
+      "java",
+      "cipher"
+    ],
+    "description": "Teaching students about what a cipher is and showing them how they can build their own symmetric encryption cipher with Java. We'll cover the basic history of encryptions, their weaknesses, and give students an idea of how more advanced symmetric encryption algorithms work.",
+    "location": "",
+    "banner": "https://acmcyber.com/images/archive/s23/javacipher.jpg",
+    "start": 1684479600000,
+    "end": 1684565999999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1-bCpPzhor2Be6eFI90ioucnsveL2WCfnuERQb-hwEPU/"
+    }
+  },
+  {
+    "id": "s23-misc-xswe-career",
+    "title": "Cyber x SWE: Career Panel",
+    "type": [
+      "Miscellaneous",
+      "career",
+      "SWE",
+      "colab"
+    ],
+    "description": "Ever thought about a career in cybersecurity? Want to hear directly from professionals in the field? Gain valuable insights into the industry, ask your burning questions, and learn about the exciting opportunities available to you!",
+    "location": "Math Sciences 5200",
+    "banner": "https://acmcyber.com/images/archive/s23/swexcyber.jpg",
+    "start": 1684911600000,
+    "end": 1684997999999
+  },
+  {
+    "id": "s23-misc-xai-symposium",
+    "title": "AI x Cyber: Symposium",
+    "type": [
+      "Miscellaneous",
+      "social",
+      "ACM AI",
+      "colab"
+    ],
+    "description": "A celebration and social between ACM AI and ACM Cyber! Join us in a highlight of the cool projects that our committees have been working on this quarter!",
+    "location": "Math Sciences 5200",
+    "banner": "https://acmcyber.com/images/cyber-symposium.png",
+    "start": 1685516400000,
+    "end": 1685602799999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1gjCVlgbAGdaIQxwuDqQJOPvdEf0i5Ns43HOmGOfYmD8/"
+    }
+  },
+  {
+    "id": "w23-cyac-intro-web-hacking",
+    "title": "Intro to Web Hacking",
+    "type": [
+      "Cyber Academy",
+      "web",
+      "hacking",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "description": "Are you interested in learning about the latest techniques and tools for web hacking? Our series of workshops is designed to introduce you to the world of web hacking, and help you develop the skills and knowledge you need to protect against cyber threats.",
+    "location": "Boelter Hall 5249",
+    "banner": "https://acmcyber.com/images/archive/w23/ca1.png",
+    "start": 1674633600000,
+    "end": 1674719999999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=qKfVR7wty0I&list=PLPO7_kXilXFY8QlnHMsJRApXsaBjZRLkI&ab_channel=ACMatUCLA",
+      "slides": "https://docs.google.com/presentation/d/1ZkQ3Hw8ITwQZW8gkBmtuSs4-gsCjozdqagNjZ4kPa2c/"
+    }
+  },
+  {
+    "id": "w23-cyac-xss-csrf",
+    "title": "XSS & CSRF",
+    "type": [
+      "Cyber Academy",
+      "XSS",
+      "CSRF"
+    ],
+    "description": "Do you want to learn how a hacker once got one million friends on MySpace? Do you want to write a similar exploit yourself? Do you enjoy learning about random 3-letter acronyms that sound vaguely cybersecurity-related? Come join us to learn how to hack some (fake) websites and take over its users' (bots) browsers! No prior experience needed.",
+    "location": "Boelter Hall 5249",
+    "banner": "https://acmcyber.com/images/archive/w23/ca2.png",
+    "start": 1675238400000,
+    "end": 1675324799999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=HUv52G-kiUw&list=PLPO7_kXilXFY8QlnHMsJRApXsaBjZRLkI&index=3&ab_channel=ACMatUCLA",
+      "slides": "https://docs.google.com/presentation/d/1zvmFhvbNUMYLoGVHtgWrUXEEJf3yYjWgiuP6zx6nexo/"
+    }
+  },
+  {
+    "id": "w23-cyac-sqli",
+    "title": "SQL Injection",
+    "type": [
+      "Cyber Academy",
+      "SQL"
+    ],
+    "description": "As w23schools puts it 'SQL Injection is a code injection technique that might destroy your database.' Sounds fun. Jk we're all about ethical hacking! But if you want to explore SQL injection techniques and learn how to defend against them, come to our SQL injection workshop!",
+    "location": "Boelter Hall 5249",
+    "banner": "https://acmcyber.com/images/archive/w23/ca3.png",
+    "start": 1676448000000,
+    "end": 1676534399999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1-NXTSwXhvlZ8yMGIPFHNlDPwOejd6JzMVoOAmnEUSAk/"
+    }
+  },
+  {
+    "id": "w23-cyac-intro-web-audit",
+    "title": "Intro to Web Auditing",
+    "type": [
+      "Cyber Academy",
+      "web",
+      "hacking",
+      "colab"
+    ],
+    "description": "Want to learn how to get paid for hacking websites? ACM Cyber is teaming up with Bruinwalk to present a unique real world experience to jump start your ethical hacking career. You will learn about what exactly are bug bounties, what exactly is auditing, and what tools and techniques are used by the professionals. After reviewing some of these techniques, you will get an exclusive chance to HACK the famous Bruinwalk website. No professors' reviews are safe from your technial skills!",
+    "location": "Boelter Hall 5249",
+    "banner": "https://acmcyber.com/images/archive/w23/ca4.png",
+    "start": 1677052800000,
+    "end": 1677139199999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1T4IoydvcFYW6cha9Fi6tK-TmkUOQFg-098VBEFZbJBg/"
+    }
+  },
+  {
+    "id": "w23-cyac-ctfad-kickoff",
+    "title": "CTF After Dark Kickoff",
+    "type": [
+      "Cyber Academy",
+      "CTF"
+    ],
+    "description": "Get ready to flex your cyber skills and bring your A-game to the ultimate test! CTF AFter Dark is back and better than ever! Come play our Capture the Flag (CTF) competition and show off all that you've learned from our workshops this winter. Winners will be rewarded, so don't miss out!",
+    "location": "Boelter Hall 5249",
+    "banner": "https://acmcyber.com/images/archive/w23/ca5.png",
+    "start": 1677657600000,
+    "end": 1677743999999
+  },
+  {
+    "id": "w23-special-ai-security",
+    "title": "AI Security",
+    "type": [
+      "Cyber Special Topics",
+      "ACM AI",
+      "colab",
+      "AI"
+    ],
+    "description": "Calling all tech enthusiasts and AI aficionados! Join us to dive into the cutting-edge of modern security research, with a particular focus on adversarial attacks against neural networks. Join us for a day of learning, hacking, and fun as we explore the intersection of artificial intelligence and cybersecurity.",
+    "location": "Kerckhoff Hall 131",
+    "banner": "https://acmcyber.com/images/archive/w23/ai-security.png",
+    "start": 1674720000000,
+    "end": 1674806399999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=nlQ61jntSkQ&list=PLPO7_kXilXFZd__wbAuBczjho2_a5bT0F&ab_channel=ACMatUCLA",
+      "slides": "https://docs.google.com/presentation/d/1UqxQSZE3G0EZFcAq6zXU7zJ96BHQV7Ap_VkNYnkteMg/"
+    }
+  },
+  {
+    "id": "w23-special-game-hacking",
+    "title": "Game Hacking",
+    "type": [
+      "Cyber Special Topics",
+      "ACM Studio",
+      "colab"
+    ],
+    "description": "Ever wanted unlimited coins or infinite hp? Have you wished you could take out your in-game enemies in one sweep? Get ready to learn about the fundamentals of game hacking, some of the epic tools at your disposal, and test your skills on a game created by Studio.",
+    "location": "Kerckhoff Hall 131",
+    "banner": "https://acmcyber.com/images/archive/w23/game-hacking.png",
+    "start": 1675324800000,
+    "end": 1675411199999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=cO4H8ptqREc&list=PLPO7_kXilXFZd__wbAuBczjho2_a5bT0F&index=4&ab_channel=ACMatUCLA",
+      "slides": "https://docs.google.com/presentation/d/1pNOD-PyxS6_5ChXViIxzbl520rEjc7HFEHA1-BY1ubk/"
+    }
+  },
+  {
+    "id": "w23-special-tian-talk",
+    "title": "Professor Yuan Tian",
+    "type": [
+      "Cyber Special Topics",
+      "speaker",
+      "industry",
+      "research"
+    ],
+    "description": "Professor Yuan Tian of UCLA's Electrical and Computer Engineering Department and Institute of Law, Technology, and Public Policy will be sharing her invaluable knowledge and expertise in this exciting talk. Her research focuses on developing secure and privacy-friendly computing platforms, with real-world applications integrated into platforms such as Android, Chrome, Azure, and iOS. Join us for an evening filled with thought-provoking discussions and valuable insights!",
+    "location": "Kerckhoff Hall 131",
+    "banner": "https://acmcyber.com/images/archive/w23/yuan.png",
+    "start": 1676534400000,
+    "end": 1676620799999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=kerz_BUb7GM&list=PLPO7_kXilXFZd__wbAuBczjho2_a5bT0F&index=3&ab_channel=ACMatUCLA"
+    }
+  },
+  {
+    "id": "w23-special-modern-crypto",
+    "title": "Modern Cryptography",
+    "type": [
+      "Cyber Special Topics",
+      "cryptography"
+    ],
+    "description": "Come join us to learn about everythign cryptography, from current methods and attacks on these cryptosystems, to the mathematical and theoretical foundations of it all! We'll be covering a whole mix of things, including AES, RSA, diffie-hellman, one-way functions, secure hashes, and oblivious transfer!",
+    "location": "Kerckhoff Hall 131",
+    "banner": "https://acmcyber.com/images/archive/w23/modern-crypto.png",
+    "start": 1677139200000,
+    "end": 1677225599999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=3cklK1DdaqE&list=PLPO7_kXilXFZd__wbAuBczjho2_a5bT0F&index=5&ab_channel=ACMatUCLA",
+      "slides": "https://docs.google.com/presentation/d/1iAR5MUKMT1zYHbjwxjR7apW30CIf6ulxD-WiKKSS7Mw/"
+    }
+  },
+  {
+    "id": "w23-lactf",
+    "title": "LA CTF",
+    "type": [
+      "LA CTF"
+    ],
+    "description": "We are happy to introduce LA CTF 2023, a 42-hour cybersecurity event hosted by ACM Cyber at UCLA and team Psi Beta Rho. This event will take place from Feb 10-12 and features a variety of challenges and events for all skill levels. Everyone is welcome to participate and learn!",
+    "location": "lactf.uclaacm.com",
+    "banner": "https://acmcyber.com/images/archive/w23/la-ctf.jpeg",
+    "start": 1676016000000,
+    "end": 1676102399999,
+    "links": {
+      "youtube": "https://www.youtube.com/watch?v=FlIbDth-R1M&list=PLPO7_kXilXFZbOQEvLo9I4CE_wFiJn8SS&ab_channel=ACMatUCLA"
+    }
+  },
+  {
+    "id": "w23-misc-gm",
+    "title": "Winter General Meeting",
+    "type": [
+      "Miscellaneous",
+      "gm"
+    ],
+    "description": "Cyber is back and better than ever, with even more brand-new, cool, exciting things for you'll to hack! Come out to meet our new team members adn find out what events we have in store for you this quarter! We'll also be previewing some of the web-hacking content that we will be going over during Cyber Academy, so be sure to bring a computer!",
+    "location": "Public Affairs 1234",
+    "banner": "https://acmcyber.com/images/archive/w23/winter-gm.jpeg",
+    "start": 1674028800000,
+    "end": 1674115199999,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1x_UI1fAvB3rAeXSL_QX3DUCFU7sC-0OqULJZRa2I-p4/"
+    }
+  },
+  {
+    "id": "w23-misc-xstudio-social",
+    "title": "Cyber x Studio: Social",
+    "type": [
+      "Miscellaneous",
+      "social",
+      "colab",
+      "studio"
+    ],
+    "description": "Join us and ACM Studio for dinner to hangout with Cyber friends and meet new ones too! We'll first be meeting up at Bruin Bear and then walking to Westwood together to grab dinner adn boba afterwards.",
+    "location": "Bruin Bear",
+    "banner": "https://acmcyber.com/images/archive/w23/social.jpeg",
+    "start": 1674806400000,
+    "end": 1674892799999
+  }
+]

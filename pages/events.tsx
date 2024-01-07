@@ -2,34 +2,14 @@ import { useEffect, useState } from "react";
 
 import styles from "@/styles/Events.module.scss";
 import CyberSeo from "@/components/CyberSeo";
-import AllEvents, { Event } from "@/data/events";
+import AllEvents, { CyaneaEvent } from "@/data/events";
+import { isSameWeek, formatEventDateAndTime } from "@/utils/time";
 
-type TEvent = (typeof AllEvents)[0];
-type EventCB = (event: Event) => void;
+type EventCB = (event: CyaneaEvent) => void;
 
-// see https://discord.com/channels/510986939319713803/512782757064343553/1145225529876824115
-const isSameWeek = (d1: Date, d2: Date): boolean => {
-  const dayMs = 1000 * 60 * 60 * 24;
-  const t1 = d1.getTime();
-  const t2 = d2.getTime();
-  // cannot be more than a week apart
-  if (Math.abs(t1 - t2) >= dayMs * 7) {
-    return false;
-  }
-  const day1 = d1.getDay();
-  const day2 = d2.getDay();
-  // same day of week = return true iff same date
-  if (day1 == day2) {
-    return d1.getDate() == d2.getDate();
-  } else if (day1 < day2) {
-    return t1 < t2;
-  } else {
-    return t1 > t2;
-  }
-};
-
-const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
-  (
+const Event = (showPopup: EventCB) => (event: CyaneaEvent, i: number) => {
+  const [date, time] = formatEventDateAndTime(event);
+  return (
     <div
       className={styles["event-card"]}
       key={i}
@@ -37,30 +17,29 @@ const Event = (showPopup: EventCB) => (event: TEvent, i: number) =>
     >
       <span className={styles["type"]}>{event.type}</span>
       <img
-        src={
-          event.image === undefined
-            ? "/images/cyber-motif-applied.png"
-            : event.image
-        }
-        alt="Placeholder Image"
+        src={event.banner ?? "/images/cyber-motif-applied.png"}
+        alt="Event Banner Image"
       />
       <div className={styles["details"]}>
-        <h3>{event.name}</h3>
-        <div className={styles["date"]}>{event.date.toDateString()}</div>
-        <div className={styles["time"]}>{event.time}</div>
+        <h3>{event.title}</h3>
+        <div className={styles["date"]}>{date}</div>
+        <div className={styles["time"]}>{time}</div>
         <div className={styles["location"]}>{event.location}</div>
       </div>
     </div>
   );
+};
 
 type EventPopupProps = {
-  event: TEvent;
+  event: CyaneaEvent;
   close: () => void;
 };
 
 const EventPopup = ({ close, event }: EventPopupProps) => {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
+
+  const [date, time] = formatEventDateAndTime(event);
   return (
     <div
       className={`${styles["popup-container"]} ${
@@ -73,18 +52,14 @@ const EventPopup = ({ close, event }: EventPopupProps) => {
           <div className={styles["x-button"]} onClick={close} />
         </div>
         <img
-          src={
-            event.image === undefined
-              ? "/images/cyber-motif-applied.png"
-              : event.image
-          }
-          alt="Placeholder Image"
+          src={event.banner ?? "/images/cyber-motif-applied.png"}
+          alt="Event Banner Image"
           className={styles["graphic"]}
         />
         <div className={styles["content"]}>
-          <h3>{event.name}</h3>
-          <div className={styles["date"]}>{event.date.toDateString()}</div>
-          <div className={styles["time"]}>{event.time}</div>
+          <h3>{event.title}</h3>
+          <div className={styles["date"]}>{date}</div>
+          <div className={styles["time"]}>{time}</div>
           <div className={styles["location"]}>{event.location}</div>
           <div className={styles["description"]}>{event.description}</div>
         </div>
@@ -98,16 +73,18 @@ export default function Events() {
   // parse all of the events into a list of objects [{event object}, ...]
   // display all of the events in the list (hint: use the map() function)
 
-  const [popup, setPopup] = useState(null as TEvent | null);
+  const [popup, setPopup] = useState<CyaneaEvent | null>(null);
   const [today, setToday] = useState(new Date());
 
   // reload "today" because page may be accessed at a date later than
   // the date nextjs pre-renders this page
   useEffect(() => setToday(new Date()), []);
 
-  const thisWeek = AllEvents.filter((e) => isSameWeek(e.date, today));
+  const thisWeek = AllEvents.filter((e) =>
+    isSameWeek(new Date(e.start), today)
+  );
   const upcomingEvents = AllEvents.filter(
-    (e) => e.date > today && !isSameWeek(e.date, today)
+    (e) => e.start > today.valueOf() && !isSameWeek(new Date(e.start), today)
   );
 
   return (
