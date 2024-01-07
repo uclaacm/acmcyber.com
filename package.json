@@ -33,6 +33,7 @@
   "devDependencies": {
     "@types/marked": "^4.3.0",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.36.0",
     "eslint-config-next": "^13.2.4",
     "eslint-config-prettier": "^8.8.0",
@@ -43,5 +44,5 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.7"
   },
-  "packageManager": "yarn@3.6.2"
+  "packageManager": "yarn@4.0.2"
 }
