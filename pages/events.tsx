@@ -2,12 +2,18 @@ import { useEffect, useState } from "react";
 
 import styles from "@/styles/Events.module.scss";
 import CyberSeo from "@/components/CyberSeo";
-import AllEvents, { CyaneaEvent } from "@/data/events";
+import AllEvents, { CyaneaEvent, eventTypes } from "@/data/events";
 import { isSameWeek, formatEventDateAndTime } from "@/utils/time";
 
-type EventCB = (event: CyaneaEvent) => void;
-
-const Event = (showPopup: EventCB) => (event: CyaneaEvent, i: number) => {
+const Event = ({
+  event,
+  i,
+  showPopup,
+}: {
+  event: CyaneaEvent;
+  i: number;
+  showPopup: (event: CyaneaEvent) => void;
+}) => {
   const [date, time] = formatEventDateAndTime(event);
   return (
     <div
@@ -15,7 +21,11 @@ const Event = (showPopup: EventCB) => (event: CyaneaEvent, i: number) => {
       key={i}
       onClick={() => showPopup(event)}
     >
-      <span className={styles["type"]}>{event.type}</span>
+      <span className={styles["type"]}>
+        {typeof event.type === "string"
+          ? event.type
+          : event.type?.find((x) => eventTypes.some(t => x === t.name))}
+      </span>
       <img
         src={event.banner ?? "/images/cyber-motif-applied.png"}
         alt="Event Banner Image"
@@ -106,7 +116,9 @@ export default function Events() {
             <div className={styles["events"]}>
               {thisWeek.length === 0
                 ? "No events this week. Come back later!"
-                : thisWeek.map(Event(setPopup))}
+                : thisWeek.map((e, i) => (
+                    <Event event={e} i={i} showPopup={setPopup} key={e.id} />
+                  ))}
             </div>
           </div>
 
@@ -116,7 +128,9 @@ export default function Events() {
             <div className={styles["events"]}>
               {upcomingEvents.length === 0
                 ? "No upcoming events currently scheduled. Come back later!"
-                : upcomingEvents.map(Event(setPopup))}
+                : upcomingEvents.map((e, i) => (
+                    <Event event={e} i={i} showPopup={setPopup} key={e.id} />
+                  ))}
             </div>
           </div>
         </div>
