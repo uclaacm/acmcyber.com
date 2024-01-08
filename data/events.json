@@ -1,5 +1,39 @@
 [
   {
+    "id": "w24-misc-acm-gm",
+    "title": "ACM Winter GM",
+    "type": [
+      "Miscellaneous"
+    ],
+    "description": "Interested in building your own iOS application, developing neural networks, creating your own video game from scratch, or just learning about what technology is? Curious about open-source projects and cloud computing? Then come join ACM for our Winter General Meeting (GM) to learn about how you can get involved in these and more!\n\nRSVP for our Winter GM here: https://forms.gle/f9CEyaSzG1Qs92uF9",
+    "location": "Haines 39",
+    "banner": "https://www.acmcyber.com/images/events/w24/w24-acm-gm.png",
+    "start": 1704765600000,
+    "end": 1704772800000,
+    "links": {
+      "discord": "https://discord.com/events/702801010426511373/1192613496916025455"
+    },
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
+    "id": "w24-misc-gm",
+    "title": "Cyber Winter GM",
+    "type": [
+      "Miscellaneous",
+      "gm"
+    ],
+    "description": "Cyber is back and better than ever, with even more exciting things for you to hack! Come out to meet our new team members and find out what events and projects we have in store for you this quarter! We'll also be running a mini Capture-the-Flag competition like we did during our Fall GM, so be sure to bring a computer!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-gm.png",
+    "start": 1704938400000,
+    "end": 1704945600000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1wzv6FYQ5Jy8EP5OGOsGcydrVkREBtI0pYV0Vpr-3eA0/"
+    }
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
@@ -156,7 +190,7 @@
   },
   {
     "id": "f23-cyac-quines-polyglots",
-    "title": "Quines and Polygots",
+    "title": "Quines and Polyglots",
     "type": [
       "Cyber Academy"
     ],
