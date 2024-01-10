@@ -34,6 +34,25 @@
     }
   },
   {
+    "id": "w24-lactf",
+    "title": "LA CTF 2024",
+    "type": [
+      "LA CTF"
+    ],
+    "description": "Looking for a fun way to spend the weekend?\n\nThen join LA CTF! Our cybersecurity event and capture-the-flag style competition is perfect for everyone, from complete beginners to advanced hackers. From February 16th - 18th, you'll have the chance to solve challenges, develop new skills, make new friends, and have a great time!\n\nIn addition to the thrilling competition, LA CTF will also feature speeches from a variety of cybersecurity experts, including UCLA professors and alumni, prizes, and many other events and learning opportunities.\n\nRegardless of your experience level, major, or year, LA CTF has something for you!  Don’t have a lot of time? Feel free to register and commit as much time as you can!\n\nCheck out our website to learn more, and if you have any questions, contact us at lactf+uclacyber@gmail.com or join our Discord for a faster response. We look forward to seeing you there!",
+    "location": "Kerckhoff Grand Salon",
+    "banner": "https://acmcyber.com/images/events/w24/w24-lactf.png",
+    "start": 1708142400000,
+    "end": 1708293600000,
+    "links": {
+      "discord": "https://discord.gg/uZM6vxqHDq"
+    },
+    "meta": {
+      "ignore-for-acm-newsletter": true,
+      "_comment": "^ the newsletter cannot handle multiple-day events so I'll add 3 events for the three separate days manually lol"
+    }
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
