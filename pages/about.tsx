@@ -35,18 +35,20 @@ export default function About() {
             throughout the year. Check out our main initiatives below!
           </p>
           <div className={styles.cyberThings}>
-            {eventTypes.map((event: EventType, index: number) => (
-              <EventInfo
-                key={index}
-                name={event.name}
-                description={event.description}
-                id={event.id}
-                link={event.link}
-                icon={event.icon}
-                iconAlt={event.iconAlt}
-                textIcon={event.textIcon}
-              />
-            ))}
+            {eventTypes
+              .filter((event) => event.active)
+              .map((event: EventType, index: number) => (
+                <EventInfo
+                  key={index}
+                  name={event.name}
+                  description={event.description}
+                  id={event.id}
+                  link={event.link}
+                  icon={event.icon}
+                  iconAlt={event.iconAlt}
+                  textIcon={event.textIcon}
+                />
+              ))}
           </div>
           <h2 />
         </div>
@@ -63,7 +65,7 @@ function EventInfo({
   icon,
   iconAlt,
   textIcon,
-}: EventType) {
+}: Omit<EventType, "active">) {
   return (
     <span id={id}>
       <div className={styles.cyberThing}>
