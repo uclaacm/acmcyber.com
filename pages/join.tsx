@@ -19,7 +19,7 @@ export default function Join() {
             Want to join UCLA's premier cybersecurity club?{" "}
             <strong>All levels of experience welcome!</strong> Our{" "}
             <strong>membership form</strong> is now open. Fill it out{" "}
-            <a href="https://forms.gle/GdVhrvbpyvJJWASe6" className="link">
+            <a href="https://forms.gle/HqEbhUu3cMPiG27WA" className="link">
               here
             </a>{" "}
             to officially join ACM Cyber! Join our{" "}
@@ -39,19 +39,21 @@ export default function Join() {
           </p>
           <ul>
             <li>
-              <strong>Cyber Academy:</strong> Submit one writeup for a challenge
-              you've solved by the end of the quarter.
+              <strong>Cyber Academy:</strong> Attend most Cyber Academy workshop
+              days and submit one writeup for a challenge you've solved in Cyber
+              Academy or PBR by the end of the quarter.
             </li>
             <li>
-              <strong>Cyber Lab:</strong> Participate in a project with Cyber
-              Lab. At the end of the quarter, create a blog post with your
+              <strong>Cyber Lab:</strong> Actively participate in a project with
+              Cyber Lab. At the end of the quarter, create a blog post with your
               project group about your work and present your creation to the
-              club!
+              club! club!
             </li>
             <li>
               <strong>Psi Beta Rho:</strong> Submit one writeup for a challenge
-              you've solved by the end of the quarter and attend at least one
-              CTF on the weekend
+              you've solved or up-solved from a CTF PBR competed in by the end
+              of the quarter and attend at least two CTFs on the weekend
+              in-person.
             </li>
           </ul>
 
