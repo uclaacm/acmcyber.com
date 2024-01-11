@@ -35,7 +35,7 @@ export default function Footer() {
       <div className={styles.legal}>
         {/* Email & Copyright */}
         <a href="mailto:uclacyber@gmail.com">uclacyber@gmail.com</a>
-        <p>© ACM Cyber 2023</p>
+        <p>© ACM Cyber 2024</p>
       </div>
 
       <div className={styles.joinUsOrElse}>
