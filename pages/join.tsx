@@ -28,13 +28,10 @@ export default function Join() {
             out to officially join ACM Cyber!
           </p>
 
-          <button
-            onClick={() =>
-              (window.location.href = "https://forms.gle/HqEbhUu3cMPiG27WA")
-            }
-            className={styles.membershipForm}
-          >
-            Winter 2024 Membership Form
+          <button className={styles.membershipForm}>
+            <a href="https://forms.gle/HqEbhUu3cMPiG27WA">
+              Winter 2024 Membership Form
+            </a>
           </button>
 
           <h2>What do I have to do?</h2>

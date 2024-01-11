@@ -7,16 +7,23 @@
 button.membershipForm {
   display: flex;
   margin: 2rem auto 0;
-  padding: 1rem 2rem;
-  background-color: var(--cyber-dark);
+  background-color: var(--soul-dark);
   border: 3px var(--cyber-gold) solid;
   border-radius: 1rem;
   color: var(--cyber-gold);
   font-family: "Poppins";
   font-size: larger;
+
+  a {
+    color: var(--cyber-gold);
+    padding: 1rem 2rem;
+  }
 }
 
 button.membershipForm:hover {
   background-color: var(--cyber-gold);
-  color: var(--cyber-dark);
+
+  a {
+    color: white;
+  }
 }
