@@ -47,7 +47,7 @@ export default function Join() {
               <strong>Cyber Lab:</strong> Actively participate in a project with
               Cyber Lab. At the end of the quarter, create a blog post with your
               project group about your work and present your creation to the
-              club! club!
+              club!
             </li>
             <li>
               <strong>Psi Beta Rho:</strong> Submit one writeup for a challenge
