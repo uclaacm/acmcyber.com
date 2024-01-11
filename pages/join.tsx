@@ -17,18 +17,25 @@ export default function Join() {
 
           <p>
             Want to join UCLA's premier cybersecurity club?{" "}
-            <strong>All levels of experience welcome!</strong> Our{" "}
-            <strong>membership form</strong> is now open. Fill it out{" "}
-            <a href="https://forms.gle/HqEbhUu3cMPiG27WA" className="link">
-              here
-            </a>{" "}
-            to officially join ACM Cyber! Join our{" "}
+            <strong>All levels of experience welcome!</strong> Join our{" "}
             <a href="https://discord.com/invite/j9dgf2q" className="link">
               Discord
             </a>{" "}
             to stay up to date! All of our events are open to the public, so
-            feel free to join us at any time!
+            feel free to join us at any time! Our{" "}
+            <strong>membership form</strong> is now open! If you are interested
+            in joining some of our projects, Psi Beta Rho, etc. please fill it
+            out to officially join ACM Cyber!
           </p>
+
+          <button
+            onClick={() =>
+              (window.location.href = "https://forms.gle/HqEbhUu3cMPiG27WA")
+            }
+            className={styles.membershipForm}
+          >
+            Winter 2024 Membership Form
+          </button>
 
           <h2>What do I have to do?</h2>
           <p>
