@@ -115,7 +115,7 @@ export default function Events() {
               ACM Cyber! Want to stay up to date with events? Feel free to
               subscribe to our{" "}
               <a
-                href="https://calendar.google.com/calendar/u/3?cid=dGJzc3EwdjY1dmlxNHBubm82bWxwaDBtdnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+                href="https://calendar.google.com/calendar?cid=dGJzc3EwdjY1dmlxNHBubm82bWxwaDBtdnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
                 className={styles["gcal"]}
               >
                 Google Calendar
