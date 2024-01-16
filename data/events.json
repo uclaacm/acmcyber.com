@@ -49,7 +49,7 @@
     "id": "w24-pbr-coppersmiths-attack",
     "title": "Coppersmith's Attack",
     "type": [
-      "PBR"
+      "Psi Beta Rho"
     ],
     "description": "Do you want to learn more about cryptography and how it can be used to perform cryptographic attacks? Come join PBR for CTF solving and a very interesting talk about Coppersmith's Attack done by Danniell Xu. It'll be from 12-5pm at Boelter 8500. See you there!",
     "location": "Boelter 8500",
@@ -85,7 +85,7 @@
     "id": "w24-pbr-heap-binary-exploitation",
     "title": "TetCTF & Heap Binary Exploitation",
     "type": [
-      "PBR"
+      "Psi Beta Rho"
     ],
     "description": "Would you like to get some CTF practice in? Come compete as part of PBR for TetCTF 2024! Alex will be doing a talk on heap binary exploitation. 12-5pm at Boelter 8500, see you there!",
     "location": "Boelter 8500",
@@ -200,7 +200,7 @@
     "id": "w24-pbr-font-injection",
     "title": "OSU! Gaming CTF & CSS/Font Injection + XSLeaks",
     "type": [
-      "PBR"
+      "Psi Beta Rho"
     ],
     "description": "JavaScript injection, sql injection, font injection. Come compete at OSU! Gaming CTF and learn about web security through Ronak's talk about CSS/Font Injection and XSLeaks! It'll be from 12-5pm at Boelter 8500. Hope to see you there!",
     "location": "Boelter 8500",
@@ -236,7 +236,7 @@
     "id": "w24-pbr-browser-binary-exploitation",
     "title": "WxMCTF 2024 & Browser Binary Exploitation",
     "type": [
-      "PBR"
+      "Psi Beta Rho"
     ],
     "description": "Are you interested in learning low level hacking? What about web security? Come compete in WxMCTF at Boelter 8500 form 12-5pm and hear Enzo's talk on Browser Binary Exploitation! See you there!",
     "location": "Boelter 8500",
@@ -248,6 +248,7 @@
     "id": "w24-collab-ai-x-cyber",
     "title": "AI x Cyber Symposium",
     "type": [
+      "Miscellaneous",
       "Collab"
     ],
     "description": "Come by Boelter 5249 from 6-8pm to see all the cool projects ACM Cyber and ACM AI have been working on all quarter. You can present and learn about what the coolest clubs have been up to this quarter! See you there for our last event of the quarter!",
