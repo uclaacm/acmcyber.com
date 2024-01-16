@@ -109,6 +109,20 @@ export default function Events() {
         )}
         <div className={styles["home"]}>
           <h1>Events</h1>
+          <div className="content">
+            <p>
+              Check out some of the exciting events happening this quarter for
+              ACM Cyber! Want to stay up to date with events? Feel free to
+              subscribe to our{" "}
+              <a
+                href="https://calendar.google.com/calendar/u/3?cid=dGJzc3EwdjY1dmlxNHBubm82bWxwaDBtdnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+                className={styles["gcal"]}
+              >
+                Google Calendar
+              </a>
+              .
+            </p>
+          </div>
 
           {/* This Week section */}
           <div className={styles["this-week"]}>
