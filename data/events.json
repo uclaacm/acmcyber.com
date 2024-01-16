@@ -34,6 +34,114 @@
     }
   },
   {
+    "id": "w24-cylab-symmetric-cryptography",
+    "title": "Symmetric Cryptography & AES",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Have you heard of encryption? Are you curious about the uses of cryptography? Come to Boelter 4760 from 6-8pm to learn about how your web traffic is encrypted and kept secure! We will be covering symmetric cryptography and AES. See you there!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-symmetric-crypto.png",
+    "start": 1705543200000,
+    "end": 1705550400000
+  },
+  {
+    "id": "w24-pbr-coppersmiths-attack",
+    "title": "Coppersmith's Attack",
+    "type": [
+      "PBR"
+    ],
+    "description": "Do you want to learn more about cryptography and how it can be used to perform cryptographic attacks? Come join PBR for CTF solving and a very interesting talk about Coppersmith's Attack done by Danniell Xu. It'll be from 12-5pm at Boelter 8500. See you there!",
+    "location": "Boelter 8500",
+    "banner": "https://acmcyber.com/images/events/w24/w24-coppersmiths-attack.png",
+    "start": 1705780800000,
+    "end": 1705798800000
+  },
+  {
+    "id": "w24-cyac-beginner-ctf",
+    "title": "How to Break Into CTFs for Beginners",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Are you new to cybersecurity? Are you interested in trying security challenges in a CTF? Come to Boelter 5249 from 6-8pm to hear Jason Jiang's talk on How to Break into CTFs for Beginners! Great opportunity for people curious about CTFs, hope to see you there!",
+    "location": "Boelter 5249",
+    "banner": "https://acmcyber.com/images/events/w24/w24-beginner-ctf.png",
+    "start": 1705975200000,
+    "end": 1705982400000
+  },
+  {
+    "id": "w24-cylab-burpsuite-talk",
+    "title": "Burpsuite",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Have you wondered how the security of web applications are tested? Are you interested in pentesting? Have you heard of Burp Suite? Come to Boelter 5249 from 6-8pm to hear Stewart Kwok's talk about Burpsuite!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-burpsuite-talk.png",
+    "start": 1706148000000,
+    "end": 1706155200000
+  },
+  {
+    "id": "w24-pbr-heap-binary-exploitation",
+    "title": "TetCTF & Heap Binary Exploitation",
+    "type": [
+      "PBR"
+    ],
+    "description": "Would you like to get some CTF practice in? Come compete as part of PBR for TetCTF 2024! Alex will be doing a talk on heap binary exploitation. 12-5pm at Boelter 8500, see you there!",
+    "location": "Boelter 8500",
+    "banner": "https://acmcyber.com/images/events/w24/w24-heap-binary-exploitation.png",
+    "start": 1706385600000,
+    "end": 1706403600000
+  },
+  {
+    "id": "w24-cyac-weijia-yan",
+    "title": "Weijia Yan",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Come by Boelter 4760 from 6-8pm to hear from our special guest speaker! You can hear about Weijia Yan's work as a Security Engineer at Apple and experience from previously being a PicoCTF organizer! There will be opportunities to ask her questions, so we hope to see you there!",
+    "location": "Boelter 5249",
+    "banner": "https://acmcyber.com/images/events/w24/w24-weijia-yan.png",
+    "start": 1706580000000,
+    "end": 1706587200000
+  },
+  {
+    "id": "w24-cylab-cpu-vulns",
+    "title": "CPU Vulnerabilities",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Are you interested in vulnerabilities in computers? Would you like to learn about CPU Vulnerabilities? (C)ome (P)ull (U)p to Boelter 4760 from 6-8pm for Aditya Pai's talk about CPU Vulnerabilities. See you there!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-cpu-vulns.png",
+    "start": 1706752800000,
+    "end": 1706760000000
+  },
+  {
+    "id": "w24-cyac-ssti-and-pyjails",
+    "title": "SSTI & Pyjails",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Are you interested in server side attacks? You want to learn how to escape a restricted shell? Come find out how to break out of pyjails and how to perform a server side template injection at Vishal Yathish's talk at Boelter 5249 from 6-8pm. See you there!",
+    "location": "Boelter 5249",
+    "banner": "https://acmcyber.com/images/events/w24/w24-ssti-and-pyjails.png",
+    "start": 1707789600000,
+    "end": 1707796800000
+  },
+  {
+    "id": "w24-cylab-formal-verification",
+    "title": "Formal Verification",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Are you interested in machine learning? Are you curious about how to verify that software will operate correctly? Come join us at Boelter 4760 from 6-8pm to hear from Renuka about Formal Verification of Neural Networks. See you there!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-formal-verification.png",
+    "start": 1707962400000,
+    "end": 1707969600000
+  },
+  {
     "id": "w24-lactf",
     "title": "LA CTF 2024",
     "type": [
@@ -51,6 +159,102 @@
       "ignore-for-acm-newsletter": true,
       "_comment": "^ the newsletter cannot handle multiple-day events so I'll add 3 events for the three separate days manually lol"
     }
+  },
+  {
+    "id": "w24-cylab-race-conditions",
+    "title": "Security Race Conditions",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "What happens when a system tries to perform two conflicting actions at the same time? How can we use this undesirable behavior to exploit systems? Come to Boelter 4760 from 6-8pm to learn more about Security Race Condition from Vera!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-race-conditions.png",
+    "start": 1708567200000,
+    "end": 1708574400000
+  },
+  {
+    "id": "w24-cyac-guest-speaker-feb-26",
+    "title": "Guest Speaker",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Come by Boelter 5249 from 6-8pm to hear from our special guest speaker! You can hear about their projects and security expertise while having the opportunity to ask questions and learn more. See you there!",
+    "location": "Boelter 5249",
+    "banner": "https://acmcyber.com/images/events/w24/w24-guest-speaker-feb-26.png",
+    "start": 1708999200000,
+    "end": 1709006400000
+  },
+  {
+    "id": "w24-cylab-firmware-rev",
+    "title": "Firmware Rev",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Have you heard of firmware? Are you interested in hacking hardware? Come to Boelter 4760 fom 6-8pm to learn about Firmware Reverse Engineering from Rory's talk. See you there!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-firmware-rev.png",
+    "start": 1709172000000,
+    "end": 1709179200000
+  },
+  {
+    "id": "w24-pbr-font-injection",
+    "title": "OSU! Gaming CTF & CSS/Font Injection + XSLeaks",
+    "type": [
+      "PBR"
+    ],
+    "description": "JavaScript injection, sql injection, font injection. Come compete at OSU! Gaming CTF and learn about web security through Ronak's talk about CSS/Font Injection and XSLeaks! It'll be from 12-5pm at Boelter 8500. Hope to see you there!",
+    "location": "Boelter 8500",
+    "banner": "https://acmcyber.com/images/events/w24/w24-font-injection.png",
+    "start": 1709409600000,
+    "end": 1709427600000
+  },
+  {
+    "id": "w24-cyac-economics",
+    "title": "Economics of Security Vulnerabilities",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Have you ever thought about the business side of cybersecurity? Do you want a better understanding of the decisions made when it comes to security? Come attend Benson's talk at Boelter 5249 from 6-8pm on the Economics of Security Vulnerabilities. See you there!",
+    "location": "Boelter 5249",
+    "banner": "https://acmcyber.com/images/events/w24/w24-economics.png",
+    "start": 1709604000000,
+    "end": 1709611200000
+  },
+  {
+    "id": "w24-cylab-windows-rev",
+    "title": "Windows Reverse Engineering",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Do you like learning how things work? Would you like to know more about Windows software? Come by Boelter 4760 at 6-8pm to hear Salma's Talk on Windows Rev. Come by!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-windows-rev.png",
+    "start": 1709776800000,
+    "end": 1709784000000
+  },
+  {
+    "id": "w24-pbr-browser-binary-exploitation",
+    "title": "WxMCTF 2024 & Browser Binary Exploitation",
+    "type": [
+      "PBR"
+    ],
+    "description": "Are you interested in learning low level hacking? What about web security? Come compete in WxMCTF at Boelter 8500 form 12-5pm and hear Enzo's talk on Browser Binary Exploitation! See you there!",
+    "location": "Boelter 8500",
+    "banner": "https://acmcyber.com/images/events/w24/w24-browser-binary-exploitation.png",
+    "start": 1710014400000,
+    "end": 1710032400000
+  },
+  {
+    "id": "w24-collab-ai-x-cyber",
+    "title": "AI x Cyber Symposium",
+    "type": [
+      "Collab"
+    ],
+    "description": "Come by Boelter 5249 from 6-8pm to see all the cool projects ACM Cyber and ACM AI have been working on all quarter. You can present and learn about what the coolest clubs have been up to this quarter! See you there for our last event of the quarter!",
+    "location": "Boelter 5249",
+    "banner": "https://acmcyber.com/images/events/w24/w24-ai-x-cyber-symposium.png",
+    "start": 1710205200000,
+    "end": 1710212400000
   },
   {
     "id": "f23-misc-acm-gm",
