@@ -35,7 +35,7 @@
   },
   {
     "id": "w24-cylab-symmetric-cryptography",
-    "title": "Symmetric Cryptography & AES",
+    "title": "Cyber Lab: Symmetric Cryptography & AES",
     "type": [
       "Cyber Lab"
     ],
@@ -47,7 +47,7 @@
   },
   {
     "id": "w24-pbr-coppersmiths-attack",
-    "title": "Coppersmith's Attack",
+    "title": "PBR: Coppersmith's Attack",
     "type": [
       "Psi Beta Rho"
     ],
@@ -59,7 +59,7 @@
   },
   {
     "id": "w24-cyac-beginner-ctf",
-    "title": "How to Break Into CTFs for Beginners",
+    "title": "Cyber Academy: How to Break Into CTFs for Beginners",
     "type": [
       "Cyber Academy"
     ],
@@ -71,7 +71,7 @@
   },
   {
     "id": "w24-cylab-burpsuite-talk",
-    "title": "Burpsuite",
+    "title": "Cyber Lab: Burpsuite",
     "type": [
       "Cyber Lab"
     ],
@@ -83,7 +83,7 @@
   },
   {
     "id": "w24-pbr-heap-binary-exploitation",
-    "title": "TetCTF & Heap Binary Exploitation",
+    "title": "PBR: TetCTF & Heap Binary Exploitation",
     "type": [
       "Psi Beta Rho"
     ],
@@ -95,7 +95,7 @@
   },
   {
     "id": "w24-cyac-weijia-yan",
-    "title": "Weijia Yan",
+    "title": "Cyber Academy: Weijia Yan",
     "type": [
       "Cyber Academy"
     ],
@@ -107,7 +107,7 @@
   },
   {
     "id": "w24-cylab-cpu-vulns",
-    "title": "CPU Vulnerabilities",
+    "title": "Cyber Lab: CPU Vulnerabilities",
     "type": [
       "Cyber Lab"
     ],
@@ -119,7 +119,7 @@
   },
   {
     "id": "w24-cyac-ssti-and-pyjails",
-    "title": "SSTI & Pyjails",
+    "title": "Cyber Academy: SSTI & Pyjails",
     "type": [
       "Cyber Academy"
     ],
@@ -131,7 +131,7 @@
   },
   {
     "id": "w24-cylab-formal-verification",
-    "title": "Formal Verification",
+    "title": "Cyber Lab: Formal Verification",
     "type": [
       "Cyber Lab"
     ],
@@ -162,7 +162,7 @@
   },
   {
     "id": "w24-cylab-race-conditions",
-    "title": "Security Race Conditions",
+    "title": "Cyber Lab: Security Race Conditions",
     "type": [
       "Cyber Lab"
     ],
@@ -174,7 +174,7 @@
   },
   {
     "id": "w24-cyac-guest-speaker-feb-26",
-    "title": "Guest Speaker",
+    "title": "Cyber Academy: Guest Speaker",
     "type": [
       "Cyber Academy"
     ],
@@ -186,7 +186,7 @@
   },
   {
     "id": "w24-cylab-firmware-rev",
-    "title": "Firmware Rev",
+    "title": "Cyber Lab: Firmware Rev",
     "type": [
       "Cyber Lab"
     ],
@@ -198,7 +198,7 @@
   },
   {
     "id": "w24-pbr-font-injection",
-    "title": "OSU! Gaming CTF & CSS/Font Injection + XSLeaks",
+    "title": "PBR: OSU! Gaming CTF & CSS/Font Injection + XSLeaks",
     "type": [
       "Psi Beta Rho"
     ],
@@ -210,7 +210,7 @@
   },
   {
     "id": "w24-cyac-economics",
-    "title": "Economics of Security Vulnerabilities",
+    "title": "Cyber Academy: Economics of Security Vulnerabilities",
     "type": [
       "Cyber Academy"
     ],
@@ -222,7 +222,7 @@
   },
   {
     "id": "w24-cylab-windows-rev",
-    "title": "Windows Reverse Engineering",
+    "title": "Cyber Lab: Windows Reverse Engineering",
     "type": [
       "Cyber Lab"
     ],
@@ -234,7 +234,7 @@
   },
   {
     "id": "w24-pbr-browser-binary-exploitation",
-    "title": "WxMCTF 2024 & Browser Binary Exploitation",
+    "title": "PBR: WxMCTF 2024 & Browser Binary Exploitation",
     "type": [
       "Psi Beta Rho"
     ],
