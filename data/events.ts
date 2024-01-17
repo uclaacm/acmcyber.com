@@ -33,6 +33,7 @@ enum EventKind {
   LACTF = "LA CTF",
   Misc = "Miscellaneous",
   Special = "Cyber Special Topics",
+  ECTF = "ECTF",
 }
 
 export const eventTypes = [
@@ -78,6 +79,13 @@ export const eventTypes = [
     description: "Cyber Special Topics explores the intersection of cybersecurity with other fields through exciting talks and demos. Each week, you\'ll be able to gain practical experience and insights that can be applied universally in the dynamic landscape of cybersecurity.",
     id: "cyber-special-topics",
     textIcon: "</>",
+    active: false,
+  },
+  {
+    name: EventKind.ECTF,
+    description: "ACM Cyber and IEEE present ECTF!",
+    id: "ectf",
+    textIcon: "⚙",
     active: false,
   }
 ];
