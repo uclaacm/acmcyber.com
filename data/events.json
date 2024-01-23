@@ -362,6 +362,19 @@
     "end": 1709697600000
   },
   {
+    "id": "w24-cyber-potlock-social",
+    "title": "Cyber Potluck Social",
+    "type": [
+      "Miscellaneous",
+      "Social"
+    ],
+    "description": "Join us for the Cyber Potluck on Saturday, January 27th at 6PM at the Palo Verde apartments (910 Weyburn)! Fill out the RSVP form at tinyurl.com/cyber-potluck-social",
+    "location": "Palo Verde Apartments (910 Weyburn)",
+    "banner": "https://www.acmcyber.com/images/events/w24/w24-cyber-potluck-social.png",
+    "start": 1706407200000,
+    "end": 1706414400000
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
