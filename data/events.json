@@ -94,14 +94,14 @@
     "end": 1706403600000
   },
   {
-    "id": "w24-cyac-weijia-yan",
-    "title": "Cyber Academy: Weijia Yan",
+    "id": "w24-cyac-operation-triangulation",
+    "title": "Cyber Academy: Operation Triangulation",
     "type": [
       "Cyber Academy"
     ],
-    "description": "Come by Boelter 4760 from 6-8pm to hear from our special guest speaker! You can hear about Weijia Yan's work as a Security Engineer at Apple and experience from previously being a PicoCTF organizer! There will be opportunities to ask her questions, so we hope to see you there!",
+    "description": "Interested in iPhone security? Come listen to Yashica Prasad's presentation on Operation Triangulation, a zero-click iMessage attack design to obtain root privileges and infect a target with malware. See you at Boelter 5249 from 6-8pm!",
     "location": "Boelter 5249",
-    "banner": "https://acmcyber.com/images/events/w24/w24-weijia-yan.png",
+    "banner": "https://acmcyber.com/images/events/w24/w24-operation-triangulation.png",
     "start": 1706580000000,
     "end": 1706587200000
   },
@@ -116,6 +116,30 @@
     "banner": "https://acmcyber.com/images/events/w24/w24-cpu-vulns.png",
     "start": 1706752800000,
     "end": 1706760000000
+  },
+  {
+    "id": "w24-cyac-laurie-kirk",
+    "title": "Cyber Academy: Laurie Kirk",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Come out to Cyber Academy today to hear from our amazing guest speaker, Laurie Kirk! Get ready to learn about her experience as a reverse engineer at Microsoft and prepare to ask her any questions you may have. See you in Boelter 5249 from 6-8 pm!",
+    "location": "Boelter 5249",
+    "banner": "https://acmcyber.com/images/events/w24/w24-laurie-kirk.png",
+    "start": 1707184800000,
+    "end": 1707192000000
+  },
+  {
+    "id": "w24-cylab-strellic",
+    "title": "Cyber Lab: Strellic",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Come out to Cyber Lab today to hear from our amazing guest speaker, Strellic! Learn about his experience playing CTFs with DiceGang, studies at UC Berkeley, and security engineering work at Cure53. See you in Boelter 4760 from 6-8 pm!",
+    "location": "Boelter 4760",
+    "banner": "https://acmcyber.com/images/events/w24/w24-strellic.png",
+    "start": 1707357600000,
+    "end": 1707364800000
   },
   {
     "id": "w24-cyac-ssti-and-pyjails",
@@ -173,14 +197,14 @@
     "end": 1708574400000
   },
   {
-    "id": "w24-cyac-guest-speaker-feb-26",
+    "id": "w24-cyac-weijia-yan",
     "title": "Cyber Academy: Guest Speaker",
     "type": [
       "Cyber Academy"
     ],
-    "description": "Come by Boelter 5249 from 6-8pm to hear from our special guest speaker! You can hear about their projects and security expertise while having the opportunity to ask questions and learn more. See you there!",
+    "description": "Come by Boelter 4760 from 6-8pm to hear from our special guest speaker! You can hear about Weijia Yan's work as a Security Engineer at Apple and experience from previously being a PicoCTF organizer! There will be opportunities to ask her questions, so we hope to see you there!",
     "location": "Boelter 5249",
-    "banner": "https://acmcyber.com/images/events/w24/w24-guest-speaker-feb-26.png",
+    "banner": "https://acmcyber.com/images/events/w24/w24-weijia-yan.png",
     "start": 1708999200000,
     "end": 1709006400000
   },
