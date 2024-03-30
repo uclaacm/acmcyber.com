@@ -44,5 +44,7 @@ next-env.d.ts
 !.vscode/extensions.json
 !.vscode/settings.json
 
-# scripting
-data/scripting
+#scripting
+data/scripts/clubdata
+data/scripts/tmp
+data/scripts/out
