@@ -22,20 +22,6 @@ const members: PersonInfoProps[] = [
     photo: "savannah.jpg"
   },
   {
-    name: "Benson Liu",
-    role: "Advisor",
-    bio: "Hey, I'm Benson! I'm a 3rd year Computer Science major from New Jersey who enjoys hacking & playing CTFs! In my free time, I like to watch anime or baseball (my favorite team is the Yankees).",
-    pronouns: "he/him",
-    photo: "bliu.png"
-  },
-  {
-    name: "Salma Alandary",
-    role: "Advisor",
-    bio: "4th year Computer Science major",
-    pronouns: "she/her",
-    photo: "salma.jpg"
-  },
-  {
     name: "Gary Song",
     role: "Officer",
     bio: "3rd year Computer Science & Math majors",
@@ -125,6 +111,20 @@ const members: PersonInfoProps[] = [
     bio: "1st year Computer Science & Linguistics, Math major",
     pronouns: "",
     photo: ""
+  },
+  {
+    name: "Benson Liu",
+    role: "Advisor",
+    bio: "Hey, I'm Benson! I'm a 3rd year Computer Science major from New Jersey who enjoys hacking & playing CTFs! In my free time, I like to watch anime or baseball (my favorite team is the Yankees).",
+    pronouns: "he/him",
+    photo: "bliu.png"
+  },
+  {
+    name: "Salma Alandary",
+    role: "Advisor",
+    bio: "4th year Computer Science major",
+    pronouns: "she/her",
+    photo: "salma.jpg"
   },
   {
     name: "Brandon Tran",
