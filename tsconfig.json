@@ -20,5 +20,5 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/404.js"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules","data/scripts/"]
 }

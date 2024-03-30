@@ -1,13 +1,28 @@
 import json
+from typing import NamedTuple
+
+class RequirementInfo(NamedTuple):
+    fields = [f'field{i}' for i in range(4)]
+    fields[0] = 'name'
+    fields[3] = 'role'
+    __annotations__ = {field: str for field in fields}    
+
+class OtherInfo(NamedTuple):
+    fields = [f'field{i}' for i in range(21)]
+    fields[15] = 'name'
+    fields[16] = 'pronouns'
+    fields[19] = 'year'
+    fields[20] = 'major'
+    __annotations__ = {field: str for field in fields}
+
+
 with open('tmp/old-member-data','r') as f:
     old_data = f.read()
 old_data_json = json.loads(old_data)
 with open('clubdata/requirement.tsv','r') as f:
-    new_data = list(filter(lambda x: "#N/A" not in x,[i.split('\t') for i in f.read().split('\n')[1:]]))
+    new_data = list(filter(lambda x: "#N/A" not in x,[RequirementInfo(*i.split('\t')[:4]) for i in f.read().split('\n')[1:]]))
 with open('clubdata/membership.tsv','r') as f:
-    new_extra_data = list(filter(lambda x: "Not found" not in x,[i.split('\t') for i in f.read().split('\n')[1:]]))
-#print(new_data)
-#print(new_extra_data[1][15])
+    new_extra_data = list(filter(lambda x: "Not found" not in x,[OtherInfo(*i.split('\t')[:21]) for i in f.read().split('\n')[1:]]))
 presidents = []
 advisors = []
 officers = []
@@ -28,7 +43,7 @@ def check_member(member_name,member_list):
 
 def find_new_member_data(member_name):
     for member in new_extra_data:
-        if member[15] == member_name:
+        if member.name == member_name:
             return member
     return None
 
@@ -55,7 +70,7 @@ for member in old_data_json:
 print(f'there are {len(presidents)} presidents')
 print(f'there are {len(officers)} non-president officers')
 for new_member in new_data:
-    name = new_member[0]
+    name = new_member.name
     other_data = find_new_member_data(name)
     if other_data is None:
         print(f"Information not found for {name}")
@@ -73,17 +88,17 @@ for new_member in new_data:
         else:
             new_member_json = member_template.copy()
             new_member_json['name'] = name
-            new_member_json['role'] = new_member[3]
+            new_member_json['role'] = new_member.role
     else:
         new_member_json = old_member
     if other_data:
-        new_member_json["pronouns"] = other_data[16]
-        print(other_data[20])
+        new_member_json["pronouns"] = other_data.pronouns
+        print(other_data.major)
         major = input("What major is this? ")
         if major == 'y':
-            new_member_json["bio"] = f"{' '.join(other_data[19].split()[:2])} {other_data[20]} major"
+            new_member_json["bio"] = f"{' '.join(other_data.year.split()[:2])} {other_data.major} major"
         else:
-            new_member_json["bio"] = f"{' '.join(other_data[19].split()[:2])} {major} major"
+            new_member_json["bio"] = f"{' '.join(other_data.year.split()[:2])} {major} major"
         
     members.append(new_member_json)
 final_json = presidents + advisors + officers + members
