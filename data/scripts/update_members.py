@@ -1,5 +1,6 @@
 import json
 from typing import NamedTuple
+from common import OtherInfo, member_template, find_new_member_data
 
 class RequirementInfo(NamedTuple):
     fields = [f'field{i}' for i in range(4)]
@@ -7,43 +8,21 @@ class RequirementInfo(NamedTuple):
     fields[3] = 'role'
     __annotations__ = {field: str for field in fields}    
 
-class OtherInfo(NamedTuple):
-    fields = [f'field{i}' for i in range(21)]
-    fields[15] = 'name'
-    fields[16] = 'pronouns'
-    fields[19] = 'year'
-    fields[20] = 'major'
-    __annotations__ = {field: str for field in fields}
-
-
 with open('tmp/old-member-data','r') as f:
     old_data = f.read()
 old_data_json = json.loads(old_data)
 with open('clubdata/requirement.tsv','r') as f:
     new_data = list(filter(lambda x: "#N/A" not in x,[RequirementInfo(*i.split('\t')[:4]) for i in f.read().split('\n')[1:]]))
 with open('clubdata/membership.tsv','r') as f:
-    new_extra_data = list(filter(lambda x: "Not found" not in x,[OtherInfo(*i.split('\t')[:21]) for i in f.read().split('\n')[1:]]))
+    new_extra_data = list(filter(lambda x: "Not found" not in x,[OtherInfo(*i.split('\t')[:22]) for i in f.read().split('\n')[1:]]))
 presidents = []
 advisors = []
 officers = []
 members = []
-member_template = {
-        "name": "",
-        "role": "",
-        "bio": "",
-        "pronouns": "",
-        "photo": ""
-}
 
 def check_member(member_name,member_list):
     for member in member_list:
         if member['name'] == member_name:
-            return member
-    return None
-
-def find_new_member_data(member_name):
-    for member in new_extra_data:
-        if member.name == member_name:
             return member
     return None
 
@@ -71,7 +50,7 @@ print(f'there are {len(presidents)} presidents')
 print(f'there are {len(officers)} non-president officers')
 for new_member in new_data:
     name = new_member.name
-    other_data = find_new_member_data(name)
+    other_data = find_new_member_data(name,new_extra_data)
     if other_data is None:
         print(f"Information not found for {name}")
     else:
