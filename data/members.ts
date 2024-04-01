@@ -222,7 +222,7 @@ const members: PersonInfoProps[] = [
     role: "Psi Beta Rho",
     bio: "2nd year Computer Science major",
     pronouns: "he/him",
-    photo: ""
+    photo: "anthony.png"
   },
   {
     name: "Christopher Simaan",
@@ -299,7 +299,7 @@ const members: PersonInfoProps[] = [
     role: "Psi Beta Rho",
     bio: "Masters of Financial Engineering major",
     pronouns: "he/him, they/them",
-    photo: ""
+    photo: "jackson.jpg"
   },
   {
     name: "Cameron Monast",
