@@ -48,3 +48,4 @@ next-env.d.ts
 data/scripts/clubdata
 data/scripts/tmp
 data/scripts/out
+data/scripts/__pycache__/
