@@ -30,7 +30,7 @@ export default function Join() {
 
           <button className={styles.membershipForm}>
             <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSd40YVQqKPlcne_h1NtElVLuFuikdtPirRF8GazpiiAejbnXw/viewform?usp=sf_link">
-              Winter 2024 Membership Form
+              Spring 2024 Membership Form
             </a>
           </button>
 
