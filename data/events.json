@@ -1170,5 +1170,19 @@
     "start": 1713034800000,
     "end": 1713056400000,
     "links": {}
+  },
+  {
+    "id": "s24-potluck",
+    "title": "Cyber Poluck",
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "description": "Join your favorite Cyber Friends 🧑‍🤝‍🧑 for a potluck filled with fun and good food! 🩷😋 We will be meeting up at 6pm Week 3 Sunday (4/21) at 910 Weyburn Place. Make sure to show up and have fun! 🤗🍴👀✨🎉 (Sign up form for food coming soon)",
+    "location": "910 Weyburn Place",
+    "banner": "",
+    "start": 1713747600000,
+    "end": 1713758400000,
+    "links": {}
   }
 ]
