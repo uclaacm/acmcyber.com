@@ -1,8 +1,3 @@
-if ! command -v cwebp &> /dev/null; then
-    echo "cwebp is not installed." >&2
-    exit 1
-fi
-
 for file in "../../public/images/members"/*.{jpg,png,webp}; do
     if [ -f "$file" ]; then
         filename=$(basename -- "$file")
