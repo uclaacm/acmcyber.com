@@ -1178,11 +1178,50 @@
       "Social",
       "Miscellaneous"
     ],
-    "description": "Join your favorite Cyber Friends 🧑‍🤝‍🧑 for a potluck filled with fun and good food! 🩷😋 We will be meeting up at 6pm Week 3 Sunday (4/21) at 910 Weyburn Place. Make sure to show up and have fun! 🤗🍴👀✨🎉 (Sign up form for food coming soon)",
+    "description": "Join your favorite Cyber Friends for a potluck filled with fun and good food! 🩷😋 We will be meeting up at 6pm Week 3 Sunday (4/21) at 910 Weyburn Place. Make sure to show up and have fun! 🤗🍴👀✨🎉 (RVSP: https://docs.google.com/forms/d/e/1FAIpQLSebjdTlVG_SZV-iuaTF9qRQJoqCR7K4XLaSBMKhwANetvl4Rg/viewform?usp=sf_link)",
     "location": "910 Weyburn Place",
     "banner": "",
     "start": 1713747600000,
     "end": 1713758400000,
+    "links": {}
+  },
+  {
+    "id": "s24-cyac-network-into",
+    "title": "Cyber Academy: Intro to Network Analysis",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Interested in how networks work? 🛜 Then join us for our second Cyber Academy meeting to learn about the basics of networking, presented by Alec! ✨ We'll be in Boelter 4760 on Monday 6-8pm, so make sure to show up! 💟🫡",
+    "location": "Boelter 4760",
+    "banner": "",
+    "start": 1713229200000,
+    "end": 1713236400000,
+    "links": {}
+  },
+  {
+    "id": "s24-cyalab-m1-side-channel",
+    "title": "Cyber Lab: Apple M1 Side Channel",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Come to Cyber Lab to hear Cameron give a thrilling talk about the Apple M1 chip side channel. 🍎💻 You'll learn about a current vulnerability in your or your friends' computers. 😱 We'll also be continuing with the second week of Cyber Lab projects, so make sure to pull up to Bolter 4760 this Wednesday 6-8pm. 😊🎀",
+    "location": "Boelter 4760",
+    "banner": "",
+    "start": 1713402000000,
+    "end": 1713409200000,
+    "links": {}
+  },
+  {
+    "id": "s24-pbr-greycat",
+    "title": "GreyCat: w/ Zero Knowledge Proofs Talk",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "Can't get enought of cybersecurity? 🙋 Then join us for GreyCat CTF this Sunday! 🐈‍⬛🩶 We'll also be featuring a super cool talk by Joshua about Zero Knowledge Proofs. 👀 We'll meet up at De Neve Plaza at 12 for lunch, and then play the CTF at 1pm in Boelter 8500. Everyone is welcome regardless of skill level and feel free to stay for however long you like. 😻🙀😽",
+    "location": "Boelter 8500 (Penthouse)",
+    "banner": "",
+    "start": 1713643200000,
+    "end": 1713661200000,
     "links": {}
   }
 ]
