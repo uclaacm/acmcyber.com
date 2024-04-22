@@ -143,7 +143,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Srishti Ganu",
     role: "Cyber Lab",
-    bio: "1st year Mathematics of Computation major",
+    bio: "1st year Transfer Mathematics of Computation major",
     pronouns: "she/her",
     photo: "srishti.webp"
   },
@@ -171,7 +171,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Alexander Edwards",
     role: "Cyber Academy",
-    bio: "1st year Computer Science major",
+    bio: "1st year Transfer Computer Science major",
     pronouns: "he/him",
     photo: "alexanderEdwards.webp"
   },
@@ -227,7 +227,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Christopher Simaan",
     role: "Cyber Academy",
-    bio: "1st year Computer Science & Engineering major",
+    bio: "1st year Transfer Computer Science & Engineering major",
     pronouns: "he/him",
     photo: "christopher.webp"
   },
@@ -276,7 +276,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Justin Morgan",
     role: "Cyber Lab",
-    bio: "3rd year Computer Science major",
+    bio: "3rd year Transfer Computer Science major",
     pronouns: "he/him",
     photo: "justin.webp"
   },
@@ -304,7 +304,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Cameron Monast",
     role: "Cyber Academy",
-    bio: "1st year Computer Science major",
+    bio: "1st year Transfer Computer Science major",
     pronouns: "he/him",
     photo: "cameron.webp"
   },
