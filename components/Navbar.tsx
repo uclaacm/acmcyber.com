@@ -60,6 +60,12 @@ export default function Navbar() {
         <Link className={styles.hoverable} href="/archive">
           <li>Archive</li>
         </Link>
+        <Link
+          className={styles.hoverable}
+          href="https://platform.acmcyber.com/"
+        >
+          <li>Platform</li>
+        </Link>
         <li>
           <button
             onClick={() => (window.location.href = "/join")}
