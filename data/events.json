@@ -852,6 +852,71 @@
     "links": {}
   },
   {
+    "id": "s24-cyac-guest-1",
+    "title": "Cyber Academy: ???",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "secret guest speaker 1 👀",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714438800000,
+    "end": 1714446000000,
+    "links": {}
+  },
+  {
+    "id": "s24-lab-guest-2",
+    "title": "Cyber Lab: ???",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "secret guest speaker 2 👀",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714611600000,
+    "end": 1714618800000,
+    "links": {}
+  },
+  {
+    "id": "s24-pbr-defcon-pwn",
+    "title": "PBR: Advanced Pwn & Defcon Quals",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "This is it! 🥳 PBR will be teaming up with SuperGuesser x DiceGang x CodeRed for Defcon 2024 Quals! 🎲 Be sure to show up for Enzo's talk on Advanced Pwning 🐚, and then help us win that top ten spot 🏆!",
+    "location": "Boelter 8500 (Penthouse)",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714852800000,
+    "end": 1714870800000,
+    "links": {}
+  },
+  {
+    "id": "s24-cyac-xsleaks",
+    "title": "Cyber Academy: XS Leaks",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Side channel your way into Renuka's talk on Cross-Site Leaks! ⛓",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1715043600000,
+    "end": 1715050800000,
+    "links": {}
+  },
+  {
+    "id": "s24-lab-cowrie",
+    "title": "Cyber Lab: Cowrie",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "It's not a sea snail 🐌, it's a honeypot 🍯! Join Dylan this Wednesday for a sweet sweet talk on the Cowrie SSH honeypot! 😋",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1715216400000,
+    "end": 1715223600000,
+    "links": {}
+  },
+  {
     "id": "s24-ctf-irl",
     "title": "CTF IRL",
     "type": [
