@@ -12,7 +12,7 @@ export default function About() {
       />
       <div className="page">
         <div className="content">
-          <h1>About</h1>
+          <h1 id="about-top">About</h1>
           <img
             src="/images/ctf-experts.png"
             alt="A talk from two CTF experts."
@@ -29,7 +29,7 @@ export default function About() {
             the students at UCLA!
           </p>
 
-          <h2>What We Do</h2>
+          <h2 id="what-we-do">What We Do</h2>
           <p>
             ACM Cyber is home to a wide variety of events and projects hosted
             throughout the year. Check out our main initiatives below!
