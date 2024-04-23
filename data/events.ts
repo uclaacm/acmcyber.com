@@ -1,4 +1,4 @@
-import eventsData from "./events.json" assert { type: "json" }
+import eventsRaw from "./events.json" assert { type: "json" }
 
 export interface CyaneaEvent {
   id: string
@@ -13,7 +13,10 @@ export interface CyaneaEvent {
   meta?: Record<string, any> | null
 }
 
-export default eventsData as CyaneaEvent[];
+let eventsData = eventsRaw as CyaneaEvent[];
+eventsData.sort((a,b) => a.start - b.start);
+export default eventsData;
+
 
 export interface EventType {
   name: string;
