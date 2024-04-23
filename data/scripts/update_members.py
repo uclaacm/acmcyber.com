@@ -72,12 +72,16 @@ for new_member in new_data:
         new_member_json = old_member
     if other_data:
         new_member_json["pronouns"] = other_data.pronouns
+        transfer = other_data.year.split()[3] == 'transfer'
+        year = ' '.join(other_data.year.split()[:2])
+        if transfer:
+            year += ' Transfer'
         print(other_data.major)
         major = input("What major is this? ")
         if major == 'y':
-            new_member_json["bio"] = f"{' '.join(other_data.year.split()[:2])} {other_data.major} major"
+            new_member_json["bio"] = f"{year} {other_data.major} major"
         else:
-            new_member_json["bio"] = f"{' '.join(other_data.year.split()[:2])} {major} major"
+            new_member_json["bio"] = f"{year} {major} major"
         
     members.append(new_member_json)
 final_json = presidents + advisors + officers + members
