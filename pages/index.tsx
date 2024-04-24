@@ -1,15 +1,12 @@
 import Link from "next/link";
 import styles from "styles/Home.module.scss";
+import joinStyles from "@/styles/Join.module.scss";
 import CyberSeo from "@/components/CyberSeo";
 import CyberWordmark from "@/components/CyberWordmark";
-import DiscordLogo from "@/public/images/discord.svg";
 import Flag from "@/public/images/flag.svg";
 import Boba from "@/public/images/boba.svg";
-import InstagramLogo from "@/public/images/instagram.svg";
-import LinkedinLogo from "@/public/images/linkedin.svg";
 import TestTube from "@/public/images/test-tube.svg";
 import CyberLogoInverted from "@/public/images/cyber-logo-light-inverted.png";
-import TropicalImage from "@/components/TropicalImage";
 
 export default function HomePage() {
   return (
@@ -74,15 +71,14 @@ export default function HomePage() {
             Ready to start <em>your</em> cybersecurity journey?
           </h1>
           <div className={styles.socials}>
-            <a href="https://discord.com/invite/j9dgf2q">
-              <TropicalImage img={DiscordLogo} alt="Discord logo" />
-            </a>
-            <a href="https://www.instagram.com/uclacyber">
-              <TropicalImage img={InstagramLogo} alt="Instagram logo" />
-            </a>
-            <a href="https://www.linkedin.com/company/uclacyber">
-              <TropicalImage img={LinkedinLogo} alt="Linkedin Logo" />
-            </a>
+            <button className={joinStyles.membershipForm}>
+              <Link href="https://discord.com/invite/j9dgf2q">
+                Join our Discord!
+              </Link>
+            </button>
+            <button className={joinStyles.membershipForm}>
+              <Link href="/join">Fill out the Membership Form!</Link>
+            </button>
           </div>
         </div>
       </div>

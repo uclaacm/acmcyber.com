@@ -307,12 +307,8 @@ h1.motto {
     width: 100%;
     gap: 40px;
 
-    div {
-      width: 60px;
-      height: 60px;
-      transform: scale(80%);
-      object-fit: contain;
-      background: var(--cyber-gold);
+    button {
+      margin: 0;
     }
   }
 }
