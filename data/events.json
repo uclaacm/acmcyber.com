@@ -852,12 +852,12 @@
     "links": {}
   },
   {
-    "id": "s24-cyac-guest-1",
-    "title": "Cyber Academy: ???",
+    "id": "s24-cyac-xsleaks",
+    "title": "Cyber Academy: XS Leaks",
     "type": [
       "Cyber Academy"
     ],
-    "description": "secret guest speaker 1 👀",
+    "description": "Side channel your way into Renuka's talk on Cross-Site Leaks! ⛓",
     "location": "Boelter 4760",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1714438800000,
@@ -865,12 +865,12 @@
     "links": {}
   },
   {
-    "id": "s24-lab-guest-2",
+    "id": "s24-lab-guest-1",
     "title": "Cyber Lab: ???",
     "type": [
       "Cyber Lab"
     ],
-    "description": "secret guest speaker 2 👀",
+    "description": "secret guest speaker 1 👀",
     "location": "Boelter 4760",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1714611600000,
@@ -891,12 +891,12 @@
     "links": {}
   },
   {
-    "id": "s24-cyac-xsleaks",
-    "title": "Cyber Academy: XS Leaks",
+    "id": "s24-cyac-guest-2",
+    "title": "Cyber Academy: ???",
     "type": [
       "Cyber Academy"
     ],
-    "description": "Side channel your way into Renuka's talk on Cross-Site Leaks! ⛓",
+    "description": "secret guest speaker 2 👀",
     "location": "Boelter 4760",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1715043600000,
