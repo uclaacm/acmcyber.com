@@ -19,7 +19,8 @@
 .personImage {
   border-radius: 50%;
   object-fit: cover;
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   margin: 0 0 1rem 0;
+  border: solid 3px var(--cyber-gold);
 }
