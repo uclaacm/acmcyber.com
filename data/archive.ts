@@ -50,7 +50,7 @@ const archive: QuarterArchive[] = [...quarters.entries()].map(([quarterId, quart
     case "u": season = "Summer"; break;
     default: throw `invalid season char '${quarterId.charAt(0)}' (this should never happen)`
   }
-  const year = parseInt(quarterId.length === 3 ? `20${quarterId.slice(1)}` : quarterId);
+  const year = parseInt(quarterId.length === 3 ? `20${quarterId.slice(1)}` : quarterId.slice(1));
   return {
     name: `${season} ${year}`,
     season: seasonChar,
