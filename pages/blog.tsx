@@ -93,19 +93,21 @@ export default function Blog({
         <div className="content">
           <h1>Blog</h1>
           <span className={styles.categorySelectHeading}>Categories:</span>
-          <ul className={styles.categorySelect}>
-            {categories.map((category, index) => (
-              <li
-                key={index}
-                onClick={() => setFilterCategory(category)}
-                className={
-                  filterCategory === category ? styles.selected : undefined
-                }
-              >
-                {category}
-              </li>
-            ))}
-          </ul>
+          <div>
+            <ul className={styles.categorySelect}>
+              {categories.map((category, index) => (
+                <li
+                  key={index}
+                  onClick={() => setFilterCategory(category)}
+                  className={
+                    filterCategory === category ? styles.selected : undefined
+                  }
+                >
+                  {category}
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <div className={styles.blogContainer}>{getPosts()}</div>
         </div>
