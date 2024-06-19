@@ -42,6 +42,7 @@ const archive: QuarterArchive[] = [...quarters.entries()].map(([quarterId, quart
     case "f": season = "Fall"; break;
     case "w": season = "Winter"; break;
     case "s": season = "Spring"; break;
+    case "u": season = "Summer"; break;
     default: throw `invalid season char '${quarterId.charAt(0)}' (this should never happen)`
   }
   return {
