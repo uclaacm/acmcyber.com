@@ -14,13 +14,13 @@ export default function Discord() {
       <main className={styles.redirect}>
         <h1>Redirecting you now...</h1>
         <p className={styles.home}>
-          <Link href="https://discord.gg/H9enFH7g">
+          <Link href="https://discord.com/invite/j9dgf2q">
             Click here if you are not redirected automatically
           </Link>
         </p>
       </main>
       <Script id="discord-redirect">
-        {`window.location.href = "https://discord.gg/H9enFH7g"`}
+        {`window.location.href = "https://discord.com/invite/j9dgf2q"`}
       </Script>
       <Footer />
     </div>
