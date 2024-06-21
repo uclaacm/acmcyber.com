@@ -156,7 +156,7 @@ const PopUp = ({ event, close }: { event: CyaneaEvent; close: () => void }) => {
           <div className={popUpStyle["date"]}>{formatEventDate(event)}</div>
           <div className={popUpStyle["location"]}>{event.location}</div>
           <div className={styles.tags}>
-            <span>Tags: </span>
+            <div>Tags:</div>
             {typeof event.type === "string" ? (
               <Tag name={event.type} />
             ) : (
@@ -168,17 +168,24 @@ const PopUp = ({ event, close }: { event: CyaneaEvent; close: () => void }) => {
           <div className={styles.section}>
             {event.links?.["youtube"] !== undefined ? (
               <div>
-                <img className={styles.icon} src="/images/utube.svg" />
-                <span>Recording: </span>
+                <div>
+                  <img className={styles.icon} src="/images/utube.svg" />
+                  <span>Recording: </span>
+                </div>
                 <a href={event.links["youtube"]} className={styles.hyperlink}>
                   {event.links["youtube"]}
                 </a>
               </div>
             ) : null}
+          </div>
+
+          <div className={styles.section}>
             {event.links?.["slides"] !== undefined ? (
               <div>
-                <img className={styles.icon} src="/images/slides.svg" />
-                <span>Slides: </span>
+                <div>
+                  <img className={styles.icon} src="/images/slides.svg" />
+                  <span>Slides: </span>
+                </div>
                 <a href={event.links["slides"]} className={styles.hyperlink}>
                   {event.links["slides"]}
                 </a>

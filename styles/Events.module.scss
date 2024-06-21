@@ -145,6 +145,9 @@
   background-color: var(--soul-dark);
   color: white;
   overflow: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-height: min(45rem, 80vw);
   width: min(30rem, 50vw);
 
   // start out popup smol, will become beeg when .mounted on popup-container
@@ -154,7 +157,7 @@
 }
 
 .popup .content {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 // on phones, popup will look like a goofy tv remote without this
