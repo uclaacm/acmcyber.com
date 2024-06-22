@@ -757,11 +757,13 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/s24/s24-gm.png",
     "start": 1712192400000,
     "end": 1712199600000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1pXsZ9CQlFmz0Pk_N4cpJFyy_M86v9Y8NqZyPh46obGY/edit"
+    }
   },
   {
     "id": "s24-pbr-B01lers",
-    "title": "B01lers CTF: w/ Mincraft Seedfinding Talk",
+    "title": "B01lers CTF: w/ Minecraft Seedfinding Talk",
     "type": [
       "Psi Beta Rho"
     ],
@@ -770,7 +772,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1713034800000,
     "end": 1713056400000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1tGAz_zIpPk4tgZ4InwrgybrHme5BIDwDmLxjhOOrEnA/edit"
+    }
   },
   {
     "id": "s24-potluck",
@@ -797,7 +801,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1713229200000,
     "end": 1713236400000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1KMzGICQk4ylQQI6YtOYVCIqXTkCTCUb54z7_KfRXFXE/edit"
+    }
   },
   {
     "id": "s24-cyalab-m1-side-channel",
@@ -810,7 +816,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1713402000000,
     "end": 1713409200000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1bhm97LOLNk2j5uUAIdA-mau6ZmAa6e6oB2PJpLA_jxw/edit"
+    }
   },
   {
     "id": "s24-pbr-greycat",
@@ -823,7 +831,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1713643200000,
     "end": 1713661200000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1DVXJ7JscBF4JLGIJ0KwV-2KPrIB4d_sB5eaJQRy-9xM/edit"
+    }
   },
   {
     "id": "s24-cyac-rsa",
@@ -836,7 +846,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1713834000000,
     "end": 1713841200000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1XL0_3GuZ6w_sM78BHKqmjyB3OeE0ywJn4W1iIDY-yp0/edit#slide=id.p"
+    }
   },
   {
     "id": "s24-lab-dll-injection",
@@ -849,7 +861,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1714006800000,
     "end": 1714014000000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1RCejnHMyGchaxGxPDjXfPXD6ttvpbge7pnhfiu1B-Vo/edit"
+    }
   },
   {
     "id": "s24-cyac-xsleaks",
@@ -862,20 +876,24 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1714438800000,
     "end": 1714446000000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1gIk55syGGgIr68HucfMXUMXfwWILeYcMLkIik_NVtVU/edit"
+    }
   },
   {
     "id": "s24-lab-guest-1",
-    "title": "Cyber Lab: ???",
+    "title": "Cyber Lab: Security by Design",
     "type": [
       "Cyber Lab"
     ],
-    "description": "secret guest speaker 1 👀",
+    "description": "Cyber Lab weekly meeting.",
     "location": "Boelter 4760",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1714611600000,
     "end": 1714618800000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1NtN8fOh455cmVbCCMANGDKRDb5dOmSY_9-nM0uhUhXY/edit"
+    }
   },
   {
     "id": "s24-pbr-defcon-pwn",
@@ -888,15 +906,17 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1714852800000,
     "end": 1714870800000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1rlLhGLy8IFdhup3wcwYZn_wg6yfhELMczy7bJSz4v0I/edit"
+    }
   },
   {
     "id": "s24-cyac-guest-2",
-    "title": "Cyber Academy: ???",
+    "title": "Cyber Academy",
     "type": [
       "Cyber Academy"
     ],
-    "description": "secret guest speaker 2 👀",
+    "description": "Cyber Academy general meeting",
     "location": "Boelter 4760",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1715043600000,
@@ -914,7 +934,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1715216400000,
     "end": 1715223600000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1OmFY88BZ1Qd3kwrJe664y8f93KAmckBgyDI_qCmPkhg/edit"
+    }
   },
   {
     "id": "s24-ctf-irl",
@@ -941,7 +963,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1715648400000,
     "end": 1715655600000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1u4pTYrcB46I2jEYdzaCCm2UH_ZGI5voOUm2SVwuD73E/edit"
+    }
   },
   {
     "id": "s24-lab-ai-privacy",
@@ -954,7 +978,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1715821200000,
     "end": 1715828400000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/10NyWFDtAX7DvCGV-AvYLHYOixD80KAR_Zrnp-dZfATI/edit"
+    }
   },
   {
     "id": "s24-pbr-ouath",
@@ -967,7 +993,9 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1716062400000,
     "end": 1716080400000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1du_Eo6vWMckmALJM5GXJDEYyRlRKn-DKW1sUJIHH31c/edit"
+    }
   },
   {
     "id": "s24-videogame",
@@ -994,7 +1022,24 @@
     "banner": "",
     "start": 1716426000000,
     "end": 1716433200000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/18U2dRcj9HTqO9A7CHFCwLY5SQ5xlVAQDGcAi4Uc8Adk/edit"
+    }
+  },
+  {
+    "id": "s24-pbr-fstring",
+    "title": "PBR: Format String Pwn & GPNCTF",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "Come pull up and hear a talk from Alex Zhang on format strings!",
+    "location": "4th Floor Boelter Clubhouse",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1716062400000,
+    "end": 1716080400000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1ut-5I4CzXvpH8grFYV1qmq7vFHNVA-kUPmC8dfZETZw/edit"
+    }
   },
   {
     "id": "s24-symposium",
@@ -1007,7 +1052,24 @@
     "banner": "",
     "start": 1717462800000,
     "end": 1717470000000,
-    "links": {}
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1p5azXULK_ODEFlaGqk8KrhIS0KOScJP7pG3Dx20FlvQ/edit"
+    }
+  },
+  {
+    "id": "s24-lab-game-anti-piracy",
+    "title": "Cyber Lab: Video Game Anti-Piracy",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Cyber Lab weekly meeting.",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714611600000,
+    "end": 1714618800000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1wsEcQ6GqEPscFe16Cq1TPDuadXTQbAepif9H2HwOGgI/edit"
+    }
   },
   {
     "id": "u24-lab-csrf",
