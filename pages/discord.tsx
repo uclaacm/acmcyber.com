@@ -10,7 +10,10 @@ import Script from "next/script";
 export default function Discord() {
   return (
     <div>
-      <meta http-equiv="refresh" content="0; URL='https://discord.com/invite/j9dgf2q'" />
+      <meta
+        http-equiv="refresh"
+        content="0; URL='https://discord.com/invite/j9dgf2q'"
+      />
       <Navbar />
       <main className={styles.redirect}>
         <h1>Redirecting you now...</h1>
