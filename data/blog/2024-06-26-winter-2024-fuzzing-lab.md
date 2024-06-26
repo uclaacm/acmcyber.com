@@ -3,7 +3,7 @@ title: Secure SQLite Lab 2024
 authors: [Alex Zhang, Ronak Badhe, Simon Koski, Ryan Chang, Renuka Bhusari]
 category: Projects
 tags: [winter-2024, cyber-lab]
-description: Secure library for developers to use
+description: Making a fuzzer
 ---
 
 # Finding Vulnerabilities in Open-Source Software with Fuzzing
