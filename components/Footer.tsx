@@ -14,7 +14,7 @@ export default function Footer() {
         {/* Socials */}
         <p>Find us on Social Media</p>
         <div className={styles.socialsList}>
-          <Link href="https://discord.com/invite/j9dgf2q" target="_blank">
+          <Link href="/discord" target="_blank">
             <TropicalImage img={DiscordLogo} alt="Discord Redirect" />
           </Link>
           <Link href="https://www.instagram.com/uclacyber" target="_blank">

@@ -110,7 +110,7 @@ export default function Navbar() {
           <li>
             Links
             <ul>
-              <Link href="https://discord.com/invite/j9dgf2q">
+              <Link href="/discord">
                 <li>Discord</li>
               </Link>
               <Link href="https://platform.acmcyber.com">
