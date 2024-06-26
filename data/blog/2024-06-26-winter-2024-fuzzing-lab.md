@@ -1,5 +1,5 @@
 ---
-title: Secure SQLite Lab 2024
+title: Fuzzing Lab
 authors: [Alex Zhang, Ronak Badhe, Simon Koski, Ryan Chang, Renuka Bhusari]
 category: Projects
 tags: [winter-2024, cyber-lab]
