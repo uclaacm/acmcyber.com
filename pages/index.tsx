@@ -72,9 +72,7 @@ export default function HomePage() {
           </h1>
           <div className={styles.socials}>
             <button className={joinStyles.membershipForm}>
-              <Link href="https://discord.com/invite/j9dgf2q">
-                Join our Discord!
-              </Link>
+              <Link href="/discord">Join our Discord!</Link>
             </button>
             <button className={joinStyles.membershipForm}>
               <Link href="/join">Fill out the Membership Form!</Link>

@@ -18,7 +18,7 @@ export default function Join() {
           <p>
             Want to join UCLA's premier cybersecurity club?{" "}
             <strong>All levels of experience welcome!</strong> Join our{" "}
-            <a href="https://discord.com/invite/j9dgf2q" className="link">
+            <a href="/discord" className="link">
               Discord
             </a>{" "}
             to stay up to date! All of our events are open to the public, so
@@ -35,9 +35,7 @@ export default function Join() {
           </button>
 
           <button className={styles.membershipForm}>
-            <a href="https://discord.com/invite/j9dgf2q">
-              Join our Discord Server
-            </a>
+            <a href="/discord">Join our Discord Server</a>
           </button>
 
           <h2>What do I have to do?</h2>
