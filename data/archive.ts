@@ -62,8 +62,8 @@ const archive: QuarterArchive[] = [...quarters.entries()].map(([quarterId, quart
     }))
   }
 }).sort((a, b) => {
-  if (a.year == b.year) return SEASONS[a.season] - SEASONS[b.season];
-  return a.year - b.year;
-}).reverse();
+  if (b.year == a.year) return SEASONS[b.season] - SEASONS[a.season];
+  return b.year - a.year;
+});
 
 export default archive;
