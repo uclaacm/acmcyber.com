@@ -156,7 +156,9 @@ const PopUp = ({ event, close }: { event: CyaneaEvent; close: () => void }) => {
           <div className={popUpStyle["date"]}>{formatEventDate(event)}</div>
           <div className={popUpStyle["location"]}>{event.location}</div>
           <div className={styles.tags}>
-            <div>Tags:</div>
+            <div>
+              <span>Tags:</span>
+            </div>
             {typeof event.type === "string" ? (
               <Tag name={event.type} />
             ) : (
