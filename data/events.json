@@ -1112,6 +1112,19 @@
     "links": {}
   },
   {
+    "id": "u24-pbr-ductf",
+    "title": "PBR: Down Under CTF 2024",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "It's getting too hot here in America so join us down under in Australia! Join PBR this weekend to full clear Down Under CTF 2024!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1720165848000,
+    "end": 1720338648000,
+    "links": {}
+  },
+  {
     "id": "w24-misc-acm-gm",
     "title": "ACM Winter GM",
     "type": [
