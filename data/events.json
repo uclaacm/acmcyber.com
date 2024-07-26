@@ -1535,5 +1535,19 @@
     "start": 1722038400000,
     "end": 1722211200000,
     "links": {}
+  },
+  {
+    "id": "u24-misc-movie-night-0",
+    "title": "Cyber Movie Night: Sneakers (1992)",
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "description": "Take hacking to the movies with our first Cyber Movie Night of the summer! We'll be watching the classic _Sneakers_, so be sure to pull up!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1722052800000,
+    "end": 1722063600000,
+    "links": {}
   }
 ]
