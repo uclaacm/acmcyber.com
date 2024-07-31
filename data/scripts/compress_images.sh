@@ -1,4 +1,4 @@
-for file in "../../public/images/members"/*.{jpg,png,webp}; do
+for file in "../../public/images/members"/*.{jpg,png}; do
     if [ -f "$file" ]; then
         filename=$(basename -- "$file")
         extension="${filename##*.}"

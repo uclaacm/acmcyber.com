@@ -14,7 +14,7 @@ old_data_json = json.loads(old_data)
 with open('clubdata/requirement.tsv','r') as f:
     new_data = list(filter(lambda x: "#N/A" not in x,[RequirementInfo(*i.split('\t')[:4]) for i in f.read().split('\n')[1:]]))
 with open('clubdata/membership.tsv','r') as f:
-    new_extra_data = list(filter(lambda x: "Not found" not in x,[OtherInfo(*i.split('\t')[:22]) for i in f.read().split('\n')[1:]]))
+    new_extra_data = list(filter(lambda x: "Not found" not in x,[OtherInfo(*i.split('\t')[:19]) for i in f.read().split('\n')[1:]]))
 presidents = []
 advisors = []
 officers = []
@@ -84,7 +84,7 @@ for new_member in new_data:
             new_member_json["bio"] = f"{year} {major} major"
         
     members.append(new_member_json)
-final_json = presidents + advisors + officers + members
+final_json = presidents + officers + advisors + members
 print(json.dumps(final_json))
 
 with open('out/data','w') as f:

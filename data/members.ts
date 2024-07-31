@@ -127,18 +127,123 @@ const members: PersonInfoProps[] = [
     photo: "salma.webp"
   },
   {
-    name: "Brandon Tran",
+    name: "Kevin Wong",
     role: "Cyber Academy",
-    bio: "3rd year Computer Science & Engineering major",
+    bio: "1st year Undeclared Engineering major",
     pronouns: "he/him",
-    photo: "brandon.webp"
+    photo: "kevinWong.webp"
   },
   {
-    name: "Yashica Prasad",
+    name: "Cindy Ding",
+    role: "Cyber Academy",
+    bio: "",
+    pronouns: "",
+    photo: ""
+  },
+  {
+    name: "Jack Maxey",
     role: "Cyber Academy",
     bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
+    name: "Saiya Shah",
+    role: "Cyber Lab",
+    bio: "1st year Computational and Systems Biology major",
     pronouns: "she/her",
-    photo: "yashica.webp"
+    photo: ""
+  },
+  {
+    name: "Asmi Kawatkar",
+    role: "Cyber Lab",
+    bio: "2nd year Mathematics of Computation major",
+    pronouns: "she/her",
+    photo: ""
+  },
+  {
+    name: "Pranav Akella",
+    role: "Psi Beta Rho",
+    bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: "pranav.webp"
+  },
+  {
+    name: "Layah Vigneaud",
+    role: "Cyber Lab",
+    bio: "1st year Computer Science major",
+    pronouns: "she/her",
+    photo: ""
+  },
+  {
+    name: "Jason Jiang",
+    role: "Cyber Lab",
+    bio: "1st year Computer Science & Engineering major",
+    pronouns: "he/him",
+    photo: "jasonJiang.webp"
+  },
+  {
+    name: "Divik Chotani",
+    role: "Cyber Lab",
+    bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
+    name: "Dylan Truong",
+    role: "Cyber Academy",
+    bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: "dylan.webp"
+  },
+  {
+    name: "Leon Liu",
+    role: "Cyber Lab",
+    bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: "leonLiu.webp"
+  },
+  {
+    name: "Cathleen Qiao",
+    role: "Cyber Academy",
+    bio: "1st year Physics major",
+    pronouns: "she/her",
+    photo: ""
+  },
+  {
+    name: "Alexander Edwards",
+    role: "Cyber Academy",
+    bio: "1st year Transfer Computer Science major",
+    pronouns: "he/him",
+    photo: "alexanderEdwards.webp"
+  },
+  {
+    name: "Hunter Kang",
+    role: "Cyber Academy",
+    bio: "1st year Mathematics of Computation major",
+    pronouns: "he/him",
+    photo: "hunter.webp"
+  },
+  {
+    name: "Zachary De Soto",
+    role: "Cyber Academy",
+    bio: "",
+    pronouns: "",
+    photo: ""
+  },
+  {
+    name: "Simon Koski",
+    role: "Psi Beta Rho",
+    bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
+    name: "Daniel Guo",
+    role: "Cyber Academy",
+    bio: "",
+    pronouns: "",
+    photo: ""
   },
   {
     name: "Srishti Ganu",
@@ -148,9 +253,79 @@ const members: PersonInfoProps[] = [
     photo: "srishti.webp"
   },
   {
+    name: "Jonathan Pai",
+    role: "Cyber Academy",
+    bio: "",
+    pronouns: "",
+    photo: ""
+  },
+  {
+    name: "Ryan Chang",
+    role: "Cyber Academy",
+    bio: "1st year Electrical Engineering major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
     name: "Andy Huang",
     role: "Cyber Lab",
     bio: "3rd year Computer Science major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
+    name: "Anthony Fangqing Yu",
+    role: "Psi Beta Rho",
+    bio: "2nd year Computer Science major",
+    pronouns: "he/him",
+    photo: "anthony.webp"
+  },
+  {
+    name: "Asher Christian",
+    role: "Cyber Lab",
+    bio: "1st year Mathematics of Computation major",
+    pronouns: "he/him",
+    photo: "asher.webp"
+  },
+  {
+    name: "Teong Seng Tan",
+    role: "Cyber Lab",
+    bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
+    name: "Jishan Kharbanda",
+    role: "Cyber Academy",
+    bio: "",
+    pronouns: "",
+    photo: ""
+  },
+  {
+    name: "Iryna Iziumska",
+    role: "Psi Beta Rho",
+    bio: "1st year Mathematics/Economics major",
+    pronouns: "she/her",
+    photo: "iryna.webp"
+  },
+  {
+    name: "Eddie He",
+    role: "Cyber Academy",
+    bio: "1st year Data Theory major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
+    name: "Benjamin Man",
+    role: "Cyber Lab",
+    bio: "1st year Computer Science & Linguistics major",
+    pronouns: "he/him",
+    photo: ""
+  },
+  {
+    name: "Alexander Hu",
+    role: "Cyber Academy",
+    bio: "1st year Mathematics of Computation major",
     pronouns: "he/him",
     photo: ""
   },
@@ -162,179 +337,11 @@ const members: PersonInfoProps[] = [
     photo: "kevinZhao.webp"
   },
   {
-    name: "Iryna Iziumska",
-    role: "Psi Beta Rho",
-    bio: "1st year Mathematics/Economics major",
-    pronouns: "she/her",
-    photo: "iryna.webp"
-  },
-  {
-    name: "Alexander Edwards",
-    role: "Cyber Academy",
-    bio: "1st year Transfer Computer Science major",
-    pronouns: "he/him",
-    photo: "alexanderEdwards.webp"
-  },
-  {
-    name: "Simon Koski",
-    role: "Psi Beta Rho",
-    bio: "1st year Computer Science major",
-    pronouns: "he/him",
-    photo: ""
-  },
-  {
-    name: "Aditya Pai",
-    role: "Psi Beta Rho",
-    bio: "1st year Electrical Engineering major",
-    pronouns: "he/him",
-    photo: "aditya.webp"
-  },
-  {
-    name: "Chinmay Devadhar",
-    role: "Cyber Academy",
-    bio: "1st year Computer Science major",
-    pronouns: "he/him",
-    photo: "chinmay.webp"
-  },
-  {
-    name: "Alan Wu",
-    role: "Cyber Academy",
-    bio: "1st year Mathematics of Computation/Statistics major",
-    pronouns: "he/him",
-    photo: ""
-  },
-  {
-    name: "Sanjay Krishna",
-    role: "Cyber Academy",
-    bio: "1st year Computer Engineering major",
-    pronouns: "he/him",
-    photo: ""
-  },
-  {
-    name: "Emma Lin",
-    role: "Cyber Lab",
-    bio: "1st year Computer Science & Linguistics major",
-    pronouns: "she/her",
-    photo: ""
-  },
-  {
-    name: "Anthony Fangqing Yu",
-    role: "Psi Beta Rho",
-    bio: "2nd year Computer Science major",
-    pronouns: "he/him",
-    photo: "anthony.webp"
-  },
-  {
-    name: "Christopher Simaan",
-    role: "Cyber Academy",
-    bio: "1st year Transfer Computer Science & Engineering major",
-    pronouns: "he/him",
-    photo: "christopher.webp"
-  },
-  {
-    name: "Kevin Wong",
-    role: "Cyber Academy",
-    bio: "1st year Undeclared Engineering major",
-    pronouns: "he/him",
-    photo: "kevinWong.webp"
-  },
-  {
-    name: "Dylan Truong",
-    role: "Cyber Academy",
-    bio: "1st year Computer Science major",
-    pronouns: "he/him",
-    photo: "dylan.webp"
-  },
-  {
-    name: "Pranav Akella",
-    role: "Psi Beta Rho",
-    bio: "1st year Computer Science major",
-    pronouns: "he/him",
-    photo: "pranav.webp"
-  },
-  {
-    name: "Eddie He",
-    role: "Cyber Academy",
-    bio: "1st year Data Theory major",
-    pronouns: "he/him",
-    photo: ""
-  },
-  {
-    name: "Ryan Chang",
-    role: "Cyber Academy",
-    bio: "1st year Electrical Engineering major",
-    pronouns: "he/him",
-    photo: ""
-  },
-  {
-    name: "Jessie Chan",
-    role: "Psi Beta Rho",
-    bio: "1st year Electrical Engineering major",
-    pronouns: "she/her",
-    photo: ""
-  },
-  {
-    name: "Justin Morgan",
-    role: "Cyber Lab",
-    bio: "3rd year Transfer Computer Science major",
-    pronouns: "he/him",
-    photo: "justin.webp"
-  },
-  {
-    name: "Hunter Kang",
-    role: "Cyber Academy",
-    bio: "1st year Mathematics of Computation major",
-    pronouns: "he/him",
-    photo: "hunter.webp"
-  },
-  {
-    name: "Leon Lenk",
-    role: "Cyber Lab",
-    bio: "2nd year Computer Science major",
-    pronouns: "he/him",
-    photo: "leon.webp"
-  },
-  {
-    name: "Jackson Kohls",
-    role: "Psi Beta Rho",
-    bio: "Masters of Financial Engineering major",
-    pronouns: "he/him, they/them",
-    photo: "jackson.webp"
-  },
-  {
-    name: "Cameron Monast",
-    role: "Cyber Academy",
-    bio: "1st year Transfer Computer Science major",
-    pronouns: "he/him",
-    photo: "cameron.webp"
-  },
-  {
     name: "Danniell Xu",
     role: "Psi Beta Rho",
     bio: "1st year Computational and Systems Biology major",
     pronouns: "he/him",
     photo: "danniell.webp"
-  },
-  {
-    name: "Jason Ni",
-    role: "Cyber Academy",
-    bio: "1st year Mathematics of Comptuation major",
-    pronouns: "he/him",
-    photo: ""
-  },
-  {
-    name: "William Shih",
-    role: "Cyber Academy",
-    bio: "1st year Mathematics of Computation major",
-    pronouns: "he/him",
-    photo: "william.webp"
-  },
-  {
-    name: "Layah Vigneaud",
-    role: "Cyber Lab",
-    bio: "1st year Computer Science major",
-    pronouns: "she/her",
-    photo: ""
   }
 ];
 
