@@ -180,7 +180,7 @@ const members: PersonInfoProps[] = [
     role: "Cyber Lab",
     bio: "1st year Computer Science & Engineering major",
     pronouns: "he/him",
-    photo: ""
+    photo: "jasonJiang.webp"
   },
   {
     name: "Divik Chotani",
@@ -201,7 +201,7 @@ const members: PersonInfoProps[] = [
     role: "Cyber Lab",
     bio: "1st year Computer Science major",
     pronouns: "he/him",
-    photo: ""
+    photo: "leonLiu.webp"
   },
   {
     name: "Cathleen Qiao",
@@ -285,7 +285,7 @@ const members: PersonInfoProps[] = [
     role: "Cyber Lab",
     bio: "1st year Mathematics of Computation major",
     pronouns: "he/him",
-    photo: ""
+    photo: "asher.webp"
   },
   {
     name: "Teong Seng Tan",
