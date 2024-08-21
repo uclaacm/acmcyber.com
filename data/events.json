@@ -746,6 +746,86 @@
     "end": 1674892799999
   },
   {
+    "id": "u24-lab-csrf",
+    "title": "Cyber Summer Research Fellowship: Kickoff!",
+    "type": [
+      "Cyber Lab",
+      "gm"
+    ],
+    "description": "Want to dive deeper 🌊 into Cyber this summer? Join ✨ CSRF ✨ - our Cyber Summer Research Fellowship™ - and work on cutting-edge research ☀️ with your fellow Cybricks 🧱! We'll be tackling three exciting projects this summer: Steganographic Image Detection w/ CNNs 🖼, a Blockchain Package Manager w/ Ethereum 📦, and Library API Misuse Detection w/ low-level JavaScript 🐌! Be sure to join our Kickoff next Monday at 6 PM ⚽ to learn more!",
+    "location": "<#1034354096066547712>",
+    "banner": "https://cyanea-assets.acmcyber.com/events/u24/csrf.png",
+    "start": 1719277200000,
+    "end": 1719280800000,
+    "links": {}
+  },
+  {
+    "id": "u24-pbr-google",
+    "title": "PBR: GoogleCTF 2024",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "Get your Googling hats on 🧢 and get ready to capture some flags ⛳! Join PBR this weeekend to take down GoogleCTF 2024 🦖!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1718992800000,
+    "end": 1719165600000,
+    "links": {}
+  },
+  {
+    "id": "u24-pbr-sigpwny",
+    "title": "PBR: SigpwnyCTF 2024",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "The Sigpwny Train 🦄🚂 is rolling in fast! Join PBR this weekend for an exciting ride 🌬 with SigpwnyCTF 2024!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1719619200000,
+    "end": 1719792000000,
+    "links": {}
+  },
+  {
+    "id": "u24-pbr-ductf",
+    "title": "PBR: Down Under CTF 2024",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "It's getting too hot here in America so join us down under in Australia! Join PBR this weekend to full clear Down Under CTF 2024!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1720165848000,
+    "end": 1720338648000,
+    "links": {}
+  },
+  {
+    "id": "u24-pbr-corctf",
+    "title": "PBR: corCTF 2024",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "Wanna be like an Olympian? Join PBR this weekend to take home the gold at corCTF 2024!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1722038400000,
+    "end": 1722211200000,
+    "links": {}
+  },
+  {
+    "id": "u24-misc-movie-night-0",
+    "title": "Cyber Movie Night: Sneakers (1992)",
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "description": "Take hacking to the movies with our first Cyber Movie Night of the summer! We'll be watching the classic _Sneakers_, so be sure to pull up!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1722052800000,
+    "end": 1722063600000,
+    "links": {}
+  },
+  {
     "id": "w24-misc-acm-gm",
     "title": "ACM Winter GM",
     "type": [
@@ -1418,7 +1498,7 @@
     ],
     "description": "Wondering how you can transform your cybersecurity skills into a real job? 🤔 Then join Cyber Lab today 6-8pm at Boelter 4760 to hear an amazing talk presented by our ✨former president✨ Benson! You'll learn all about cool, different pathways you can take within the cybersecurity field, so make sure to pull up!! 💪🤑💕",
     "location": "Boelter 4760",
-    "banner": "",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "start": 1716426000000,
     "end": 1716433200000,
     "links": {
@@ -1469,85 +1549,5 @@
     "links": {
       "slides": "https://docs.google.com/presentation/d/1wsEcQ6GqEPscFe16Cq1TPDuadXTQbAepif9H2HwOGgI/edit"
     }
-  },
-  {
-    "id": "u24-lab-csrf",
-    "title": "Cyber Summer Research Fellowship: Kickoff!",
-    "type": [
-      "Cyber Lab",
-      "gm"
-    ],
-    "description": "Want to dive deeper 🌊 into Cyber this summer? Join ✨ CSRF ✨ - our Cyber Summer Research Fellowship™ - and work on cutting-edge research ☀️ with your fellow Cybricks 🧱! We'll be tackling three exciting projects this summer: Steganographic Image Detection w/ CNNs 🖼, a Blockchain Package Manager w/ Ethereum 📦, and Library API Misuse Detection w/ low-level JavaScript 🐌! Be sure to join our Kickoff next Monday at 6 PM ⚽ to learn more!",
-    "location": "<#1034354096066547712>",
-    "banner": "https://cyanea-assets.acmcyber.com/events/u24/csrf.png",
-    "start": 1719277200000,
-    "end": 1719280800000,
-    "links": {}
-  },
-  {
-    "id": "u24-pbr-google",
-    "title": "PBR: GoogleCTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "Get your Googling hats on 🧢 and get ready to capture some flags ⛳! Join PBR this weeekend to take down GoogleCTF 2024 🦖!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1718992800000,
-    "end": 1719165600000,
-    "links": {}
-  },
-  {
-    "id": "u24-pbr-sigpwny",
-    "title": "PBR: SigpwnyCTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "The Sigpwny Train 🦄🚂 is rolling in fast! Join PBR this weekend for an exciting ride 🌬 with SigpwnyCTF 2024!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1719619200000,
-    "end": 1719792000000,
-    "links": {}
-  },
-  {
-    "id": "u24-pbr-ductf",
-    "title": "PBR: Down Under CTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "It's getting too hot here in America so join us down under in Australia! Join PBR this weekend to full clear Down Under CTF 2024!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1720165848000,
-    "end": 1720338648000,
-    "links": {}
-  },
-  {
-    "id": "u24-pbr-corctf",
-    "title": "PBR: corCTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "Wanna be like an Olympian? Join PBR this weekend to take home the gold at corCTF 2024!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1722038400000,
-    "end": 1722211200000,
-    "links": {}
-  },
-  {
-    "id": "u24-misc-movie-night-0",
-    "title": "Cyber Movie Night: Sneakers (1992)",
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "description": "Take hacking to the movies with our first Cyber Movie Night of the summer! We'll be watching the classic _Sneakers_, so be sure to pull up!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1722052800000,
-    "end": 1722063600000,
-    "links": {}
   }
 ]
