@@ -7,18 +7,21 @@
 }
 
 .series {
-  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  gap: 2rem;
+  padding: 1.5rem;
 }
 
 .event {
-  display: inline-flex; /* keep the inline nature of buttons */
+  display: flex;
   align-items: flex-start; /* this is default */
   background-color: var(--cyber-black);
-  margin: 1rem;
   border: var(--cyber-gold) 2px solid;
   border-radius: 2rem;
   width: 20rem;
   height: 17rem;
+  font-family: inherit; /* ??? override user-agent stylesheet for button */
   text-align: left;
 
   &:hover {
