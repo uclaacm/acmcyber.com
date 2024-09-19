@@ -1,6 +1,24 @@
 .post {
   padding: 3rem 20% 10rem 20%;
 
+  a {
+    text-decoration: underline;
+    color: var(--cyber-gold);
+    overflow-wrap: break-word;
+    &:hover {
+      cursor: pointer;
+      color: var(--flag-pink);
+    }
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  code:not([class]) {
+    background: var(--soft-lazer);
+  }
+
   .category {
     background-color: var(--flag-pink);
     padding: 0.25rem;
