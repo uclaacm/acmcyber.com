@@ -41,9 +41,10 @@ Finally, the optimized patch is applied to images, effectively deceiving the AI 
 Example patch generated: Patch trained so that sign will be read as a ‘Road Work’ sign
 
 **Sample code:**
+
+<br/>
+
 ![Screenshot 2024-05-29 at 6.47.43 PM](https://hackmd.io/_uploads/B1exfDBVA.png)
-
-
 
 **Implications and Future Directions**
 Patch Attacks, powered by the Fast Gradient Sign Method, underscore a significant challenge in the field of AI: ensuring robustness and accuracy in the face of adversarial manipulations. As AI systems become more integrated into critical applications, from autonomous driving to healthcare diagnostics, understanding and mitigating these vulnerabilities becomes paramount.

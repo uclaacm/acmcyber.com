@@ -14,7 +14,7 @@ In this quarter's Fuzzing Lab workshop, our members learned to use the powerful 
 
 This library parses WBXML files, a binary representation of XML, and converts them back to XML. They are used to compact XML files and reduce bandwidth in mobile communications. For example, it is used to send settings, calendar information, address books, notes, and instant messages.
 
-While the library runs tests by converting XML files to WBXML and then converting them back, I only fuzzed the wbxml2xml (WBXML => XML) portion. This made WBXML test files difficult to find, but Alex Zhang found some files to test from https://github.com/dalgleish/wbxml. The harness creates a new parser, and then runs `wbxml_parser_parse` on the data from the file.
+While the library runs tests by converting XML files to WBXML and then converting them back, I only fuzzed the wbxml2xml (WBXML => XML) portion. This made WBXML test files difficult to find, but Alex Zhang found some files to test [here](https://github.com/dalgleish/wbxml). The harness creates a new parser, and then runs `wbxml_parser_parse` on the data from the file.
 
 Another issue we ran into was the harness being dynamically linked to libwbxml, but the linker not being configured to find the library in the non-standard directory. We solved this by adding additional flags to our build commands so that the library is linked statically.
 
@@ -33,7 +33,7 @@ Through over 1 billion inputs and over 80% coverage of the inputs, there were no
 
 ## cxml
 
-This library is an parser for XML written in C. We were not actually able to fuzz this library as it contained a couple of compiler errors.
+This library is a parser for XML written in C. We were not actually able to fuzz this library as it contained a couple of compiler errors.
 
 The most notable of these errors was a use after free error in the code where a lexer was freed and then used by a function a couple of lines later in the code. There was also an unsigned char error which was easily fixed by explicitly casting the variable to signed. This might be due to differences in whether signed is the default on the server we used.
 
