@@ -12,7 +12,7 @@ export default function About() {
       />
       <div className="page">
         <div className="content">
-          <h1>About</h1>
+          <h1 id="about-top">About</h1>
           <img
             src="/images/ctf-experts.png"
             alt="A talk from two CTF experts."
@@ -29,24 +29,26 @@ export default function About() {
             the students at UCLA!
           </p>
 
-          <h2>What We Do</h2>
+          <h2 id="what-we-do">What We Do</h2>
           <p>
             ACM Cyber is home to a wide variety of events and projects hosted
             throughout the year. Check out our main initiatives below!
           </p>
           <div className={styles.cyberThings}>
-            {eventTypes.map((event: EventType, index: number) => (
-              <EventInfo
-                key={index}
-                name={event.name}
-                description={event.description}
-                id={event.id}
-                link={event.link}
-                icon={event.icon}
-                iconAlt={event.iconAlt}
-                textIcon={event.textIcon}
-              />
-            ))}
+            {eventTypes
+              .filter((event) => event.active)
+              .map((event: EventType, index: number) => (
+                <EventInfo
+                  key={index}
+                  name={event.name}
+                  description={event.description}
+                  id={event.id}
+                  link={event.link}
+                  icon={event.icon}
+                  iconAlt={event.iconAlt}
+                  textIcon={event.textIcon}
+                />
+              ))}
           </div>
           <h2 />
         </div>
@@ -63,7 +65,7 @@ function EventInfo({
   icon,
   iconAlt,
   textIcon,
-}: EventType) {
+}: Omit<EventType, "active">) {
   return (
     <span id={id}>
       <div className={styles.cyberThing}>

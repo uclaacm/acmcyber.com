@@ -7,18 +7,21 @@
 }
 
 .series {
-  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  gap: 2rem;
+  padding: 1.5rem;
 }
 
 .event {
-  display: inline-flex; /* keep the inline nature of buttons */
+  display: flex;
   align-items: flex-start; /* this is default */
   background-color: var(--cyber-black);
-  margin: 1rem;
   border: var(--cyber-gold) 2px solid;
   border-radius: 2rem;
   width: 20rem;
-  height: 15rem;
+  height: 17rem;
+  font-family: inherit; /* ??? override user-agent stylesheet for button */
   text-align: left;
 
   &:hover {
@@ -28,8 +31,10 @@
 }
 
 .eventContent {
-  display: block;
+  display: flex;
   width: 100%;
+  flex-direction: column;
+  height: 100%;
 }
 
 .graphic {
@@ -54,11 +59,12 @@
   font-size: 1rem;
   color: var(--organic-oranges);
   margin: 0rem 1rem 0.7rem 1rem;
+  flex-grow: 1;
 }
 
 .links {
   vertical-align: top;
-  margin: 0rem 1.5rem 0.7rem 1rem;
+  margin: 0rem 1.5rem 0.85rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

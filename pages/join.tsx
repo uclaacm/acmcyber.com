@@ -17,14 +17,26 @@ export default function Join() {
 
           <p>
             Want to join UCLA's premier cybersecurity club?{" "}
-            <strong>All experiences welcome!</strong> Our membership form opens
-            at the start of every quarter. Join our{" "}
-            <a href="https://discord.com/invite/j9dgf2q" className="link">
+            <strong>All levels of experience welcome!</strong> Join our{" "}
+            <a href="/discord" className="link">
               Discord
             </a>{" "}
             to stay up to date! All of our events are open to the public, so
-            feel free to join us at any time!
+            feel free to join us at any time! Our{" "}
+            <strong>membership form</strong> is now open! If you are interested
+            in joining some of our projects, Psi Beta Rho, etc. please fill it
+            out to officially join ACM Cyber!
           </p>
+
+          <button className={styles.membershipForm} disabled>
+            <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSd40YVQqKPlcne_h1NtElVLuFuikdtPirRF8GazpiiAejbnXw/viewform?usp=sf_link">
+              Stay tuned for Fall 2024!
+            </a>
+          </button>
+
+          <button className={styles.membershipForm}>
+            <a href="/discord">Join our Discord Server</a>
+          </button>
 
           <h2>What do I have to do?</h2>
           <p>
@@ -35,19 +47,21 @@ export default function Join() {
           </p>
           <ul>
             <li>
-              <strong>Cyber Academy:</strong> Submit one writeup for a challenge
-              you've solved by the end of the quarter.
+              <strong>Cyber Academy:</strong> Attend most Cyber Academy workshop
+              days and submit one writeup for a challenge you've solved in Cyber
+              Academy or PBR by the end of the quarter.
             </li>
             <li>
-              <strong>Cyber Lab:</strong> Participate in a project with Cyber
-              Lab. At the end of the quarter, create a blog post with your
+              <strong>Cyber Lab:</strong> Actively participate in a project with
+              Cyber Lab. At the end of the quarter, create a blog post with your
               project group about your work and present your creation to the
               club!
             </li>
             <li>
               <strong>Psi Beta Rho:</strong> Submit one writeup for a challenge
-              you've solved by the end of the quarter and attend at least one
-              CTF on the weekend
+              you've solved or up-solved from a CTF PBR competed in by the end
+              of the quarter and attend at least two CTFs on the weekend
+              in-person.
             </li>
           </ul>
 

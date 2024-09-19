@@ -56,6 +56,7 @@
   width: 20rem;
   position: relative;
   transition: box-shadow 0.2s;
+  height: 23rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -79,7 +80,6 @@
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
   width: 100%;
-  flex: 1;
 }
 
 .event-card .details {
@@ -89,6 +89,10 @@
   padding-bottom: calc(0.5 * var(--border-radius));
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .upcoming .event-card .details {
@@ -221,4 +225,12 @@
   width: 100%;
   height: 25vw;
   object-fit: cover;
+}
+
+a.gcal {
+  text-decoration: underline var(--cyber-gold);
+}
+
+a.gcal:hover {
+  color: var(--cyber-gold);
 }

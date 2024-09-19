@@ -3,3 +3,35 @@
   margin: 2rem auto;
   display: block;
 }
+
+button.membershipForm {
+  display: flex;
+  margin: 2rem auto 0;
+  background-color: var(--soul-dark);
+  border: 3px var(--cyber-gold) solid;
+  border-radius: 1rem;
+  color: var(--cyber-gold);
+  font-family: "Poppins";
+  font-size: larger;
+
+  a {
+    color: var(--cyber-gold);
+    padding: 1rem 2rem;
+  }
+}
+
+button.membershipForm:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+button.membershipForm:hover {
+  background-color: var(--cyber-gold);
+
+  a {
+    color: white;
+  }
+}

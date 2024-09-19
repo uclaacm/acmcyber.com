@@ -102,7 +102,7 @@ h1.motto {
 }
 
 .comeToTheDarkSide {
-  width: 100vw;
+  width: 100%;
   padding: 6rem 10%;
 
   .cyberThings {
@@ -295,7 +295,7 @@ h1.motto {
 }
 
 .weHaveCookies {
-  width: 100vw;
+  width: 100%;
   padding: 0 10% 16rem 10%;
 
   .socials {
@@ -307,12 +307,8 @@ h1.motto {
     width: 100%;
     gap: 40px;
 
-    div {
-      width: 60px;
-      height: 60px;
-      transform: scale(80%);
-      object-fit: contain;
-      background: var(--cyber-gold);
+    button {
+      margin: 0;
     }
   }
 }

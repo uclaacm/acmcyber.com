@@ -4,7 +4,7 @@ import Link from "next/link";
 import DiscordLogo from "@/public/images/discord.svg";
 import InstagramLogo from "@/public/images/instagram.svg";
 import FacebookLogo from "@/public/images/facebook.svg";
-import MailLogo from "@/public/images/newsletter.svg";
+import LinkedinLogo from "@/public/images/linkedin.svg";
 import TropicalImage from "./TropicalImage";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
         {/* Socials */}
         <p>Find us on Social Media</p>
         <div className={styles.socialsList}>
-          <Link href="https://discord.com/invite/j9dgf2q" target="_blank">
+          <Link href="/discord" target="_blank">
             <TropicalImage img={DiscordLogo} alt="Discord Redirect" />
           </Link>
           <Link href="https://www.instagram.com/uclacyber" target="_blank">
@@ -26,8 +26,11 @@ export default function Footer() {
           >
             <TropicalImage img={FacebookLogo} alt="Facebook Redirect" />
           </Link>
-          <Link href="mailto:uclacyber@gmail.com" target="_blank">
-            <TropicalImage img={MailLogo} alt="Mail Redirect" />
+          <Link
+            href="https://www.linkedin.com/company/uclacyber"
+            target="_blank"
+          >
+            <TropicalImage img={LinkedinLogo} alt="LinkedIn Redirect" />
           </Link>
         </div>
       </div>
@@ -35,13 +38,13 @@ export default function Footer() {
       <div className={styles.legal}>
         {/* Email & Copyright */}
         <a href="mailto:uclacyber@gmail.com">uclacyber@gmail.com</a>
-        <p>© ACM Cyber 2023</p>
+        <p>© ACM Cyber 2024</p>
       </div>
 
-      <div className={styles.joinUsOrElse}>
+      <div className={styles.githubPages}>
         {/* Join Us! */}
-        <a href="https://tinyurl.com/acmcybernewsletter">
-          Join our Mailing List!
+        <a href="https://github.com/uclaacm/acmcyber.com">
+          Powered by Github Pages
         </a>
       </div>
     </footer>
