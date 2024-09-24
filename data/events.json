@@ -1565,5 +1565,33 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/w24/w24-cyber-potluck-social.png",
     "start": 1706407200000,
     "end": 1706414400000
+  },
+  {
+    "id": "f24-acm-gm",
+    "title": "ACM Fall GM",
+    "description": "Do you want to build your own video game, iOS application, or neural network? Do you want to participate in competitive programming or CTFs? Do you care about diversity in STEM?\n\nJoin ACM for our** Fall General Meeting** on** Tuesday, October 1st, 2024, from 6:30 to 8:30 p.m. **at **Ackerman Grand Ballroom** to learn about how you can get involved!\n\nhttps://forms.gle/EnNcxH9gAaddZZ5S6",
+    "location": "Ackerman Grand Ballroom",
+    "start": 1727832624181,
+    "end": 1727839824181,
+    "type": [
+      "GM",
+      "Miscellaneous"
+    ],
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
+    "id": "f24-cyber-gm",
+    "title": "Cyber Fall GM",
+    "description": "Want to join the premier cybersecurity club at UCLA? Come to our Fall GM on Wednesday Week 1 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
+    "location": "TBD",
+    "start": 1727917256149,
+    "end": 1727924456149,
+    "type": [
+      "GM",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
