@@ -28,9 +28,9 @@ export default function Join() {
             out to officially join ACM Cyber!
           </p>
 
-          <button className={styles.membershipForm} disabled>
-            <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSd40YVQqKPlcne_h1NtElVLuFuikdtPirRF8GazpiiAejbnXw/viewform?usp=sf_link">
-              Stay tuned for Fall 2024!
+          <button className={styles.membershipForm}>
+            <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSd40YVQqKPlcne_h1NtElVLuFuikdtPirRF8GazpiiAejbnXw/viewform">
+              Fall 2024 Membership Form
             </a>
           </button>
 
