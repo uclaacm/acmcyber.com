@@ -1596,5 +1596,29 @@
     "links": {
       "discord": "https://discord.gg/cs8VQjJn?event=1288208992220217364"
     }
+  },
+  {
+    "id": "f24-cyac-james-aaron-eason",
+    "title": "Cyber Academy: James Aaron Eason",
+    "description": "Come out to Cyber Academy today to hear from our amazing guest speaker, Aaron James Eason! Get ready to hear an exciting talk about How to Attack Networks, and prepare to ask any questions you may have about his journey from ACM Cyber @ UCSD into industry or his current work as a Senior Security Researcher at CrowdStrike. See you all at Young Hall CS 76 from 6-8 PM!",
+    "location": "Young Hall CS 76",
+    "start": 1728954057002,
+    "end": 1728961257002,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/f24/aaron-james-eason.png"
+  },
+  {
+    "id": "f24-cyac-brandon-wu",
+    "title": "Cyber Academy: Brandon Wu",
+    "description": "Come out to Cyber Academy today to hear from our amazing guest speaker, Brandon Wu! Learn about his experience as a program analysis engineer at Semgrep and a lecturer at CMU. See you all at Young Hall CS 76 from 6-8 PM!",
+    "location": "Young Hall CS 76",
+    "start": 1730772057002,
+    "end": 1730779257002,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/f24/brandon-wu.png"
   }
 ]
