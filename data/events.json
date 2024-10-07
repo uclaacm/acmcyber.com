@@ -1600,7 +1600,7 @@
   {
     "id": "f24-cyac-james-aaron-eason",
     "title": "Cyber Academy: James Aaron Eason",
-    "description": "Come out to Cyber Academy today to hear from our amazing guest speaker, Aaron James Eason! Get ready to hear an exciting talk about How to Attack Networks, and prepare to ask any questions you may have about his journey from ACM Cyber @ UCSD into industry or his current work as a Senior Security Researcher at CrowdStrike. See you all at Young Hall CS 76 from 6-8 PM 💛💛!",
+    "description": "Come out to Cyber Academy today to hear from our amazing guest speaker, Aaron James Eason! Get ready to hear an exciting talk about 💥 How to Attack Networks 💥, and prepare to ask any questions you may have about his journey from ACM Cyber @ UCSD into industry or his current work as a Senior Security Researcher at 🦅 CrowdStrike 🦅. See you all at Young Hall CS 76 from 6-8 PM 💛💛!",
     "location": "Young Hall CS 76",
     "start": 1728954057002,
     "end": 1728961257002,
@@ -1615,7 +1615,7 @@
   {
     "id": "f24-cyac-brandon-wu",
     "title": "Cyber Academy: Brandon Wu",
-    "description": "Come out to Cyber Academy today to hear from our amazing guest speaker, Brandon Wu! Learn about his experience as a program analysis engineer at Semgrep and a lecturer at CMU. See you all at Young Hall CS 76 from 6-8 PM 💛💛!",
+    "description": "\nCome out to Cyber Academy today to hear from our amazing guest speaker, Brandon Wu! Learn about his experience as a program analysis engineer at Semgrep and a lecturer at CMU 🎓. See you all at Young Hall CS 76 from 6-8 PM 💛💛!",
     "location": "Young Hall CS 76",
     "start": 1731981657002,
     "end": 1731988857002,
@@ -1630,7 +1630,7 @@
   {
     "id": "f24-cyac-jason",
     "title": "Cyber Academy",
-    "description": "🎉It's the first Cyber Academy of the year🎉! Come out to Young Hall CS 76 from 6-8 PM to hear a talk from Jason. See you there 💛💛!",
+    "description": "🎉 It's the first Cyber Academy of the year 🎉! Come out to Young Hall CS 76 from 6-8 PM to hear an exciting talk from Jason. See you there 💛💛!",
     "location": "Young Hall CS 76",
     "start": 1728349259461,
     "end": 1728356459461,
@@ -1645,7 +1645,7 @@
   {
     "id": "f24-cylab-you-are-now-the-ciso",
     "title": "Cyber Lab: You Are Now The CISO",
-    "description": "🎉 Welcome (or welcome back) to the first Cyber Lab meeting of the year 🎉! Come join us for Benson's \"You Are Now The CISO\" talk on cybersecurity careers and find out your Cyber Lab project groups 👥 for the quarter. See you guys then 💛💛!",
+    "description": "🎉 Welcome (or welcome back) to the first Cyber Lab meeting of the year 🎉! Come join us for Benson's \"You Are Now The CISO\" talk on cybersecurity careers 🔐 and find out your Cyber Lab project groups 👥 for the quarter. See you guys then 💛💛!",
     "location": "Boelter 4760",
     "start": 1728522055623,
     "end": 1728529255623,
@@ -1688,8 +1688,8 @@
   {
     "id": "f24-pbr-advanced-osint",
     "title": "DEADFACE CTF 2024 and Hack.lu CTF 2024: w/ Advanced OSINT",
-    "description": "Hope everyone's ready to capture some flags, because we're kicking off PBR this year with a ⛳️double header⛳️! Join us as we take on both DEADFACE CTF 💀 as well as Hack.lu CTF this weekend; we'll have an exciting talk from Gary on Advanced OSINT techniques! See you guys there 💛💛!",
-    "location": "",
+    "description": "Hope everyone's ready to capture some flags, because we're kicking off PBR this year with a ⛳️ double header ⛳️! Join us as we take on both DEADFACE CTF 💀 as well as Hack.lu CTF 🛡️ this weekend; we'll have an exciting talk from Gary on Advanced OSINT techniques! See you guys there 💛💛!",
+    "location": "TBD",
     "start": 1729368029350,
     "end": 1729386029350,
     "type": [
@@ -1729,5 +1729,22 @@
     "type": [
       "Cyber Lab"
     ]
+  },
+  {
+    "id": "f24-nail-painting-social",
+    "title": "Nail Painting Social",
+    "description": "🎉 Join us for our first ACM Cyber x ACM-W social of the year 🎉! We’ll be kicking things off with a fun nail painting session 💅 right after PBR in the same room. Don’t miss out—see you at Young Hall CS 76 from 6-8 PM 💛💛!",
+    "location": "TBD",
+    "start": 1729386001950,
+    "end": 1729389601950,
+    "type": [
+      "ACM W",
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
   }
 ]
