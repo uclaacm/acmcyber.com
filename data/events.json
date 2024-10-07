@@ -1607,10 +1607,7 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/f24/aaron-james-eason.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
+    "banner": "https://cyanea-assets.acmcyber.com/events/f24/aaron-james-eason.png"
   },
   {
     "id": "f24-cyac-brandon-wu",
@@ -1622,10 +1619,7 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/f24/brandon-wu.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
+    "banner": "https://cyanea-assets.acmcyber.com/events/f24/brandon-wu.png"
   },
   {
     "id": "f24-cyac-jason",
@@ -1637,10 +1631,7 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Academy"
-    ],
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
+    ]
   },
   {
     "id": "f24-cylab-you-are-now-the-ciso",
@@ -1652,10 +1643,7 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
-    ],
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
+    ]
   },
   {
     "id": "f24-westwood-boba",
@@ -1668,10 +1656,7 @@
       "Social",
       "Miscellaneous"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f24-cyac-crowdstrike",
@@ -1695,10 +1680,7 @@
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f24-cyac-captchas",
@@ -1710,22 +1692,16 @@
     "type": [
       "Cyber Academy"
     ],
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    },
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f24-cylab-ucla",
     "title": "Cyber Lab: *.ucla.*",
-    "description": "Join us for an exciting Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Andrew on *.ucla.(edu | net) 🌐. Don't miss out—meet us in Boelter 4760 from 6-8 PM💛💛!",
+    "description": "Ever wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for an exciting Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Andrew on *.ucla.(edu | net) 🌐. Don't miss out—meet us in Boelter 4760 from 6-8 PM💛💛!",
     "location": "Boelter 4760",
     "start": 1729731632182,
     "end": 1729738832182,
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    },
     "type": [
       "Cyber Lab"
     ]
@@ -1742,9 +1718,6 @@
       "Social",
       "Miscellaneous"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
