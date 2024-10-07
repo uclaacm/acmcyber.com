@@ -1656,5 +1656,48 @@
     "meta": {
       "ignore-for-acm-newsletter": true
     }
+  },
+  {
+    "id": "f24-westwood-boba",
+    "title": "✨Classic✨ Westwood + Boba Social",
+    "description": "First social of the year is... our ✨Classic✨ Westwood and Boba Social 🥳! Join us by the Bruin Bear 🐻 at 6:30 this Saturday for dinner and boba with all your friends at Cyber 🤗🍴👀✨. Be there or be 🟨!",
+    "location": "Bruin Bear",
+    "start": 1728783030005,
+    "end": 1728792030005,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
+    "id": "f24-cyac-crowdstrike",
+    "title": "Cyber Lab: CrowdStrike",
+    "description": "We're back with another Cyber Lab meeting this week to continue working on our projects 💛💛! Come join us in Boelter 4760 from 6-8 PM; you won't want to miss being part of the crowd for Renuka's talk on CrowdStrike 🦅!",
+    "location": "Boelter 4760",
+    "start": 1729126848906,
+    "end": 1729134048906,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-pbr-advanced-osint",
+    "title": "DEADFACE CTF 2024 and Hack.lu CTF 2024: w/ Advanced OSINT",
+    "description": "Hope everyone's ready to capture some flags, because we're kicking off PBR this year with a ⛳️double header⛳️! Join us as we take on both DEADFACE CTF 💀 as well as Hack.lu CTF this weekend; we'll have an exciting talk from Gary on Advanced OSINT techniques! See you guys there 💛💛!",
+    "location": "",
+    "start": 1728763229350,
+    "end": 1728781229350,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
   }
 ]
