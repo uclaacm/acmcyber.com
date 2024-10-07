@@ -1699,5 +1699,35 @@
     "meta": {
       "ignore-for-acm-newsletter": true
     }
+  },
+  {
+    "id": "f24-cyac-captchas",
+    "title": "Cyber Academy: Captchas",
+    "description": "Week 3 of Cyber Academy is here 💛💛! Hope we'll 🧤catch ya🧤 at Stewie's talk on Captchas this week at Young Hall CS 76. See you all then!",
+    "location": "Young Hall CS 76",
+    "start": 1729558854980,
+    "end": 1729566054980,
+    "type": [
+      "Cyber Academy"
+    ],
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-cylab-ucla",
+    "title": "Cyber Lab: *.ucla.*",
+    "description": "Join us for an exciting Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Andrew on *.ucla.(edu | net) 🌐. Don't miss out—meet us in Boelter 4760 from 6-8 PM💛💛!",
+    "location": "Boelter 4760",
+    "start": 1729731632182,
+    "end": 1729738832182,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    },
+    "type": [
+      "Cyber Lab"
+    ]
   }
 ]
