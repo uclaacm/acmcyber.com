@@ -879,6 +879,19 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "f24-ectf-w3-kickoff",
+    "title": "Cyber x IEEE: ECTF Kickoff!",
+    "description": "Dive in 🪂 to the world of embedded security by joining ACM Cyber 🔶 & IEEE's 🔷 Embedded Capture-the-Flag team 🚩! This Fall, we'll be holding a series of workshops 🛠 to launch your journey 🚀 to secure a satellite system 🛰️ in Winter! Whether you're interested in programming on bare metal ⛓, probing physical boards for side channels 🔬, or designing unbreakable cryptosystems 🔒, we'll be taking it all to the moon 🌑 starting **tomorrow** at our kickoff from 6-7:30 PM in the Engineering 4 Tesla Room ⚡!\n\nTeam space is limited, so make sure to show your interest by attending our fall workshops 🍂! Professor Nader will also be offering ☄️ **upper-div course credit** ☄️ for participating in ECTF this Winter.\n\nIf you are unable to come for the Kickoff and would like to be on the team, please contact an ECTF lead ASAP: @arcblroth @parth_pandhare @avdestroyer @freedthelamb @kwang7 @chey0",
+    "location": "Engineering 4 Tesla Room (53-125)",
+    "start": 1729040419406,
+    "end": 1729045819406,
+    "type": [
+      "ECTF",
+      "Collab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "u24-lab-csrf",
     "title": "Cyber Summer Research Fellowship: Kickoff!",
     "type": [
