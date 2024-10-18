@@ -877,6 +877,18 @@
     ]
   },
   {
+    "id": "f24-machine-learning-data-poisoning",
+    "title": "Cyber Lab: Machine Learning Data Poisoning",
+    "description": "Ever wonder how hackers can sabotage machine learning models from the inside? 🤖💉 Curious about the hidden dangers of data poisoning? 🕵️‍♂️💥 Join us at Cyber Lab this week for an eye-opening talk by Alex Edwards on machine learning data poisoning and its far-reaching impacts! 🌐💻 Meet us in Boelter 4760 from 6-8 PM—don’t miss it! 👾🔥",
+    "location": "Boelter 4760",
+    "start": 1730944832182,
+    "end": 1730952032182,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "f24-cylab-liz-izhikevich",
     "title": "Cyber Lab: Liz Izhikevich",
     "description": "Don’t miss the chance to hear from Professor Izhikevich, who will share her insights from working with Netflix and SpaceX 🚀, along with her cutting-edge research in Cloud and Network Security! Be sure to come to Boelter 4760 at 6 to learn more! 💛💛💛💛💛",
