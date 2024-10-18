@@ -857,8 +857,8 @@
     "title": "Cyber Lab: *.ucla.*",
     "description": "Ever wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for an exciting Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Andrew on *.ucla.(edu | net) 🌐. Don't miss out—meet us in Boelter 4760 from 6-8 PM💛💛!",
     "location": "Boelter 4760",
-    "start": 1729731632182,
-    "end": 1729738832182,
+    "start": 1731981632182,
+    "end": 1731988832182,
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
@@ -890,6 +890,14 @@
       "Collab"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "untitled-event",
+    "title": "Untitled Event",
+    "description": "",
+    "location": "",
+    "start": 1729222752925,
+    "end": 1729222752925
   },
   {
     "id": "u24-lab-csrf",
