@@ -804,7 +804,7 @@
     ]
   },
   {
-    "id": "f24-westwood-boba",
+    "id": "f24-social-westwood-boba",
     "title": "✨Classic✨ Westwood + Boba Social",
     "description": "First social of the year is... our ✨Classic✨ Westwood and Boba Social 🥳! Join us by the Bruin Bear 🐻 at 6:30 this Saturday for dinner and boba with all your friends at Cyber 🤗🍴👀✨. Be there or be 🟨!",
     "location": "Bruin Bear",
@@ -865,7 +865,7 @@
     ]
   },
   {
-    "id": "f24-semgrep-ai-program-analysis",
+    "id": "f24-cylab-semgrep-ai-program-analysis",
     "title": "Cyber Lab: Semgrep/AI for Program Analysis",
     "description": "Ever wonder how AI can revolutionize program analysis? 🤖💡 Or how tools like Semgrep are transforming code security? 🔍💻 Join us this week at Cyber Lab for an exciting talk by Rathul, where we'll dive into Semgrep and AI-driven program analysis! 🌐✨ Don’t miss out—meet us in Boelter 4760 from 6-8 PM! 🚀🔥",
     "location": "Boelter 4760",
@@ -877,9 +877,21 @@
     ]
   },
   {
-    "id": "f24-machine-learning-data-poisoning",
+    "id": "f24-cylab-machine-learning-data-poisoning",
     "title": "Cyber Lab: Machine Learning Data Poisoning",
     "description": "Ever wonder how hackers can sabotage machine learning models from the inside? 🤖💉 Curious about the hidden dangers of data poisoning? 🕵️‍♂️💥 Join us at Cyber Lab this week for an eye-opening talk by Alex Edwards on machine learning data poisoning and its far-reaching impacts! 🌐💻 Meet us in Boelter 4760 from 6-8 PM—don’t miss it! 👾🔥",
+    "location": "Boelter 4760",
+    "start": 1730944832182,
+    "end": 1730952032182,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
+    "id": "f24-cylab-randar",
+    "title": "Cyber Lab: Randar",
+    "description": "Ever wonder how cutting-edge tools can revolutionize cybersecurity research? 🧠🔍 Get ready to dive into Randar—a groundbreaking platform for cyber analysis! 🌐💥 Join us at Cyber Lab this week for an exciting talk by Arnav as he explores how Randar is reshaping the game. Don’t miss out—meet us in Boelter 4760 from 6-8 PM! 💻🚀",
     "location": "Boelter 4760",
     "start": 1730944832182,
     "end": 1730952032182,
@@ -901,7 +913,7 @@
     ]
   },
   {
-    "id": "f24-nail-painting-social",
+    "id": "f24-social-nail-painting",
     "title": "Nail Painting Social",
     "description": "🎉 Join us for our first ACM Cyber x ACM-W social of the year 🎉! We’ll be kicking things off with a fun nail painting session 💅 right after PBR in the same room. Don’t miss out—see you there 💛💛!",
     "location": "Boelter 8500",
@@ -915,7 +927,7 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
-    "id": "f24-hiking-social",
+    "id": "f24-social-hiking",
     "title": "Hiking Social",
     "description": "Need a break from the screens and cyber challenges? 🏞️👟 Join us this Sunday for a fun hiking social with friends from ACM Cyber! 🌲☀️ It’s the perfect chance to unwind, connect, and enjoy some fresh air. We're meeting at [TBD] at noon this Sunday, and don’t forget your water and sunscreen! 🧢💧 Let’s hit the trails together! 🌄🔥",
     "location": "TBD",
