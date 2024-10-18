@@ -857,8 +857,20 @@
     "title": "Cyber Lab: *.ucla.*",
     "description": "Ever wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for an exciting Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Andrew on *.ucla.(edu | net) 🌐. Don't miss out—meet us in Boelter 4760 from 6-8 PM💛💛!",
     "location": "Boelter 4760",
-    "start": 1731981632182,
-    "end": 1731988832182,
+    "start": 1732154432182,
+    "end": 1732161632182,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
+    "id": "f24-semgrep-ai-program-analysis",
+    "title": "Cyber Lab: Semgrep/AI for Program Analysis",
+    "description": "Ever wonder how AI can revolutionize program analysis? 🤖💡 Or how tools like Semgrep are transforming code security? 🔍💻 Join us this week at Cyber Lab for an exciting talk by Rathul, where we'll dive into Semgrep and AI-driven program analysis! 🌐✨ Don’t miss out—meet us in Boelter 4760 from 6-8 PM! 🚀🔥",
+    "location": "Boelter 4760",
+    "start": 1730336432182,
+    "end": 1730343632182,
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
