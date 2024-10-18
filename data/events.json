@@ -830,8 +830,8 @@
   },
   {
     "id": "f24-pbr-advanced-osint",
-    "title": "DEADFACE CTF 2024 and Hack.lu CTF 2024: w/ Advanced OSINT",
-    "description": "Hope everyone's ready to capture some flags, because we're kicking off PBR this year with a ⛳️ double header ⛳️! Join us as we take on both DEADFACE CTF 💀 as well as Hack.lu CTF 🛡️ this weekend; we'll have an exciting talk from Gary on Advanced OSINT techniques! See you guys there 💛💛!",
+    "title": "DEADFACE CTF 2024 w/ Advanced OSINT",
+    "description": "Hope everyone's ready to capture some flags ⛳️, because we're kicking off PBR ⁤⁣‌‍‌⁢‍⁢‍⁡‍‍⁡⁢‍⁢‍⁢‌‍‍⁢‍⁢‍⁡‍⁡‍⁢‌⁢‍⁢‌⁡⁤‍‌⁣‌⁤⁡‍⁢‍⁡‌⁢‍⁢‍‌⁣‍⁢⁣‍⁡⁢⁡‌⁡‍⁡‍⁢⁣‍‌‍⁡‍⁢‌⁡‍⁣⁡‍⁡⁤‍‌⁣‍‌‌⁡‌⁢‌⁡‍‍⁣‍‌‍⁡‌⁡⁤‍⁢‍⁢‍‌⁤‍⁢‍⁡‍⁢‍⁢‍⁢‍⁢‌‍‍⁢‍⁢‍⁡‍‍⁢⁡‌⁡⁢⁡‌⁡⁢⁡‌⁤⁡‌⁢‌⁢‌‍‍⁢‍‌‌⁢‍‌‌⁡‍⁢‌⁡‌‍⁣‍⁢⁣‍‌‍⁡‍⁣⁡‍⁢⁡⁢‍‌⁣‍⁢⁣‌⁢‌⁡‌⁢‌⁡‍⁣⁡‌⁡⁢⁡‌⁢‌⁢‍‌‍⁡‍⁢⁣‍⁢‌⁡‍‌⁣‍⁢‌⁡‌‍⁣‍⁢‍⁡‍⁣⁡‌⁢‍⁢‍‌‍⁡‍⁢‌⁡‍‌‌⁡‍‌⁡⁢‍‌‌⁡‍⁣⁡‌⁡‍⁡‍⁣⁡‍‌‍⁡‌⁡⁢⁡‌⁢‌⁢‍‌‌⁡‍⁡⁢⁡‍⁣⁡‍⁡‍⁡‍⁢⁣‌⁣⁡‍‌⁢⁡‌⁡⁤‍‌‍⁡‌⁤⁡‍‌‍⁡‍⁡‌⁢‍⁢‍⁡‌‌⁡this year with DEADFACE CTF 💀 this weekend; we'll have an exciting talk from Gary on Advanced OSINT techniques! See you guys there 💛💛!",
     "location": "Engineering IV 53-125",
     "start": 1729368029350,
     "end": 1729386029350,
@@ -865,6 +865,18 @@
     ]
   },
   {
+    "id": "f24-cylab-liz-izhikevich",
+    "title": "Cyber Lab: Liz Izhikevich",
+    "description": "Don’t miss the chance to hear from Professor Izhikevich, who will share her insights from working with Netflix and SpaceX 🚀, along with her cutting-edge research in Cloud and Network Security! Be sure to come to Boelter 4760 at 6 to learn more! 💛💛💛💛💛",
+    "location": "Boelter 4760",
+    "start": 1729731632182,
+    "end": 1729738832182,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "f24-nail-painting-social",
     "title": "Nail Painting Social",
     "description": "🎉 Join us for our first ACM Cyber x ACM-W social of the year 🎉! We’ll be kicking things off with a fun nail painting session 💅 right after PBR in the same room. Don’t miss out—see you there 💛💛!",
@@ -873,6 +885,19 @@
     "end": 1729389601950,
     "type": [
       "ACM W",
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-hiking-social",
+    "title": "Hiking Social",
+    "description": "Need a break from the screens and cyber challenges? 🏞️👟 Join us this Sunday for a fun hiking social with friends from ACM Cyber! 🌲☀️ It’s the perfect chance to unwind, connect, and enjoy some fresh air. We're meeting at [TBD] at noon this Sunday, and don’t forget your water and sunscreen! 🧢💧 Let’s hit the trails together! 🌄🔥",
+    "location": "TBD",
+    "start": 1729450801950,
+    "end": 1729472401950,
+    "type": [
       "Social",
       "Miscellaneous"
     ],
@@ -892,12 +917,28 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
-    "id": "untitled-event",
-    "title": "Untitled Event",
-    "description": "",
-    "location": "",
-    "start": 1729222752925,
-    "end": 1729222752925
+    "id": "f24-cyac-colonial-pipeline-attack",
+    "title": "Cyber Academy: Colonial Pipeline Attack",
+    "description": "Ever wonder how a single cyber attack can cripple an entire industry? 🛢️💥 Curious about the inside story of the Colonial Pipeline hack? 🕵️‍♀️🔐 Join us at Cyber Academy this week for an exciting talk by Savannah on one of the biggest breaches in history! 💻⚡ Don’t miss out—meet us in Young Hall CS 76 from 6-8 PM! 👾🔥",
+    "location": "Young Hall CS 76",
+    "start": 1730163608772,
+    "end": 1730170808772,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-cyac-physical-pentesting",
+    "title": "Cyber Academy: Physical Pentesting",
+    "description": "Ever wonder how hackers break into buildings just as easily as networks? 🏢🔓 Ready to explore the world of physical pentesting? 🚪🕵️‍♀️ Join us this week at cyber academy for a thrilling talk by Audrey, as she dives into the art of bypassing physical security! 🗝️💻 Don’t miss out—meet us in Young Hall CS 76 from 6-8 PM! 🔥💛",
+    "location": "Young Hall CS 76",
+    "start": 1730772008772,
+    "end": 1730779208772,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "u24-lab-csrf",
