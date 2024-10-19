@@ -838,7 +838,10 @@
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f24-w3-pbr"
+    }
   },
   {
     "id": "f24-cyac-captchas",
@@ -986,6 +989,42 @@
     "type": [
       "Cyber x AI Symposium",
       "ACM AI"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-pbr-pp",
+    "title": "Platypwn CTF 2024 w/ Prototype Pollution",
+    "description": "A Platypus? 🤔 PLATYPWN THE CTF??? 🏇 Join us this weekend for our second CTF of the quarter, where we'll be having an exciting talk from Ronak on PP (Prototype Pollution) 😳💩🗑! See y'all there 💛!",
+    "location": "Engineering IV 53-125",
+    "start": 1730577629350,
+    "end": 1730595629350,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-pbr-cross-cache-attacks",
+    "title": "1337UP CTF 2024 w/ Cross-Cache Attacks",
+    "description": "Get ready to squash some bugs 🐝 at Intigriti's annual ⬆️ 1337UP CTF ⬆️ this weekend! We'll also be having an amazing talk from Enzo on recent discoveries on Cross-Cache Attacks 🥢💥, so make sure to pull up 💛!",
+    "location": "Engineering IV 53-125",
+    "start": 1731790829350,
+    "end": 1731808829350,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-pbr-seccon",
+    "title": "SECCON CTF 2024 w/ (TBD)",
+    "description": "We will tentatively be playing 🇸 SECCON CTF 🇸 this weekend. See y'all there 💛!",
+    "location": "Engineering IV 53-125",
+    "start": 1732395629350,
+    "end": 1732413629350,
+    "type": [
+      "Psi Beta Rho"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
