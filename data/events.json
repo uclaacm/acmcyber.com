@@ -953,7 +953,10 @@
       "ECTF",
       "Collab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1lfuydfttLzd3BZG176COG-3ffi7hy-f0UFPai8ipHVM/edit"
+    }
   },
   {
     "id": "f24-cyac-colonial-pipeline-attack",
@@ -1025,6 +1028,58 @@
     "end": 1732413629350,
     "type": [
       "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-ectf-cryptography",
+    "title": "Cyber x IEEE: ECTF: Cryptography",
+    "description": "Dive in 🪂 to the world of embedded security by joining ACM Cyber 🔶 & IEEE's 🔷 Embedded Capture-the-Flag team 🚩! This week, we'll be locking in 🔒 to learn how to design secure cryptosystems for modern embedded platforms 🧪!\n\nMake sure to show your interest for the team by attending our fall workshops 🍂! Professor Nader will also be offering ☄️ **upper-div course credit** ☄️ for participating in ECTF this Winter.",
+    "location": "Engineering 4 67-1214",
+    "start": 1729645219406,
+    "end": 1729650619406,
+    "type": [
+      "ECTF",
+      "Collab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-ectf-embedded-systems",
+    "title": "Cyber x IEEE: ECTF: Embedded Systems",
+    "description": "Dive in 🪂 to the world of embedded security by joining ACM Cyber 🔶 & IEEE's 🔷 Embedded Capture-the-Flag team 🚩! This week, we'll be seein' C ⛵ as we navigate the waters of bare-metal programming ⛓️!\n\nMake sure to show your interest for the team by attending our fall workshops 🍂! Professor Nader will also be offering ☄️ **upper-div course credit** ☄️ for participating in ECTF this Winter.",
+    "location": "Engineering 4 67-1214",
+    "start": 1730250019406,
+    "end": 1730255419406,
+    "type": [
+      "ECTF",
+      "Collab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-ectf-pwn",
+    "title": "Cyber x IEEE: ECTF: Binary Exploitation",
+    "description": "Dive in 🪂 to the world of embedded security by joining ACM Cyber 🔶 & IEEE's 🔷 Embedded Capture-the-Flag team 🚩! This week, we'll be cracking firmware wide open 🌰 to learn how to pwn them for flags 🔨!\n\nMake sure to show your interest for the team by attending our fall workshops 🍂! Professor Nader will also be offering ☄️ **upper-div course credit** ☄️ for participating in ECTF this Winter.",
+    "location": "Engineering 4 67-1214",
+    "start": 1731463219406,
+    "end": 1731468619406,
+    "type": [
+      "ECTF",
+      "Collab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-ectf-analyzing-attacks",
+    "title": "Cyber x IEEE: ECTF: Analyzing Attacks",
+    "description": "Dive in 🪂 to the world of embedded security by joining ACM Cyber 🔶 & IEEE's 🔷 Embedded Capture-the-Flag team 🚩! This week, we'll be holding our **last** lecture of the quarter on 🔎 Analyzing (previous) Attacks 🔍!\n\nMake sure to show up, as we'll be giving out the team signup form 📃 today! Professor Nader will also be offering ☄️ **upper-div course credit** ☄️ for participating in ECTF this Winter.",
+    "location": "Engineering 4 67-1214",
+    "start": 1732672819406,
+    "end": 1732678219406,
+    "type": [
+      "ECTF",
+      "Collab"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
