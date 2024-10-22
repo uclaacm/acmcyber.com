@@ -737,6 +737,9 @@
     ],
     "meta": {
       "ignore-for-acm-newsletter": true
+    },
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1uU0UfUApC0Zix0Wyacmg96q4r2WY0Ng_D2p03TO0MBY/edit"
     }
   },
   {
@@ -752,7 +755,8 @@
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "links": {
-      "discord": "https://discord.gg/cs8VQjJn?event=1288208992220217364"
+      "discord": "https://discord.gg/cs8VQjJn?event=1288208992220217364",
+      "slides": "https://l.acmcyber.com/f24-gm"
     }
   },
   {
@@ -765,7 +769,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/f24/aaron-james-eason.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/f24/aaron-james-eason.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f24-w3-acad"
+    }
   },
   {
     "id": "f24-cyac-brandon-wu",
@@ -789,7 +796,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Academy"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f24-w2-acad"
+    }
   },
   {
     "id": "f24-cylab-you-are-now-the-ciso",
@@ -801,7 +811,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f24-w2-lab"
+    }
   },
   {
     "id": "f24-social-westwood-boba",
@@ -826,7 +839,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f24-wk3-lab"
+    }
   },
   {
     "id": "f24-pbr-advanced-osint",
@@ -853,7 +869,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f24-w4-acad"
+    }
   },
   {
     "id": "f24-cylab-ucla",
