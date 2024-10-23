@@ -1,5 +1,6 @@
 .post {
   padding: 3rem 20% 10rem 20%;
+  line-height: 1.5;
 
   a {
     text-decoration: underline;
@@ -58,8 +59,23 @@
 
   img {
     width: 80%;
-    margin: 0 auto 2rem auto;
+    margin: 2rem auto 2rem auto;
     display: block;
+  }
+
+  pre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 
