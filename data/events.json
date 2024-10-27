@@ -915,8 +915,8 @@
     "title": "Cyber Lab: Randar",
     "description": "Ever wonder how cutting-edge tools can revolutionize cybersecurity research? 🧠🔍 Get ready to dive into Randar—a groundbreaking platform for cyber analysis! 🌐💥 Join us at Cyber Lab this week for an exciting talk by Arnav as he explores how Randar is reshaping the game. Don’t miss out—meet us in Boelter 4760 from 6-8 PM! 💻🚀",
     "location": "Boelter 4760",
-    "start": 1730944832182,
-    "end": 1730952032182,
+    "start": 1731549632182,
+    "end": 1731556832182,
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
@@ -991,8 +991,8 @@
   {
     "id": "f24-symposium",
     "title": "Cyber x AI Symposium",
-    "description": "Cyber and AI are back for another end of the quarter symposium on Monday Week 10 (December 2nd) in [TBD]! 🤩 Join us and check out all the cool projects and progress your fellow club members have made throughout the quarter. 👀 Attending/presenting at the symposium is mandatory for Cyber Lab members, as we want you to show off all your hard work. 💪 PS we will be having food! 😱🤯👀 So make sure to come for the good food and fun people. 😋🍪🧋🩵💛",
-    "location": "TBD",
+    "description": "Cyber and AI are back for another end of the quarter symposium on Monday Week 10 (December 2nd) in CS 76! 🤩 Join us and check out all the cool projects and progress your fellow club members have made throughout the quarter. 👀 Attending/presenting at the symposium is mandatory for Cyber Lab members, as we want you to show off all your hard work. 💪 PS we will be having food! 😱🤯👀 So make sure to come for the good food and fun people. 😋🍪🧋🩵💛",
+    "location": "CS 76",
     "start": 1733191213306,
     "end": 1733198413306,
     "type": [
@@ -1088,6 +1088,45 @@
       "Collab"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-hike-social",
+    "title": "Hike Social",
+    "description": "**RSVP Required: https://l.acmcyber.com/hike**\n\nOn 11/3, join ACM Cyber on a hike on the Temescal Canyon Loop! 🌳 The hike itself will probably take around 2.5-3 hours and is a 4.0 mile round-trip hike to and from the bus stop, gaining around 800 feet in elevation.\n\nWe will be taking the Metro 602 bus from the base of the Hill 🚌, or from wherever is convenient for you (stops are available throughout Westwood). Don't be late - the bus only runs roughly once an hour! There are no fees to do this hike other than the bus ride, which is covered by your bus pass! 💛",
+    "location": "https://maps.app.goo.gl/D6xYTgMRzuYtbPhH6 or your closest Metro 602 bus stop.",
+    "start": 1730655049136,
+    "end": 1730671249136,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-social-ctf-irl",
+    "title": "CTF IRL",
+    "description": "🎉 Join us for a fun-filled Friday evening at the IM Field for a classic game of Capture the Flag! 🌟 Bring your friends and relive the excitement of this elementary school favorite while enjoying some friendly competition. Don’t miss out on the fun! See you there! 💛💛⚔️",
+    "location": "IM Field",
+    "start": 1732327249136,
+    "end": 1732334449136,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f24-social-potluck",
+    "title": "Cyber Potluck Social",
+    "description": "🎉 Join us for a delicious Cyber Potluck this Saturday at 6 PM after PBR! 🌐🍽️✨ Bring your favorite dish to share and enjoy a night of great food and even better company. Don’t miss out on the fun! See you there! 💛💛🍴🥳🍰",
+    "location": "TBD",
+    "start": 1731808829571,
+    "end": 1731816029571,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Miscellaneous",
+      "Social"
+    ]
   },
   {
     "id": "u24-lab-csrf",
