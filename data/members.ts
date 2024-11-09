@@ -115,14 +115,14 @@ const members: PersonInfoProps[] = [
   {
     name: "Benson Liu",
     role: "Advisor",
-    bio: "Hey, I'm Benson! I'm a 3rd year Computer Science major from New Jersey who enjoys hacking & playing CTFs! In my free time, I like to watch anime or baseball (my favorite team is the Yankees).",
+    bio: "4th year Computer Science major",
     pronouns: "he/him",
     photo: "bliu.webp"
   },
   {
     name: "Salma Alandary",
     role: "Advisor",
-    bio: "4th year Computer Science major",
+    bio: "1st year Computer Sciences masters",
     pronouns: "she/her",
     photo: "salma.webp"
   },
