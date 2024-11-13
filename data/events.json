@@ -1399,7 +1399,10 @@
     "description": "We are a group of hackers & developers passionate about cybersecurity. We break things for fun and work to improve our skills in a variety of disciplines, whether it be reverse engineering, binary exploitation, cryptography, or something entirely different. We aim to nurture the love of cybersecurity in the students at UCLA!",
     "location": "Boelter 4760",
     "start": 1701309600000,
-    "end": 1701316800000
+    "end": 1701316800000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/131LgK7_RKThKHCwiXd3DjBn088iIL1z-s4aUFHWKJjY/edit"
+    }
   },
   {
     "id": "f23-cyac-xai-symposium",
