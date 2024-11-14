@@ -841,7 +841,8 @@
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "links": {
-      "slides": "https://l.acmcyber.com/f24-wk3-lab"
+      "slides": "https://l.acmcyber.com/f24-wk3-lab",
+      "youtube": "https://youtu.be/aEIiWOQZvxc"
     }
   },
   {
@@ -896,7 +897,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "youtube": "https://youtu.be/OToGj6PKUYM"
+    }
   },
   {
     "id": "f24-cylab",
@@ -920,7 +924,11 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "youtube": "https://youtu.be/61fx9n-xpy0",
+      "slides": "https://l.acmcyber.com/f24-w7-lab"
+    }
   },
   {
     "id": "f24-cylab-liz-izhikevich",
