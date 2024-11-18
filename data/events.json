@@ -1035,12 +1035,12 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
-    "id": "f24-pbr-seccon",
-    "title": "SECCON CTF 2024 w/ (TBD)",
-    "description": "We will tentatively be playing 🇸 SECCON CTF 🇸 this weekend. See y'all there 💛!",
-    "location": "Engineering IV 53-125",
-    "start": 1732395629350,
-    "end": 1732413629350,
+    "id": "f24-pbr-glacier",
+    "title": "GlacierCTF 2024",
+    "description": "❄️ It's been freezing out there in the cold LA fall 🍁... so join us this 🌃 **FRIDAY night** 🌃 (not Saturday!) for GlacierCTF 🧊, our final CTF of the quarter 🥳! There will be no talk or PBR CTF this week - just CTF and Chill™ ☕ (and maybe finishing your active member writeups! 📜) ",
+    "location": "TBD (come to Cyber Basketball first!)",
+    "start": 1732334429350,
+    "end": 1732348769350,
     "type": [
       "Psi Beta Rho"
     ],
