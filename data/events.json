@@ -778,14 +778,17 @@
   {
     "id": "f24-cyac-brandon-wu",
     "title": "Cyber Academy: Brandon Wu",
-    "description": "\nCome out to Cyber Academy today to hear from our amazing guest speaker, Brandon Wu! Learn about his experience as a program analysis engineer at Semgrep and a lecturer at CMU 🎓. See you all at Young Hall CS 76 from 6-8 PM 💛💛!",
+    "description": "\nCome out to Cyber Academy today to hear from our amazing guest speaker, Brandon Wu! Learn about his experience as a program analysis engineer at Semgrep and a lecturer at CMU 🎓. See you all at Young Hall CS 76 from 6-8 PM 💛💛!\n\nLinkedIn: https://www.linkedin.com/in/brandon-wu-79935116b/\nPersonal website: https://brandonspark.github.io/150/\nSlides: https://brandonspark.github.io/files/ucla_program_analysis.pdf",
     "location": "Young Hall CS 76",
     "start": 1731981657002,
     "end": 1731988857002,
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/f24/brandon-wu.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/f24/brandon-wu.png",
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1VdUbgWP2bYPFUe5CgeSukCpP4-iMABVAFoMfV5lsJvY/edit"
+    }
   },
   {
     "id": "f24-cyac-jason",
