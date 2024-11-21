@@ -1148,7 +1148,10 @@
     "location": "Young CS 76",
     "start": 1732586431860,
     "end": 1732593631860,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Academy"
+    ]
   },
   {
     "id": "u24-lab-csrf",
