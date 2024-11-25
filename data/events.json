@@ -1997,5 +1997,36 @@
     "banner": "https://cyanea-assets.acmcyber.com/archive/w23/social.jpeg",
     "start": 1674806400000,
     "end": 1674892799999
+  },
+  {
+    "id": "w25-la-ctf-infra-setup",
+    "title": "LA CTF 2025 - Infra Setup",
+    "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
+    "location": "TBD",
+    "start": 1738526428087,
+    "end": 1738558828087,
+    "type": [
+      "LA CTF",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
+    "id": "w25-la-ctf-instancer-setup",
+    "title": "LA CTF 2025 - Instancer Setup",
+    "description": "Tentative - designated time to attempt to setup infrastructure.",
+    "location": "TBD",
+    "start": 1737320427621,
+    "end": 1737352827621,
+    "type": [
+      "LA CTF",
+      "Miscellaneous"
+    ],
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
   }
 ]
