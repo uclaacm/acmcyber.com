@@ -122,7 +122,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Salma Alandary",
     role: "Advisor",
-    bio: "1st year Computer Sciences masters",
+    bio: "1st year Computer Science masters",
     pronouns: "she/her",
     photo: "salma.webp"
   },
