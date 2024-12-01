@@ -1,11 +1,14 @@
 ---
-title: Fuzzing Open-Source Software (Again) For Fun (and Hopefully Profit)
+title: Fuzzing Lab - Fall 2024
 authors: [Alex Zhang, Benson Liu, Enzo Saracen, Isaac Khabra, Alex Acosta-You, Nikhil Jadav, Alyssa Wong, Katie Min, Maya Zuo-Yu, Nathan Cheng, Kevin Wong, Hanson Zhao, Melissa Guo, Yashica Prasad, Kyle Pak, Justin Lui, Ki Riley]
 category: Projects
 tags: [fall-2024, cyber-lab, fuzzing]
 description: The Fall 2024 iteration of Fuzzing Lab where we fuzzed open-source software to find vulnerabilities!
 image: /images/blog/2024-12-03-fall-2024-fuzzing-lab/B1-LPRDXJx.png
 ---
+
+# Fuzzing Open-Source Software (Again) For Fun (and Hopefully Profit)
+
 ![Example of Honggfuzz running on a target.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/B1-LPRDXJx.png)
 
 This quarter, we ran the second iteration of our ["Introduction to Fuzzing"](/blog/2024-03-11-winter-2024-fuzzing-lab) Cyber Lab project. In this project, we learned about the basics of **coverage-guided fuzzing** using the [Honggfuzz](https://github.com/google/honggfuzz) fuzzer developed by Google. We spent the first few weeks covering topics such as build systems, compiling targets, writing harnesses, and coverage-analysis tools by applying them on old versions of open-source software to rediscover known CVEs. This culimated with the members of the project moving on to group projects where they selected an open-source project to fuzz and find new vulnerabilities in. The focus of this quarter's project was on parsers for various file formats that haven't already been fuzzed or developing a POC to rediscover a known vulnerability.
