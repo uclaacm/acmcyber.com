@@ -15,7 +15,7 @@ This quarter, we ran the second iteration of our ["Introduction to Fuzzing"](/bl
 
 If you are interested in checking out the activities and slides for the project, you can find them at [github.com/pbrucla/fuzzing-lab](https://github.com/pbrucla/fuzzing-lab).
 
-![The Fuzzing Lab repository on GitHub.](https://opengraph.githubassets.com/650e4732884da6e9c6e100b0cad4310ebc686ea6756c2e32cae4b83df4796b8c/pbrucla/fuzzing-lab?format=webp&width=2092&height=1046)
+[![The Fuzzing Lab repository on GitHub.](https://opengraph.githubassets.com/650e4732884da6e9c6e100b0cad4310ebc686ea6756c2e32cae4b83df4796b8c/pbrucla/fuzzing-lab?format=webp&width=2092&height=1046)](https://github.com/pbrucla/fuzzing-lab)
 
 The members of our project documented their research project below. If you are interested in learning more about the project, feel free to reach out to the authors of the section you are interested in.
 
@@ -29,7 +29,7 @@ The members of our project documented their research project below. If you are i
 
 ## PoDoFo
 
-![PoDoFo](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Sy6U1NnM1e.png)
+[![PoDoFo](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Sy6U1NnM1e.png)](https://github.com/podofo/podofo)
 
 **Members:** Nathan Cheng, Kevin Wong
 
@@ -138,7 +138,7 @@ We reached a maximum coverage of 20% as of the writing of this sentence. This ca
 
 ## jsonxx
 
-![GitHub project image for jsonxx.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJvmOXnfke.png)
+[![GitHub project image for jsonxx.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJvmOXnfke.png)](https://github.com/hjiang/jsonxx)
 
 **Members:** Isaac Khabra, Alex Acosta-You, Nikhil Jadav
 
@@ -211,7 +211,7 @@ extern "C" int LLVMFuzzerTestOneInput(const std::uint8_t *data, const std::size_
 
 ## TinyXML-2
 
-![GitHub project repository for TinyXML-2.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/rJguJav7Jg.png)
+[![GitHub project repository for TinyXML-2.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/rJguJav7Jg.png)](https://github.com/leethomason/tinyxml2)
 
 **Members:** Alyssa Wong, Katie Min, Maya Zuo-Yu
 
@@ -246,7 +246,7 @@ Coverage analysis was done based off the previous projects in the lab, with a no
 
 ## Target: libfyaml
 
-![libfyaml](/images/blog/2024-12-03-fall-2024-fuzzing-lab/SkWtd0wXJx.png)
+[![libfyaml](/images/blog/2024-12-03-fall-2024-fuzzing-lab/SkWtd0wXJx.png)](https://github.com/pantoniou/libfyaml)
 
 **Members:** Hanson Zhao, Melissa Guo, Yashica Prasad
 
@@ -268,7 +268,7 @@ We have not found any crashes so far, but hopefully we can improve coverage anal
 
 ## Project: LibRaw
 
-![LibRaw](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Skl6O0PXyx.png)
+[![LibRaw](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Skl6O0PXyx.png)](https://github.com/LibRaw/LibRaw)
 
 **Members:** Kyle Pak
 
@@ -288,7 +288,7 @@ The result was a stack buffer overflow. It was eventually patched.
 
 ## Project: yaml-cpp
 
-![yaml-cpp](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Hk_zFRwm1g.png)
+[![yaml-cpp](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Hk_zFRwm1g.png)](https://github.com/jbeder/yaml-cpp)
 
 **Members:** Justin Lui, Ki Riley
 
