@@ -1,5 +1,55 @@
 .post {
   padding: 3rem 20% 10rem 20%;
+  line-height: 1.5;
+
+  a {
+    text-decoration: underline;
+    color: var(--cyber-gold);
+    overflow-wrap: break-word;
+    &:hover {
+      cursor: pointer;
+      color: var(--flag-pink);
+    }
+  }
+
+  li {
+    margin-left: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  ol {
+    margin-left: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  ul {
+    margin-left: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  /* Only top-level ul and ol elements */
+  *:not(li) > ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  *:not(li) > ol {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  code:not([class]) {
+    background: var(--soft-lazer);
+  }
+
+  // Override link styles
+  a:has(.category) {
+    text-decoration: none;
+    color: white;
+  }
 
   .category {
     background-color: var(--flag-pink);
@@ -40,8 +90,24 @@
 
   img {
     width: 80%;
-    margin: 0 auto 2rem auto;
+    margin: 2rem auto 2rem auto;
     display: block;
+  }
+
+  pre {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    overflow-x: scroll;
+  }
+
+  h3 {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  h4 {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
   }
 }
 
