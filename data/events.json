@@ -2031,5 +2031,21 @@
     "meta": {
       "ignore-for-acm-newsletter": true
     }
+  },
+  {
+    "id": "w25-docker-workshop",
+    "title": "Intro to Docker",
+    "description": "12/20 6 PM PST: Intro to Docker: This workshop is designed to give you hands-on experience with Docker on the command line. We'll start by going over basics of how docker works, the components and workflow of Docker, before diving into creating our own Docker containers like a CTF challenge, all the way to deployment. We will then continue with Docker Compose, allowing us to create deployments of multiple containers together. Finally, we will tie it all together by creating challenge.yaml files for the containers we created. This workshop assumes basic Linux command-line knowledge as we will be doing everything on the linux command line. This workshop will use Google Cloud Shell, available at https://shell.cloud.google.com for the development environment. \n\nSIGN UP REQUIRED: https://docs.google.com/forms/d/e/1FAIpQLSfoNjZN2hI0Tl6yIQPCsoZ3uVvoloadw9uLTseDdOrK1AWRnQ/viewform",
+    "location": "",
+    "start": 1734746459917,
+    "end": 1734753659917
+  },
+  {
+    "id": "w25-kubernetes-workshop",
+    "title": "Intro to Kubernetes",
+    "description": "1/3 4 PM PST: Intro to Kubernetes: This workshop is designed to give you hands-on experience with Kubernetes as it relates to ACM Cyber and LA CTF infrastructure. We will take the apps created in the Intro to Docker workshop and deploy it to our own Kubernetes cluster on Google Cloud, explaining the components needed in order to access our systems, and learn how to use kubectl with the cluster. We will then show how to manage the cluster once deployed, pushing updates, restarting containers, and reading logs. This workshop assumes you have completed the Intro to Docker workshop or similar prior knowledge.\n\nSIGN UP REQUIRED: https://docs.google.com/forms/d/e/1FAIpQLSfoNjZN2hI0Tl6yIQPCsoZ3uVvoloadw9uLTseDdOrK1AWRnQ/viewform",
+    "location": "",
+    "start": 1735948859917,
+    "end": 1735959659917
   }
 ]
