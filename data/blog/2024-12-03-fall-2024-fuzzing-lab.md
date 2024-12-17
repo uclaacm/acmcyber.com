@@ -38,16 +38,13 @@ If you are interested in learning more about the project, feel free to reach out
 
 **Members:** Nathan Cheng, Kevin Wong
 
-<br>
-
 [PoDoFo](https://github.com/podofo/podofo) is an open-source C++17 library to manipulate PDF files.
 It allows PDF files to be edited, read from, and signed.
-We fuzzed a set of functions from the library, including `LoadFromBuffer()`, `ExtractTextTo()`, and a variety of `Get*()` functions (for getting the properties and contents of a PDF file).
+We fuzzed a set of functions from the library, including `LoadFromBuffer()`, `ExtractTextTo()`, and a variety of `Get*()` functions (for getting the properties and contents of a PDF file). 
 
 ### Methodology
 We decided to do coverage-driven fuzzing with Honggfuzz on functions that perform parsing, data extraction and manipulation on PDF files.
 Honggfuzz is invoked as the following command.
-
 
 ```
 honggfuzz -i seed -o corpus -w pdf.dict -t 5 -P -T -- ./harness
@@ -77,7 +74,7 @@ We wanted to improve the coverage even more, but the complexity of the PDF forma
 
 ![Output](/images/blog/2024-12-03-fall-2024-fuzzing-lab/H1-ehX2Mkx.jpg)
 
-### ???
+### Double Free?
 After a bit of fuzzing, we got a timeout from a test case that ran for longer than 5 seconds.
 While investigating the timeout, we reduced our harness code (ran with the executor instead of the fuzzer) to the following:
 
@@ -150,8 +147,12 @@ Turns out that `PdfDocument::GetPages()` returns `PdfPageCollection&`, and by us
 But first, we need to learn more about how `PdfPageCollection` works.
 Every `PdfPageCollection` object starts off as "uninitialized", where its internal page list is empty.
 Functions such as `PdfDocument::GetFieldsIterator()` and `PdfPageCollection::GetCount()` initialize these objects, causing their page list to be populated.
-This explains why we could not iterate over the pages if we call `GetCount()` on `p`, because we are initializing our copy of `PdfPageCollection` instead of the one owned by `PdfDocument`.
-Looking into how `PdfDocument::GetPages()` is implemented, we noticed that it simply returns `*m_Pages`, which gets a reference out of a `std::unique_ptr<PdfPageCollection>`!
+This explains why we could not iterate over the pages if we call `GetCount()` on `p`, because we are initializing our copy of `PdfPageCollection` instead of the one owned by `doc`.
+
+We also determined that the "double free" is caused by how the page list is stored in `PdfPageCollection`, which is a `std::vector<PdfPage*>`.
+Since `PdfPageCollection` has the default copy constructor, when we copied `p` (already initialized) from `doc`, the pointers are copied as well, causing a double free in the destructor when `p` and `doc` go out of scope.
+
+We submitted an [issue](https://github.com/podofo/podofo/issues/218) and the bug is now fixed.
 
 ### Results
 We did not encounter any crashes of interest, but there were a handful of timeouts.
@@ -167,8 +168,6 @@ This came after some improvements to the harness, which at one point stalled at 
 [![GitHub project image for jsonxx.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJvmOXnfke.png)](https://github.com/hjiang/jsonxx)
 
 **Members:** Isaac Khabra, Alex Acosta-You, Nikhil Jadav
-
-<br>
 
 [jsonxx](https://github.com/hjiang/jsonxx) is a library that parses JSON and XML.
 It's contained in just two files (one header and one C++ file), so we didn't have any issues building it; the build process was extremely simple (just had to call `make`).
@@ -248,8 +247,6 @@ extern "C" int LLVMFuzzerTestOneInput(const std::uint8_t *data, const std::size_
 
 **Members:** Alyssa Wong, Katie Min, Maya Zuo-Yu
 
-<br>
-
 [TinyXML-2](https://github.com/leethomason/tinyxml2) is a lightweight, open source parser for XML.
 We fuzzed the specific function [`Parse()`](https://leethomason.github.io/tinyxml2/_example_2.html), which parses an XML for a character pointer and checks for an error.
 We chose `Parse()` because it's supposed to take input, making it a starting point for fuzzing.
@@ -257,7 +254,8 @@ We chose `Parse()` because it's supposed to take input, making it a starting poi
 ![Screenshot 2024-11-20 191129](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BkCeSQnG1x.png)
 
 There were some issues with building it, but they were fixed by editing the prefix in the Makefile from `/usr/local` to `/projects/ctoml/install`.
-(We'd originally decided to fuzz ctoml, a parser for Tom's Obvious, Minimal Language, but ran into unresolvable build issues, leading us to switch to TinyXML-2.) The seed corpus was built with XML files randomly selected from [an online corpus](https://github.com/strongcourage/fuzzing-corpus).
+(We'd originally decided to fuzz ctoml, a parser for Tom's Obvious, Minimal Language, but ran into unresolvable build issues, leading us to switch to TinyXML-2.)
+The seed corpus was built with XML files randomly selected from [an online corpus](https://github.com/strongcourage/fuzzing-corpus).
 
 ![Example of a XML file in our seed corpus.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJe_rX2fke.png)
 
@@ -288,17 +286,17 @@ While we did not find any crashes, we were able to increase our coverage to 14%,
 
 **Members:** Hanson Zhao, Melissa Guo, Yashica Prasad
 
-<br>
-
-At the moment, we are still working on implementing coverage analysis for our fuzzer, so we're just going to talk about what libfyaml is and what our harness does.
-
-So...
-
 ![Screenshot_2024-11-20_at_6.51.43_PM](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Hyix0mhzye.png)
 
+[Libfyaml]("https://github.com/pantoniou/libfyaml")is a YAML and JSON parser/writer.
+It fully feature complete YAML parser and emitter, supporting the latest YAML spec and passing the full YAML testsuite.
+
+## YAML
 From the library's README, we see that libfyaml is "a fancy 1.2 YAML and JSON parser/writer".
 One week into the project, we came to the unfortunate realization that we did not know what a yaml was.
-Some quick googling gave us "... data serialization language ... commonly used in configuration files".
+Some quick googling gave us "... data serialization language ... commonly used in configuration files". 
+
+## Methodology
 After deeper look at the example usages in the README and looking through the repository, we decided to fuzz the `fy_document_build_from_string` function.
 We needed a seed corpus of yaml files to use as a seed corpus and used the [yaml-test-suite](https://github.com/yaml/yaml-test-suite) that we found on GitHub.
 A harness file is used to take inputs from the fuzzing tool and calls the specific functionality or module being tested using the prepared input.
@@ -307,11 +305,40 @@ The function then attempts to parse the buffer as a YAML document using `fy_docu
 If the parsing is successful, the resulting document is destroyed to free resources.
 Finally, the allocated buffer is freed, and the function returns 0, indicating successful execution.
 This setup allows the fuzzer to systematically test different input scenarios to identify potential vulnerabilities or bugs in the YAML parsing process.
+
+## Code
+
+```
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <libfyaml.h>
+
+int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
+  
+  char *buffer  = malloc(size+1);
+
+  strncpy(buffer, data, size);
+  buffer[size] = 0;  
+
+  struct fy_document *fyd  = fy_document_build_from_string(NULL, buffer, FY_NT);
+  if (fyd != NULL) {
+    fy_document_destroy(fyd);
+  }
+  free(buffer);
+
+  return 0;
+}
+```
+
+## Problem
 While fuzzing, we encountered an unusually large amount of timeouts, solved by allowing longer time limits.
+We then set the time limits to 10 seconds for each iteration, this resulted in less timeouts but also decreased the speed.
 
-We have not found any crashes so far, but hopefully we can improve coverage analysis in next few days.
-
-![Screenshot_2024-11-20_at_7.00.57_PM](/images/blog/2024-12-03-fall-2024-fuzzing-lab/rk4R67hz1e.png)
+## Result
+We reach the maximum of 17% coverage rate in the end without finding any crashes.
+![image](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJ9mFWamJx.png)
 
 
 ## Project: LibRaw
@@ -319,8 +346,6 @@ We have not found any crashes so far, but hopefully we can improve coverage anal
 [![LibRaw](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Skl6O0PXyx.png)](https://github.com/LibRaw/LibRaw)
 
 **Members:** Kyle Pak
-
-<br>
 
 [LibRaw](https://www.libraw.org/) is a library that extracts data from RAW files generated by digital cameras.
 It has multiple parsers which makes it perfect to fuzz.
@@ -427,7 +452,8 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size) {
 ```
 
 ### Difficulties
-The `YAML::Load` function throws a `ParserException` which we had to catch in our harness; prior to this, we were getting a large amount of supposed "bugs." Analyzing the SIGABRT files, we were able to triangulate the cause and remedy this by catching the exception.
+The `YAML::Load` function throws a `ParserException` which we had to catch in our harness; prior to this, we were getting a large amount of supposed "bugs."
+Analyzing the SIGABRT files, we were able to triangulate the cause and remedy this by catching the exception.
 
 ### Results
 
