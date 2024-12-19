@@ -38,14 +38,14 @@ with open(file_path, "r") as f:
 images = re.findall(r"https://hackmd\.io/_uploads/[^)]+", content)
 
 
-def download_image(dowload_folder: Path, url: str):
+def download_image(dowload_folder: Path, url: str) -> bool:
     """
     Download an image from a given URL and return the path to the downloaded image.
     """
     response = requests.get(url)
     if response.status_code != 200:
         print(f"[*] Failed to download image: {url}")
-        return None
+        return False
 
     # Save the image
     filename = url.split("/")[-1]
@@ -53,6 +53,8 @@ def download_image(dowload_folder: Path, url: str):
     print(f"[*] Downloading image: {url} -> {path}")
     with open(path, "wb") as f:
         f.write(response.content)
+
+    return True
 
 
 print("[*] Downloading images...")
@@ -63,13 +65,20 @@ download_folder = Path("public/images/blog") / shim
 # Create the download folder
 download_folder.mkdir(parents=True, exist_ok=True)
 
+failed = []
+
 for image in images:
-    download_image(download_folder, image)
+    success = download_image(download_folder, image)
+    if not success:
+        failed.append(image)
+
 
 # Replace the image URLs
 content = re.sub(
     r"https://hackmd\.io/_uploads/([^)]+)",
-    lambda x: f"/images/blog/{shim}/{x.group(1)}",
+    lambda x: (
+        f"/images/blog/{shim}/{x.group(1)}" if x.group(0) not in failed else x.group(0)
+    ),
     content,
 )
 
