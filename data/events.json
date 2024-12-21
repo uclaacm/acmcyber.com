@@ -2041,7 +2041,10 @@
     "end": 1734753659917,
     "links": {
       "slides": "https://l.acmcyber.com/w25-docker"
-    }
+    },
+    "type": [
+      "Cyber Special Topics"
+    ]
   },
   {
     "id": "w25-kubernetes-workshop",
@@ -2049,6 +2052,9 @@
     "description": "SIGN UP REQUIRED: https://docs.google.com/forms/d/e/1FAIpQLSfoNjZN2hI0Tl6yIQPCsoZ3uVvoloadw9uLTseDdOrK1AWRnQ/viewform\n\nThis workshop is designed to give you hands-on experience with Kubernetes as it relates to ACM Cyber and LA CTF infrastructure. We will take the apps created in the Intro to Docker workshop and deploy it to our own Kubernetes cluster on Google Cloud, explaining the components needed in order to access our systems, and learn how to use kubectl with the cluster. We will then show how to manage the cluster once deployed, pushing updates, restarting containers, and reading logs. This workshop assumes you have completed the Intro to Docker workshop or similar prior knowledge.",
     "location": "Online",
     "start": 1735948859917,
-    "end": 1735959659917
+    "end": 1735959659917,
+    "type": [
+      "Cyber Special Topics"
+    ]
   }
 ]
