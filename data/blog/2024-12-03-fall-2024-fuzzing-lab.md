@@ -34,7 +34,7 @@ If you are interested in learning more about the project, feel free to reach out
 
 ## PoDoFo
 
-[![PoDoFo](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Sy6U1NnM1e.png)](https://github.com/podofo/podofo)
+[![The PoDoFo repository on GitHub.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Sy6U1NnM1e.png)](https://github.com/podofo/podofo)
 
 **Members:** Nathan Cheng, Kevin Wong
 
@@ -72,7 +72,7 @@ We resorted to examining header and source files in order to identify target fun
 Our initial harness was also very incomplete, with its coverage plateauing at 4% (see image) before we improved the coverage to 20% by incorporating more function calls.
 We wanted to improve the coverage even more, but the complexity of the PDF format and the library meant that it was difficult to reach all available functions in the library.
 
-![Output](/images/blog/2024-12-03-fall-2024-fuzzing-lab/H1-ehX2Mkx.jpg)
+![Honggfuzz output while running our harness on PoDoFo.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/H1-ehX2Mkx.jpg)
 
 ### Double Free?
 After a bit of fuzzing, we got a timeout from a test case that ran for longer than 5 seconds.
@@ -165,7 +165,7 @@ This came after some improvements to the harness, which at one point stalled at 
 
 ## jsonxx
 
-[![GitHub project image for jsonxx.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJvmOXnfke.png)](https://github.com/hjiang/jsonxx)
+[![GitHub repository for jsonxx.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJvmOXnfke.png)](https://github.com/hjiang/jsonxx)
 
 **Members:** Isaac Khabra, Alex Acosta-You, Nikhil Jadav
 
@@ -251,7 +251,23 @@ extern "C" int LLVMFuzzerTestOneInput(const std::uint8_t *data, const std::size_
 We fuzzed the specific function [`Parse()`](https://leethomason.github.io/tinyxml2/_example_2.html), which parses an XML for a character pointer and checks for an error.
 We chose `Parse()` because it's supposed to take input, making it a starting point for fuzzing.
 
-![Screenshot 2024-11-20 191129](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BkCeSQnG1x.png)
+```cpp
+void XMLDocument::Parse()
+{
+  TIXMLASSERT( NoChildren() ); // Clear() must have been called previously
+  TIXMLASSERT (_charBuffer );
+  _parseCur LineNum = 1;
+  _parseLineNum = 1;
+  char* p =_charBuffer;
+  p = XMLUtil::SkipWhiteSpace( P, &_parseCurLineNum );
+  p = const_cast<char*>( XMLUtil:: ReadBOM( P, & writeBOM ) );
+  if ( !*p ) {
+    SetError (XML_ERROR_EMPTY_DOCUMENT, 0, 0 );
+    return;
+  }
+  ParseDeep (p, 0, &_parseCurLineNum );
+}
+```
 
 There were some issues with building it, but they were fixed by editing the prefix in the Makefile from `/usr/local` to `/projects/ctoml/install`.
 (We'd originally decided to fuzz ctoml, a parser for Tom's Obvious, Minimal Language, but ran into unresolvable build issues, leading us to switch to TinyXML-2.)
@@ -282,13 +298,13 @@ While we did not find any crashes, we were able to increase our coverage to 14%,
 
 ## Target: libfyaml
 
-[![libfyaml](/images/blog/2024-12-03-fall-2024-fuzzing-lab/SkWtd0wXJx.png)](https://github.com/pantoniou/libfyaml)
+[![GitHub repository for libfyaml.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/SkWtd0wXJx.png)](https://github.com/pantoniou/libfyaml)
 
 **Members:** Hanson Zhao, Melissa Guo, Yashica Prasad
 
-![Screenshot_2024-11-20_at_6.51.43_PM](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Hyix0mhzye.png)
+![README description for libfyaml.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Hyix0mhzye.png)
 
-[Libfyaml]("https://github.com/pantoniou/libfyaml")is a YAML and JSON parser/writer.
+[Libfyaml]("https://github.com/pantoniou/libfyaml") is a YAML and JSON parser/writer.
 It fully feature complete YAML parser and emitter, supporting the latest YAML spec and passing the full YAML testsuite.
 
 ## YAML
@@ -338,12 +354,12 @@ We then set the time limits to 10 seconds for each iteration, this resulted in l
 
 ## Result
 We reach the maximum of 17% coverage rate in the end without finding any crashes.
-![image](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJ9mFWamJx.png)
+![Honggfuzz output for running our harness on libfyaml.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/BJ9mFWamJx.png)
 
 
 ## Project: LibRaw
 
-[![LibRaw](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Skl6O0PXyx.png)](https://github.com/LibRaw/LibRaw)
+[![GitHub repository for LibRaw.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Skl6O0PXyx.png)](https://github.com/LibRaw/LibRaw)
 
 **Members:** Kyle Pak
 
@@ -355,17 +371,17 @@ One of the parsers of LibRaw is a CR3 parser.
 CR3 is a RAW file format used by Canon Cameras.
 parseCR3 was fuzzed with a Honggfuzz harness.
 
-![LibRawparseCR3](/images/blog/2024-12-03-fall-2024-fuzzing-lab/HJuiJVnzkl.png)
+![Source code for LibRawparseCR3.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/HJuiJVnzkl.png)
 
 ### Results
 The result was a stack buffer overflow.
 It was eventually patched.
 
-![LibRaw 0.21.3 changes](/images/blog/2024-12-03-fall-2024-fuzzing-lab/rJ0aJ4nfyl.png)
+![Documentation highlighting changes to LibRaw 0.21.3.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/rJ0aJ4nfyl.png)
 
 ## Project: yaml-cpp
 
-[![yaml-cpp](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Hk_zFRwm1g.png)](https://github.com/jbeder/yaml-cpp)
+[![GitHub repository for yaml-cpp.](/images/blog/2024-12-03-fall-2024-fuzzing-lab/Hk_zFRwm1g.png)](https://github.com/jbeder/yaml-cpp)
 
 **Members:** Justin Lui, Ki Riley
 
@@ -373,7 +389,7 @@ It was eventually patched.
 A quick disclaimer about yaml-cpp: despite being released in 2018 and being older than the latest release by two versions, yaml-cpp 0.6.0 is still the top link underneath 'Recent Releases' on the yaml-cpp GitHub page.
 Our group did not realize this until later; the following documentation will therefore discuss the results of fuzzing both yaml-cpp 0.6.0 and the latest release, yaml-cpp 0.8.0.
 
-![Screenshot 2024-11-20 215548](/images/blog/2024-12-03-fall-2024-fuzzing-lab/rkBqjr3z1x.png)
+![Different versions for yamll-cpp](/images/blog/2024-12-03-fall-2024-fuzzing-lab/rkBqjr3z1x.png)
 
 ### YAML Parser — Fuzzing Target
 Written in C++, yaml-cpp is a YAML (1.2) parser and emitter.
