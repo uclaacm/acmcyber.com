@@ -2068,5 +2068,29 @@
       "Career"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/w25/sandia_flyer.jpg"
+  },
+  {
+    "id": "w25-pbr-iris",
+    "title": "PBR: IRIS CTF",
+    "description": "👀 A CTF? On week 0? You bet!",
+    "location": "Discord",
+    "start": 1735948805258,
+    "end": 1736121605258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w25-pbr-srdnlen",
+    "title": "PBR: mXSS & Srdnlen CTF",
+    "description": "Welcome back to our first* PBR meet of the quarter, where Benson will be introducing us to all the fun secrets of 🦠 mutation XSS 🧬! We'll also be playing 🇮🇹🐟 Strdnlen CTF 🧵🤌, so be sure to pull up!",
+    "location": "(TBD)",
+    "start": 1737228615543,
+    "end": 1737252015543,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
