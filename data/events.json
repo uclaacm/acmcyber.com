@@ -2100,5 +2100,18 @@
     "location": "Online; RSVP for link",
     "start": 1736388038968,
     "end": 1736395238968
+  },
+  {
+    "id": "w25-cyber-gm",
+    "title": "ACM Cyber W25 GM",
+    "description": "Want to join the premier cybersecurity club at UCLA? Come to our Fall GM on Monday Week 2 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
+    "location": "Boelter 4760",
+    "start": 1736820021439,
+    "end": 1736827221439,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "GM",
+      "Miscellaneous"
+    ]
   }
 ]
