@@ -2113,5 +2113,21 @@
       "GM",
       "Miscellaneous"
     ]
+  },
+  {
+    "id": "w25-ectf-kickoff",
+    "title": "ECTF: (pre)Kickoff!",
+    "description": "Since the competition kickoff isn't until Wednesday, we'll mainly be going over logistics and what to expect this quarter, but keep your eyes peeled for more information after Wednesday! If you want course credit for ECTF this quarter, you are **required** to attend all meetings, including this one! We will be taking attendance. ",
+    "location": "Zoom (check IEEE Discord)",
+    "start": 1736906455882,
+    "end": 1736910055882,
+    "type": [
+      "ECTF",
+      "Collab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "discord": "https://discord.gg/RREtsea"
+    }
   }
 ]
