@@ -2018,21 +2018,6 @@
     }
   },
   {
-    "id": "w25-la-ctf-instancer-setup",
-    "title": "LA CTF 2025 - Instancer Setup",
-    "description": "Tentative - designated time to attempt to setup infrastructure.",
-    "location": "TBD",
-    "start": 1737320427621,
-    "end": 1737352827621,
-    "type": [
-      "LA CTF",
-      "Miscellaneous"
-    ],
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
-  },
-  {
     "id": "w25-docker-workshop",
     "title": "Intro to Docker",
     "description": "SIGN UP REQUIRED: https://docs.google.com/forms/d/e/1FAIpQLSfoNjZN2hI0Tl6yIQPCsoZ3uVvoloadw9uLTseDdOrK1AWRnQ/viewform\n\nThis workshop is designed to give you hands-on experience with Docker on the command line. We'll start by going over basics of how docker works, the components and workflow of Docker, before diving into creating our own Docker containers like a CTF challenge, all the way to deployment. We will then continue with Docker Compose, allowing us to create deployments of multiple containers together. Finally, we will tie it all together by creating challenge.yaml files for the containers we created. This workshop assumes basic Linux command-line knowledge as we will be doing everything on the linux command line. This workshop will use Google Cloud Shell, available at https://shell.cloud.google.com for the development environment. ",
