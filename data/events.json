@@ -2114,5 +2114,30 @@
     "links": {
       "discord": "https://discord.gg/RREtsea"
     }
+  },
+  {
+    "id": "w24-social-westwood-boba",
+    "title": "✨Classic✨ Westwood + Boba Social",
+    "description": "Our ✨Classic✨ Westwood n' Boba Social returns 🥳! Join us by the Bruin Bear 🐻 at 6:00 this Saturday for dinner and boba with all your friends at Cyber 🤗🍴👀✨. Be there or be 🟨!",
+    "location": "Bruin Bear",
+    "start": 1728781230005,
+    "end": 1728792030005,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w24-lab-wk3",
+    "title": "Lab: Winter Kickoff!",
+    "description": "Join us this Wednesday 🌔 for our very first Cyber Lab 🧪 of the quarter 🎉!",
+    "location": "Haines A18",
+    "start": 1737340004717,
+    "end": 1737340004717,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
