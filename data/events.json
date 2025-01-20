@@ -2116,6 +2116,22 @@
     }
   },
   {
+    "id": "w25-ectf-week3",
+    "title": "ECTF: The Design Phase Begins",
+    "description": "Welcome back physically to UCLA - it's showtime! Join us this Tuesday for our first look at this year's challenge and codebase.\n\nIf you want course credit for ECTF this quarter, you are **required** to attend all meetings, including this one! We will be taking attendance. ",
+    "location": "Zoom (check IEEE Discord)",
+    "start": 1737511255882,
+    "end": 1737518455882,
+    "type": [
+      "ECTF",
+      "Collab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "discord": "https://discord.gg/RREtsea"
+    }
+  },
+  {
     "id": "w24-social-westwood-boba",
     "title": "✨Classic✨ Westwood + Boba Social",
     "description": "Our ✨Classic✨ Westwood n' Boba Social returns 🥳! Join us by the Bruin Bear 🐻 at 6:00 this Saturday for dinner and boba with all your friends at Cyber 🤗🍴👀✨. Be there or be 🟨!",
