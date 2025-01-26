@@ -1408,6 +1408,17 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "w24-acad-wk4",
+    "title": "Cyber Academy: Cybersecurity of Tiktok",
+    "description": "Join us for the first Cyber Academy of the quarter where Savannah will be giving a talk on the cybersecurity of Tiktok! 🥳 Pull up to Boelter Hall 4760 from 6-8pm to learn more!",
+    "location": "Boelter Hall 4760",
+    "start": 1738029609819,
+    "end": 1738036809819,
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
