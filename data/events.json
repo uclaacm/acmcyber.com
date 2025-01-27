@@ -1408,6 +1408,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "w24-lab-wk4",
+    "title": "Cyber Lab: Race Conditions",
+    "description": "Join us this Wednesday 🌔 for our second Cyber Lab 🧪 of the quarter 🎉 where Roshini will be presenting on Race Conditions 🏁! Pull up to Boelter Haines A18 from 6-8pm to learn about rootkit detection, build your own XSS sanitizer, or craft a privacy-preserving ML model!",
+    "location": "Haines A18",
+    "start": 1738202444717,
+    "end": 1738209644717,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w24-acad-wk4",
     "title": "Cyber Academy: Cybersecurity of Tiktok",
     "description": "Join us for the first Cyber Academy of the quarter where Savannah will be giving a talk on the cybersecurity of Tiktok! 🥳 Pull up to Boelter Hall 4760 from 6-8pm to learn more!",
