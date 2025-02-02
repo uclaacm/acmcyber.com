@@ -1432,6 +1432,37 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "w25-acad-wk5",
+    "title": "Cyber Academy: Apple II Cracking",
+    "description": "Join us for our second 🥈 Cyber Academy of the quarter where Justin will be diving deep 🪂 into the Apple II 🍎! Pull up to Boelter Hall 4760 from 6-8pm to learn more!",
+    "location": "Boelter Hall 4760",
+    "start": 1738634409819,
+    "end": 1738641609819,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w25-lactf",
+    "title": "LA CTF 2025",
+    "type": [
+      "LA CTF",
+      "Psi Beta Rho"
+    ],
+    "description": "We're back and better than ever before - welcome to 🌋 LA CTF 2025 🚩, ACM Cyber & PBR @ UCLA's annual ✨ capture-the-flag event ✨! Come to test your 🐛 cyber skillz 👾, listen to talks ▶️ from YouTubers, alumni, and professors 🎙️, and just 𝄫 flat-out have fun 🥳! Food will be served 🥪, merch will be given 👕, and flags will be captured 🥅 - so what are you waiting for? Go to https://lac.tf to register today!",
+    "location": "Covel Grand Horizons",
+    "start": 1738987200000,
+    "end": 1739138400000,
+    "links": {
+      "discord": "https://discord.gg/uZM6vxqHDq"
+    },
+    "meta": {
+      "_comment": "^ the newsletter cannot handle multiple-day events so I'll add 3 events for the three separate days manually lol",
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
