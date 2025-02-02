@@ -1456,18 +1456,6 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
-    "id": "w25-lab-wk6",
-    "title": "Cyber Lab: ML Data Poisoning",
-    "description": "Join us this Wednesday for an amazing talk by Alex on attacks that poison data used by machine learning models! Also be sure to pull up to Haines A18 to continue your lab projects for this quarter.",
-    "location": "Haines A18",
-    "start": 1739412009819,
-    "end": 1739419209819,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
     "id": "w25-lactf",
     "title": "LA CTF 2025",
     "type": [
@@ -1498,6 +1486,18 @@
     "type": [
       "Cyber Academy"
     ]
+  },
+  {
+    "id": "w25-lab-wk6",
+    "title": "Cyber Lab: ML Data Poisoning",
+    "description": "Join us this Wednesday for an amazing talk by Alex on attacks that poison data used by machine learning models! Also be sure to pull up to Haines A18 to continue your lab projects for this quarter.",
+    "location": "Haines A18",
+    "start": 1739412009819,
+    "end": 1739419209819,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f23-misc-acm-gm",
