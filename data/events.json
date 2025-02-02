@@ -1472,7 +1472,8 @@
     "meta": {
       "_comment": "^ the newsletter cannot handle multiple-day events so I'll add 3 events for the three separate days manually lol",
       "ignore-for-acm-newsletter": true
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/w25/lactf-2025.png"
   },
   {
     "id": "f23-misc-acm-gm",
