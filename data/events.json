@@ -1444,6 +1444,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "w25-lab-wk5",
+    "title": "Cyber Lab: Virtual Reality Security",
+    "description": "VR 🐛 - no, not that one! Join us this Wednesday for an amazing talk from Katie on 🕶️ Virtual Reality Security 🌎! Also be sure to pull up to Haines A18 to continue your lab projects for this quarter.",
+    "location": "Haines A18",
+    "start": 1738807209819,
+    "end": 1738814409819,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-lactf",
     "title": "LA CTF 2025",
     "type": [
