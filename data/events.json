@@ -2259,5 +2259,17 @@
       "Cyber Lab"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w25-lab-wk7",
+    "title": "Cyber Lab: Sam Kumar",
+    "description": "Join us in Haines A18 this Wednesday to hear an amazing talk by Professor Sam Kumar and continue working on your lab projects!",
+    "location": "Haines A18",
+    "start": 1740016809819,
+    "end": 1740024009819,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
