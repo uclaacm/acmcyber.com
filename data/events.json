@@ -2079,6 +2079,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "w25-pbr-trx",
+    "title": "PBR: TRX CTF",
+    "description": "LA CTF brought us to #1 in the US... but now we're #2 again 😔. Let's dust off those flag-capturing skills ⛳ and prepare a feast to remember 🐦‍🔥 as we take on TRX CTF 2025 🐴!",
+    "location": "Engineering IV Tesla Room",
+    "start": 1740252615543,
+    "end": 1740276015543,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-acm-gm",
     "title": "ACM Winter GM",
     "description": "Come to ACM's Winter GM, where we'll be talking about what we're doing this quarter and answering any questions you might have about our club!\n\nRSVP here: https://docs.google.com/forms/d/e/1FAIpQLSffpSD6s3T4NJGDzbb5_kjFTQeXkRsU1n4OOwBmbo-FcP2K5w/viewform",
