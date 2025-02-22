@@ -2283,5 +2283,17 @@
       "Cyber Lab"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w25-potluck",
+    "title": "Cyber Potluck",
+    "description": "Join us for good food and good vibes at the Cyber Potluck! 🍔",
+    "location": "910 Weyburn",
+    "start": 1740277804183,
+    "end": 1740285004183,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
