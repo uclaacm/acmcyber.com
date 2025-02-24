@@ -2295,5 +2295,17 @@
       "Social"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w25-acad-wk8",
+    "title": "Cyber Academy: Operational Security",
+    "description": "Join us for Cyber Academy where TS will talk about the intersection of operational security and cybersecurity! Pull up to Boelter Hall 4760 from 6-8pm to learn more!",
+    "location": "Boelter Hall 4760",
+    "start": 1740448850743,
+    "end": 1740456050743,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Academy"
+    ]
   }
 ]
