@@ -3,18 +3,19 @@ from typing import NamedTuple
 from common import OtherInfo, member_template, find_new_member_data
 
 class RequirementInfo(NamedTuple):
-    fields = [f'field{i}' for i in range(4)]
+    fields = [f'field{i}' for i in range(3)]
     fields[0] = 'name'
-    fields[3] = 'role'
+    fields[2] = 'role'
     __annotations__ = {field: str for field in fields}    
 
 with open('tmp/old-member-data','r') as f:
     old_data = f.read()
 old_data_json = json.loads(old_data)
 with open('clubdata/requirement.tsv','r') as f:
-    new_data = list(filter(lambda x: "#N/A" not in x,[RequirementInfo(*i.split('\t')[:4]) for i in f.read().split('\n')[1:]]))
+    new_data = list(filter(lambda x: "#N/A" not in x,[RequirementInfo(*i.split('\t')[:3]) for i in f.read().split('\n')[1:]]))
 with open('clubdata/membership.tsv','r') as f:
-    new_extra_data = list(filter(lambda x: "Not found" not in x,[OtherInfo(*i.split('\t')[:19]) for i in f.read().split('\n')[1:]]))
+    new_extra_data = list(filter(lambda x: "Not found" not in x,[OtherInfo(*i.split('\t')[:21]) for i in f.read().split('\n')[1:]]))
+
 presidents = []
 advisors = []
 officers = []
@@ -33,7 +34,7 @@ for member in old_data_json:
         member['role'] = "Officer"
         officers.append(member)
         continue
-    elif off == 't':
+    elif off == 'g':
         continue
     pres = input('is this a president? ')
     if pres == 'y':
@@ -70,12 +71,17 @@ for new_member in new_data:
             new_member_json['role'] = new_member.role
     else:
         new_member_json = old_member
+    print(other_data)
     if other_data:
-        new_member_json["pronouns"] = other_data.pronouns
-        transfer = other_data.year.split()[3] == 'transfer'
-        year = ' '.join(other_data.year.split()[:2])
-        if transfer:
-            year += ' Transfer'
+        if other_data.pronouns:
+            new_member_json["pronouns"] = other_data.pronouns
+        if other_data.year:
+            transfer = other_data.year.split()[3] == 'transfer'
+            year = ' '.join(other_data.year.split()[:2])
+            if transfer:
+                year += ' Transfer'
+        else:
+            year = input("Enter year: ")
         print(other_data.major)
         major = input("What major is this? ")
         if major == 'y':

@@ -1,12 +1,12 @@
 from typing import NamedTuple
 
 class OtherInfo(NamedTuple):
-    fields = [f'field{i}' for i in range(19)]
-    fields[12] = 'name'
-    fields[13] = 'pronouns'
-    fields[16] = 'year'
-    fields[17] = 'major'
-    fields[18] = 'photo'
+    fields = [f'field{i}' for i in range(21)]
+    fields[14] = 'name'
+    fields[15] = 'pronouns'
+    fields[18] = 'year'
+    fields[19] = 'major'
+    fields[20] = 'photo'
     __annotations__ = {field: str for field in fields}
 
 member_template = {
