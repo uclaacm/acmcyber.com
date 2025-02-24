@@ -367,7 +367,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Sophia Miles",
     role: "Cyber Academy",
-    bio: "1st Mathematics of Computation major",
+    bio: "1st year Mathematics of Computation major",
     pronouns: "she/her",
     photo: "sophia.webp",
   },
@@ -402,7 +402,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Danniell Xu",
     role: "Psi Beta Rho",
-    bio: "1st year Computational and Systems Biology major",
+    bio: "2nd year Computer Science major",
     pronouns: "he/him",
     photo: "danniell.webp",
   },
