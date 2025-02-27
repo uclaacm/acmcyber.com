@@ -2310,15 +2310,18 @@
   },
   {
     "id": "w25-lab-wk8",
-    "title": "Cyber Lab",
-    "description": "Join us for Cyber Lab for the last work week! Pull up to Haines A18 from 6-8pm!",
+    "title": "Cyber Lab: LA CTF Infrastructure Design",
+    "description": "Join us for Cyber Lab for the last work week! Pull up to Haines A18 from 6-8pm and hear a talk given by Alec on LA CTF Infrastructure design. Learn more about all of the cloud infrastructure work put into making LA CTF a huge international success!",
     "location": "Haines A18",
     "start": 1740621650743,
     "end": 1740628850743,
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w8-lab"
+    }
   },
   {
     "id": "w25-sawtelle",
