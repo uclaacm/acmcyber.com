@@ -2335,5 +2335,17 @@
       "Social"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w25-acad-wk9",
+    "title": "Cyber Academy: Supply Chain Security",
+    "description": "Join us for Cyber Academy where Rathul will talk about supply chain security! Pull up to Boelter Hall 4760 from 6-8pm to learn more!",
+    "location": "Boelter Hall 4760",
+    "start": 1741053650743,
+    "end": 1741060850743,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Academy"
+    ]
   }
 ]
