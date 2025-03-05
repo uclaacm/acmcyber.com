@@ -2383,5 +2383,17 @@
       "Cyber Lab"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w25-symposium",
+    "title": "AI x Cyber Symposium",
+    "description": "It's that time again! 🔥🔥🔥 Join us Monday of Week 10 to show off what you've been learning in Cyber 🔐 or AI 🤖, see what your friends have been up to, and just have a good time! 🥳 Plus, there will be free food! 😋 See you there!",
+    "location": "Mathematical Sciences Building 5200",
+    "start": 1741741206516,
+    "end": 1741748406516,
+    "type": [
+      "Cyber x AI Symposium"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
