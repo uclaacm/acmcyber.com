@@ -2371,5 +2371,17 @@
     "type": [
       "Cyber Academy"
     ]
+  },
+  {
+    "id": "w25-lab-wk9",
+    "title": "Cyber Lab: Dynamic Linking",
+    "description": "Join us for the last Cyber Lab of the quarter to hear about dynamic linking 🔗 from Nathan and prepare presentations for the symposium next week! 🥳🔥",
+    "location": "Haines A18",
+    "start": 1741226412713,
+    "end": 1741233612713,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
