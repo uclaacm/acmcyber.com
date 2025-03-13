@@ -2133,7 +2133,10 @@
     "type": [
       "GM",
       "Miscellaneous"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-gm"
+    }
   },
   {
     "id": "w25-ectf-kickoff",
@@ -2182,15 +2185,18 @@
   },
   {
     "id": "w24-lab-wk3",
-    "title": "Lab: Winter Kickoff!",
-    "description": "Join us this Wednesday 🌔 for our very first Cyber Lab 🧪 of the quarter 🎉!",
+    "title": "Lab: Fascinating File Formats",
+    "description": "Join us this Wednesday 🌔 for our very first Cyber Lab 🧪 of the quarter 🎉, where Jason will give a quick talk about some interesting quirks and facts about file formats you may not have known!",
     "location": "Haines A18",
     "start": 1737597644717,
     "end": 1737604844717,
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w3-lab"
+    }
   },
   {
     "id": "w24-lab-wk4",
@@ -2202,7 +2208,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w4-lab"
+    }
   },
   {
     "id": "w24-acad-wk4",
@@ -2214,7 +2223,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w4-acad"
+    }
   },
   {
     "id": "w25-acad-wk5",
@@ -2226,7 +2238,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w5-acad"
+    }
   },
   {
     "id": "w25-lab-wk5",
@@ -2238,7 +2253,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w5-lab"
+    }
   },
   {
     "id": "w25-lactf",
@@ -2252,7 +2270,8 @@
     "start": 1738987200000,
     "end": 1739138400000,
     "links": {
-      "discord": "https://discord.gg/uZM6vxqHDq"
+      "discord": "https://discord.gg/uZM6vxqHDq",
+      "slides": "https://lac.tf"
     },
     "meta": {
       "_comment": "^ the newsletter cannot handle multiple-day events so I'll add 3 events for the three separate days manually lol",
@@ -2282,7 +2301,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w6-lab"
+    }
   },
   {
     "id": "w25-officer-apps",
@@ -2306,7 +2328,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w7-lab"
+    }
   },
   {
     "id": "w25-potluck",
@@ -2330,7 +2355,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Academy"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w8-acad"
+    }
   },
   {
     "id": "w25-lab-wk8",
@@ -2370,7 +2398,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Academy"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w9-acad"
+    }
   },
   {
     "id": "w25-lab-wk9",
@@ -2382,7 +2413,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/w25-w9-lab"
+    }
   },
   {
     "id": "w25-symposium",
