@@ -2028,6 +2028,54 @@
     ]
   },
   {
+    "id": "s25-pbr-squirrel",
+    "title": "PBR: squ1rrel CTF",
+    "description": "Join us this weekend for our first CTF of the quarter - 🐿 squ1rrel CTF 🐿 from Vanderbilt University! ",
+    "location": "E4 Tesla Room",
+    "start": 1743876005258,
+    "end": 1743901205258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://ctf.squ1rrel.dev/assets/squ1rrel_background.webp"
+  },
+  {
+    "id": "s25-pbr-b01lers",
+    "title": "PBR: b01lers CTF",
+    "description": "🐦 Join us this weekend as we take on Purdue's b01lers CTF!",
+    "location": "E4 Tesla Room",
+    "start": 1745085605258,
+    "end": 1745110805258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://b01lersc.tf/assets/logo-uwu.png"
+  },
+  {
+    "id": "s25-pbr-bi0s-ctf",
+    "title": "PBR: bi0s CTF",
+    "description": "We will be playing 🏳️ b10s CTF 🏳️ this weekend - make sure to pull up!",
+    "location": "E4 Tesla Room",
+    "start": 1746295205258,
+    "end": 1746316805258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-pbr-byuctf",
+    "title": "PBR: BYUCTF",
+    "description": "Ready to take on some cougars? 🐆🐆🐆 (yes that is a leopard emoji) Join us this weekend for BYU CTF!",
+    "location": "E4 Tesla Room",
+    "start": 1747504805258,
+    "end": 1747530005258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
