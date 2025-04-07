@@ -2076,6 +2076,19 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s25-minecraft-movie",
+    "title": "Minecraft Movie + Boba Social",
+    "description": "Buy your tickets (row B!): https://l.acmcyber.com/mc-movie\n\nMeet at the Bruin Bear at 2:30 PM where we'll walk down to Westwood to get pre-show Boba, and then watch the Minecraft Movie at 3:30 PM at IPIC!",
+    "location": "Bruin Bear Plaza; IPIC Westwood",
+    "start": 1744579813805,
+    "end": 1744594213805,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://m.media-amazon.com/images/M/MV5BYzQyNzFhYzUtMTkzZi00OTg4LWI0NDktZGQ2YWVmZTk4NTg1XkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
