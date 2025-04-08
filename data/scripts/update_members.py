@@ -1,4 +1,5 @@
 import json
+import re
 from typing import NamedTuple
 from common import OtherInfo, member_template, find_new_member_data
 
@@ -49,6 +50,7 @@ for member in old_data_json:
 
 print(f'there are {len(presidents)} presidents')
 print(f'there are {len(officers)} non-president officers')
+
 for new_member in new_data:
     name = new_member.name
     other_data = find_new_member_data(name,new_extra_data)
@@ -90,11 +92,11 @@ for new_member in new_data:
             new_member_json["bio"] = f"{year} {major} major"
         
     members.append(new_member_json)
+
 final_json = presidents + officers + advisors + members
-print(json.dumps(final_json))
+#print(json.dumps(final_json))
 
 with open('out/data','w') as f:
-    f.write(json.dumps(final_json,indent=2))
-    
-            
-            
+    output = json.dumps(final_json,indent=2)
+    ts_str = re.sub(r'"([^"]+)":', r'\1:', output)
+    f.write(ts_str)
