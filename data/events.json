@@ -2012,7 +2012,10 @@
     "type": [
       "GM",
       "Miscellaneous"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/s25-gm"
+    }
   },
   {
     "id": "s25-sandia",
