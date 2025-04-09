@@ -1048,7 +1048,8 @@
     "id": "s24-symposium",
     "title": "Cyber x AI Symposium",
     "type": [
-      "Cyber x AI Symposium"
+      "Cyber x AI Symposium",
+      "Miscellaneous"
     ],
     "description": "Cyber and AI are back for another end of the quarter symposium on Monday Week 10 (June 3rd) in Franz 1178! 🤩 Join us and check out all the cool projects and progress your fellow club members have made throughout the quarter. 👀 Attending/presenting at the symposium is mandatory for Cyber Lab members, as we want you to show off all your hard work. 💪 PS we will be having Panda Express, Diddy Riese cookies, AND ShareTea!!! 😱🤯👀 So make sure to come for the good food and fun people. 😋🍪🧋🩵💛",
     "location": "Franz 1178",
@@ -1360,7 +1361,8 @@
     "end": 1733284813306,
     "type": [
       "Cyber x AI Symposium",
-      "ACM AI"
+      "ACM AI",
+      "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "links": {
@@ -2516,7 +2518,8 @@
     "start": 1741654806516,
     "end": 1741662006516,
     "type": [
-      "Cyber x AI Symposium"
+      "Cyber x AI Symposium",
+      "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "links": {
