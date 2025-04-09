@@ -1,10 +1,10 @@
 #!/bin/bash
-cd "$(dirname "$0")"
+cd "$(git rev-parse --show-toplevel)"
 
-image_dir="../../public/images/members"
-members_file="../../data/members.ts"
+image_dir="public/images/members"
+members_file="data/members.ts"
 
-for file in "$image_dir"/*.{jpg,png}; do
+for file in "$image_dir"/*.{jpg,png,webp}; do
   [ -e "$file" ] || continue  
   if [ -f "$file" ]; then
     filename=$(basename -- "$file")
@@ -28,7 +28,7 @@ node <<'EOF'
 const fs = require('fs');
 const path = require('path');
 
-const membersPath = path.resolve(__dirname, '../../data/members.ts');
+const membersPath = path.resolve(__dirname, 'data/members.ts');
 let content = fs.readFileSync(membersPath, 'utf-8');
 
 // Replace all occurrences of "jpg" or "png" with "webp" (as done by the original sed command)
