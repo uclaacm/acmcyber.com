@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
+cd "$(git rev-parse --show-toplevel)"
 MEMBERS_FILE="data/members.ts"
-TMP_DIR="tmp"
+TMP_DIR="data/scripts/tmp"
 TMP_JSON="$TMP_DIR/old-member-data"
 TMP_SCRIPT="$TMP_DIR/members-clean.ts"
 rm -rf "$TMP_DIR"
