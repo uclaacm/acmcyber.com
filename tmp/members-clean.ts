@@ -1,4 +1,4 @@
-export type PersonInfoProps = {
+type PersonInfoProps = {
   name: string;
   role: string;
   bio: string;
@@ -221,4 +221,3 @@ const members: PersonInfoProps[] =
   }
 ];
 
-export default members;

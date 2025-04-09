@@ -7,5 +7,5 @@ sed 's/export//g' "$src" > "$new"
 sed -i '$d' "$new"
 echo "$extra_code" >> "$new"
 npx ts-node --transpileOnly "$new" > tmp/old-member-data
-python3 check_images.py
+python3 /data/scripts/check_images.py
 rm -rf tmp/
