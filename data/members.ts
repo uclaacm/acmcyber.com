@@ -36,6 +36,20 @@ const members: PersonInfoProps[] = [
     photo: "arnav.webp",
   },
   {
+    name: "Alexander Zhang",
+    role: "Officer",
+    bio: "3rd year Computer Science major",
+    pronouns: "he/him",
+    photo: "kaiphait.webp",
+  },
+  {
+    name: "Mark Epstein",
+    role: "Officer",
+    bio: "3rd year Computer Science major",
+    pronouns: "he/him",
+    photo: "mark.webp",
+  },
+  {
     name: "Audrey Emis",
     role: "Officer",
     bio: "3rd year Computer Science major",
@@ -95,7 +109,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Cathleen Qiao",
     role: "Officer",
-    bio: "2nd year Physics Major",
+    bio: "2nd year Physics major",
     pronouns: "she/her",
     photo: "",
   },
@@ -111,6 +125,13 @@ const members: PersonInfoProps[] = [
     role: "Officer",
     bio: "2nd year Computer Science major",
     pronouns: "she/her",
+    photo: "",
+  },
+  {
+    name: "Teong Seng Tan",
+    role: "Officer",
+    bio: "2nd year Computer Science major",
+    pronouns: "he/him",
     photo: "",
   },
   {
