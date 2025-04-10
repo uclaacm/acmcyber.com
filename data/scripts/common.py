@@ -1,25 +1,22 @@
 from typing import NamedTuple
 
+
 class OtherInfo(NamedTuple):
-    fields = [f'field{i}' for i in range(21)]
-    fields[14] = 'name'
-    fields[15] = 'pronouns'
-    fields[18] = 'year'
-    fields[19] = 'major'
-    fields[20] = 'photo'
+    fields = [f"field{i}" for i in range(22)]
+    fields[15] = "name"
+    fields[16] = "pronouns"
+    fields[19] = "year"
+    fields[20] = "major"
+    fields[21] = "photo"
     __annotations__ = {field: str for field in fields}
 
-member_template = {
-        "name": "",
-        "role": "",
-        "bio": "",
-        "pronouns": "",
-        "photo": ""
-}
 
-def find_new_member_data(member_name,extradata):
-    #print(member_name, extradata[0])
+member_template = {"name": "", "role": "", "bio": "", "pronouns": "", "photo": ""}
+
+
+def find_new_member_data(member_name, extradata):
+    norm_name = member_name.strip().lower()
     for member in extradata:
-        if member.name == member_name:
+        if member.name.strip().lower() == norm_name:
             return member
     return None
