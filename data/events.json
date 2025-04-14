@@ -2123,6 +2123,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s25-getty-center",
+    "title": "Getty Center Social",
+    "description": "Join ACM Cyber for a trip to the Getty Center on Saturday, 4/26! 🖼️ The Getty Center features galleries of art 🎨 from the Middle Ages to the present day, flourishing gardens 🌷, and expansive views of the city. 🏙️ Make sure to RSVP at l.acmcyber.com/getty!",
+    "location": "Meet at the Sunset/Bellagio bus stop",
+    "start": 1745697612431,
+    "end": 1745712012431,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/s25/getty-center.jpg"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
