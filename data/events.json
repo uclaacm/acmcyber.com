@@ -2115,8 +2115,8 @@
   },
   {
     "id": "s25-acad-wk3",
-    "title": "Cyber Academy: Schizophrenic Cryptography",
-    "description": "Did you know that hearing voices 🗣️ in your head is actually useful for cryptography? 🔒 Pull up to Kinsey Pavilion 1240B from 6-8pm to listen to Joshua's talk on Multi-Party-Computation-in-the-Head 🙂‍↕️ and learn some cool cryptography concepts along the way! 😎 We'll also be having our first 🥇 Cyber Academy meeting of the quarter, where you can explore web hacking 🌐 , cryptography 🔑 , reverse engineering ⚙️ , or binary exploitation! 💻 ",
+    "title": "Cyber Academy: Cryptographic Voices-in-your-Head",
+    "description": "Did you know that hearing voices 🗣️ in your head is actually useful for cryptography? 🔒 Pull up to Kinsey Pavilion 1240B from 6-8pm to listen to Joshua's talk on MPC-in-the-Head 🙂‍↕️ and learn some cool cryptography concepts along the way, like Multi-Party Computation and Zero Knowledge Proofs! 😎 We'll also be having our first 🥇 Cyber Academy meeting of the quarter, where you can explore web hacking 🌐 , cryptography 🔑 , reverse engineering ⚙️ , or binary exploitation! 💻 ",
     "location": "Kinsey Pavilion 1240B",
     "start": 1744851655444,
     "end": 1744858855444,
