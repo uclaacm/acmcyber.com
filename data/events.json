@@ -2111,7 +2111,11 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "youtube": "https://youtu.be/HR4CV5g8gw0",
+      "slides": "https://l.acmcyber.com/s25-w3-lab"
+    }
   },
   {
     "id": "s25-acad-wk3",
