@@ -2139,6 +2139,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/s25/getty-center.jpg"
   },
   {
+    "id": "s25-sawtelle",
+    "title": "Cyber X ICPC Sawtelle Run",
+    "description": "Pull up to the Cyber X ICPC Sawtelle Run happening Friday 5/9 evening, exact time TBD! We'll meet at the Bruin Bear statue, and have one group jogging to Sawtelle and one group busing if you don't want to run. Afterwards, we'll get some yummy food!",
+    "location": "Bruin Bear",
+    "start": 1746840602709,
+    "end": 1746849602709,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
