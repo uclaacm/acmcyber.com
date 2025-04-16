@@ -2134,7 +2134,8 @@
     "start": 1745697612431,
     "end": 1745712012431,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/s25/getty-center.jpg"
   },
@@ -2146,7 +2147,8 @@
     "start": 1746840602709,
     "end": 1746849602709,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
