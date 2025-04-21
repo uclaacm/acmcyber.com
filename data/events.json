@@ -2165,6 +2165,15 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s25-lab-wk4",
+    "title": "Cyber Lab: Cybersecurity Lobbying Experience",
+    "description": "Join us for our second Cyber Lab🧪 meeting of the quarter where Savannah will be talking about the 💻Cybersecurity Lobbying Experience🏛️. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
+    "location": "Boelter 4760",
+    "start": 1745283620756,
+    "end": 1745290820756,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
