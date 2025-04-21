@@ -2124,7 +2124,11 @@
     "location": "Kinsey Pavilion 1240B",
     "start": 1744851655444,
     "end": 1744858855444,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "youtube": "https://youtu.be/rob5XFRjP90",
+      "slides": "https://l.acmcyber.com/s25-w3-acad"
+    }
   },
   {
     "id": "s25-getty-center",
