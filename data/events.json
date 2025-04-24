@@ -2609,7 +2609,10 @@
     "links": {
       "youtube": "https://youtu.be/GCMTHmxumZs",
       "slides": "https://l.acmcyber.com/s25-w4-lab"
-    }
+    },
+    "type": [
+      "Cyber Lab"
+    ]
   },
   {
     "id": "s25-town-hall",
