@@ -386,8 +386,7 @@
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "links": {
-      "slides": "https://l.acmcyber.com/f24-symposium",
-      "youtube": "https://youtu.be/fpS34u4m-Nk"
+      "youtube": "https://l.acmcyber.com/f24-symposium"
     }
   },
   {
@@ -2434,8 +2433,7 @@
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "links": {
-      "slides": "https://l.acmcyber.com/w25-symposium",
-      "youtube": "https://youtu.be/n1-fNiiGWjw"
+      "slides": "https://l.acmcyber.com/w25-symposium"
     }
   },
   {
@@ -2657,6 +2655,15 @@
       "Miscellaneous",
       "Industry"
     ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-acad-wk5",
+    "title": "Cyber Academy: Decryption Through Superposition: Post-RSA Cryptography",
+    "description": "Join us for our third 🥉 Cyber Academy meeting of the quarter where Eddy will be giving a fascinating talk on how quantum computing 💻 could break 🔓 RSA and what we could use instead! Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
+    "location": "Kinsey Pavilion 1240",
+    "start": 1746061244952,
+    "end": 1746068444952,
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
