@@ -2672,7 +2672,10 @@
     "description": "Join us for the third Cyber Lab meeting of the quarter where Ronak will be talking about📡protocol level attacks in web 🌐. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
     "location": "Boelter 4760",
     "start": 1745888457285,
-    "end": 1745895657285
+    "end": 1745895657285,
+    "links": {
+      "slides": "https://l.acmcyber.com/s25-w5-lab"
+    }
   },
   {
     "id": "s25-potluck",
