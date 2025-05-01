@@ -2664,7 +2664,11 @@
     "location": "Kinsey Pavilion 1240",
     "start": 1746061244952,
     "end": 1746068444952,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s25-w5-acad",
+      "youtube": "https://youtu.be/64S7_6kxH8w"
+    }
   },
   {
     "id": "s25-lab-wk5",
