@@ -2706,5 +2706,17 @@
     "type": [
       "Cyber Academy"
     ]
+  },
+  {
+    "id": "s25-lab-wk6",
+    "title": "Cyber Lab: DevSecOps Engineer experience",
+    "description": "Join us for Cyber Lab🧪 this Monday where Nasir will be talking about the 🛡️DevSecOps Engineer experience🛠️. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
+    "location": "Boelter 4760",
+    "start": 1746493206284,
+    "end": 1746500406284,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
