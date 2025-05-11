@@ -295,6 +295,26 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "untitled-event",
+    "title": "Untitled Event",
+    "description": "",
+    "location": "",
+    "start": 1746939214486,
+    "end": 1746939214486
+  },
+  {
+    "id": "s25-lab-wk7",
+    "title": "Cyber Lab: Defeating Windows MAC Randomization",
+    "description": "Join us for Cyber Lab🧪 this Monday where Andrew (graduated from University of Washington) will be talking about 🔓Defeating Windows MAC Randomization🖥️🌀. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
+    "location": "Boelter 4760",
+    "start": 1747098016227,
+    "end": 1747105216227,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
