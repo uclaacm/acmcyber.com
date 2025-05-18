@@ -1076,6 +1076,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s25-lab-wk8",
+    "title": "Lab: Symposium Prep",
+    "description": "Join us this Monday 🌔 for Cyber Lab 🧪 where we’ll be preparing for the upcoming Cyber x AI Symposium!",
+    "location": "Boelter Hall 4760",
+    "start": 1747702800180,
+    "end": 1747710000180,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
