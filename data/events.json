@@ -1088,6 +1088,20 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s25-acad-wk9",
+    "title": "Cyber Academy: Game Hacking",
+    "description": "Join us for our last Cyber Academy meeting of the quarter! 🌟 Instead of our usual lessons, we'll be doing an epic game hacking collab with ACM Studio. 🎮 Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
+    "location": "Kinsey Pavilion 1240",
+    "start": 1748480400824,
+    "end": 1748487600824,
+    "type": [
+      "Cyber Academy",
+      "Collab",
+      "ACM Studio"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
