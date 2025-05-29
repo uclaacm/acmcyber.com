@@ -1073,7 +1073,11 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "youtube": "https://youtu.be/kRQIEYNL6us",
+      "slides": "https://l.acmcyber.com/s25-w8-acad"
+    }
   },
   {
     "id": "s25-lab-wk8",
