@@ -231,7 +231,7 @@ const Event = ({
 
       <div className={styles.links}>
         <span>
-          <img className={styles.icon} src="/images/utube.svg" loading="lazy" />
+          <img className={styles.icon} src="/images/utube.svg" alt="YouTube icon" loading="lazy" />
           {event.links?.["youtube"] !== undefined ? (
             <a
               href={event.links["youtube"]}
