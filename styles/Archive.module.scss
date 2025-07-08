@@ -21,6 +21,16 @@
   width: 100%;
 }
 
+.searchLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--cyber-gold);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
 .searchInput {
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
@@ -189,6 +199,7 @@
   font-size: 1rem;
   text-align: justify;
   color: white;
+  display: inline-block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -202,12 +213,16 @@
 .nolink {
   display: inline-block;
   color: white;
-  line-height: 1.3rem !important;
-  font-size: 1rem !important;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 8rem;
+}
+
+// More specific selector to override .section span without !important
+.links .nolink {
+  line-height: 1.3rem;
+  font-size: 1rem;
 }
 
 .icon {

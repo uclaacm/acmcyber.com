@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 import styles from "@/styles/Archive.module.scss";
 import popUpStyle from "@/styles/Events.module.scss";
@@ -74,20 +74,21 @@ const Archive = ({
   };
 
   // Filter quarters to only show those with matching events
-  const filteredArchive = useMemo(() => 
-    archive
-      .map((quarter) => ({
-        ...quarter,
-        series: quarter.series
-          .map((series) => ({
-            ...series,
-            events: series.events.filter((event) =>
-              eventMatchesSearch(event, searchQuery)
-            ),
-          }))
-          .filter((series) => series.events.length > 0),
-      }))
-      .filter((quarter) => quarter.series.length > 0),
+  const filteredArchive = useMemo(
+    () =>
+      archive
+        .map((quarter) => ({
+          ...quarter,
+          series: quarter.series
+            .map((series) => ({
+              ...series,
+              events: series.events.filter((event) =>
+                eventMatchesSearch(event, searchQuery)
+              ),
+            }))
+            .filter((series) => series.events.length > 0),
+        }))
+        .filter((quarter) => quarter.series.length > 0),
     [searchQuery]
   );
 
@@ -221,6 +222,7 @@ const Event = ({
         className={styles.graphic}
         src={event.banner ?? "/images/cyber-motif-applied.png"}
         alt="Event Banner Image"
+        loading="lazy"
       />
 
       <div className={styles.title}>{event.title}</div>
@@ -229,7 +231,7 @@ const Event = ({
 
       <div className={styles.links}>
         <span>
-          <img className={styles.icon} src="/images/utube.svg" />
+          <img className={styles.icon} src="/images/utube.svg" loading="lazy" />
           {event.links?.["youtube"] !== undefined ? (
             <a
               href={event.links["youtube"]}
@@ -284,6 +286,7 @@ const PopUp = ({ event, close }: { event: CyaneaEvent; close: () => void }) => {
           className={popUpStyle["graphic"]}
           src={event.banner ?? "/images/cyber-motif-applied.png"}
           alt="Event Banner Image"
+          loading="lazy"
         />
 
         <div className={popUpStyle["content"]}>
