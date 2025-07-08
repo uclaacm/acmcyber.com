@@ -12,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
       - name: Checkout Git repo
         uses: actions/checkout@v4
 
@@ -22,7 +27,7 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Run Build
-        run: yarn build
+        run: pnpm build

@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "yarn prettier -c pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
-    "fix": "yarn prettier -w pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
+    "lint": "pnpm exec prettier -c pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
+    "fix": "pnpm exec prettier -w pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -46,5 +46,5 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.7"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "pnpm@10.12.4"
 }

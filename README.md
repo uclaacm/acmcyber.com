@@ -12,7 +12,7 @@ First, clone the repo and install all of the dependencies.
 $ git clone https://github.com/uclaacm/acmcyber.com.git
 ...
 $ cd acmcyber.com
-$ yarn install
+$ pnpm install
 ```
 
 If you're working in VSCode, make sure to accept the popup about detecting a new Typescript interpreter - this makes Typescript typechecking play nice with Yarn's compressed packages! If you've forgotten to do this and are now facing a wall of red squiggles, just go to any Typescript file (`.tsx`), press `Ctrl+Shift+P` / `Shift+Cmd+P`, select `Typescript: Select Typescript Version...`, and then select `Use Workspace Version`.
@@ -20,7 +20,7 @@ If you're working in VSCode, make sure to accept the popup about detecting a new
 Run the following commands to start the server:
 
 ```bash
-$ yarn build
+$ pnpm build
 info  - Skipping linting
 info  - Checking validity of types  
 info  - Creating an optimized production build  
@@ -59,7 +59,7 @@ Route (pages)                              Size     First Load JS
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 ●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps
 
-$ yarn start
+$ pnpm start
 
 > ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 ```
@@ -67,13 +67,27 @@ $ yarn start
 To run the website in development mode, run the following command:
 
 ```bash
-$ yarn run dev
+$ pnpm run dev
 
 > ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 > event - compiled client and server successfully in 359 ms (198 modules)
 ```
 
 You should now be able to view the website at http://localhost:3000.
+
+### Migrating from yarn to pnpm
+
+If you used yarn before, you will need to remove the old Yarn PnP artifacts.
+
+```bash
+# Remove Yarn PnP artifacts
+rm .pnp.cjs .pnp.loader.mjs
+rm -rf .yarn
+
+# Clean and reinstall with pnpm
+rm -rf node_modules
+pnpm install
+```
 
 ## Acknowledgements
 Special thanks to Andrew Kuai & Michelle Zhao for helping to fully design the current version of the ACM Cyber website! Thanks to Andrew Kuai, Michelle Zhao, Ronak Badhe, Benson Liu, and the rest of the ACM Cyber team for being part of the core team to develop the site content and implementation! If there are any bugs or content problems, please open up an issue or pull request on GitHub. To contact the maintainers of this project, please reach out to [uclacyber@gmail.com](mailto:uclacyber@gmail.com) or join our [Discord](https://discord.gg/j9dgf2q).
