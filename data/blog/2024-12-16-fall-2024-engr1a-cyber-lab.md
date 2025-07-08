@@ -1,8 +1,8 @@
 ---
-title: Mastering Offensive Security, Building Our Own Modular Malware
+title: Building Our Own Modular Malware
 authors: [Samyukhtha Rajkumar Sridevi]
 category: Projects
-tags: [fall-2024, engr1a-cyber-lab]
+tags: [fall-2024, cyber-lab, engr-1a]
 description: Building our own modular malware
 ---
 
