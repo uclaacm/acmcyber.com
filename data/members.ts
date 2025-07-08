@@ -93,20 +93,6 @@ const members: PersonInfoProps[] = [
     photo: "danniell.webp",
   },
   {
-    name: "Savannah Alanis",
-    role: "Advisor",
-    bio: "3rd year Computer Science & Linguistics major",
-    pronouns: "she/her",
-    photo: "savannah.webp",
-  },
-  {
-    name: "Jason An",
-    role: "Advisor",
-    bio: "3rd year Computer Science major",
-    pronouns: "he/him",
-    photo: "jason.webp",
-  },
-  {
     name: "Katie Min",
     role: "Officer",
     bio: "1st year Computer Science major",
@@ -147,6 +133,20 @@ const members: PersonInfoProps[] = [
     bio: "2nd year Computer Science major",
     pronouns: "he/him",
     photo: "",
+  },
+  {
+    name: "Savannah Alanis",
+    role: "Advisor",
+    bio: "3rd year Computer Science & Linguistics major",
+    pronouns: "she/her",
+    photo: "savannah.webp",
+  },
+  {
+    name: "Jason An",
+    role: "Advisor",
+    bio: "3rd year Computer Science major",
+    pronouns: "he/him",
+    photo: "jason.webp",
   },
   {
     name: "Kevin Wong",
