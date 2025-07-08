@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "pnpm prettier -c pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
-    "fix": "pnpm prettier -w pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
+    "lint": "pnpm exec prettier -c pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
+    "fix": "pnpm exec prettier -w pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
     "prepare": "husky install"
   },
   "dependencies": {
