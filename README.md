@@ -75,5 +75,19 @@ $ pnpm run dev
 
 You should now be able to view the website at http://localhost:3000.
 
+### Migrating from yarn to pnpm
+
+If you used yarn before, you will need to remove the old Yarn PnP artifacts.
+
+```bash
+# Remove Yarn PnP artifacts
+rm .pnp.cjs .pnp.loader.mjs
+rm -rf .yarn
+
+# Clean and reinstall with pnpm
+rm -rf node_modules
+pnpm install
+```
+
 ## Acknowledgements
 Special thanks to Andrew Kuai & Michelle Zhao for helping to fully design the current version of the ACM Cyber website! Thanks to Andrew Kuai, Michelle Zhao, Ronak Badhe, Benson Liu, and the rest of the ACM Cyber team for being part of the core team to develop the site content and implementation! If there are any bugs or content problems, please open up an issue or pull request on GitHub. To contact the maintainers of this project, please reach out to [uclacyber@gmail.com](mailto:uclacyber@gmail.com) or join our [Discord](https://discord.gg/j9dgf2q).
