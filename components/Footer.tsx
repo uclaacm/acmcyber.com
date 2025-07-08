@@ -52,12 +52,11 @@ export default function Footer() {
         <p>© ACM Cyber {new Date().getFullYear()}</p>
       </div>
 
-      <div className={styles.githubPages}>
-        {/* Join Us! */}
+      {/* <div className={styles.githubPages}>
         <a href="https://github.com/uclaacm/acmcyber.com">
           Powered by Github Pages
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 }
