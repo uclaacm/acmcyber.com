@@ -74,19 +74,22 @@ const Archive = ({
   };
 
   // Filter quarters to only show those with matching events
-  const filteredArchive = archive
-    .map((quarter) => ({
-      ...quarter,
-      series: quarter.series
-        .map((series) => ({
-          ...series,
-          events: series.events.filter((event) =>
-            eventMatchesSearch(event, searchQuery)
-          ),
-        }))
-        .filter((series) => series.events.length > 0),
-    }))
-    .filter((quarter) => quarter.series.length > 0);
+  const filteredArchive = useMemo(() => 
+    archive
+      .map((quarter) => ({
+        ...quarter,
+        series: quarter.series
+          .map((series) => ({
+            ...series,
+            events: series.events.filter((event) =>
+              eventMatchesSearch(event, searchQuery)
+            ),
+          }))
+          .filter((series) => series.events.length > 0),
+      }))
+      .filter((quarter) => quarter.series.length > 0),
+    [searchQuery]
+  );
 
   return (
     <>
