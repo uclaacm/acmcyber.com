@@ -48,8 +48,8 @@ export default function Footer() {
 
       <div className={styles.legal}>
         {/* Email & Copyright */}
-        <a href="mailto:uclacyber@gmail.com">uclacyber@gmail.com</a>
-        <p>© ACM Cyber 2024</p>
+        <a href="mailto:uclacyber+www@gmail.com">uclacyber+www@gmail.com</a>
+        <p>© ACM Cyber 2025</p>
       </div>
 
       <div className={styles.githubPages}>
