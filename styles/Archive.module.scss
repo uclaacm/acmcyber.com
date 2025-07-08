@@ -1,5 +1,101 @@
 .archive {
   padding-bottom: 3.5rem;
+  scroll-behavior: smooth;
+
+  // Anchor link styling for quarters
+  h2 {
+    scroll-margin-top: 6rem; // Increased offset for fixed navbar
+  }
+
+  // Anchor link styling for series
+  h3 {
+    scroll-margin-top: 6rem; // Increased offset for fixed navbar
+  }
+}
+
+// Search bar styling
+.searchContainer {
+  position: relative;
+  margin: 2rem auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  font-family: inherit;
+  font-size: 1.1rem;
+  border: 2px solid var(--cyber-gold);
+  border-radius: 2rem;
+  background-color: var(--cyber-black);
+  color: white;
+  outline: none;
+  transition: all 0.3s ease;
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &:focus {
+    border-color: var(--flag-pink);
+    box-shadow: 0 0 10px rgba(244, 77, 137, 0.3);
+  }
+}
+
+.clearButton {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--cyber-gold);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: var(--flag-pink);
+    color: white;
+  }
+}
+
+.noResults {
+  text-align: center;
+  color: var(--organic-oranges);
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: var(--cyber-grey);
+  border-radius: 1rem;
+  border: 2px solid var(--cyber-gold);
+}
+
+.anchorLink {
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &::before {
+    content: "#";
+    position: absolute;
+    left: -1.5rem;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    color: var(--cyber-gold);
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
 }
 
 .quarter {
@@ -20,9 +116,10 @@
   border: var(--cyber-gold) 2px solid;
   border-radius: 2rem;
   width: 20rem;
-  height: 17rem;
+  min-height: 17rem; // Changed to min-height for flexibility
   font-family: inherit; /* ??? override user-agent stylesheet for button */
   text-align: left;
+  scroll-margin-top: 6rem; // Increased offset for fixed navbar
 
   &:hover {
     cursor: pointer;
@@ -48,18 +145,35 @@
 
 .title {
   vertical-align: top;
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 2.5vw, 1.25rem); // Responsive font size
   font-weight: bold;
   color: var(--cyber-gold);
   margin: 0.7rem 1rem 0.5rem 1rem;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; // Allow up to 3 lines
+  line-clamp: 3;
+  overflow: hidden;
 }
 
 .date {
   vertical-align: top;
-  font-size: 1rem;
+  font-size: clamp(0.8rem, 2vw, 1rem); // Responsive font size
   color: var(--organic-oranges);
   margin: 0rem 1rem 0.7rem 1rem;
   flex-grow: 1;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; // Allow up to 2 lines for date
+  line-clamp: 2;
+  overflow: hidden;
 }
 
 .links {
@@ -75,6 +189,10 @@
   font-size: 1rem;
   text-align: justify;
   color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 8rem;
 }
 
 .link:hover {
@@ -86,6 +204,10 @@
   color: white;
   line-height: 1.3rem !important;
   font-size: 1rem !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 8rem;
 }
 
 .icon {
