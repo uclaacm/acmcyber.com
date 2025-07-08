@@ -97,8 +97,12 @@ const Archive = ({
 
       {/* Search Bar */}
       <div className={styles.searchContainer}>
+        <label htmlFor="searchInput" className={styles.searchLabel}>
+          Search events:
+        </label>
         <input
           type="text"
+          id="searchInput"
           placeholder="Search events by title, description, or tags..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
