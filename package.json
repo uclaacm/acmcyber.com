@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "pnpm exec prettier -c pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
     "fix": "pnpm exec prettier -w pages/*.tsx pages/blog/*.tsx styles/*.scss components/*.tsx",
