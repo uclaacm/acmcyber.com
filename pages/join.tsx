@@ -28,11 +28,11 @@ export default function Join() {
             out to officially join ACM Cyber!
           </p>
 
-          {/* <button className={styles.membershipForm}>
+          <button className={styles.membershipForm}>
             <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSd40YVQqKPlcne_h1NtElVLuFuikdtPirRF8GazpiiAejbnXw/viewform">
               Start-of-quarter Membership Interest Form
             </a>
-          </button> */}
+          </button>
 
           <button className={styles.membershipForm}>
             <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSfA1vwbVohx1Bpg4KiLnCoVCMMs2KiXBBd9FQu5XUBquaPPkg/viewform">
