@@ -12,7 +12,7 @@ First, clone the repo and install all of the dependencies.
 $ git clone https://github.com/uclaacm/acmcyber.com.git
 ...
 $ cd acmcyber.com
-$ yarn install
+$ pnpm install
 ```
 
 If you're working in VSCode, make sure to accept the popup about detecting a new Typescript interpreter - this makes Typescript typechecking play nice with Yarn's compressed packages! If you've forgotten to do this and are now facing a wall of red squiggles, just go to any Typescript file (`.tsx`), press `Ctrl+Shift+P` / `Shift+Cmd+P`, select `Typescript: Select Typescript Version...`, and then select `Use Workspace Version`.
@@ -20,7 +20,7 @@ If you're working in VSCode, make sure to accept the popup about detecting a new
 Run the following commands to start the server:
 
 ```bash
-$ yarn build
+$ pnpm build
 info  - Skipping linting
 info  - Checking validity of types  
 info  - Creating an optimized production build  
@@ -59,7 +59,7 @@ Route (pages)                              Size     First Load JS
 ○  (Static)  automatically rendered as static HTML (uses no initial props)
 ●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps
 
-$ yarn start
+$ pnpm start
 
 > ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 ```
@@ -67,7 +67,7 @@ $ yarn start
 To run the website in development mode, run the following command:
 
 ```bash
-$ yarn run dev
+$ pnpm run dev
 
 > ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 > event - compiled client and server successfully in 359 ms (198 modules)
