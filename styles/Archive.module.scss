@@ -4,12 +4,12 @@
 
   // Anchor link styling for quarters
   h2 {
-    scroll-margin-top: 6rem; // Increased offset for fixed navbar
+    scroll-margin-top: 6rem;
   }
 
   // Anchor link styling for series
   h3 {
-    scroll-margin-top: 6rem; // Increased offset for fixed navbar
+    scroll-margin-top: 6rem;
   }
 }
 
@@ -126,10 +126,10 @@
   border: var(--cyber-gold) 2px solid;
   border-radius: 2rem;
   width: 20rem;
-  min-height: 17rem; // Changed to min-height for flexibility
+  min-height: 17rem;
   font-family: inherit; /* ??? override user-agent stylesheet for button */
   text-align: left;
-  scroll-margin-top: 6rem; // Increased offset for fixed navbar
+  scroll-margin-top: 6rem;
 
   &:hover {
     cursor: pointer;
@@ -219,7 +219,6 @@
   max-width: 8rem;
 }
 
-// More specific selector to override .section span without !important
 .links .nolink {
   line-height: 1.3rem;
   font-size: 1rem;

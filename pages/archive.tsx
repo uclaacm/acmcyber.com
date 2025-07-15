@@ -64,7 +64,7 @@ const Archive = ({
     // Check tags/type
     if (typeof event.type === "string") {
       if (event.type.toLowerCase().includes(lowerQuery)) return true;
-    } else if (event.type !== null && event.type !== undefined) {
+    } else if (Array.isArray(event.type)) {
       if (event.type.some((tag) => tag.toLowerCase().includes(lowerQuery))) {
         return true;
       }
@@ -146,13 +146,10 @@ const Quarter = ({
   quarter: QuarterArchive;
   showPopUp: ShowPopUpCallback;
 }) => {
-  // Create a URL-friendly ID from the quarter name
-  const quarterId = quarter.name.toLowerCase().replace(/\s+/g, "-");
-
   return (
     <>
-      <h2 id={quarterId}>
-        <a href={`#${quarterId}`} className={styles.anchorLink}>
+      <h2 id={quarter.id}>
+        <a href={`#${quarter.id}`} className={styles.anchorLink}>
           {quarter.name}
         </a>
       </h2>
@@ -163,7 +160,7 @@ const Quarter = ({
               <Series
                 series={s}
                 showPopUp={showPopUp}
-                quarterName={quarter.name}
+                quarterId={quarter.id}
                 key={s.name}
               />
             ))}
@@ -175,16 +172,16 @@ const Quarter = ({
 const Series = ({
   series,
   showPopUp,
-  quarterName,
+  quarterId,
 }: {
   series: SeriesArchive;
   showPopUp: ShowPopUpCallback;
-  quarterName: string;
+  quarterId: string;
 }) => {
   // Create a unique ID combining quarter and series names
-  const seriesId = `${quarterName}-${series.name}`
+  const seriesId = `${quarterId}-${series.name
     .toLowerCase()
-    .replace(/\s+/g, "-");
+    .replace(/\s+/g, "-")}`;
 
   return (
     <div className={styles.seriesArchive}>
@@ -231,7 +228,12 @@ const Event = ({
 
       <div className={styles.links}>
         <span>
-          <img className={styles.icon} src="/images/utube.svg" alt="YouTube icon" loading="lazy" />
+          <img
+            className={styles.icon}
+            src="/images/utube.svg"
+            alt="YouTube icon"
+            loading="lazy"
+          />
           {event.links?.["youtube"] !== undefined ? (
             <a
               href={event.links["youtube"]}
@@ -274,10 +276,7 @@ const PopUp = ({ event, close }: { event: CyaneaEvent; close: () => void }) => {
       }`}
       onClick={close}
     >
-      <div
-        className={popUpStyle["popup"]}
-        onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside popup
-      >
+      <div className={popUpStyle["popup"]} onClick={(e) => e.stopPropagation()}>
         <div className={popUpStyle["top-bar"]}>
           <div className={popUpStyle["x-button"]} onClick={close} />
         </div>
