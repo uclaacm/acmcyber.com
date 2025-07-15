@@ -1,8 +1,22 @@
-// pages/sponsors.tsx
-
 import React from "react";
 import Image from "next/image";
 import styles from "@/styles/Sponsors.module.scss";
+
+const laCtfLogos = [
+  { src: "/images/crowdstrike.png", alt: "CrowdStrike" },
+  { src: "/images/google_cloud.png", alt: "Google Cloud" },
+  { src: "/images/latticework.png", alt: "Latticework" },
+  { src: "/images/lockheed_martin.svg", alt: "Lockheed Martin" },
+  { src: "/images/microsoft.jpg", alt: "Microsoft" },
+  { src: "/images/ottersec.png", alt: "OtterSec" },
+  {
+    src: "/images/sandia_national_laboratories.svg",
+    alt: "Sandia National Laboratories",
+  },
+  { src: "/images/spacex.png", alt: "SpaceX" },
+  { src: "/images/trail-of-bits.png", alt: "Trail of Bits" },
+  { src: "/images/tryhackme.png", alt: "TryHackMe" },
+];
 
 export default function Sponsors() {
   return (
@@ -14,13 +28,7 @@ export default function Sponsors() {
       <section className={styles.tierSection}>
         <h2 className={styles.tierTitle}>Gold Sponsors</h2>
         <div className={styles.logosGrid}>
-          {/*
-            TODO: Add your <Image> logos here, wrapped in a <div className={styles.logoItem}>
-            Example:
-            <div className={styles.logoItem}>
-              <Image src={YourGoldLogo} alt="Gold Sponsor Name" width={160} height={80} />
-            </div>
-          */}
+          {/* TODO: Add Gold-tier logos here */}
         </div>
       </section>
 
@@ -28,9 +36,7 @@ export default function Sponsors() {
       <section className={styles.tierSection}>
         <h2 className={styles.tierTitle}>Silver Sponsors</h2>
         <div className={styles.logosGrid}>
-          {/*
-            TODO: Silver-tier logos go here
-          */}
+          {/* TODO: Add Silver-tier logos here */}
         </div>
       </section>
 
@@ -38,9 +44,7 @@ export default function Sponsors() {
       <section className={styles.tierSection}>
         <h2 className={styles.tierTitle}>Bronze Sponsors</h2>
         <div className={styles.logosGrid}>
-          {/*
-            TODO: Bronze-tier logos go here
-          */}
+          {/* TODO: Add Bronze-tier logos here */}
         </div>
       </section>
 
@@ -48,9 +52,17 @@ export default function Sponsors() {
       <section className={styles.tierSection}>
         <h2 className={styles.tierTitle}>LA CTF Sponsors</h2>
         <div className={styles.logosGrid}>
-          {/*
-            TODO: LA CTF sponsor logos go here
-          */}
+          {laCtfLogos.map(({ src, alt }) => (
+            <div className={styles.logoItem} key={alt}>
+              <Image
+                src={src}
+                alt={alt}
+                width={160}
+                height={80}
+                objectFit="contain"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
