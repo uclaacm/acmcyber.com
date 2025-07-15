@@ -6,7 +6,7 @@
   justify-content: space-evenly;
 }
 
-.blogPost > a {
+.blogContainer > a {
   display: contents;
 }
 
@@ -20,6 +20,7 @@
   transition: box-shadow 0.2s;
   margin: 2rem 0;
   position: relative;
+  align-self: stretch;
 
   .category {
     position: absolute;
