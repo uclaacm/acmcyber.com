@@ -32,7 +32,7 @@ Seeing these exploits in action gave us a deeper understanding of how attackers 
 ![Screenshot 2024-12-15 at 11.57.50 PM](/images/blog/2024-12-16-fall-2024-engr1a-cyber-lab/SJ4k1P6Nye.png)
 
 ## Privilege Escalation
-After gaining access, the next step was to escalate privileges from a standard user to a root user and gain administrator priviliges. We used two different techniques:
+After gaining access, the next step was to escalate privileges from a standard user to a root user and gain administrator privileges. We used two different techniques:
 
 1. **Writable ```/etc/passwd```**: We modified the ```/etc/passwd``` file to add a new user with UID 0 (root). This gave the new user administrative privileges. To test, we switched to the new account and confirmed we had root access.
 ![Screenshot 2024-12-16 at 12.06.47 AM](/images/blog/2024-12-16-fall-2024-engr1a-cyber-lab/rklIlP6V1l.png)
