@@ -21,6 +21,11 @@
   width: 100%;
 }
 
+.searchInputContainer {
+  position: relative;
+  width: 100%;
+}
+
 .searchLabel {
   display: block;
   margin-bottom: 0.5rem;
@@ -41,15 +46,18 @@
   background-color: var(--cyber-black);
   color: white;
   outline: none;
-  transition: all 0.3s ease;
 
   &::placeholder {
     color: rgba(255, 255, 255, 0.6);
   }
 
+  &:hover {
+    box-shadow: 0 0 10px var(--cyber-gold);
+  }
+
   &:focus {
     border-color: var(--flag-pink);
-    box-shadow: 0 0 10px rgba(244, 77, 137, 0.3);
+    box-shadow: 0 0 10px var(--flag-pink);
   }
 }
 
@@ -65,11 +73,9 @@
   cursor: pointer;
   padding: 0.25rem;
   border-radius: 50%;
-  transition: all 0.2s ease;
 
   &:hover {
-    background-color: var(--flag-pink);
-    color: white;
+    color: var(--flag-pink);
   }
 }
 

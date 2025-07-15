@@ -101,23 +101,25 @@ const Archive = ({
         <label htmlFor="searchInput" className={styles.searchLabel}>
           Search events:
         </label>
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="Search events by title, description, or tags..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          className={styles.searchInput}
-        />
-        {searchQuery && (
-          <button
-            onClick={() => setSearchQuery("")}
-            className={styles.clearButton}
-            aria-label="Clear search"
-          >
-            ×
-          </button>
-        )}
+        <div className={styles.searchInputContainer}>
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search events by title, description, or tags..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className={styles.searchInput}
+          />
+          {searchQuery && (
+            <button
+              onClick={() => setSearchQuery("")}
+              className={styles.clearButton}
+              aria-label="Clear search"
+            >
+              ×
+            </button>
+          )}
+        </div>
       </div>
 
       <div className={styles.archive}>
