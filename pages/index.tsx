@@ -7,6 +7,7 @@ import Flag from "@/public/images/flag.svg";
 import Boba from "@/public/images/boba.svg";
 import TestTube from "@/public/images/test-tube.svg";
 import CyberLogoInverted from "@/public/images/cyber-logo-light-inverted.png";
+import Bug from "@/public/images/bug.svg";
 
 export default function HomePage() {
   return (
@@ -57,6 +58,12 @@ export default function HomePage() {
               title="LA CTF"
               description="Our annual CTF competition & security conference!"
               link="https://lac.tf"
+            />
+            <CyberThing
+              icon={Bug}
+              title="Engineering 1"
+              description="Our beginner-friendly class on malware!"
+              link="/about#e1"
             />
             <CyberThing
               icon={Boba}
