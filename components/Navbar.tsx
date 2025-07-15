@@ -129,6 +129,9 @@ export default function Navbar() {
           </li>
         </label>
         <li>
+          <Link href="/sponsors">Sponsors</Link>
+        </li>
+        <li>
           <button className={styles.join}>
             <Link href="/join">Join Us</Link>
           </button>
