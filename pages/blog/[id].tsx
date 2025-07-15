@@ -90,8 +90,8 @@ export default function Post({ postData }: { postData: PostData }) {
         <div>
           <p className={styles.tags}>
             Tags:{" "}
-            {postData.tags.map((tag, index) => (
-              <span key={index} className={styles.tag}>
+            {postData.tags.map((tag) => (
+              <span key={tag} className={styles.tag}>
                 {tag}
               </span>
             ))}
