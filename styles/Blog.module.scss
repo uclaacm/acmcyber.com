@@ -6,12 +6,15 @@
   justify-content: space-evenly;
 }
 
+.blogContainer a {
+  display: contents;
+}
+
 .blogPost {
   overflow: hidden;
   display: flex;
   flex-direction: column;
   width: 450px;
-  height: 450px;
   border: var(--cyber-gold) 2px solid;
   border-radius: 2rem;
   transition: box-shadow 0.2s;
