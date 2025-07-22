@@ -23,6 +23,15 @@
       margin: 50px 0rem;
       pointer-events: all;
 
+      a {
+        color: var(--cyber-gold);
+        text-decoration: underline;
+
+        &:hover {
+          color: var(--flag-pink);
+        }
+      }
+
       .cyberThingIcon {
         --border-width: 4px;
         --extra-size: 2.75;
