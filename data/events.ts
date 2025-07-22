@@ -63,14 +63,16 @@ export const eventTypes = [
     id: "pbr",
     textIcon: "ψβρ",
     active: true,
+    descLink: "https://pbr.uclaacm.com/",
   },
   {
     name: EventKind.LACTF,
     description: 'Our largest event of the year, LA CTF is an annual cybersecurity competition with speakers, career events, challenges, and prizes, hosted right here at UCLA. Whether you are tackling your first exploit or have professional experience, there will be something just right for you!  Participation and planning sessions are open to all.',
     id: "lactf",
-    link: 'https://lac.tf',
+    link: "https://lac.tf",
     icon: "flag.svg",
     active: true,
+    descLink: "https://lac.tf",
   },
   {
     name: EventKind.E1,
@@ -78,7 +80,7 @@ export const eventTypes = [
     id: "e1",
     icon: "bug.svg",
     active: true,
-    descLink: "https://l.acmcyber.com/e1-pte"
+    descLink: "https://l.acmcyber.com/e1-pte",
   },
   {
     name: EventKind.Misc,
