@@ -7,6 +7,7 @@ import Flag from "@/public/images/flag.svg";
 import Boba from "@/public/images/boba.svg";
 import TestTube from "@/public/images/test-tube.svg";
 import CyberLogoInverted from "@/public/images/cyber-logo-light-inverted.png";
+import Bug from "@/public/images/bug.svg";
 
 export default function HomePage() {
   return (
@@ -22,7 +23,7 @@ export default function HomePage() {
             <CyberWordmark className={styles.acmCyber1} />
             <div className={styles.elevatorPitchWrap}>
               <p className={styles.elevatorPitch}>
-                We’re a student-run organization on a mission to{" "}
+                We’re a UCLA student-run organization on a mission to{" "}
                 <b>make cybersecurity simple and accessible to everyone</b>.
               </p>
             </div>
@@ -57,6 +58,12 @@ export default function HomePage() {
               title="LA CTF"
               description="Our annual CTF competition & security conference!"
               link="https://lac.tf"
+            />
+            <CyberThing
+              icon={Bug}
+              title="Engineering 1"
+              description="Our beginner-friendly class on malware!"
+              link="/about#e1"
             />
             <CyberThing
               icon={Boba}

@@ -47,6 +47,7 @@ export default function About() {
                   icon={event.icon}
                   iconAlt={event.iconAlt}
                   textIcon={event.textIcon}
+                  descLink={event.descLink}
                 />
               ))}
           </div>
@@ -65,6 +66,7 @@ function EventInfo({
   icon,
   iconAlt,
   textIcon,
+  descLink,
 }: Omit<EventType, "active">) {
   return (
     <span id={id}>
@@ -80,6 +82,9 @@ function EventInfo({
         </div>
         <h2>{name}</h2>
         <p>{description}</p>
+        <a href={descLink} target="_blank">
+          {descLink}
+        </a>
       </div>
     </span>
   );
