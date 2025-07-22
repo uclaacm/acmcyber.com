@@ -66,7 +66,7 @@ function EventInfo({
   icon,
   iconAlt,
   textIcon,
-  descLink
+  descLink,
 }: Omit<EventType, "active">) {
   return (
     <span id={id}>
@@ -82,7 +82,9 @@ function EventInfo({
         </div>
         <h2>{name}</h2>
         <p>{description}</p>
-        <a href={descLink} target="_blank">{descLink}</a>
+        <a href={descLink} target="_blank">
+          {descLink}
+        </a>
       </div>
     </span>
   );
