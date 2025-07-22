@@ -27,6 +27,7 @@ export interface EventType {
   textIcon?: string;
   iconAlt?: string;
   active: boolean;
+  descLink?: string;
 }
 
 enum EventKind {
@@ -73,10 +74,11 @@ export const eventTypes = [
   },
   {
     name: EventKind.E1,
-    description: 'ACM Cyber\'s Engineering 1 class, Malware Defense, teaches fundamental cybersecurity concepts and lets you apply what you\'ve learned through a hands-on project: creating your own modular malware! Topics covered include cybersecurity and ethics, phishing, Python, Git, steps of the cyber kill chain, and more. This course is beginner-friendly, so even if you\'ve never coded before, you are welcome to enroll!',
+    description: 'ACM Cyber\'s Engineering 1 class, Malware Defense, teaches fundamental cybersecurity concepts and lets you apply what you\'ve learned through a hands-on project: creating your own modular malware! Topics covered include cybersecurity and ethics, phishing, Python, Git, steps of the cyber kill chain, and more. This course is beginner-friendly, so even if you\'ve never coded before, you are welcome to enroll! For more information, check out this form: ',
     id: "e1",
     icon: "bug.svg",
     active: true,
+    descLink: "https://l.acmcyber.com/e1-pte"
   },
   {
     name: EventKind.Misc,
