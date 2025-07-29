@@ -249,7 +249,12 @@ const Event = ({
           )}
         </span>
         <span>
-          <img className={styles.icon} src="/images/slides.svg" />
+          <img
+            className={styles.icon}
+            src="/images/slides.svg"
+            alt="Google Slides icon"
+            loading="lazy"
+          />
           {event.links?.["slides"] !== undefined ? (
             <a
               href={event.links["slides"]}
