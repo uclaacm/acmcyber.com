@@ -82,3 +82,21 @@ $callout-radius: 12px;
   color: var(--organic-oranges);
   text-decoration: underline;
 }
+
+.darkTheme {
+  background-color: #1a1a1a;
+  color: #f0f0f0; /* Ensure text is light for readability */
+
+  a {
+    color: #1e90ff;
+    text-decoration: underline;
+  }
+
+  h2 {
+    color: #ffa500; /* Optional: Adjust heading color for better contrast */
+  }
+
+  p {
+    color: #f0f0f0; /* Ensure paragraph text is light */
+  }
+}
