@@ -17,15 +17,27 @@ export default function Sponsors() {
       <section className={styles.tierSection}>
         <h2 className={styles.tierTitle}>LA CTF Sponsors</h2>
         <div className={styles.logosGrid}>
-          {laCtfLogos.map(({ src, alt }) => (
+          {laCtfLogos.map(({ src, alt, link }) => (
             <div className={styles.logoItem} key={alt}>
-              <Image
-                src={src}
-                alt={alt}
-                width={160}
-                height={80}
-                style={{ objectFit: "contain" }}
-              />
+              {link ? (
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src={src}
+                    alt={alt}
+                    width={160}
+                    height={80}
+                    style={{ objectFit: "contain" }}
+                  />
+                </a>
+              ) : (
+                <Image
+                  src={src}
+                  alt={alt}
+                  width={160}
+                  height={80}
+                  style={{ objectFit: "contain" }}
+                />
+              )}
             </div>
           ))}
         </div>
