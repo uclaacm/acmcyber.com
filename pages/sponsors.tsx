@@ -11,8 +11,7 @@ export default function Sponsors() {
 
       <section className={styles.tierSection}>
         <h2 className={styles.tierTitle}>Club Sponsors</h2>
-        <div className={styles.logosGrid}>
-        </div>
+        <div className={styles.logosGrid}></div>
       </section>
       {/* ───── LA CTF Sponsors ───── */}
       <section className={styles.tierSection}>
@@ -25,7 +24,7 @@ export default function Sponsors() {
                 alt={alt}
                 width={160}
                 height={80}
-                style={{ objectFit: "contain" }}  
+                style={{ objectFit: "contain" }}
               />
             </div>
           ))}
@@ -36,9 +35,11 @@ export default function Sponsors() {
         <h2>Interested in sponsoring?</h2>
         <p>
           Please contact us at{" "}
-          <a href="mailto:uclacyber+sponsor@gmail.com">uclacyber+sponsor@gmail.com</a>! Sponsors
-           receive a variety of benefits, from resume books to recruiting
-          workshops. We are happy to discuss what works best for you!
+          <a href="mailto:uclacyber+sponsor@gmail.com">
+            uclacyber+sponsor@gmail.com
+          </a>
+          ! Sponsors receive a variety of benefits, from resume books to
+          recruiting workshops. We are happy to discuss what works best for you!
         </p>
       </section>
     </main>
