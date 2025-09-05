@@ -815,7 +815,11 @@
     "type": [
       "Industry",
       "Career"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/f25/verkada.png",
+    "links": {
+      "slides": "https://docs.google.com/forms/d/e/1FAIpQLSdMXn_pTrOpgXN55upZD2bJGiJYMycUlaiuiGyQ8LrKyoacVg/viewform?usp=dialog"
+    }
   },
   {
     "id": "u24-lab-csrf",
