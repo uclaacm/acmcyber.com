@@ -794,6 +794,25 @@
     }
   },
   {
+    "id": "f25-acm-gm",
+    "title": "ACM Fall GM",
+    "description": "Do you want to build your own video game, iOS application, or neural network? Do you want to participate in competitive programming or CTFs? Do you care about diversity in STEM?\n\nJoin ACM for our** Fall General Meeting** on** Tuesday, September 30th, 2025, from 6:00 to 8:00 p.m. **at **Ackerman Grand Ballroom** to learn about how you can get involved!\n\nhttps://forms.gle/vcS37Mbn8jQDnBrP6",
+    "location": "Ackerman Grand Ballroom",
+    "start": 1759280424181,
+    "end": 1759287624181,
+    "type": [
+      "GM",
+      "Miscellaneous"
+    ],
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    },
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/190Bbhc2S9lcWyX4yAHiiiOKUYPxN1ueqDAWkloRf4k8/edit"
+    },
+    "banner": "https://www.uclaacm.com/images/gm/fall_GM_2025_graphic.png"
+  },
+  {
     "id": "f25-cyber-gm",
     "title": "ACM Cyber Fall GM",
     "description": "ACM Cyber Fall GM!",
