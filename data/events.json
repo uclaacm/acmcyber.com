@@ -728,14 +728,6 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
-    "id": "untitled-event",
-    "title": "Untitled Event",
-    "description": "",
-    "location": "",
-    "start": 1746939214486,
-    "end": 1746939214486
-  },
-  {
     "id": "s25-lab-wk7",
     "title": "Cyber Lab: Defeating Windows MAC Randomization",
     "description": "Join us for Cyber Lab🧪 this Monday where Andrew (graduated from University of Washington) will be talking about 🔓Defeating Windows MAC Randomization🖥️🌀. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
