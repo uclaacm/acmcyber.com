@@ -22,10 +22,11 @@ export default function Join() {
               Discord
             </a>{" "}
             to stay up to date! All of our events are open to the public, so
-            feel free to join us at any time! Our{" "}
+            feel free to join us at any time!{" "}
+            {/* Our{" "}
             <strong>membership form</strong> is now open! If you are interested
             in joining some of our projects, Psi Beta Rho, etc. please fill it
-            out to officially join ACM Cyber!
+            out to officially join ACM Cyber! */}
           </p>
 
           {/* <button className={styles.membershipForm}>
@@ -34,11 +35,11 @@ export default function Join() {
             </a>
           </button> */}
 
-          <button className={styles.membershipForm}>
+          {/* <button className={styles.membershipForm}>
             <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSfA1vwbVohx1Bpg4KiLnCoVCMMs2KiXBBd9FQu5XUBquaPPkg/viewform">
               Membership Requirement Submission
             </a>
-          </button>
+          </button> */}
 
           <button className={styles.membershipForm}>
             <a href="/discord">Join our Discord Server</a>
