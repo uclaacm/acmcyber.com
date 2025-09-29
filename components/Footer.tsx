@@ -5,7 +5,7 @@ import DiscordLogo from "@/public/images/discord.svg";
 import InstagramLogo from "@/public/images/instagram.svg";
 import FacebookLogo from "@/public/images/facebook.svg";
 import LinkedinLogo from "@/public/images/linkedin.svg";
-import LockheedLogo from "@/public/images/lockheed.svg";
+import VerkadaLogo from "@/public/images/verkada.png";
 
 import TropicalImage from "./TropicalImage";
 import Image from "next/image";
@@ -15,9 +15,9 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.sponsors}>
         {/* Sponsors */}
-        <p>Sponsored by Lockheed Martin</p>
-        <a href="https://www.lockheedmartin.com/en-us/index.html">
-          <Image src={LockheedLogo} alt="Lockheed Martin" width={256} />
+        <p>Sponsored by Verkada</p>
+        <a href="https://www.verkada.com/">
+          <Image src={VerkadaLogo} alt="Verkada Logo" width={256} />
         </a>
       </div>
 
