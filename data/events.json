@@ -2836,5 +2836,18 @@
     "links": {
       "discord": "https://l.acmcyber.com/verkada"
     }
+  },
+  {
+    "id": "f25-social-ctf-irl",
+    "title": "CTF IRL",
+    "description": "Join us for a fun evening of physically stealing flags (the classic Capture-the-Flag game) and hanging out with cool people. 💫 ⛳ Bring your friends and relive the excitement of this elementary school favorite while enjoying some friendly competition. See you there! 💛⚔️",
+    "location": "IM Field 4 - NE",
+    "start": 1762045252086,
+    "end": 1762052452086,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
