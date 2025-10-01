@@ -2849,5 +2849,38 @@
       "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f25-deadface",
+    "title": "DEADFACE CTF ",
+    "description": "Come to our first 🎊 PBR meeting of the year! DEADFACE ☠️ CTF has something for everyone including a lot of 💻 beginner friendly challenges. ",
+    "location": "E4 Tesla Room",
+    "start": 1761422450504,
+    "end": 1761440450504,
+    "type": [
+      "Psi Beta Rho"
+    ]
+  },
+  {
+    "id": "f25-buckeye",
+    "title": "Buckeye CTF",
+    "description": "At our second PBR meeting, we'll be playing Buckeye 🌳 CTF from our friends at OSU Cyber! Be sure to get lunch 🥙 with us at 11 AM before we head to E4 💅.",
+    "location": "E4 Tesla Room",
+    "start": 1762635654703,
+    "end": 1762653654703,
+    "type": [
+      "Psi Beta Rho"
+    ]
+  },
+  {
+    "id": "f25-glacierctf",
+    "title": "Glacier CTF",
+    "description": "For our last PBR meeting, we'll be playing  ❄️ GlacierCTF! Come out for lunch at 11 AM before the CTF. ",
+    "location": "E4 Tesla Room",
+    "start": 1763845218567,
+    "end": 1763863218567,
+    "type": [
+      "Psi Beta Rho"
+    ]
   }
 ]
