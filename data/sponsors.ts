@@ -13,7 +13,7 @@ export const lactfSponsors: Sponsor[] = [
   { src: "/images/crowdstrike.png", alt: "CrowdStrike", link: "https://www.crowdstrike.com" },
   { src: "/images/google-cloud.png", alt: "Google Cloud", link: "https://cloud.google.com" },
   { src: "/images/latticework.png", alt: "Latticework", link: "https://www.latticework.com" },
-  { src: "/images/binary-ninja.png", alt: "Latticework", link: "https://binary.ninja/" },
+  { src: "/images/binary-ninja.png", alt: "Binary Ninja", link: "https://binary.ninja/" },
   { src: "/images/lockheed-martin.svg", alt: "Lockheed Martin", link: "https://www.lockheedmartin.com" },
   { src: "/images/microsoft.jpg", alt: "Microsoft", link: "https://www.microsoft.com" },
   { src: "/images/ottersec.png", alt: "OtterSec", link: "https://ottersec.com" },

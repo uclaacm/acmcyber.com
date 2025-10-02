@@ -40,12 +40,12 @@ export default function Sponsors() {
     <>
       <CyberSeo
         title="Sponsors"
-        description="Thank you to everyone who helps makes our events possible!"
+        description="Sponsors who help make ACM Cyber at UCLA's events possible!"
       />
       <div className="page">
         <div className="content">
           <h1>Sponsors</h1>
-          <p>Thank you to everyone who helps make our events possible!</p>
+          <p>Thank you to our sponsors who makes our events possible!</p>
           <SponsorsTierSection tier="Club" sponsors={clubSponsors} />
           <SponsorsTierSection tier="LA CTF 2025" sponsors={lactfSponsors} />
         </div>
