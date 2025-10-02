@@ -18,8 +18,8 @@ function SponsorsTierSection({
       </h2>
       <div className={styles.sponsorsGrid}>
         {sponsors.map(({ src, alt, link }) => (
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            <div className={styles.sponsorCard} key={alt}>
+          <a href={link} target="_blank" rel="noopener" key={alt}>
+            <div className={styles.sponsorCard}>
               <Image
                 src={src}
                 alt={alt}
@@ -47,7 +47,7 @@ export default function Sponsors() {
           <h1>Sponsors</h1>
           <p>Thank you to everyone who helps make our events possible!</p>
           <SponsorsTierSection tier="Club" sponsors={clubSponsors} />
-          <SponsorsTierSection tier="LA CTF" sponsors={lactfSponsors} />
+          <SponsorsTierSection tier="LA CTF 2025" sponsors={lactfSponsors} />
         </div>
         <section className={styles.calloutSection}>
           <h2>Interested in sponsoring?</h2>
