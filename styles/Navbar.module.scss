@@ -1,5 +1,5 @@
 .navbar {
-  $width-at-which-navbar-collapses: 850px;
+  $width-at-which-navbar-collapses: 1010px;
   $subnavs: about, events, blog, links;
   $amazing-curve: 400ms cubic-bezier(0.23, 1, 0.32, 1);
   --hovered: #424651;
@@ -42,8 +42,10 @@
       display: none;
     }
 
-    & a,
-    > label {
+    > label,
+    > label a,
+    > .nonExpandingCategory,
+    > li:last-of-type a {
       display: inline-block;
       line-height: 40px;
       padding: 20px 24px;
@@ -54,7 +56,8 @@
       }
     }
 
-    > label {
+    > label,
+    > .nonExpandingCategory {
       position: relative;
 
       &:hover {
@@ -215,7 +218,8 @@
       ~ ul {
         padding-left: 1px;
 
-        > label {
+        > label,
+        > .nonExpandingCategory {
           display: contents;
           height: 0;
           min-height: 0;
@@ -253,7 +257,8 @@
           width: 100vw;
           padding-bottom: 16px;
 
-          > label {
+          > label,
+          > .nonExpandingCategory {
             display: block;
             min-height: 60px;
             height: fit-content;
