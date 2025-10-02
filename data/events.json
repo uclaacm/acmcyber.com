@@ -2818,7 +2818,10 @@
     "type": [
       "Miscellaneous",
       "GM"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f25-gm"
+    }
   },
   {
     "id": "f25-verkada",
