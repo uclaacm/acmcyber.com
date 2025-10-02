@@ -1,4 +1,14 @@
-export const laCtfLogos = [
+export interface Sponsor {
+  src: string;
+  alt: string;
+  link: string;
+};
+
+export const clubSponsors: Sponsor[] = [
+  { src: "/images/verkada.png", alt: "Verkada", link: "https://www.verkada.com" },
+];
+
+export const lactfSponsors: Sponsor[] = [
   { src: "/images/crowdstrike.png", alt: "CrowdStrike", link: "https://www.crowdstrike.com" },
   { src: "/images/google_cloud.png", alt: "Google Cloud", link: "https://cloud.google.com" },
   { src: "/images/latticework.png", alt: "Latticework", link: "https://www.latticework.com" },

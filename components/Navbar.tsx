@@ -128,9 +128,11 @@ export default function Navbar() {
             </ul>
           </li>
         </label>
-        <li>
-          <Link href="/sponsors">Sponsors</Link>
-        </li>
+        <div className={styles.nonExpandingCategory}>
+          <li>
+            <Link href="/sponsors">Sponsors</Link>
+          </li>
+        </div>
         <li>
           <button className={styles.join}>
             <Link href="/join">Join Us</Link>
