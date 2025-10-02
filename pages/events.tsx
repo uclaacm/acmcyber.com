@@ -117,7 +117,7 @@ export default function Events() {
               <a href="https://l.acmcyber.com/gcal" className={styles["gcal"]}>
                 Google Calendar
               </a>
-              .
+              . Note that the link only works while logged into a google account!
             </p>
           </div>
 
