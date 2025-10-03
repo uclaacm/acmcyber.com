@@ -2889,9 +2889,12 @@
   {
     "id": "f25-w2-cyac",
     "title": "Cyber Academy: *.ucla.*",
-    "description": "Ever wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for an exciting Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Andrew on *.ucla.(edu | net) 🌐. Don't miss out—meet us in Boelter 4760 from 6-8 PM💛💛!",
+    "description": "Ever wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for an exciting Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Andrew on *.ucla.(edu | net) 🌐. Don't miss out—meet us in Boelter 4760 from 6-8 PM💛💛! ",
     "location": "Boelter 4760",
     "start": 1759798841014,
-    "end": 1759806041014
+    "end": 1759806041014,
+    "type": [
+      "Cyber Academy"
+    ]
   }
 ]
