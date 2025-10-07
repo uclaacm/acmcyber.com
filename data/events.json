@@ -2899,5 +2899,16 @@
     "links": {
       "slides": "https://l.acmcyber.com/f25-wk2-cyac"
     }
+  },
+  {
+    "id": "f25-cyber-basketball",
+    "title": "Cyber Basketball",
+    "description": "Hey guys! If you're interested in getting active 🏃‍♂️ and balling 🏀, ACM Cyber usually plays basketball ⛹️ at the hitch courts each Friday 6-8 PM!  If you're interested, ping me (AVDestroyer) and I can add you to the thread🧵! We are very beginner-friendly!",
+    "location": "Hitch Basketball Courts",
+    "start": 1760144453500,
+    "end": 1760151653500,
+    "type": [
+      "Miscellaneous"
+    ]
   }
 ]
