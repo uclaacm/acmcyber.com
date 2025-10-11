@@ -7,6 +7,7 @@ export interface SeriesArchive {
 }
 
 export interface QuarterArchive {
+  id: `${"w" | "s" | "u" | "f"}${number}`;
   name: string;
   season: "w" | "s" | "u" | "f";
   year: number;
@@ -52,6 +53,7 @@ const archive: QuarterArchive[] = [...quarters.entries()].map(([quarterId, quart
   }
   const year = parseInt(quarterId.length === 3 ? `20${quarterId.slice(1)}` : quarterId.slice(1));
   return {
+    id: `${seasonChar}${year}` as const,
     name: `${season} ${year}`,
     season: seasonChar,
     year: year,
