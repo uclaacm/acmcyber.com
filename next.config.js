@@ -26,6 +26,7 @@ const nextConfig = {
       "/events": { page: "/events" },
       "/archive": { page: "/archive" },
       "/blog": { page: "/blog" },
+      "/sponsors": { page: "/sponsors" },
       "/join": { page: "/join" },
       "/404": { page: "/404" },
       ...(debug
