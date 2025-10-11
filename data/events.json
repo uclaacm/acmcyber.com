@@ -2921,5 +2921,16 @@
     "type": [
       "Social"
     ]
+  },
+  {
+    "id": "f25-wk3-lab",
+    "title": "Cyber Lab - Careers in Cyber",
+    "description": "Curious about the various career paths in cybersecurity? 🤔 Don't know what kind of cybersecurity work there is in the real world? 🧑‍💻 Come to this 🔥 talk by Alec where he will explore 🔎 many different fields and jobs within cybersecurity, as well as share some tips on how to prepare for them! 📝 Pull up to Boelter 4760 from 6-8pm for the first Cyber Lab meeting, where you will either learn how to fuzz applications, build an adblocker, or build malware!",
+    "location": "Boelter 4760",
+    "start": 1760576444973,
+    "end": 1760583644973,
+    "type": [
+      "Cyber Lab"
+    ]
   }
 ]
