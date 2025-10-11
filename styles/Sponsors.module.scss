@@ -1,0 +1,46 @@
+.tierSection:last-of-type {
+  margin-bottom: 4rem;
+}
+
+.sponsorsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+
+  .sponsorCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+    background: white;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 32px var(--organic-oranges);
+    }
+  }
+}
+
+.calloutSection {
+  padding: 1rem 10% 2.5rem 10%;
+  margin-block: 0.5rem 2.5rem;
+  background-color: var(--cyber-grey);
+
+  & h2 {
+    display: block;
+    width: fit-content;
+    padding-top: 1rem;
+    font-size: 24pt;
+    color: transparent;
+    background: var(--orange-linear);
+    background-clip: text;
+  }
+
+  & a {
+    color: var(--organic-oranges);
+    text-decoration: underline;
+  }
+}
