@@ -2932,5 +2932,25 @@
     "type": [
       "Cyber Lab"
     ]
+  },
+  {
+    "id": "untitled-event",
+    "title": "Untitled Event",
+    "description": "",
+    "location": "",
+    "start": 1760204681833,
+    "end": 1760204681833
+  },
+  {
+    "id": "f25-ectf-kickoff",
+    "title": "eCTF Kickoff Meeting",
+    "description": "Dive in 🪂 to the world of embedded security by joining ACM Cyber 🔶 & IEEE's 🔷 Embedded Capture-the-Flag team 🚩! This Fall, we'll be holding a series of workshops 🛠 to launch your journey 🚀 to secure a storage system for a chip foundry 💾🖥️ in Winter! Whether you're interested in programming on bare metal ⛓, probing physical boards for side channels 🔬, or designing unbreakable cryptosystems 🔒, you can join us at our kickoff from 6-7:30 PM in the Engineering 4 Maxwell Room (57-124) ⚡!\n\nTeam space is limited, so make sure to show your interest by attending our kickoff meeting and our fall workshops 🍂!\n\nIf you are unable to come for the Kickoff and would like to be on the team, please contact an ECTF lead ASAP: @arcblroth @parth_pandhare @avdestroyer @arandom_person @joshuazhu @zink_ed @renuka",
+    "location": "Engineering IV 57-124 (Maxwell Room)",
+    "start": 1760490044420,
+    "end": 1760495444420,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "ECTF"
+    ]
   }
 ]
