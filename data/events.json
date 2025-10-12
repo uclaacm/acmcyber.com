@@ -2934,14 +2934,6 @@
     ]
   },
   {
-    "id": "untitled-event",
-    "title": "Untitled Event",
-    "description": "",
-    "location": "",
-    "start": 1760204681833,
-    "end": 1760204681833
-  },
-  {
     "id": "f25-ectf-kickoff",
     "title": "eCTF Kickoff Meeting",
     "description": "Dive in 🪂 to the world of embedded security by joining ACM Cyber 🔶 & IEEE's 🔷 Embedded Capture-the-Flag team 🚩! This Fall, we'll be holding a series of workshops 🛠 to launch your journey 🚀 to secure a storage system for a chip foundry 💾🖥️ in Winter! Whether you're interested in programming on bare metal ⛓, probing physical boards for side channels 🔬, or designing unbreakable cryptosystems 🔒, you can join us at our kickoff from 6-7:30 PM in the Engineering 4 Maxwell Room (57-124) ⚡!\n\nTeam space is limited, so make sure to show your interest by attending our kickoff meeting and our fall workshops 🍂!\n\nIf you are unable to come for the Kickoff and would like to be on the team, please contact an ECTF lead ASAP: @arcblroth @parth_pandhare @avdestroyer @arandom_person @joshuazhu @zink_ed @renuka",
@@ -2952,5 +2944,17 @@
     "type": [
       "ECTF"
     ]
+  },
+  {
+    "id": "f25-wk3-cyac",
+    "title": "Cyber Academy: Choosing a Password",
+    "description": "Ever had trouble creating a password that met all the requirements 😵‍💫 ? Ever forgotten your password and had to go through the arduous task of resetting it 😡 ? Come out to this week's Cyber Academy (Boelter 4760, 6-8 PM Mondays) to learn about what makes passwords strong and some techniques for creating (and remembering!) strong passwords 💪 ! In the hand's on portion, we'll be diving into computer forensics 🔍 in the fundamentals track and more XSS 💻 in the advance track. ",
+    "location": "Boelter 4760",
+    "start": 1760403651119,
+    "end": 1760410851119,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
