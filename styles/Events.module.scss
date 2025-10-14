@@ -56,7 +56,8 @@
   width: 20rem;
   position: relative;
   transition: box-shadow 0.2s;
-  height: 23rem;
+  min-height: 23rem;
+  scroll-margin-top: 6rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -93,6 +94,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+
+  h3 {
+    font-size: clamp(1rem, 2.5vw, 1.25rem); // Responsive font size
+    font-weight: bold;
+    color: var(--cyber-gold);
+    margin: 0.5rem 0;
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; // Allow up to 2 lines for title
+    line-clamp: 2;
+    overflow: hidden;
+  }
 }
 
 .upcoming .event-card .details {
@@ -213,9 +230,41 @@
 
 .date {
   color: var(--organic-oranges);
+  font-size: clamp(0.8rem, 2vw, 1rem); // Responsive font size
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0.25rem 0;
 }
+
+.time {
+  color: var(--organic-oranges);
+  font-size: clamp(0.8rem, 2vw, 1rem); // Responsive font size
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0.25rem 0;
+}
+
+.location {
+  color: white;
+  font-size: clamp(0.8rem, 2vw, 1rem); // Responsive font size
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; // Allow up to 2 lines for location
+  line-clamp: 2;
+  overflow: hidden;
+  margin: 0.25rem 0;
+}
+
 .description {
   margin: 0.5rem 0;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .graphic {
@@ -233,4 +282,15 @@ a.gcal {
 
 a.gcal:hover {
   color: var(--cyber-gold);
+}
+
+.noResults {
+  text-align: center;
+  color: var(--organic-oranges);
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  background-color: var(--cyber-grey);
+  border-radius: 1rem;
+  border: 2px solid var(--cyber-gold);
 }
