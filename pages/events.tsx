@@ -20,6 +20,7 @@ const Event = ({
       className={styles["event-card"]}
       key={i}
       onClick={() => showPopup(event)}
+      id={`event-${event.id}`}
     >
       <span className={styles["type"]}>
         {typeof event.type === "string"
@@ -29,6 +30,7 @@ const Event = ({
       <img
         src={event.banner ?? "/images/cyber-motif-applied.png"}
         alt="Event Banner Image"
+        loading="lazy"
       />
       <div className={styles["details"]}>
         <h3>{event.title}</h3>
@@ -57,7 +59,7 @@ const EventPopup = ({ close, event }: EventPopupProps) => {
       }`}
       onClick={close}
     >
-      <div className={styles["popup"]}>
+      <div className={styles["popup"]} onClick={(e) => e.stopPropagation()}>
         <div className={styles["top-bar"]}>
           <div className={styles["x-button"]} onClick={close} />
         </div>
@@ -65,6 +67,7 @@ const EventPopup = ({ close, event }: EventPopupProps) => {
           src={event.banner ?? "/images/cyber-motif-applied.png"}
           alt="Event Banner Image"
           className={styles["graphic"]}
+          loading="lazy"
         />
         <div className={styles["content"]}>
           <h3>{event.title}</h3>
@@ -126,11 +129,15 @@ export default function Events() {
           <div className={styles["this-week"]}>
             <h2>This Week</h2>
             <div className={styles["events"]}>
-              {thisWeek.length === 0
-                ? "No events this week. Come back later!"
-                : thisWeek.map((e, i) => (
-                    <Event event={e} i={i} showPopup={setPopup} key={e.id} />
-                  ))}
+              {thisWeek.length === 0 ? (
+                <div className={styles["noResults"]}>
+                  No events this week. Come back later!
+                </div>
+              ) : (
+                thisWeek.map((e, i) => (
+                  <Event event={e} i={i} showPopup={setPopup} key={e.id} />
+                ))
+              )}
             </div>
           </div>
 
@@ -138,11 +145,15 @@ export default function Events() {
           <div className={styles["upcoming"]}>
             <h2>Upcoming</h2>
             <div className={styles["events"]}>
-              {upcomingEvents.length === 0
-                ? "No upcoming events currently scheduled. Come back later!"
-                : upcomingEvents.map((e, i) => (
-                    <Event event={e} i={i} showPopup={setPopup} key={e.id} />
-                  ))}
+              {upcomingEvents.length === 0 ? (
+                <div className={styles["noResults"]}>
+                  No upcoming events currently scheduled. Come back later!
+                </div>
+              ) : (
+                upcomingEvents.map((e, i) => (
+                  <Event event={e} i={i} showPopup={setPopup} key={e.id} />
+                ))
+              )}
             </div>
           </div>
         </div>
