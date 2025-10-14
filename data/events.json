@@ -2654,7 +2654,11 @@
       "Cyber x AI Symposium",
       "Miscellaneous"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/s25/symposium-cropped.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/s25/symposium-cropped.png",
+    "links": {
+      "youtube": "https://youtu.be/-mMnKGr0U6k",
+      "slides": "https://l.acmcyber.com/s25-symposium"
+    }
   },
   {
     "id": "s25-discover-lm",
