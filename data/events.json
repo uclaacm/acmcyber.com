@@ -2948,7 +2948,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "ECTF"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/ectf-week3-f25"
+    }
   },
   {
     "id": "f25-wk3-cyac",
