@@ -2936,7 +2936,11 @@
     "end": 1760583644973,
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f25-wk3-lab",
+      "youtube": "https://youtu.be/Lpu-KA7PJkg"
+    }
   },
   {
     "id": "f25-ectf-kickoff",
