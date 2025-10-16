@@ -2972,5 +2972,17 @@
       "slides": "https://l.acmcyber.com/f25-wk3-cyac",
       "youtube": "https://youtu.be/g35oRs_0i-M"
     }
+  },
+  {
+    "id": "f25-wk4-cyac",
+    "title": "Cyber Academy: Minecraft RNG Manipulation",
+    "description": "Do you want to find ⛏️📍 your friend's secret base 🏠 on your Minecraft server? Or do you want to just farm crops 🌾 90x faster? Get ready to learn about crazy Minecraft exploits based on its insecure random number generator 🎲. Join us at Cyber Academy this week for an exciting talk by Arnav as he describes methods of Minecraft RNG manipulation and how to perform such exploits. 🔍💥 Don't miss out—join us in Boelter 4760 from 6-8 PM! 💻🚀",
+    "location": "Boelter 4760",
+    "start": 1761008407393,
+    "end": 1761015607393,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
