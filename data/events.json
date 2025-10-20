@@ -1892,6 +1892,19 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "f25-potluck",
+    "title": "F25 Potluck Social",
+    "description": "** RSVP Here: https://l.acmcyber.com/potluck **\n\nCome hang out with cyber at our quarterly Potluck Social! Join us for good food and good vibes at the Cyber Potluck! 🍔",
+    "location": "625 Landfair Ave (at the Grill)",
+    "start": 1763260210412,
+    "end": 1763272810412,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "s25-cyber-gm",
     "title": "Spring 25 Cyber GM",
     "description": "Want to join the premier cybersecurity club at UCLA? Come to our Spring GM on Monday Week 2 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
