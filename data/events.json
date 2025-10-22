@@ -3028,5 +3028,16 @@
       "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f25-sawtelle",
+    "title": "Cyber X ICPC Sawtelle Social",
+    "description": "Pull up to the Cyber X ICPC Sawtelle Trip! We'll meet at the Bruin Bear statue at 8PM, and have one group jogging to Sawtelle and one group busing. Afterwards, we'll get dinner in Sawtelle!",
+    "location": "Bruin Bear Plaza",
+    "start": 1763784038385,
+    "end": 1763794838385,
+    "type": [
+      "Social"
+    ]
   }
 ]
