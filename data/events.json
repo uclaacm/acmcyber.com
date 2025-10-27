@@ -3040,5 +3040,17 @@
       "Social",
       "Miscellaneous"
     ]
+  },
+  {
+    "id": "f25-w5-lab",
+    "title": "Cyber Lab: AI Security Research",
+    "description": "Come to our 3rd week of Cyber Lab where Professor Tian will give a talk about modern security 🔒 research 🔬 going on, including in the field of AI!",
+    "location": "Boelter 4760",
+    "start": 1761786012971,
+    "end": 1761793212971,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   }
 ]
