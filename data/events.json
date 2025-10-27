@@ -3043,8 +3043,8 @@
   },
   {
     "id": "f25-wk5-lab",
-    "title": "Cyber Lab: Rethinking AI Security from the System Point of View by Professor Tian",
-    "description": "Come to our 3rd week of Cyber Lab where Professor Tian will give a talk about modern security 🔒 research 🔬 going on, including in the field of AI!\n\nArtificial-intelligence applications are no longer confined to discrete models running in isolation.\nWith the advancement of GenAI, the AI applications are end-to-end systems that ingest live\ndata, invoke complex toolchains, and operate inside intertwined virtual and physical\nenvironments. Yet most security guidance still targets individual components, leaving systemic\nblind spots that adversaries eagerly exploit. This talk focuses on AI system security beyond\nmodel-centric hardening. In particular, I will discuss two main points: secure the entire pipeline\nof AI supply chain, and secure AI’s interactions with cyber and physical environments.\n\nMore information about Professor Tian: https://www.ytian.info/",
+    "title": "Cyber Lab: Rethinking AI Security from the System Point of View by Professor Yuan Tian",
+    "description": "Come to our 3rd week of Cyber Lab where Professor Tian will give a talk about modern security 🔒 research 🔬 going on, including in the field of AI!\n\nArtificial-intelligence applications are no longer confined to discrete models running in isolation.\nWith the advancement of GenAI, the AI applications are end-to-end systems that ingest live\ndata, invoke complex toolchains, and operate inside intertwined virtual and physical\nenvironments. Yet most security guidance still targets individual components, leaving systemic\nblind spots that adversaries eagerly exploit. This talk focuses on AI system security beyond\nmodel-centric hardening. In particular, I will discuss two main points: secure the entire pipeline\nof AI supply chain, and secure AI’s interactions with cyber and physical environments.\n\nMore information about Professor Yuan Tian: https://www.ytian.info/",
     "location": "Boelter 4760",
     "start": 1761786012971,
     "end": 1761793212971,
