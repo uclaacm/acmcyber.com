@@ -3042,7 +3042,7 @@
     ]
   },
   {
-    "id": "f25-w5-lab",
+    "id": "f25-wk5-lab",
     "title": "Cyber Lab: AI Security Research",
     "description": "Come to our 3rd week of Cyber Lab where Professor Tian will give a talk about modern security 🔒 research 🔬 going on, including in the field of AI!",
     "location": "Boelter 4760",
@@ -3055,8 +3055,8 @@
   },
   {
     "id": "f25-wk5-cyac",
-    "title": "Cyber Academy: Week 5",
-    "description": "Come to our 4th week of Cyber Academy, where the fundamentals group will work on website 🌐 client-side attacks👨‍💻 and the advanced group will break ⛓️‍💥 some encryption 🔐!",
+    "title": "Cyber Academy: Computation and Data-Efficient Backdoor Attacks",
+    "description": "Come to our 4th week of Cyber Academy, where Layah will be giving a talk on backdoor 🚪 attacks in neural 🧠 networks! Afterwards, the fundamentals group will work on website 🌐 client-side attacks👨‍💻 and the advanced group will break ⛓️‍💥 some encryption 🔐!",
     "location": "Boelter 4760",
     "start": 1761613226922,
     "end": 1761620426922,
