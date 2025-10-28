@@ -3063,6 +3063,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "youtube": "https://youtu.be/b-QzydIYa7w",
+      "slides": "https://l.acmcyber.com/f25-wk5-cyac"
+    }
   }
 ]
