@@ -2794,6 +2794,17 @@
     }
   },
   {
+    "id": "f25-ectf-binary-exploitation",
+    "title": "eCTF Workshop: Binary Exploitation",
+    "description": "Do you want to learn how to exploit 🕵️‍♂️ and hijack🧨 vulnerable programs? \nJoin us in the Engineering IV Maxwell room (#57-124) for an eCTF workshop on binary exploitation, presented by Ryan! \nThis will have great information and practice for an actual competition scenario where you have to attack ⚔️ vulnerable systems. \nAgain, if you are unable to come and are still interested in eCTF, please contact one of our eCTF leads:\n@arcblroth @parth_pandhare @avdestroyer @arandom_person @joshuazhu @zink_ed @renuka",
+    "location": "Engineering IV 57-124 (Maxwell Room)",
+    "start": 1762308022905,
+    "end": 1762315222905,
+    "type": [
+      "ECTF"
+    ]
+  },
+  {
     "id": "f25-acm-gm",
     "title": "ACM Fall GM",
     "description": "Do you want to build your own video game, iOS application, or neural network? Do you want to participate in competitive programming or CTFs? Do you care about diversity in STEM?\n\nJoin ACM for our** Fall General Meeting** on** Tuesday, September 30th, 2025, from 6:00 to 8:00 p.m. **at **Ackerman Grand Ballroom** to learn about how you can get involved!\n\nhttps://forms.gle/vcS37Mbn8jQDnBrP6",
