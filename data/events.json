@@ -3092,5 +3092,27 @@
       "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "f25-wk6-cyac",
+    "title": "Cyber Academy: Introduction to Secure Boot  ",
+    "description": "Ever heard of \"Secure Boot\" and are curious to learn more? Come to week 6 of Cyber Academy where TS will be giving an introduction on how Secure Boot works under the hood, followed by the Fundamentals group covering Open Source Reverse Engineering and the Advanced group covering asymmetric cryptography!",
+    "location": "Boelter 4760",
+    "start": 1762221604213,
+    "end": 1762228804213,
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
+    "id": "f25-wk6-lab",
+    "title": "Cyber Lab: AWS Outage",
+    "description": "Curious about the exact technical details behind the AWS outage that knocked BruinLearn offline, but get confused by the technical reports? Come to this talk by Alec where he will break down the details to learn how one region in one company knocked out a quarter of the internet.",
+    "location": "Boelter 4760",
+    "start": 1762394434035,
+    "end": 1762401634035,
+    "type": [
+      "Cyber Lab"
+    ]
   }
 ]
