@@ -3025,7 +3025,11 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f25-wk4-cylab",
+      "youtube": "https://youtu.be/T09xqTYIh4g"
+    }
   },
   {
     "id": "f25-potluck",
