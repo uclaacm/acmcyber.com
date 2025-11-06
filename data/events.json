@@ -3106,7 +3106,11 @@
     "end": 1762228804213,
     "type": [
       "Cyber Academy"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f25-wk6-cyac",
+      "youtube": "https://youtu.be/PFFduVjasHU"
+    }
   },
   {
     "id": "f25-wk6-lab",
