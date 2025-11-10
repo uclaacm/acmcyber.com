@@ -3137,5 +3137,16 @@
     "type": [
       "Cyber Academy"
     ]
+  },
+  {
+    "id": "f25-wk7-lab",
+    "title": "Cyber Lab: Week 7",
+    "description": "Come to the 5th Cyber Lab meeting to continue working on the lab projects in preparation of Cyber X AI Symposium during week 10!",
+    "location": "Boelter 4760",
+    "start": 1762999209408,
+    "end": 1763006409408,
+    "type": [
+      "Cyber Lab"
+    ]
   }
 ]
