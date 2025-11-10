@@ -3126,5 +3126,16 @@
       "youtube": "https://youtu.be/WoVP8jomA78",
       "slides": "https://l.acmcyber.com/f25-wk6-lab"
     }
+  },
+  {
+    "id": "f25-wk7-cyac",
+    "title": "Cyber Academy: SAML Vulnerabilities",
+    "description": "Come to week 7 of Cyber Academy where Ronak will be giving a talk about the protocol UCLA uses for single sign on (SAML) and common footguns in the protocol!",
+    "location": "Boelter 4760",
+    "start": 1762826404357,
+    "end": 1762833604357,
+    "type": [
+      "Cyber Academy"
+    ]
   }
 ]
