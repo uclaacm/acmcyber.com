@@ -3034,7 +3034,7 @@
   {
     "id": "f25-potluck",
     "title": "F25 Potluck Social",
-    "description": "** RSVP Here: https://l.acmcyber.com/potluck **\n\nCome hang out with cyber at our quarterly Potluck Social! Join us for good food and good vibes at the Cyber Potluck! 🍔",
+    "description": "** RSVP Here: https://l.acmcyber.com/potluck **\n\nNote: If raining day of potluck, we will move the potluck indoors to Eng VI. See our Discord for the latest information.\n\nCome hang out with cyber at our quarterly Potluck Social! Join us for good food and good vibes at the Cyber Potluck! 🍔",
     "location": "625 Landfair Ave (at the Grill)",
     "start": 1763260210412,
     "end": 1763272810412,
@@ -3145,7 +3145,7 @@
   {
     "id": "f25-wk7-lab",
     "title": "Cyber Lab: The Onion Protocol",
-    "description": "Come to the 5th Cyber Lab meeting where Jason will be presenting about the Onion protocol, which is Tor's method of anonymizing internet connections, and the flaky assumptions that the protocol relies on that people don't usually think about! ",
+    "description": "Come to the 5th Cyber Lab meeting where Jason will be presenting about the Onion protocol, which is Tor's method of anonymizing internet connections, and the flaky assumptions that the protocol relies on that people don't usually think about!",
     "location": "Boelter 4760",
     "start": 1762999209408,
     "end": 1763006409408,
