@@ -3151,6 +3151,10 @@
     "end": 1763006409408,
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "youtube": "https://youtu.be/hlujENtKwBc",
+      "slides": "https://l.acmcyber.com/f25-wk7-lab"
+    }
   }
 ]
