@@ -3167,5 +3167,13 @@
     "location": "Boelter 4760",
     "start": 1763604006878,
     "end": 1763611206878
+  },
+  {
+    "id": "f25-wk8-cyac",
+    "title": "Cyber Academy: SIEM Tools",
+    "description": "🔒 Curious about how organizations keep track of millions of security logs every single day? 🤔 Ever wondered how security teams detect threats, monitor incidents, and stay one step ahead of cyberattacks? 🕵️‍♂️💻 Join us for an exciting talk by Hunter on Security Information and Event Management (SIEM), the powerful systems that make it all possible! 🚀",
+    "location": "Boelter 4760",
+    "start": 1763431207530,
+    "end": 1763438407530
   }
 ]
