@@ -3159,5 +3159,13 @@
       "youtube": "https://youtu.be/hlujENtKwBc",
       "slides": "https://l.acmcyber.com/f25-wk7-lab"
     }
+  },
+  {
+    "id": "f25-wk8-lab",
+    "title": "Cyber Lab: Prompt Injection",
+    "description": "Curious how attackers sneak hidden 🙈 commands into prompts to force an AI to ignore 😷 safeguards, spill sensitive 🕵️‍♀️ info, or behave unpredictably? 🤔\nCome to this ⚡️ talk by Roshni, to learn about real examples of prompt injection, show how these exploits work, and walk you through the defenses that keep AI systems from getting silently hijacked! 🔐",
+    "location": "Boelter 4760",
+    "start": 1763604006878,
+    "end": 1763611206878
   }
 ]
