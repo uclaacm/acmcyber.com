@@ -64,13 +64,6 @@ const members: PersonInfoProps[] = [
     photo: "ronak.webp",
   },
   {
-    name: "Enzo Saracen",
-    role: "Officer",
-    bio: "2nd year Computer Science major",
-    pronouns: "",
-    photo: "",
-  },
-  {
     name: "Renuka Bhusari",
     role: "Officer",
     bio: "2nd year Computer Science & Linguistics major",
