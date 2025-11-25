@@ -35,11 +35,11 @@ export default function Join() {
             </a>
           </button>
 
-          {/* <button className={styles.membershipForm}>
+          {<button className={styles.membershipForm}>
             <a href="https://www.google.com/a/g.ucla.edu/ServiceLogin?continue=https://docs.google.com/forms/d/e/1FAIpQLSfA1vwbVohx1Bpg4KiLnCoVCMMs2KiXBBd9FQu5XUBquaPPkg/viewform">
               Membership Requirement Submission
             </a>
-          </button> */}
+          </button>}
 
           <button className={styles.membershipForm}>
             <a href="/discord">Join our Discord Server</a>
