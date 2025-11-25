@@ -3175,5 +3175,16 @@
     "location": "Boelter 4760",
     "start": 1763431207530,
     "end": 1763438407530
+  },
+  {
+    "id": "f25-ectf-embeddedsystems",
+    "title": "eCTF Workshop: Embedded Systems",
+    "description": "⚠️IMPORTANT⚠️: This is the last eCTF workshop of the quarter! If you are interested in joining our team, please fill out the sign-in form here: https://l.acmcyber.com/ectf-team-signup-2025 \nDo you want to learn how to program on a bare-metal 🔩 embedded system and how to attack 💥 its hardware directly?\nJoin us in the Engineering IV Maxwell room (#57-124) for an eCTF workshop on embedded programming and attacks, presented by Parth!\nWe'll learn about what makes embedded programming different and see some really cool hardware ⚙️ attacks!\nAgain, if you are unable to come and are still interested in eCTF, please contact one of our eCTF leads:\n@arcblroth @parth_pandhare @avdestroyer @arandom_person @joshuazhu @zink_ed @renuka",
+    "location": "Engineering IV 57-124 (Maxwell Room)",
+    "start": 1764122455661,
+    "end": 1764129655661,
+    "type": [
+      "ECTF"
+    ]
   }
 ]
