@@ -200,14 +200,22 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Amy Koski",
-    role: "Cyber Academy",
+    role: "Cyber Lab",
     bio: "1st year Computer Science major",
     pronouns: "she/her",
     photo: "",
   },
   {
+    name: "Pranav Bodapati",
+    role: "Psi Beta Rho",
+    bio: "1st year Computer Science major",
+    pronouns: "he/him",
+    photo: "",
+  },
+  
+  {
     name: "Bhavesh Pathak",
-    role: "Cyber Academy",
+    role: "Cyber Lab",
     bio: "1st year Computer Science major",
     pronouns: "he/him",
     photo: "",
@@ -228,7 +236,7 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Nikola Haralanov",
-    role: "Cyber Academy",
+    role: "Psi Beta Rho",
     bio: "2nd year Statistics & Data Science major",
     pronouns: "",
     photo: "",
@@ -300,7 +308,7 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Siran Gao",
-    role: "Cyber Academy",
+    role: "Cyber Lab",
     bio: "1st year Computer Science major",
     pronouns: "she/her",
     photo: "",
@@ -329,7 +337,7 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Priyam Rangwala",
-    role: "Cyber Academy",
+    role: "CPTC",
     bio: "1st year Computer Science & Engineering major",
     pronouns: "he/him",
     photo: "",
@@ -357,7 +365,7 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Kenneth Avaricio",
-    role: "Cyber Academy",
+    role: "Cyber Lab",
     bio: "1st year Transfer Mathematics of Computation major",
     pronouns: "he/him",
     photo: "",
@@ -371,7 +379,7 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Jason Zhou",
-    role: "Cyber Academy",
+    role: "Cyber Lab",
     bio: "4th year Computer Science major",
     pronouns: "",
     photo: "",
