@@ -72,13 +72,6 @@ const members: PersonInfoProps[] = [
     photo: "",
   },
   {
-    name: "Hunter Kang",
-    role: "Officer",
-    bio: "3rd year Computer Science major",
-    pronouns: "he/him",
-    photo: "hunter.webp",
-  },
-  {
     name: "Cathleen Qiao",
     role: "Officer",
     bio: "3rd year Physics and Computer Science majors",
@@ -197,6 +190,13 @@ const members: PersonInfoProps[] = [
     bio: "1st year Mathematics major",
     pronouns: "",
     photo: "",
+  },
+  {
+    name: "Hunter Kang",
+    role: "Cyber Academy",
+    bio: "3rd year Computer Science major",
+    pronouns: "he/him",
+    photo: "hunter.webp",
   },
   {
     name: "Amy Koski",
