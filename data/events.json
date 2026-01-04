@@ -1266,6 +1266,28 @@
     ]
   },
   {
+    "id": "w26-lactf",
+    "title": "LA CTF 2026",
+    "description": "Come participate in ACM Cyber's annual LA CTF, a CTF competition run by members of ACM Cyber, for both UCLA students and beyond! See https://lac.tf for more information.",
+    "location": "Hybrid, https://lac.tf for more info",
+    "start": 1770429603763,
+    "end": 1770602403763,
+    "type": [
+      "LA CTF"
+    ]
+  },
+  {
+    "id": "w26-cyber-gm",
+    "title": "ACM Cyber Winter GM",
+    "description": "Are you a returning member and curious to learn what ACM Cyber has in store for next quarter? New to the club and want to understand all that ACM Cyber does? Come to our Winter GM meeting, where we will explain all of the various events that ACM Cyber puts on throught the quarter, and learn more about how YOU can get involved!",
+    "location": "Boelter 4760",
+    "start": 1767837638342,
+    "end": 1767844838342,
+    "type": [
+      "GM"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
