@@ -1288,6 +1288,21 @@
     ]
   },
   {
+    "id": "w26-ectf-kickoff",
+    "title": "eCTF Kickoff Meeting",
+    "description": "ITS TIME!!!!!!! ❄️ We're hittin' the ground 🏃 running this **Thursday**\\* with our first ECTF meeting of the quarter 🎯 in the 🔷 IEEE lab 🔷! We'll be discussing officially signing up for the event 🖊, course credit options 🎓, and what we'll be doing once design phase begins next week 📐!\n\n\\*I know we originally said that meetings would be held on Tuesday, but due to scheduling constraints our weekly weekday meeting had to be moved to Thursday 😔. If you are unable to come for the Kickoff and would like to be on the team, **please** contact an ECTF lead ASAP to get signed up: @renuka @zink_ed @joshuazhu @arandom_person @avdestroyer @parth_pandhare @arcblroth. If you cannot make Thursdays 6-8 PM this quarter, don't fret: we will likely also hold consistent worksessions on the weekend.",
+    "location": "IEEE Lab (Boelter 2825)",
+    "start": 1767924044420,
+    "end": 1767931244420,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "ECTF"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/ectf-week3-f25"
+    }
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
