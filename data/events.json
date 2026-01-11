@@ -1303,6 +1303,28 @@
     }
   },
   {
+    "id": "w26-wk2-cyac",
+    "title": "Cyber Academy Kickoff: http/2 packet attacks",
+    "description": "Come to the first Cyber Academy of the quarter, where Arnav will talk about http/2 packet attacks, a unique type of attack that abuses network protocol speed improvement features, and then jump right into our first Cyber Academy workshop!",
+    "location": "Boelter 7702",
+    "start": 1768269610576,
+    "end": 1768276810576,
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
+    "id": "w26-wk2-lab",
+    "title": "Cyber Lab: Kickoff",
+    "description": "This week we will jump into our Cyber Labs of the quarter: Splunk Lab, and CCDC practice development. Sign up for the labs at https://acmcyber.com/join!",
+    "location": "Boelter 7702",
+    "start": 1768442426247,
+    "end": 1768449626247,
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
