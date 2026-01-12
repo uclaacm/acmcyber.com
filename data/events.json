@@ -1304,8 +1304,8 @@
   },
   {
     "id": "w26-wk2-cyac",
-    "title": "Cyber Academy Kickoff: http/2 packet attacks",
-    "description": "Come to the first Cyber Academy of the quarter, where Arnav will talk about http/2 packet attacks, a unique type of attack that abuses network protocol speed improvement features, and then jump right into our first Cyber Academy workshop!",
+    "title": "Cyber Academy Kickoff: Web race conditions and HTTP",
+    "description": "Want to learn how to exploit 🕵️ web race conditions 🏃‍♂️, better? Even when timing ⏱️ windows are extremely tight, we can get very reliable results using special tricks 💡 based on cool HTTP features! Come to this quarter's first Cyber Academy, with Arnav's talk about HTTP and web race conditions, to learn about these tricks and about fundamental network protocols 💻! We'll then jump right into our first Cyber Academy workshop 🛠️  of the quarter.",
     "location": "Boelter 7702",
     "start": 1768269610576,
     "end": 1768276810576,
