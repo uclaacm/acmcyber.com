@@ -1325,6 +1325,17 @@
     ]
   },
   {
+    "id": "w26-ectf-week2",
+    "title": "eCTF Build Phase Meeting - Week 2",
+    "description": "eCTF kickoff just happened! Build phase 🛠️ starts now!\n\nJoin us in the IEEE Lab (Boelter Hall 2825) for our meeting of the build phase. We will discuss the design requirements and our plan 🗺️ for building our design.\n\nNote: this meeting is mandatory if you wish to participate on the eCTF team. We will make sure that all competitors have filled out the necessary forms to participate. If you cannot come, please contact one of our eCTF leads ASAP so we can tell you what you need to do: @arcblroth @parth_pandhare @AVDestroyer @arandom_person @joshuazhu @zink_ed @renuka",
+    "location": "IEEE Lab (Boelter 2825)",
+    "start": 1768528823110,
+    "end": 1768536023110,
+    "type": [
+      "ECTF"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
