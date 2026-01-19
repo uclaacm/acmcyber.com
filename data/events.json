@@ -1311,7 +1311,11 @@
     "end": 1768276810576,
     "type": [
       "Cyber Academy"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w26-wk2-cyac",
+      "youtube": "https://youtu.be/JY2kiF9GL3M"
+    }
   },
   {
     "id": "w26-wk2-lab",
@@ -1333,6 +1337,17 @@
     "end": 1768536023110,
     "type": [
       "ECTF"
+    ]
+  },
+  {
+    "id": "w26-wk3-lab",
+    "title": "Cyber Lab: eBPF Vulnerabilities",
+    "description": "Ever wondered how tech giants 🏢 manage to run custom code 💻 directly inside the Linux kernel 🐧? Join us for Week 3 of Cyber Lab in Boelter 7702, where Lyric will be presenting about eBPF 😳 and the security vulnerabilities 🤯  among its 30,000+ lines of verifier code! 🔍 We’ll explore how these powerful features 🙌  can be turned against the system 😱 to bypass security 🛡️ and gain root access 🔑 🌳. Don't miss out on learning how this revolutionary technology 🚀 massively expands the kernel attack surface 📈 🏔️ !",
+    "location": "Boelter 7702",
+    "start": 1769047214830,
+    "end": 1769054414830,
+    "type": [
+      "Cyber Lab"
     ]
   },
   {
