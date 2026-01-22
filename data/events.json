@@ -1348,7 +1348,11 @@
     "end": 1769054414830,
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w26-wk3-lab",
+      "youtube": "https://youtu.be/gZCeypY0udc"
+    }
   },
   {
     "id": "f23-misc-acm-gm",
