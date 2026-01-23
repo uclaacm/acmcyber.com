@@ -1355,6 +1355,18 @@
     }
   },
   {
+    "id": "w26-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Friday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton, Apartment Number 209",
+    "start": 1769227234200,
+    "end": 1769234434200,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
