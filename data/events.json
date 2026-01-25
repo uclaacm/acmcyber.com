@@ -1367,6 +1367,19 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "w26-misc-flagsharing",
+    "title": "Flagsharing Social",
+    "description": "You've heard the rumors and the accusations, but it's true 😳 PBR will be 🚩 flagsharing — with you! Come out to the Tongva Steps 📶 this Saturday to 🌱 touch grass 🌾, 🪣 paint on real flags 🖌️, and maybe even ✨ exchange yours 🫵 with another CTFer's 🤝! Since we need to actually purchase the flags and paint, **please RSVP** for this event at [LINK] by end-of-day Wednesday. We'll also get lunch in Westwood before the social - stay tuned for details on that!",
+    "location": "Tongva Steps (somewhere around)",
+    "start": 1769893257150,
+    "end": 1769904057150,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/w26/flagsharing.png"
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
