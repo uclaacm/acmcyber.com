@@ -1380,6 +1380,17 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/w26/flagsharing.png"
   },
   {
+    "id": "w26-wk4-cyac",
+    "title": "Cyber Academy: Week 4",
+    "description": "Come to our 2nd Cyber Academy meeting of the quarter, where the fundamentals group will be learning about Local File Inclusion and the advanced group will continue working on Binary Exploitation revpwn challenges!",
+    "location": "Boelter 7702",
+    "start": 1769479223790,
+    "end": 1769486423790,
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
