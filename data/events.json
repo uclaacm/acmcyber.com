@@ -1268,13 +1268,14 @@
   {
     "id": "w26-lactf",
     "title": "LA CTF 2026",
-    "description": "Come participate in ACM Cyber's annual LA CTF, a CTF competition run by members of ACM Cyber, for both UCLA students and beyond! See https://lac.tf for more information.",
+    "description": "Looking for a fun way to spend the weekend? 👀 LA CTF is ACM Cyber's annual cybersecurity event and capture-the-flag style competition. 🔐 Come solve challenges, make new friends, win prizes, and have a great time! 🥳\n\nThe online competition starts on 2/6/26, and the in-person event will be on Saturday, 2/7/26, at the Tom Bradley International Hall room 300. 🐻 Activities start at 9 AM and end at 7 PM, but you are free to stay as much or as little as you want. Free lunch 🍕 and merch 🛍️ will be provided, and there will be cool talks from professors and industry speakers 🗣️ . We even have prizes reserved for UCLA students! Everyone, whether beginner or expert, is welcome! 🙌\n\nIf you're interested in coming, RSVP at https://l.acmcyber.com/lactf-26. See our [website](https://lac.tf) or [Discord server](https://lac.tf/discord) for more details! 🤩",
     "location": "Hybrid, https://lac.tf for more info",
     "start": 1770429603763,
     "end": 1770602403763,
     "type": [
       "LA CTF"
-    ]
+    ],
+    "banner": "https://lac.tf/images/mountains-logo.gif"
   },
   {
     "id": "w26-cyber-gm",
