@@ -1403,6 +1403,17 @@
     ]
   },
   {
+    "id": "w26-wk5-lab",
+    "title": "Cyber Lab: Week 5",
+    "description": "We'll be continuing with our labs, Splunk and CCDC. See you there!",
+    "location": "Boelter 7702",
+    "start": 1770256800705,
+    "end": 1770264000705,
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
