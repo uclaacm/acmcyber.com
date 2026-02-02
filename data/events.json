@@ -1392,6 +1392,17 @@
     ]
   },
   {
+    "id": "w26-wk5-cyac",
+    "title": "Cyber Academy: Week 5",
+    "description": "In preparation for LA CTF on the weekend, our officers will be demonstrating some past LA CTF challenges and how to solve them. Don't miss out and capture some (past) flags with us! ⛳️",
+    "location": "Boelter 7702",
+    "start": 1770084058404,
+    "end": 1770091258404,
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
