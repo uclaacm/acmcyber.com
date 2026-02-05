@@ -1414,6 +1414,39 @@
     ]
   },
   {
+    "id": "w26-bkctf",
+    "title": "Batman's Kitchen CTF 2026",
+    "description": "Come play Batman Kitchen's CTF with PBR this weekend!",
+    "location": "",
+    "start": 1771707655422,
+    "end": 1771725655422,
+    "type": [
+      "Psi Beta Rho"
+    ]
+  },
+  {
+    "id": "w26-potluck",
+    "title": "W26 Potluck Social",
+    "description": "Join ACM Cyber in our quarterly potluck social, hopefully not rained out this time! Come make some memories and socialize while grilling some hotdogs and hamburgers together. ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected!",
+    "location": "",
+    "start": 1772334048157,
+    "end": 1772344848157,
+    "type": [
+      "Social"
+    ]
+  },
+  {
+    "id": "w26-stdnlenctf",
+    "title": "Srdnlen CTF",
+    "description": "Come play SrdnlenCTF with PBR this weekend! After the CTF, we will then walk to the potluck social happening right after together.",
+    "location": "",
+    "start": 1772312433732,
+    "end": 1772330433732,
+    "type": [
+      "Psi Beta Rho"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
