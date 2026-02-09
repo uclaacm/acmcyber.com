@@ -1447,6 +1447,28 @@
     ]
   },
   {
+    "id": "w26-wk6-cyac",
+    "title": "Cyber Academy Week 6",
+    "description": "Hope you had fun solving challenges at LA CTF! This week, beginner group will work on introduction to cryptography and the advanced group will continue working on z3 challenges.",
+    "location": "Boelter 7702",
+    "start": 1770688814554,
+    "end": 1770696014554,
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
+    "id": "w26-wk6-lab",
+    "title": "Cyber Lab Week 6",
+    "description": "Splunk Lab will be discussing the previous scenario and beginning a new scenario, and CCDC Lab will be debriefing after the competition this weekend and preparing for next year.",
+    "location": "Boelter 7702",
+    "start": 1770861636089,
+    "end": 1770868836089,
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
