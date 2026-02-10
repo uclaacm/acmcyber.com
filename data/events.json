@@ -1469,6 +1469,17 @@
     ]
   },
   {
+    "id": "w26-sawtelle",
+    "title": "ACM Cyber X ACM ICPC Sawtelle Run Social",
+    "description": "Come join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! Meet at the Bruin Bear statue at 6:20PM, where we will split into 2 groups, a runner group and a busser group.",
+    "location": "Bruin Bear State",
+    "start": 1772848830174,
+    "end": 1772863230174,
+    "type": [
+      "Social"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
