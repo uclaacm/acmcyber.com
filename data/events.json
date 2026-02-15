@@ -2229,6 +2229,17 @@
     ]
   },
   {
+    "id": "w26-wk7-lab",
+    "title": "Cyber Lab: SAT Solvers",
+    "description": "This week, we have a talk by Nasir about SAT Solvers! Afterwards, we will continue working in our labs, CCDC and Splunk Lab.\n\nTalk Description: Boolean satisfiability is the core problem underlying decision problems in Computer Science. We'll be defining SAT (Boolean Satisfiability) problem, then introduce 3-SAT as an extension of it. We'll then be looking at a very primitive solver of it in OCaml using Backtracking and then use CNF (Conjuctive Normal Form representation) to then use Davis–Putnam–Logemann–Loveland (DPLL) algorithm to do better than our primitive approach.",
+    "location": "Boelter 7702",
+    "start": 1771466444100,
+    "end": 1771473644100,
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "s25-cyber-gm",
     "title": "Spring 25 Cyber GM",
     "description": "Want to join the premier cybersecurity club at UCLA? Come to our Spring GM on Monday Week 2 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
