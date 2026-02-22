@@ -1491,6 +1491,28 @@
     ]
   },
   {
+    "id": "w26-wk8-cyac",
+    "title": "Cyber Academy Week 8: Containerization",
+    "description": "Join us again for Cyber Academy, where TS will be giving a talk on containerization ⛴️ 🐳 📦! Afterwards, fundamentals group will learn about reverse engineering, and advanced group will explore some cryptography constructions. ",
+    "location": "Boelter 7702",
+    "start": 1771898451907,
+    "end": 1771905651907,
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
+    "id": "w26-wk8-lab",
+    "title": "Cyber Lab Week 8: Physical Security",
+    "description": "Join us for Cyber Lab, where Cathleen will talk about some of her experiences at Defcon ☠️ with physical security 🔐! Splunk lab and CCDC lab will continue as usual. ",
+    "location": "Boelter 7702",
+    "start": 1772071207852,
+    "end": 1772078407852,
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
