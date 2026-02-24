@@ -1471,9 +1471,9 @@
   {
     "id": "w26-sawtelle",
     "title": "ACM Cyber X ACM ICPC Sawtelle Run Social",
-    "description": "Come join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! Meet at the Bruin Bear statue at 6:20PM, where we will split into 2 groups, a runner group and a busser group.",
+    "description": "RSVP: https://l.acmcyber.com/run\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! Meet at the Bruin Bear statue at 6:15PM, where we will split into 2 groups, a runner group and a busser group.",
     "location": "Bruin Bear Statue",
-    "start": 1772848830174,
+    "start": 1772849730174,
     "end": 1772863230174,
     "type": [
       "Social"
@@ -1510,6 +1510,17 @@
     "end": 1772078407852,
     "type": [
       "Cyber Lab"
+    ]
+  },
+  {
+    "id": "w26-symposium",
+    "title": "W26 ACM Cyber X ACM AI Symposium",
+    "description": "** RSVP REQUIRED by 2/26: https://l.acmcyber.com/symposium **\n\nWant to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends have been up to? 😱 Do you want FREE FOOD??? 🥘 Join us Monday of Week 10 in Engineering VI, Mong Learning Center 6-8 PM for the Winter Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have dinner and an open time to hang out. See you there!",
+    "location": "Mong Auditorium",
+    "start": 1773104446006,
+    "end": 1773111646006,
+    "type": [
+      "Cyber x AI Symposium"
     ]
   },
   {
