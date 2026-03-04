@@ -90,4 +90,4 @@ pnpm install
 ```
 
 ## Acknowledgements
-Special thanks to Andrew Kuai & Michelle Zhao for helping to fully design the current version of the ACM Cyber website! Thanks to Andrew Kuai, Michelle Zhao, Ronak Badhe, Benson Liu, and the rest of the ACM Cyber team for being part of the core team to develop the site content and implementation! If there are any bugs or content problems, please open up an issue or pull request on GitHub. To contact the maintainers of this project, please reach out to [uclacyber@gmail.com](mailto:uclacyber@gmail.com) or join our [Discord](https://discord.gg/j9dgf2q).
+Special thanks to Andrew Kuai & Michelle Zhao for helping to fully design the current version of the ACM Cyber website! Thanks to Andrew Kuai, Michelle Zhao, Ronak Badhe, Benson Liu, and the rest of the ACM Cyber team for being part of the core team to develop the site content and implementation! If there are any bugs or content problems, please open up an issue or pull request on GitHub. To contact the maintainers of this project, please reach out to [uclacyber+site-gh@gmail.com](mailto:uclacyber+site-gh@gmail.com) or join our [Discord](https://discord.gg/j9dgf2q).
