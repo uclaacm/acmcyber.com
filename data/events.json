@@ -2259,7 +2259,10 @@
     "end": 1772078407852,
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w26-wk8-lab"
+    }
   },
   {
     "id": "w26-symposium",
