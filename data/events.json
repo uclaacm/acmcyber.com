@@ -2439,6 +2439,17 @@
     ]
   },
   {
+    "id": "s26-cyber-gm",
+    "title": "ACM Cyber Spring GM",
+    "description": "Come hear what Cyber's all about and what we'll be doing this quarter! There will be free stickers and fun cybersecurity puzzles (bring your laptop)! 💻🤩",
+    "location": "Young Hall 2200",
+    "start": 1775091629033,
+    "end": 1775098829033,
+    "type": [
+      "GM"
+    ]
+  },
+  {
     "id": "w26-uoftctf",
     "title": "UofT CTF",
     "description": "Welcome back 🚀 PBR! To kick off the new year 🧧 we will be playing 🍁 UofTCTF from our friends at University of Toronto 🔥 This CTF will have great challenges so be sure to join us on Saturday for lunch 🥙 before we head to E4 Tesla Room! 💻",
