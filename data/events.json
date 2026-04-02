@@ -2448,7 +2448,10 @@
     "type": [
       "GM"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1uS0F11Jx1n9bFQFsVFzZmBa9kuNac3nh-MmbCE266BE/edit?usp=sharing"
+    }
   },
   {
     "id": "s26-birdwatching",
