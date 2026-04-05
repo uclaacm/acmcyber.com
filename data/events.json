@@ -2478,6 +2478,18 @@
     ]
   },
   {
+    "id": "s26-wk2-lab",
+    "title": "Cyber Lab: Week 2",
+    "description": "With all the recent chrome security updates, web security 🌐 might be out of a job. 🤔 In times of need, DNS comes to our rescue. 🔥\nRule #1: It's always DNS. Rule #2: If you're pretty sure it isn't DNS, it's a new DNS feature you're not yet familiar with. \nCome to our first Cyber Lab 🧪meeting of the quarter and listen to Ronak's talk on DNS rebinding!",
+    "location": "Boelter 7702",
+    "start": 1775696411986,
+    "end": 1775703611986,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w26-uoftctf",
     "title": "UofT CTF",
     "description": "Welcome back 🚀 PBR! To kick off the new year 🧧 we will be playing 🍁 UofTCTF from our friends at University of Toronto 🔥 This CTF will have great challenges so be sure to join us on Saturday for lunch 🥙 before we head to E4 Tesla Room! 💻",
