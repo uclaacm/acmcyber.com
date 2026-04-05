@@ -2466,6 +2466,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-wk2-cyac",
+    "title": "Cyber Academy: Week 2",
+    "description": "On 31st March 2026, two new npm packages for updated versions of Axios 🤖, which has over 70 million weekly downloads, were identified as malicious 😈. These versions were injected with a malicious dependency to download payloads 🧳 from a North Korean state actor's command and control (C2) 🖥️. Want to learn more? Come to Cyber Academy and listen to TS give his talk about Axios' recent supply chain ⛓️ compromise!",
+    "location": "Boelter 7702",
+    "start": 1775523633631,
+    "end": 1775530833631,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
     "id": "w26-uoftctf",
     "title": "UofT CTF",
     "description": "Welcome back 🚀 PBR! To kick off the new year 🧧 we will be playing 🍁 UofTCTF from our friends at University of Toronto 🔥 This CTF will have great challenges so be sure to join us on Saturday for lunch 🥙 before we head to E4 Tesla Room! 💻",
