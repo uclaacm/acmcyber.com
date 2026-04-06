@@ -2493,6 +2493,17 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-b01lers-ctf",
+    "title": "b01lers CTF",
+    "description": "For our first PBR meeting of Spring 2026, we'll be playing 🚂 b01lers CTF from Purdue University! There will be a range of challenges ⛳ from beginner-friendly to advanced. Join us on Saturday for lunch 🥙 before we start CTFing! 💻",
+    "location": "TBD",
+    "start": 1776535220992,
+    "end": 1776560420992,
+    "type": [
+      "Psi Beta Rho"
+    ]
+  },
+  {
     "id": "w26-uoftctf",
     "title": "UofT CTF",
     "description": "Welcome back 🚀 PBR! To kick off the new year 🧧 we will be playing 🍁 UofTCTF from our friends at University of Toronto 🔥 This CTF will have great challenges so be sure to join us on Saturday for lunch 🥙 before we head to E4 Tesla Room! 💻",
