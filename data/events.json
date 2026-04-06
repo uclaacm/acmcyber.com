@@ -2475,7 +2475,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Academy"
-    ]
+    ],
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1eZ6858m0ad5XYULzyAtlqQeNajJqd6Z3UJ9q-p6FiH8/edit?usp=sharing"
+    }
   },
   {
     "id": "s26-wk2-lab",
