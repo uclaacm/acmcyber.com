@@ -393,6 +393,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-wk3-lab",
+    "title": "Cyber Lab: Week 3",
+    "description": "Humans are often called the weakest link 🔗in cybersecurity. After all, having a strong password 🔐doesn't help if someone can be tricked into simply telling it to someone. 🤔 Come to Cyber Lab and listen to Katie's talk on how social engineers can manipulate humans into revealing sensitive information, compromise major companies, and steal millions of dollars! 💸",
+    "location": "Boelter 7702",
+    "start": 1776301226189,
+    "end": 1776308426189,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
