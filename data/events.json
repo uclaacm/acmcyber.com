@@ -381,6 +381,18 @@
     ]
   },
   {
+    "id": "s26-wk3-cyac",
+    "title": "Cyber Academy: Week 3",
+    "description": "Remember playing on Cool Math Games 🎮? Did you like grinding Papa's Pizzeria 🍕 or Duck Life 3 🦆? Whatever happened to those games? Come to Cyber Academy where Arnav will talk about Adobe Flash Player 🇫 and its numerous, mind-boggling security vulnerabilities that led to its unfortunate shutdown!",
+    "location": "Boelter 7702",
+    "start": 1776128407785,
+    "end": 1776135607785,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
