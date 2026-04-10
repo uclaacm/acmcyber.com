@@ -405,6 +405,42 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-wk3-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton Ave, Apartment Number 209",
+    "start": 1776567616619,
+    "end": 1776582016619,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk5-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton Ave, Apartment Number 209",
+    "start": 1777777216619,
+    "end": 1777791616619,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk9-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton Ave, Apartment Number 209",
+    "start": 1780196416619,
+    "end": 1780210816619,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
