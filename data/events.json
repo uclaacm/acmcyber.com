@@ -441,6 +441,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-movie",
+    "title": "Princess Mononoke Movie Night",
+    "description": "Nessa says: Come watch a super well-rated Studio Ghibli classic, probably featuring a woman named Princess Mononoke (I haven't seen it yet so I don't know).\nNote: there will be snacks! 🍿🎬",
+    "location": "Delta Terrace House 8 Lounge",
+    "start": 1777168815328,
+    "end": 1777179615328,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
