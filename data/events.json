@@ -453,6 +453,30 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-wk4-cyac",
+    "title": "Cyber Academy: Week 4",
+    "description": "Come to Cyber Academy 📚 this Monday to learn about reverse engineering, blockchain, or to continue with CPTC! No experience needed; just show up and learn! 😁",
+    "location": "Boelter 7702",
+    "start": 1776733231587,
+    "end": 1776740431587,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk4-lab",
+    "title": "Cyber Lab: Week 4",
+    "description": "Did you know 🤔 programs can unintentionally leak 💧 information through physical means like power consumption, temperature, and time ⏱️? Side channel attacks exploit this leaked information to reveal program behavior. 🕵️ You may have taken CS M151B and learned about caches. The time properties of caches can be exploited to uncover information about a program. Attend Cyber Lab 🧪 to hear Audrey's talk about these cache side channel attacks! 🔥",
+    "location": "Boelter 7702",
+    "start": 1776906001334,
+    "end": 1776913201334,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
