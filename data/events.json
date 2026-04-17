@@ -477,6 +477,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-tjctf",
+    "title": "TJCTF",
+    "description": "Join PBR for 🔺 TJCTF this weekend! There will be challenges for all experience levels. 🪜 Stick around for our quarterly potluck afterwards! 🍔🌭",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1778954447555,
+    "end": 1778979647555,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
