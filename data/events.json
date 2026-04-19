@@ -489,6 +489,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-flagsharing",
+    "title": "Flag Sharing Social",
+    "description": "You've heard the rumors and the accusations, but it's true 😳 PBR will be 🚩 flag sharing — with you! Come join us this Saturday and 🪣 paint on real flags 🖌️ and maybe even ✨ exchange yours 🫵 with another CTFer's 🤝! (No experience with CTFs required; everyone is welcome to hang out and decorate flags!) We'll get lunch before the social at 11 am, then start flag sharing at 1 pm.",
+    "location": "Meet at De Neve Crosswalk, then share flags at E6 courtyard",
+    "start": 1777744824490,
+    "end": 1777762824490,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/s26/duck_with_flags.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
