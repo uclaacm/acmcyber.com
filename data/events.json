@@ -345,7 +345,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "http://l.acmcyber.com/s26-wk2-lab"
+    }
   },
   {
     "id": "s26-b01lers-ctf",
@@ -390,7 +393,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk3-cyac"
+    }
   },
   {
     "id": "s26-wk3-lab",
@@ -402,7 +408,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk3-lab"
+    }
   },
   {
     "id": "s26-wk3-nail-painting",
@@ -474,7 +483,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "http://l.acmcyber.com/s26-wk4-lab"
+    }
   },
   {
     "id": "s26-tjctf",
