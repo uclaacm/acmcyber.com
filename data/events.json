@@ -525,6 +525,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-wk5-lab",
+    "title": "Cyber Lab: Week 5",
+    "description": "Come to Cyber Lab and hear Nasir's talk on design patterns for your average cyber engineer! ⚙️ Then continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
+    "location": "Boelter 7702",
+    "start": 1777510811785,
+    "end": 1777518011785,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
