@@ -513,6 +513,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/s26/duck_with_flags.png"
   },
   {
+    "id": "s26-wk5-cyac",
+    "title": "Cyber Academy: Week 5",
+    "description": "The hardest challenges may not be hard in the ways you would expect. 🤔 See how a 20-solve challenge was done in an hour ⏱️ in this week’s cyber academy, then continue learning blockchain or reverse engineering! 🏫",
+    "location": "Boelter 7702",
+    "start": 1777338053406,
+    "end": 1777345253406,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
