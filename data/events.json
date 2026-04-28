@@ -527,7 +527,7 @@
   {
     "id": "s26-wk5-lab",
     "title": "Cyber Lab: Week 5",
-    "description": "Come to Cyber Lab and hear Nasir's talk on design patterns for your average cyber engineer! ⚙️ Then continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
+    "description": "Come to Cyber Lab and hear Nasir's talk on design patterns for your average cyber engineer! ⚙️ Then continue with CCDC, the agentic CTF solver, or the container lab! 🧪\nDesign patterns: In software engineering, we often face recurring design problems. 🤔 Instead of reinventing solutions every time, we rely on design patterns, which are reusable solutions to common problems in software design. 📄 Cyber engineers often overlook this crucial element of software engineering. This talk would serve to bridge 🌉 the understanding gap between the two worlds and go over Strategy, Observer, Facade patterns and would leave the rest as an exercise for you go through. 😁",
     "location": "Boelter 7702",
     "start": 1777510811785,
     "end": 1777518011785,
