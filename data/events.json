@@ -537,6 +537,29 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-kayaking",
+    "title": "Kayaking Social",
+    "description": "Come kayaking 🛶 with Cyber at Marina Del Rey! Fill out the RSVP form (http://l.acmcyber.com/kayak) by Friday, 5/1 for more details! 🎉",
+    "location": "Marina Del Rey (rides will be organized)",
+    "start": 1778346032612,
+    "end": 1778364032612,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://recreation.ucla.edu/sites/default/files/styles/header_image/public/2022-03/MAC_topbanner.jpg?itok=FIAZyLam"
+  },
+  {
+    "id": "s26-potluck",
+    "title": "Potluck Social",
+    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social! 😃 Come make some memories and socialize while grilling some hotdogs and hamburgers together. 🍔🌭 ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
+    "location": "910 Weyburn Terrace",
+    "start": 1779062428603,
+    "end": 1779076828603,
+    "type": [
+      "Social"
+    ]
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
