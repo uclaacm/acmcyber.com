@@ -560,6 +560,18 @@
     ]
   },
   {
+    "id": "s26-grey-cat-the-flag",
+    "title": "Grey Cat The Flag",
+    "description": "Join PBR for 🐈‍⬛ Grey Cat The Flag this weekend! As usual, join us for lunch beforehand 🍜",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1780165859398,
+    "end": 1780189259398,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
