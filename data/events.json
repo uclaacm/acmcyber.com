@@ -620,6 +620,17 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
+    "id": "s26-symposium",
+    "title": "ACM Cyber X ACM AI Symposium",
+    "description": "** RSVP REQUIRED by 5/21: https://l.acmcyber.com/symposium **\n\nWant to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends have been up to? 😱 Do you want FREE FOOD??? 🥘 Join us Monday of Week 10 in Engineering VI, Mong Learning Center 6-8 PM for the Spring Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have dinner and an open time to hang out. See you there!",
+    "location": "E6 Mong Auditorium",
+    "start": 1780362040311,
+    "end": 1780369240311,
+    "type": [
+      "Cyber x AI Symposium"
+    ]
+  },
+  {
     "id": "w25-la-ctf-infra-setup",
     "title": "LA CTF 2025 - Infra Setup",
     "description": "Tentative - designated time to spin up infrastructure for LA CTF 2025. End time is once all infrastructure has deployed and is stable.",
