@@ -3539,10 +3539,14 @@
   {
     "id": "s26-wk8-cyac",
     "title": "Cyber Academy: Week 8",
-    "description": "With the arrival of AI agents 🤖, CTFs aren't what they used to be 🚩, but what will they be? Come to this week's Cyber Academy 🎓 where we'll analyze 🔍 the current environment 🌐 and see what might come in the future.",
+    "description": "With the arrival of AI agents 🤖, CTFs aren't what they used to be 🚩, but what will they be? Come to this week's Cyber Academy 🎓 where we'll analyze 🔍 the current environment 🌐 and see what might come in the future. ⏭️ Then we'll continue with beginner and advanced group topics!",
     "location": "Boelter 7702",
     "start": 1779152420799,
-    "end": 1779159620799
+    "end": 1779159620799,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "w26-uoftctf",
