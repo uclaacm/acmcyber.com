@@ -3552,12 +3552,24 @@
     "id": "s26-misc-smores",
     "title": "Emergency S'mores Social",
     "description": "Are finals stressing you out? 🤯 Want to hang out with your favorite CS club one last time? 🥺 Come to our ⚠️ 🚨 Emergency S'mores Social 🔥 🍫  and eat out to your heart's content 🥯!",
-    "location": "TBD (Weyburn Grills)",
+    "location": "910 Weyburn Terrace (same place as potluck)",
     "start": 1780534824393,
     "end": 1780542024393,
     "type": [
       "Miscellaneous",
       "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk9-lab",
+    "title": "Cyber Lab: Week 9",
+    "description": "Join us for the last Cyber Lab of the quarter! 🧪 We'll be wrapping up the labs and working on Symposium slides. \nNote that Week 10 Wednesday, we will be having a s'mores social! 🍫",
+    "location": "Boelter 7702",
+    "start": 1779930031196,
+    "end": 1779937231196,
+    "type": [
+      "Cyber Lab"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
