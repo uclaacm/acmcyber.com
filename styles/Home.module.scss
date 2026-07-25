@@ -1,5 +1,5 @@
 .welcomeHero {
-  --welcome-hero-height: calc(100vh - 80px);
+  --welcome-hero-height: calc(100vh - 10px);
   --diamond-scale: 0.65;
   --diamond-length: calc(
     var(--diamond-scale) * max(min(100vw, var(--welcome-hero-height)), 800px)
