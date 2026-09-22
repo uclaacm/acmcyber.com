@@ -54,7 +54,7 @@ const members: PersonInfoProps[] = [
     role: "Officer",
     bio: "2nd year Transfer Mathematics of Computation major",
     pronouns: "he/him",
-    photo: "",
+    photo: "kenneth.webp",
   },
   {
     name: "Pierce Ran",
