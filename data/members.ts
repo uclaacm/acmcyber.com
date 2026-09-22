@@ -158,7 +158,7 @@ const members: PersonInfoProps[] = [
     name: "Max Bregler",
     role: "Cyber Academy",
     bio: "2nd year Mathematics major",
-    pronouns: "",
+    pronouns: "he/him",
     photo: "",
   },
   {
@@ -247,8 +247,8 @@ const members: PersonInfoProps[] = [
   },
   {
     name: "Daphne Feng",
-    role: "4th year Computer Science major",
-    bio: "Computer Science",
+    role: "Cyber Academy",
+    bio: "4th year Computer Science major",
     pronouns: "they/them",
     photo: "",
   },
