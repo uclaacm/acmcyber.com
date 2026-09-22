@@ -45,9 +45,9 @@ export default function Sponsors() {
       <div className="page">
         <div className="content">
           <h1>Sponsors</h1>
-          <p>Thank you to our sponsors who makes our events possible!</p>
+          <p>Thank you to our sponsors who make our events possible!</p>
           <SponsorsTierSection tier="Club" sponsors={clubSponsors} />
-          <SponsorsTierSection tier="LA CTF 2025" sponsors={lactfSponsors} />
+          <SponsorsTierSection tier="LA CTF 2026" sponsors={lactfSponsors} />
         </div>
         <section className={styles.calloutSection}>
           <h2>Interested in sponsoring?</h2>
