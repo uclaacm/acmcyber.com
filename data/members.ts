@@ -80,7 +80,7 @@ const members: PersonInfoProps[] = [
   {
     name: "Kieran Lee",
     role: "Officer",
-    bio: "3rd year Computer Science & Engineering major",
+    bio: "3rd year Computer Science major",
     pronouns: "they/them, he/him",
     photo: "kieran.webp",
   },
