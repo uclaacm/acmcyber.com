@@ -303,10 +303,22 @@
     "type": [
       "GM"
     ],
-    "banner": "https://docs.google.com/u/0/forms-images-rt/ANbbkih3be8BJ3qGFKvz3ZNbaAoWJaSNYk_XeIqohODt9hefZwU8bPfvPqUo3zaszamFhO7UgNa6GkilqquTlJ7fBHhclIjXx_nuDklqRkrVf1-m8e1zIkhe39o_PFml_5TRq0v9dik7mjQIBAkk7d0V5H5dKUBnB4bi1zpflN6SsZ7CYrczxTFYS3zTKXZqHwoHqI0kEp_Jx4k=w1589",
+    "banner": "https://cyanea-assets.acmcyber.com/events/f26/acm.png",
     "meta": {
       "ignore-for-acm-newsletter": true
     }
+  },
+  {
+    "id": "f26-cyber-gm",
+    "title": "ACM Cyber Fall GM",
+    "description": "Want to join the premier cybersecurity club at UCLA? 🔐Come to our Fall GM to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, eCTF, or our CTF team PBR, it'll all be revealed and detailed at our GM. 🔮👀 Also, don't forget to bring a laptop to solve some fun cybersecurity challenges after the presentation!",
+    "location": "TBD",
+    "start": 1791248424942,
+    "end": 1791255624942,
+    "type": [
+      "GM"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "s26-cyber-gm",
