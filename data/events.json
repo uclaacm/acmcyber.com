@@ -294,6 +294,21 @@
     ]
   },
   {
+    "id": "f26-acm-gm",
+    "title": "ACM Fall GM",
+    "description": "Do you want to build your own video game, iOS application, or neural network? 💻 Do you want to participate in competitive programming or CTFs? ⛳️ Do you care about diversity in STEM? Or do you simply just want to get involved with the tech community on campus?\n\n👥 Join ACM at UCLA for our Fall General Meeting! 🎉\n\n🗓️ Date: Friday, October 2nd, 2026 (Week 1)\n⏰ Time: 6:00 - 8:00 PM\n📍 Location: E6 Mong Learning Center",
+    "location": "E6 Mong Learning Center",
+    "start": 1790989208509,
+    "end": 1790996408509,
+    "type": [
+      "GM"
+    ],
+    "banner": "https://docs.google.com/u/0/forms-images-rt/ANbbkih3be8BJ3qGFKvz3ZNbaAoWJaSNYk_XeIqohODt9hefZwU8bPfvPqUo3zaszamFhO7UgNa6GkilqquTlJ7fBHhclIjXx_nuDklqRkrVf1-m8e1zIkhe39o_PFml_5TRq0v9dik7mjQIBAkk7d0V5H5dKUBnB4bi1zpflN6SsZ7CYrczxTFYS3zTKXZqHwoHqI0kEp_Jx4k=w1589",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
     "id": "s26-cyber-gm",
     "title": "ACM Cyber Spring GM",
     "description": "Come hear what Cyber's all about and what we'll be doing this quarter! There will be free stickers and fun cybersecurity puzzles (bring your laptop)! 💻🤩",
