@@ -312,13 +312,27 @@
     "id": "f26-cyber-gm",
     "title": "ACM Cyber Fall GM",
     "description": "Want to join the premier cybersecurity club at UCLA? 🔐Come to our Fall GM to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, eCTF, or our CTF team PBR, it'll all be revealed and detailed at our GM. 🔮👀 Also, don't forget to bring a laptop to solve some fun cybersecurity challenges after the presentation!",
-    "location": "TBD",
+    "location": "Engineering VI 289",
     "start": 1791248424942,
     "end": 1791255624942,
     "type": [
       "GM"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-verkada",
+    "title": "Verkada Recruiting Event",
+    "description": "** RSVP REQUIRED: https://l.acmcyber.com/verkada **\n\nCome chat with a security engineer and a recruiter at Verkada, a physical security IoT startup. 🔐Food and swag will be provided! 🤩",
+    "location": "Boelter 8500",
+    "start": 1791333000866,
+    "end": 1791340200866,
+    "type": [
+      "Industry",
+      "Career",
+      "Speaker"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/f25/verkada.png"
   },
   {
     "id": "s26-cyber-gm",
