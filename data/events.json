@@ -335,6 +335,18 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/f25/verkada.png"
   },
   {
+    "id": "f25-w3-cyac",
+    "title": "Cyber Academy: *.ucla.*",
+    "description": "\nEver wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for our first Cyber Academy meeting this week 💻💥! We'll be diving into a talk from Andrew on the depths of UCLA's publicly accessible network *.ucla.(edu | net) 🌐. Don't miss out—meet us in Kerckhoff State Room 131-135 from 6-8 PM💛💛!",
+    "location": "Kerckhoff State Room 131-135",
+    "start": 1791421737243,
+    "end": 1791428457243,
+    "type": [
+      "Cyber Lab",
+      "Speaker"
+    ]
+  },
+  {
     "id": "s26-cyber-gm",
     "title": "ACM Cyber Spring GM",
     "description": "Come hear what Cyber's all about and what we'll be doing this quarter! There will be free stickers and fun cybersecurity puzzles (bring your laptop)! 💻🤩",
