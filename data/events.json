@@ -349,13 +349,14 @@
   {
     "id": "f26-sawtelle",
     "title": "Cyber X ICPC Sawtelle Social",
-    "description": "RSVP: http://l.acmcyber.com/run\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! 🍛 Meet at the Bruin Bear statue at 6:00 PM, where we will split into 2 groups, a runner group and a busser group 🏃🚌",
+    "description": "RSVP: http://l.acmcyber.com/sawtelle\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! 🍛 Meet at the Bruin Bear statue at 6:00 PM, where we will split into 2 groups, a runner group and a busser group 🏃🚌",
     "location": "Bruin Bear Statue",
     "start": 1792198820561,
     "end": 1792213220561,
     "type": [
       "Social"
-    ]
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "f26-deadface",
