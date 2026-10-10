@@ -361,9 +361,9 @@
   {
     "id": "f26-deadface",
     "title": "DEADFACE CTF",
-    "description": "Come to our first 🎊 PBR meeting of the year! DEADFACE ☠️ CTF has something for everyone, including a lot of beginner-friendly challenges. 💻 And come get lunch with us at 11 AM before the CTF! 🥙",
+    "description": "Come to our first 🎊 PBR meeting of the year! DEADFACE ☠️ CTF has something for everyone, including a lot of beginner-friendly challenges. 💻 And come get lunch with us at 11:30 AM before the CTF! 🥙",
     "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1792260059938,
+    "start": 1792261859938,
     "end": 1792285259938,
     "type": [
       "Psi Beta Rho"
@@ -375,7 +375,7 @@
     "title": "Hack.lu CTF",
     "description": "Join PBR for Hack.lu CTF🧑‍💻this weekend! Join us for lunch beforehand 😋",
     "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1792864834126,
+    "start": 1792866634126,
     "end": 1792890034126,
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
     "type": [
@@ -385,9 +385,9 @@
   {
     "id": "f26-glacier",
     "title": "GlacierCTF",
-    "description": "For our last PBR meeting of the quarter, we'll be playing ❄️ GlacierCTF! Join us for lunch at 11 AM before the CTF, and stick around for our quarterly potluck after. 🍔",
+    "description": "For our last PBR meeting of the quarter, we'll be playing ❄️ GlacierCTF! Join us for lunch at 11:30 AM before the CTF, and stick around for our quarterly potluck after. 🍔",
     "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1795287620038,
+    "start": 1795289420038,
     "end": 1795312820038,
     "type": [
       "Psi Beta Rho"
