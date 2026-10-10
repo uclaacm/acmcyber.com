@@ -337,7 +337,7 @@
   {
     "id": "f25-w3-cyac",
     "title": "Cyber Academy: *.ucla.*",
-    "description": "\nEver wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for our first Cyber Academy meeting this week 💻💥! We'll be diving into a talk from Kenneth on the depths of UCLA's publicly accessible network *.ucla.(edu | net) 🌐. Don't miss out—meet us in Kerckhoff State Room 131-135 from 6-8 PM💛💛!",
+    "description": "\nEver wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for our first Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Kenneth on the depths of UCLA's publicly accessible network *.ucla.(edu | net) 🌐. Don't miss out—meet us in Kerckhoff State Room 131-135 from 6-8 PM💛💛!",
     "location": "Kerckhoff State Room 131-135",
     "start": 1791421737243,
     "end": 1791428457243,
@@ -345,6 +345,65 @@
       "Cyber Lab",
       "Speaker"
     ]
+  },
+  {
+    "id": "f26-sawtelle",
+    "title": "Cyber X ICPC Sawtelle Social",
+    "description": "RSVP: http://l.acmcyber.com/run\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! 🍛 Meet at the Bruin Bear statue at 6:00 PM, where we will split into 2 groups, a runner group and a busser group 🏃🚌",
+    "location": "Bruin Bear Statue",
+    "start": 1792198820561,
+    "end": 1792213220561,
+    "type": [
+      "Social"
+    ]
+  },
+  {
+    "id": "f26-deadface",
+    "title": "DEADFACE CTF",
+    "description": "Come to our first 🎊 PBR meeting of the year! DEADFACE ☠️ CTF has something for everyone, including a lot of beginner-friendly challenges. 💻 And come get lunch with us at 11 AM before the CTF! 🥙",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1792260059938,
+    "end": 1792285259938,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-hacklu",
+    "title": "Hack.lu CTF",
+    "description": "Join PBR for Hack.lu CTF🧑‍💻this weekend! Join us for lunch beforehand 😋",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1792864834126,
+    "end": 1792890034126,
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "type": [
+      "Psi Beta Rho"
+    ]
+  },
+  {
+    "id": "f26-glacier",
+    "title": "GlacierCTF",
+    "description": "For our last PBR meeting of the quarter, we'll be playing ❄️ GlacierCTF! Join us for lunch at 11 AM before the CTF, and stick around for our quarterly potluck after. 🍔",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1795287620038,
+    "end": 1795312820038,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-potluck",
+    "title": "Potluck Social",
+    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social! 😃 Come make some memories and socialize while grilling some hotdogs and hamburgers together. 🍔🌭 ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
+    "location": "TBD",
+    "start": 1795314625991,
+    "end": 1795327225991,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "s26-cyber-gm",
