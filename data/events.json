@@ -343,7 +343,11 @@
     "end": 1791428457243,
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk2-lab"
+    },
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "f26-sawtelle",
@@ -415,7 +419,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk3-cyac"
+    }
   },
   {
     "id": "f26-wk3-lab",
@@ -424,6 +431,33 @@
     "location": "Kerckhoff State Rooms",
     "start": 1792026049668,
     "end": 1792033249668,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk3-lab"
+    }
+  },
+  {
+    "id": "f26-wk4-cyac",
+    "title": "Cyber Academy: Computer Networking",
+    "description": "How does your computer actually connect to the internet? 🌐 What happens when you plug in a cable, join a Wi-Fi network, or visit a website? 🤔 Come to this week's Cyber Academy 📚 to build networking intuition from the ground up! We'll start with how data is encoded and transmitted over serial protocols 🔌, then work our way up to how devices get IP addresses through DHCP and how NAT lets an entire network share a public IP address 🖥️. After the talk, Fundamentals will learn SQL injection, and Advanced will continue with XSS!",
+    "location": "Boelter 8500",
+    "start": 1792458054027,
+    "end": 1792465254027,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-wk4-lab",
+    "title": "Cyber Lab",
+    "description": "Come to Cyber Lab 🧪 and continue working on building a password manager, agentic fuzzing, or making your own CTF challenges! 😁",
+    "location": "Kerckhoff State Rooms",
+    "start": 1792630850667,
+    "end": 1792638050667,
     "type": [
       "Cyber Lab"
     ],
