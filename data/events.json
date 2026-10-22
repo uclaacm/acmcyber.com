@@ -490,7 +490,7 @@
   {
     "id": "f26-wk5-cyac",
     "title": "Cyber Academy: Hugging Face Attack",
-    "description": "What happens when your AI agent 🤖 decides the easiest way to accomplish its task is to commit a crime 🕵️? This summer, a swarm of OpenAI's agents decided to cheat 📝 on an internal evaluation by hacking 💢 the Hugging Face website. How could this have happened? Come to this week's Cyber Academy to learn about the infamous Hugging Face 🤗 incident, and what it means for AI security and safety 🔒. ",
+    "description": "What happens when your AI agent 🤖 decides the easiest way to accomplish its task is to commit a crime 🕵️? This summer, a swarm of OpenAI's agents decided to cheat 📝 on an internal evaluation by hacking 💢 the Hugging Face website. How could this have happened? Come to this week's Cyber Academy to learn about the infamous Hugging Face 🤗 incident, and what it means for AI security and safety 🔒. Then learn about prompt injection 💉 in Fundamentals or reverse engineering and assembly ⚙️ in Advanced!",
     "location": "Boelter 8500",
     "start": 1793062834403,
     "end": 1793070034403,
