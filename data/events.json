@@ -500,6 +500,18 @@
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
+    "id": "f26-wk5-lab",
+    "title": "Cyber Lab: Careers in Cybersecurity",
+    "description": "Interested in a career 💼  in cybersecurity? Fret not - cybersecurity is HUGE 🟠, and there's a spot for everyone 🧑‍🤝‍🧑 . This talk will cover the various career paths in CS which cybersecurity enthusiasts 🤓 in and outside of the club have pursued, as well as some of the ways you 🫵 might be able to snatch one of these jobs for yourself! Then continue with the password manager, agentic fuzzing, or CTF challenge lab! 🧪",
+    "location": "Kerckhoff State Rooms",
+    "start": 1793235646711,
+    "end": 1793242846711,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
     "id": "s26-cyber-gm",
     "title": "ACM Cyber Spring GM",
     "description": "Come hear what Cyber's all about and what we'll be doing this quarter! There will be free stickers and fun cybersecurity puzzles (bring your laptop)! 💻🤩",
