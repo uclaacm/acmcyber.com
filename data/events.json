@@ -911,7 +911,7 @@
   },
   {
     "id": "f26-wk6-lab",
-    "title": "Cyber Lab:  Hardware RoT and Attestation",
+    "title": "Cyber Lab:  Hardware Security",
     "description": "Ever wondered how ML servers 🤖 in data centers are secured at the hardware 💾 level? Ever heard of Secure Boot 🔒? Come listen to Jordan, Senior Staff Software Engineer from Google, talk about the threat model 💥 facing modern GPU/TPU clusters 🖨️, how Google is addressing these threats 🛡️, and what the frontier of hardware security for LLM training/inference ⛏️ looks like! Then continue with the password manager, agentic fuzzing, or CTF challenge lab! 💻",
     "location": "Kerckhoff State Rooms",
     "start": 1793844013051,
