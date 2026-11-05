@@ -935,6 +935,18 @@
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
+    "id": "f26-wk7-cyac",
+    "title": "Cyber Academy",
+    "description": "Come to this week's Cyber Academy 📚 to learn about reverse engineering and miscellaneous CTF challenges ⛳ in Fundamentals or symmetric cryptography 🔑in Advanced! ",
+    "location": "Boelter 8500",
+    "start": 1794276012996,
+    "end": 1794283212996,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
     "id": "s25-cyber-gm",
     "title": "Spring 25 Cyber GM",
     "description": "Want to join the premier cybersecurity club at UCLA? Come to our Spring GM on Monday Week 2 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
