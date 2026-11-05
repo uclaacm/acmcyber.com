@@ -923,6 +923,18 @@
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
+    "id": "f26-symposium",
+    "title": "ACM Cyber X ACM AI Symposium",
+    "description": "Want to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends in ACM AI have been up to? 🤩 Join us Monday of Week 10 in Engineering VI, Mong 6-8 PM for the Fall Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have an open time to hang out. See you there!",
+    "location": "E6 Mong",
+    "start": 1796090405858,
+    "end": 1796097605858,
+    "type": [
+      "Cyber x AI Symposium"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
     "id": "s25-cyber-gm",
     "title": "Spring 25 Cyber GM",
     "description": "Want to join the premier cybersecurity club at UCLA? Come to our Spring GM on Monday Week 2 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
