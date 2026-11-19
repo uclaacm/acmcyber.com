@@ -678,7 +678,8 @@
     "end": 1776560420992,
     "type": [
       "Psi Beta Rho"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "s26-umdctf",
@@ -689,7 +690,8 @@
     "end": 1777165218620,
     "type": [
       "Psi Beta Rho"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "s26-sawtelle",
@@ -700,7 +702,8 @@
     "end": 1777093211984,
     "type": [
       "Social"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "s26-wk3-cyac",
@@ -790,7 +793,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk4-cyac"
+    }
   },
   {
     "id": "s26-wk4-lab",
@@ -841,7 +847,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk5-cyac"
+    }
   },
   {
     "id": "s26-wk5-lab",
@@ -853,7 +862,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk5-lab"
+    }
   },
   {
     "id": "s26-kayaking",
@@ -876,7 +888,8 @@
     "end": 1779076828603,
     "type": [
       "Social"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "s26-grey-cat-the-flag",
@@ -900,7 +913,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk6-cyac"
+    }
   },
   {
     "id": "s26-wk6-lab",
@@ -912,7 +928,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk6-lab"
+    }
   },
   {
     "id": "s26-wk7-cyac",
@@ -924,7 +943,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk7-cyac"
+    }
   },
   {
     "id": "s26-wk7-lab",
@@ -936,7 +958,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk7-lab"
+    }
   },
   {
     "id": "s26-symposium",
@@ -947,7 +972,8 @@
     "end": 1780369240311,
     "type": [
       "Cyber x AI Symposium"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "s26-wk8-lab",
@@ -959,7 +985,10 @@
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
     "type": [
       "Cyber Lab"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk8-lab"
+    }
   },
   {
     "id": "s26-wk8-cyac",
@@ -971,7 +1000,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk8-cyac"
+    }
   },
   {
     "id": "s26-misc-smores",
@@ -996,7 +1028,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk9-lab"
+    }
   },
   {
     "id": "f23-misc-acm-gm",
