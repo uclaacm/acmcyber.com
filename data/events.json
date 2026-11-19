@@ -155,7 +155,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk4-cyac"
+    }
   },
   {
     "id": "f26-wk4-lab",
@@ -167,7 +170,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk4-lab"
+    }
   },
   {
     "id": "f26-keychains",
@@ -203,7 +209,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk5-cyac"
+    }
   },
   {
     "id": "f26-wk5-lab",
@@ -215,7 +224,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk5-lab"
+    }
   },
   {
     "id": "f26-wk6-cyac",
@@ -227,7 +239,10 @@
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
     "type": [
       "Cyber Academy"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk6-cyac"
+    }
   },
   {
     "id": "f26-wk6-lab",
@@ -240,7 +255,10 @@
       "Cyber Lab",
       "Speaker"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk6-lab"
+    }
   },
   {
     "id": "f26-symposium",
@@ -264,7 +282,10 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk7-lab"
+    }
   },
   {
     "id": "f26-wk8-cyac",
@@ -277,7 +298,10 @@
     "type": [
       "Cyber Academy",
       "Speaker"
-    ]
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk8-cyac"
+    }
   },
   {
     "id": "f26-wk8-lab",
@@ -289,7 +313,10 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk8-lab"
+    }
   },
   {
     "id": "w26-uoftctf",
