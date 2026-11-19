@@ -649,7 +649,8 @@
     "start": 1775091629033,
     "end": 1775098829033,
     "type": [
-      "GM"
+      "GM",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
     "links": {
@@ -664,7 +665,8 @@
     "start": 1775317533631,
     "end": 1775322033631,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -730,7 +732,8 @@
     "start": 1777079711984,
     "end": 1777093211984,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -772,7 +775,8 @@
     "start": 1776567616619,
     "end": 1776582016619,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -784,7 +788,8 @@
     "start": 1777777216619,
     "end": 1777791616619,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -796,7 +801,8 @@
     "start": 1780110016619,
     "end": 1780124416619,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -808,7 +814,8 @@
     "start": 1777168815328,
     "end": 1777179615328,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -862,7 +869,8 @@
     "start": 1777744824490,
     "end": 1777762824490,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/s26/duck_with_flags.png"
   },
@@ -904,7 +912,8 @@
     "start": 1778360432612,
     "end": 1778374832612,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://recreation.ucla.edu/sites/default/files/styles/header_image/public/2022-03/MAC_topbanner.jpg?itok=FIAZyLam"
   },
@@ -916,7 +925,8 @@
     "start": 1779062428603,
     "end": 1779076828603,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -1000,7 +1010,8 @@
     "start": 1780362040311,
     "end": 1780369240311,
     "type": [
-      "Cyber x AI Symposium"
+      "Cyber x AI Symposium",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
