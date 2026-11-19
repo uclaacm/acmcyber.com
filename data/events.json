@@ -1,5 +1,1060 @@
 [
   {
+    "id": "f26-acm-gm",
+    "title": "ACM Fall GM",
+    "description": "Do you want to build your own video game, iOS application, or neural network? 💻 Do you want to participate in competitive programming or CTFs? ⛳️ Do you care about diversity in STEM? Or do you simply just want to get involved with the tech community on campus?\n\n👥 Join ACM at UCLA for our Fall General Meeting! 🎉\n\n🗓️ Date: Friday, October 2nd, 2026 (Week 1)\n⏰ Time: 6:00 - 8:00 PM\n📍 Location: Engineering VI Mong Learning Center",
+    "location": "Engineering VI Mong Learning Center",
+    "start": 1790989208509,
+    "end": 1790996408509,
+    "type": [
+      "GM"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/f26/acm.png",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
+    "id": "f26-cyber-gm",
+    "title": "ACM Cyber Fall GM",
+    "description": "Want to join the premier cybersecurity club at UCLA? 🔐Come to our Fall GM to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, eCTF, or our CTF team PBR, it'll all be revealed and detailed at our GM. 🔮👀 Also, don't forget to bring a laptop to solve some fun cybersecurity challenges after the presentation!",
+    "location": "Engineering VI 289",
+    "start": 1791248424942,
+    "end": 1791255624942,
+    "type": [
+      "GM"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-verkada",
+    "title": "Verkada Recruiting Event",
+    "description": "** RSVP REQUIRED: https://l.acmcyber.com/verkada **\n\nCome chat with a security engineer and a recruiter at Verkada, a physical security IoT startup. 🔐Food and swag will be provided! 🤩",
+    "location": "Boelter 8500",
+    "start": 1791333000866,
+    "end": 1791340200866,
+    "type": [
+      "Industry",
+      "Career",
+      "Speaker"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/f25/verkada.png"
+  },
+  {
+    "id": "f26-wk2-lab",
+    "title": "Cyber Lab: *.ucla.*",
+    "description": "\nEver wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for our first Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Kenneth on the depths of UCLA's publicly accessible network *.ucla.(edu | net) 🌐. Don't miss out—meet us in Kerckhoff State Room 131-135 from 6-8 PM💛💛!",
+    "location": "Kerckhoff State Room 131-135",
+    "start": 1791421737243,
+    "end": 1791428457243,
+    "type": [
+      "Cyber Lab"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk2-lab"
+    },
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-sawtelle",
+    "title": "Cyber X ICPC Sawtelle Social",
+    "description": "RSVP: http://l.acmcyber.com/sawtelle\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! 🍛 Meet at the Bruin Bear statue at 6:00 PM, where we will split into 2 groups, a runner group and a busser group 🏃🚌",
+    "location": "Bruin Bear Statue",
+    "start": 1792198820561,
+    "end": 1792213220561,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-deadface",
+    "title": "DEADFACE CTF",
+    "description": "Come to our first 🎊 PBR meeting of the year! DEADFACE ☠️ CTF has something for everyone, including a lot of beginner-friendly challenges. 💻 Come get lunch 🥙with us at 11:30 AM before the CTF, or head directly to the Tesla Room at 1 PM!",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1792261859938,
+    "end": 1792285259938,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-hacklu",
+    "title": "Hack.lu CTF",
+    "description": "Join PBR for Hack.lu CTF🧑‍💻this weekend! Join us for lunch beforehand 😋or come directly to the Tesla Room at 1 PM",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1792866634126,
+    "end": 1792890034126,
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "type": [
+      "Psi Beta Rho"
+    ]
+  },
+  {
+    "id": "f26-wolv",
+    "title": "WolvCTF",
+    "description": "For our last PBR meeting of the quarter, we'll be playing 🐺 WolvCTF! Join us for lunch at 11:30 AM before the CTF (or go directly to the Tesla Room at 1 PM), and stick around for our quarterly potluck after. 🍔",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1795289420038,
+    "end": 1795312820038,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-potluck",
+    "title": "Potluck Social",
+    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social! 😃 Come make some memories and socialize while grilling some hotdogs and hamburgers together. 🍔🌭 ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
+    "location": "910 Weyburn Terrace",
+    "start": 1795316425991,
+    "end": 1795327225991,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-wk3-cyac",
+    "title": "Cyber Academy: Dining Hall Locker Security",
+    "description": "How safe is your backpack 🎒 at the dining hall? It depends. 🤔 Come to this week's Cyber Academy 📚 to see how in a seemingly unsuspecting part of the dining hall lies the principles of cybersecurity and security in general. We'll then split into a fundamentals group (which will have an introduction to cryptography 🔑) and an advanced group (which will cover cross-site scripting, a web security vulnerability 🕸️)!",
+    "location": "Boelter 8500",
+    "start": 1791853251219,
+    "end": 1791860451219,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk3-cyac"
+    }
+  },
+  {
+    "id": "f26-wk3-lab",
+    "title": "Cyber Lab:  Zero-Knowledge Proofs and Post-Quantum Cryptography",
+    "description": "Pull up to our second cyber lab 🧪meeting to hear a UCLA Applied Mathematics alum and cryptography researcher talk about cutting-edge research in zero-knowledge proofs! 🔥Especially recommended to attend if you're interested in cryptography, security, or systems engineering. 🤩 Then we'll split into lab groups (password manager, agentic fuzzing, and CTF challenge) to continue the labs 💻",
+    "location": "Kerckhoff State Rooms",
+    "start": 1792026049668,
+    "end": 1792033249668,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk3-lab"
+    }
+  },
+  {
+    "id": "f26-wk4-cyac",
+    "title": "Cyber Academy: Computer Networking",
+    "description": "How does your computer actually connect to the internet? 🌐 What happens when you plug in a cable, join a Wi-Fi network, or visit a website? 🤔 Come to this week's Cyber Academy 📚 to build networking intuition from the ground up! We'll start with how data is encoded and transmitted over serial protocols 🔌, then work our way up to how devices get IP addresses through DHCP and how NAT lets an entire network share a public IP address 🖥️. After the talk, Fundamentals will learn SQL injection, and Advanced will continue with XSS!",
+    "location": "Boelter 8500",
+    "start": 1792458054027,
+    "end": 1792465254027,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk4-cyac"
+    }
+  },
+  {
+    "id": "f26-wk4-lab",
+    "title": "Cyber Lab: The Most Interesting C Program",
+    "description": "Ever wonder what actually happens when a simple \"Hello, World!\" program runs? 🌎 This technical deep-dive pulls back the curtain on ⁠printf⁠ to explore the complex layers of system calls, stream buffering, and kernel interaction hidden beneath a single line of C code. 🔥Discover the surprising amount of heavy lifting your operating system and runtime library perform behind the scenes. Then continue working on building a password manager, agentic fuzzing, or making your own CTF challenges! 😁",
+    "location": "Kerckhoff State Rooms",
+    "start": 1792630850667,
+    "end": 1792638050667,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk4-lab"
+    }
+  },
+  {
+    "id": "f26-keychains",
+    "title": "Keychain-making Social",
+    "description": "Want your very own Cyber Keychain™️? Or want to just hang out and do some arts and crafts? ☺️ Come to our very first keychain-making social! We'll provide all the materials: the 3d-printed keychain models (likely one with the cyber logo and one with the PBR duck), paint, and resin. 🎨  ",
+    "location": "Engineering VI",
+    "start": 1793566832163,
+    "end": 1793577632163,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-board-games",
+    "title": "Board Games Social",
+    "description": "Come play board games with Cyber! 👾 We'll be ~~invading~~ attending Enigma's Friday Board Game night, featuring all the board games you could hope to play (or feel free to bring your own, if you have any!). 🤩",
+    "location": "Saxon Suites",
+    "start": 1794628830070,
+    "end": 1794643230070,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-wk5-cyac",
+    "title": "Cyber Academy: Hugging Face Attack",
+    "description": "What happens when your AI agent 🤖 decides the easiest way to accomplish its task is to commit a crime 🕵️? This summer, a swarm of OpenAI's agents decided to cheat 📝 on an internal evaluation by hacking 💢 the Hugging Face website. How could this have happened? Come to this week's Cyber Academy to learn about the infamous Hugging Face 🤗 incident, and what it means for AI security and safety 🔒. Then learn about prompt injection 💉 in Fundamentals or reverse engineering and assembly ⚙️ in Advanced!",
+    "location": "Boelter 8500",
+    "start": 1793062834403,
+    "end": 1793070034403,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk5-cyac"
+    }
+  },
+  {
+    "id": "f26-wk5-lab",
+    "title": "Cyber Lab: Careers in Cybersecurity",
+    "description": "Interested in a career 💼  in cybersecurity? Fret not - cybersecurity is HUGE 🟠, and there's a spot for everyone 🧑‍🤝‍🧑 . This talk will cover the various career paths in CS which cybersecurity enthusiasts 🤓 in and outside of the club have pursued, as well as some of the ways you 🫵 might be able to snatch one of these jobs for yourself! Then continue with the password manager, agentic fuzzing, or CTF challenge lab! 🧪",
+    "location": "Kerckhoff State Rooms",
+    "start": 1793235646711,
+    "end": 1793242846711,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk5-lab"
+    }
+  },
+  {
+    "id": "f26-wk6-cyac",
+    "title": "Cyber Academy: CAPTCHAs",
+    "description": "Ever wondered why you need to select all stoplights three times in a row?? 😵‍💫 Or how effective CAPTCHAs actually are? Come to this week's Cyber Academy to learn about how CAPTCHAs work and how they can be circumvented! 🤖 Then learn about OSINT (open-source intelligence) 🌎 in Fundamentals or continue with reverse engineering and assembly ⚙️ in Advanced!",
+    "location": "Boelter 8500",
+    "start": 1793671250745,
+    "end": 1793678450745,
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "type": [
+      "Cyber Academy"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk6-cyac"
+    }
+  },
+  {
+    "id": "f26-wk6-lab",
+    "title": "Cyber Lab:  Hardware Security",
+    "description": "Ever wondered how ML servers 🤖 in data centers are secured at the hardware 💾 level? Ever heard of Secure Boot 🔒? Come listen to Jordan, Senior Staff Software Engineer from Google, talk about the threat model 💥 facing modern GPU/TPU clusters 🖨️, how Google is addressing these threats 🛡️, and what the frontier of hardware security for LLM training/inference ⛏️ looks like! Then continue with the password manager, agentic fuzzing, or CTF challenge lab! 💻",
+    "location": "Kerckhoff State Rooms",
+    "start": 1793844013051,
+    "end": 1793851213051,
+    "type": [
+      "Cyber Lab",
+      "Speaker"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk6-lab"
+    }
+  },
+  {
+    "id": "f26-symposium",
+    "title": "ACM Cyber X ACM AI Symposium",
+    "description": "Want to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends in ACM AI have been up to? 🤩 Join us Monday of Week 10 in Engineering VI, Mong 6-8 PM for the Fall Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have an open time to hang out. See you there!",
+    "location": "E6 Mong",
+    "start": 1796090405858,
+    "end": 1796097605858,
+    "type": [
+      "Cyber x AI Symposium"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
+  },
+  {
+    "id": "f26-wk7-cyac",
+    "title": "Cyber Academy",
+    "description": "Come to this week's Cyber Academy 📚 to learn about reverse engineering ⛳ in Fundamentals or symmetric cryptography 🔑in Advanced! ",
+    "location": "Boelter 8500",
+    "start": 1794276012996,
+    "end": 1794283212996,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk7-cyac"
+    }
+  },
+  {
+    "id": "f26-wk8-cyac",
+    "title": "Cyber Academy",
+    "description": "Come to this week's Cyber Academy 📚 to hear a talk from Professor Tian, whose research interests are security and privacy, machine learning, and human-computer interactions! 🤩 Then learn reverse engineering ⛳ in Fundamentals or asymmetric cryptography 🔑in Advanced! ",
+    "location": "Boelter 8500",
+    "start": 1794880809791,
+    "end": 1794888009791,
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "type": [
+      "Cyber Academy",
+      "Speaker"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk8-cyac"
+    }
+  },
+  {
+    "id": "f26-wk8-lab",
+    "title": "Cyber Lab: Virtual Machines",
+    "description": "Wondering how the cloud ☁️ works under the hood? How can you run Linux 🐧 inside of Windows? Virtual machines play a HUGE 🟠 role in cybersecurity and tech in general, and in this talk we will explore what they are and how they work 🫵. We'll start from a historical perspective 🖥️ and work our way to the technologies powering VMs 🤖 that we all use today! ",
+    "location": "Kerckhoff State Rooms",
+    "start": 1795053630444,
+    "end": 1795060830444,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/f26-wk8-lab"
+    }
+  },
+  {
+    "id": "w26-uoftctf",
+    "title": "UofT CTF",
+    "description": "Welcome back 🚀 PBR! To kick off the new year 🧧 we will be playing 🍁 UofTCTF from our friends at University of Toronto 🔥 This CTF will have great challenges so be sure to join us on Saturday for lunch 🥙 before we head to E4 Tesla Room! 💻",
+    "location": "E4 Tesla Room (53-125)",
+    "start": 1768071605652,
+    "end": 1768096805652,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-lactf",
+    "title": "LA CTF 2026",
+    "description": "Looking for a fun way to spend the weekend? 👀 LA CTF is ACM Cyber's annual cybersecurity event and capture-the-flag style competition. 🔐 Come solve challenges, make new friends, win prizes, and have a great time! 🥳\n\nThe online competition starts on 2/6/26, and the in-person event will be on Saturday, 2/7/26, at the Tom Bradley International Hall room 300. 🐻 Activities start at 9 AM and end at 7 PM, but you are free to stay as much or as little as you want. Free lunch 🍕 and merch 🛍️ will be provided, and there will be cool talks from professors and industry speakers 🗣️ . We even have prizes reserved for UCLA students! Everyone, whether beginner or expert, is welcome! 🙌\n\nIf you're interested in coming, RSVP at https://l.acmcyber.com/lactf-26. See our [website](https://lac.tf) or [Discord server](https://lac.tf/discord) for more details! 🤩",
+    "location": "Hybrid, https://lac.tf for more info",
+    "start": 1770429603763,
+    "end": 1770602403763,
+    "type": [
+      "LA CTF"
+    ],
+    "banner": "https://lac.tf/images/mountains-logo.gif"
+  },
+  {
+    "id": "w26-cyber-gm",
+    "title": "ACM Cyber Winter GM",
+    "description": "Are you a returning member and curious to learn what ACM Cyber has in store for next quarter? New to the club and want to understand all that ACM Cyber does? Come to our Winter GM meeting, where we will explain all of the various events that ACM Cyber puts on throught the quarter, and learn more about how YOU can get involved!",
+    "location": "Boelter 4760",
+    "start": 1767837638342,
+    "end": 1767844838342,
+    "type": [
+      "GM"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-ectf-kickoff",
+    "title": "eCTF Kickoff Meeting",
+    "description": "ITS TIME!!!!!!! ❄️ We're hittin' the ground running 🏃 this **Thursday**\\* with our first ECTF meeting of the quarter 🎯 in the 🔷 IEEE lab 🔷! We'll be discussing officially signing up for the event 🖊, course credit options 🎓, and what we'll be doing once design phase begins next week 📐!\n\n\\*I know we originally said that meetings would be held on Tuesday, but due to scheduling constraints our weekly weekday meeting had to be moved to Thursday 😔. If you are unable to come for the Kickoff and would like to be on the team, **please** contact an ECTF lead ASAP to get signed up: @renuka @zink_ed @joshuazhu @arandom_person @avdestroyer @parth_pandhare @arcblroth. If you cannot make Thursdays 6-8 PM this quarter, don't fret: we will likely also hold consistent worksessions on the weekend.",
+    "location": "IEEE Lab (Boelter 2825)",
+    "start": 1767924044420,
+    "end": 1767931244420,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "ECTF"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/ectf-week3-f25"
+    }
+  },
+  {
+    "id": "w26-wk2-cyac",
+    "title": "Cyber Academy Kickoff: Web race conditions and HTTP",
+    "description": "Want to learn how to exploit 🕵️ web race conditions 🏃‍♂️, better? Even when timing ⏱️ windows are extremely tight, we can get very reliable results using special tricks 💡 based on cool HTTP features! Come to this quarter's first Cyber Academy, with Arnav's talk about HTTP and web race conditions, to learn about these tricks and about fundamental network protocols 💻! We'll then jump right into our first Cyber Academy workshop 🛠️  of the quarter.",
+    "location": "Boelter 7702",
+    "start": 1768269610576,
+    "end": 1768276810576,
+    "type": [
+      "Cyber Academy"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w26-wk2-cyac",
+      "youtube": "https://youtu.be/JY2kiF9GL3M"
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk2-lab",
+    "title": "Cyber Lab: Kickoff",
+    "description": "This week we will jump into our Cyber Labs of the quarter: Splunk Lab, and CCDC practice development. Sign up for the labs at https://acmcyber.com/join!",
+    "location": "Boelter 7702",
+    "start": 1768442426247,
+    "end": 1768449626247,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-ectf-week2",
+    "title": "eCTF Build Phase Meeting - Week 2",
+    "description": "eCTF kickoff just happened! Build phase 🛠️ starts now!\n\nJoin us in the IEEE Lab (Boelter Hall 2825) for our meeting of the build phase. We will discuss the design requirements and our plan 🗺️ for building our design.\n\nNote: this meeting is mandatory if you wish to participate on the eCTF team. We will make sure that all competitors have filled out the necessary forms to participate. If you cannot come, please contact one of our eCTF leads ASAP so we can tell you what you need to do: @arcblroth @parth_pandhare @AVDestroyer @arandom_person @joshuazhu @zink_ed @renuka",
+    "location": "IEEE Lab (Boelter 2825)",
+    "start": 1768528823110,
+    "end": 1768536023110,
+    "type": [
+      "ECTF"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk3-lab",
+    "title": "Cyber Lab: eBPF Vulnerabilities",
+    "description": "Ever wondered how tech giants 🏢 manage to run custom code 💻 directly inside the Linux kernel 🐧? Join us for Week 3 of Cyber Lab in Boelter 7702, where Lyric will be presenting about eBPF 😳 and the security vulnerabilities 🤯  among its 30,000+ lines of verifier code! 🔍 We’ll explore how these powerful features 🙌  can be turned against the system 😱 to bypass security 🛡️ and gain root access 🔑 🌳. Don't miss out on learning how this revolutionary technology 🚀 massively expands the kernel attack surface 📈 🏔️ !",
+    "location": "Boelter 7702",
+    "start": 1769047214830,
+    "end": 1769054414830,
+    "type": [
+      "Cyber Lab"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w26-wk3-lab",
+      "youtube": "https://youtu.be/gZCeypY0udc"
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Friday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton, Apartment Number 209",
+    "start": 1769227234200,
+    "end": 1769234434200,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-misc-flagsharing",
+    "title": "Flagsharing Social",
+    "description": "You've heard the rumors and the accusations, but it's true 😳 PBR will be 🚩 flagsharing — with you! Come out to the Tongva Steps 📶 this Saturday to 🌱 touch grass 🌾, 🪣 paint on real flags 🖌️, and maybe even ✨ exchange yours 🫵 with another CTFer's 🤝! Since we need to actually purchase the flags and paint, **please RSVP** for this event at https://forms.gle/WwKtosd2T2yGyqA78 by end-of-day Wednesday. We'll also get lunch in Westwood before the social - stay tuned for details on that!",
+    "location": "Tongva Steps (somewhere around)",
+    "start": 1769893257150,
+    "end": 1769904057150,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/w26/flagsharing.png"
+  },
+  {
+    "id": "w26-wk4-cyac",
+    "title": "Cyber Academy: Week 4",
+    "description": "Come to our 2nd Cyber Academy meeting of the quarter, where the fundamentals group will be learning about Local File Inclusion and the advanced group will continue working on Binary Exploitation revpwn challenges!",
+    "location": "Boelter 7702",
+    "start": 1769479223790,
+    "end": 1769486423790,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk5-cyac",
+    "title": "Cyber Academy: Week 5",
+    "description": "In preparation for LA CTF on the weekend, our officers will be demonstrating some past LA CTF challenges and how to solve them. Don't miss out and capture some (past) flags with us! ⛳️",
+    "location": "Boelter 7702",
+    "start": 1770084058404,
+    "end": 1770091258404,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk5-lab",
+    "title": "Cyber Lab: Week 5",
+    "description": "We'll be continuing with our labs, Splunk and CCDC. See you there!",
+    "location": "Boelter 7702",
+    "start": 1770256800705,
+    "end": 1770264000705,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-bkctf",
+    "title": "Batman's Kitchen CTF 2026",
+    "description": "Come play Batman Kitchen's CTF with PBR this weekend!",
+    "location": "",
+    "start": 1771707655422,
+    "end": 1771725655422,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-potluck",
+    "title": "W26 Potluck Social",
+    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social, hopefully not rained out this time! Come make some memories and socialize while grilling some hotdogs and hamburgers together. ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
+    "location": "910 Weyburn Terrace",
+    "start": 1771729248157,
+    "end": 1771740048157,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-srdnlenctf",
+    "title": "Srdnlen CTF",
+    "description": "Come play SrdnlenCTF with PBR this weekend!",
+    "location": "Engineering IV Tesla Room",
+    "start": 1772312433732,
+    "end": 1772330433732,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk6-cyac",
+    "title": "Cyber Academy Week 6",
+    "description": "Hope you had fun solving challenges at LA CTF! This week, beginner group will work on introduction to cryptography and the advanced group will continue working on z3 challenges.",
+    "location": "Boelter 7702",
+    "start": 1770688814554,
+    "end": 1770696014554,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk6-lab",
+    "title": "Cyber Lab Week 6",
+    "description": "Splunk Lab will be discussing the previous scenario and beginning a new scenario, and CCDC Lab will be debriefing after the competition this weekend and preparing for next year.",
+    "location": "Boelter 7702",
+    "start": 1770861636089,
+    "end": 1770868836089,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-sawtelle",
+    "title": "ACM Cyber X ACM ICPC Sawtelle Run Social",
+    "description": "RSVP: https://l.acmcyber.com/run\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! Meet at the Bruin Bear statue at 6:15PM, where we will split into 2 groups, a runner group and a busser group.",
+    "location": "Bruin Bear Statue",
+    "start": 1772849730174,
+    "end": 1772863230174,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk7-lab",
+    "title": "Cyber Lab: SAT Solvers",
+    "description": "This week, we have a talk by Nasir about SAT Solvers! Afterwards, we will continue working in our labs, CCDC and Splunk Lab.\n\nTalk Description: Boolean satisfiability is the core problem underlying decision problems in Computer Science. We'll be defining SAT (Boolean Satisfiability) problem, then introduce 3-SAT as an extension of it. We'll then be looking at a very primitive solver of it in OCaml using Backtracking and then use CNF (Conjuctive Normal Form representation) to then use Davis–Putnam–Logemann–Loveland (DPLL) algorithm to do better than our primitive approach.",
+    "location": "Boelter 7702",
+    "start": 1771466444100,
+    "end": 1771473644100,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk8-cyac",
+    "title": "Cyber Academy Week 8: Containerization",
+    "description": "Join us again for Cyber Academy, where TS will be giving a talk on containerization ⛴️ 🐳 📦! Afterwards, fundamentals group will learn about reverse engineering, and advanced group will explore some cryptography constructions. ",
+    "location": "Boelter 7702",
+    "start": 1771898451907,
+    "end": 1771905651907,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk8-lab",
+    "title": "Cyber Lab Week 8: Physical Security",
+    "description": "Join us for Cyber Lab, where Cathleen will talk about some of her experiences at Defcon ☠️ with physical security 🔐! Splunk lab and CCDC lab will continue as usual. ",
+    "location": "Boelter 7702",
+    "start": 1772071207852,
+    "end": 1772078407852,
+    "type": [
+      "Cyber Lab"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/w26-wk8-lab"
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-symposium",
+    "title": "W26 ACM Cyber X ACM AI Symposium",
+    "description": "** RSVP REQUIRED by 2/26: https://l.acmcyber.com/symposium **\n\nWant to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends have been up to? 😱 Do you want FREE FOOD??? 🥘 Join us Monday of Week 10 in Engineering VI, Mong Learning Center 6-8 PM for the Winter Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have dinner and an open time to hang out. See you there!",
+    "location": "Mong Auditorium",
+    "start": 1773104446006,
+    "end": 1773111646006,
+    "type": [
+      "Cyber x AI Symposium"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk9-acad",
+    "title": "Cyber Academy: AI Art",
+    "description": "Come to the last Cyber Academy of the quarter where Savannah will be giving a talk on how artists protect their works against Generative AI models!",
+    "location": "Boelter 7702",
+    "start": 1772503230503,
+    "end": 1772510430503,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "w26-wk9-lab",
+    "title": "Cyber Lab: Symposium Prep",
+    "description": "Come to the last Cyber Lab of the quarter where we will be wrapping up our labs and preparing to present the labs next week at Symposium!",
+    "location": "Boelter 7702",
+    "start": 1772676057854,
+    "end": 1772683257854,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-cyber-gm",
+    "title": "ACM Cyber Spring GM",
+    "description": "Come hear what Cyber's all about and what we'll be doing this quarter! There will be free stickers and fun cybersecurity puzzles (bring your laptop)! 💻🤩",
+    "location": "Young Hall 2200",
+    "start": 1775091629033,
+    "end": 1775098829033,
+    "type": [
+      "GM"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1uS0F11Jx1n9bFQFsVFzZmBa9kuNac3nh-MmbCE266BE/edit?usp=sharing"
+    }
+  },
+  {
+    "id": "s26-birdwatching",
+    "title": "Birdwatching Social",
+    "description": "It's a bird! It's a plane! No wait it's actually another bird! Come join us as we observe our feathered friends in UCLA's very own botanical garden. 🌴 Feel free to bring binoculars if you have them, or just your wonderful self! 🐦🦃🐓🐤🕊️🦅🦆🦢🦩🦚🦜🐦‍⬛",
+    "location": "Meet at the Bruin Bear, or join us later in the Botanical Garden",
+    "start": 1775317533631,
+    "end": 1775322033631,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk2-cyac",
+    "title": "Cyber Academy: Week 2",
+    "description": "On 31st March 2026, two new npm packages for updated versions of Axios 🤖, which has over 70 million weekly downloads, were identified as malicious 😈. These versions were injected with a malicious dependency to download payloads 🧳 from a North Korean state actor's command and control (C2) 🖥️. Want to learn more? Come to Cyber Academy and listen to TS give his talk about Axios' recent supply chain ⛓️ compromise!",
+    "location": "Boelter 7702",
+    "start": 1775523633631,
+    "end": 1775530833631,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Academy"
+    ],
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1eZ6858m0ad5XYULzyAtlqQeNajJqd6Z3UJ9q-p6FiH8/edit?usp=sharing"
+    }
+  },
+  {
+    "id": "s26-wk2-lab",
+    "title": "Cyber Lab: Week 2",
+    "description": "With all the recent chrome security updates, web security 🌐 might be out of a job. 🤔 In times of need, DNS comes to our rescue. 🔥\nRule #1: It's always DNS. Rule #2: If you're pretty sure it isn't DNS, it's a new DNS feature you're not yet familiar with. \nCome to our first Cyber Lab 🧪meeting of the quarter and listen to Ronak's talk on DNS rebinding!",
+    "location": "Boelter 7702",
+    "start": 1775696411986,
+    "end": 1775703611986,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "http://l.acmcyber.com/s26-wk2-lab"
+    }
+  },
+  {
+    "id": "s26-b01lers-ctf",
+    "title": "b01lers CTF",
+    "description": "For our first PBR meeting of Spring 2026, we'll be playing 🚂 b01lers CTF from Purdue University! There will be a range of challenges ⛳ from beginner-friendly to advanced. Join us on Saturday for lunch 🥙 before we start CTFing! 💻",
+    "location": "E4 Tesla Room (53-125)",
+    "start": 1776535220992,
+    "end": 1776560420992,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-umdctf",
+    "title": "UMDCTF",
+    "description": "Come play 🐢 UMDCTF with PBR! As usual, join us for lunch 🥙 before we start CTFing!",
+    "location": "E4 Tesla Room (53-125)",
+    "start": 1777141818620,
+    "end": 1777165218620,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-sawtelle",
+    "title": "Cyber X ICPC Sawtelle Run ",
+    "description": "RSVP: http://l.acmcyber.com/run\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! 🍛 Meet at the Bruin Bear statue at 6:15PM, where we will split into 2 groups, a runner group and a busser group 🏃🚌",
+    "location": "Bruin Bear Statue",
+    "start": 1777079711984,
+    "end": 1777093211984,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk3-cyac",
+    "title": "Cyber Academy: Week 3",
+    "description": "Remember playing on Cool Math Games 🎮? Did you like grinding Papa's Pizzeria 🍕 or Duck Life 3 🦆? Whatever happened to those games? Come to Cyber Academy where Arnav will talk about Adobe Flash Player 🇫 and its numerous, mind-boggling security vulnerabilities that led to its unfortunate shutdown!",
+    "location": "Boelter 7702",
+    "start": 1776128407785,
+    "end": 1776135607785,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk3-cyac"
+    }
+  },
+  {
+    "id": "s26-wk3-lab",
+    "title": "Cyber Lab: Week 3",
+    "description": "Humans are often called the weakest link 🔗in cybersecurity. After all, having a strong password 🔐doesn't help if someone can be tricked into simply telling it to someone. 🤔 Come to Cyber Lab and listen to Katie's talk on how social engineers can manipulate humans into revealing sensitive information, compromise major companies, and steal millions of dollars! 💸",
+    "location": "Boelter 7702",
+    "start": 1776301226189,
+    "end": 1776308426189,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk3-lab"
+    }
+  },
+  {
+    "id": "s26-wk3-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton Ave, Apartment Number 209",
+    "start": 1776567616619,
+    "end": 1776582016619,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk5-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton Ave, Apartment Number 209",
+    "start": 1777777216619,
+    "end": 1777791616619,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk9-nail-painting",
+    "title": "Nail Painting Social",
+    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
+    "location": "631 Kelton Ave, Apartment Number 209",
+    "start": 1780110016619,
+    "end": 1780124416619,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-movie",
+    "title": "Princess Mononoke Movie Night",
+    "description": "Nessa says: Come watch a super well-rated Studio Ghibli classic, probably featuring a woman named Princess Mononoke (I haven't seen it yet so I don't know).\nNote: there will be snacks! 🍿🎬",
+    "location": "Delta Terrace House 8 Lounge",
+    "start": 1777168815328,
+    "end": 1777179615328,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk4-cyac",
+    "title": "Cyber Academy: Week 4",
+    "description": "Come to Cyber Academy 📚 this Monday to learn about reverse engineering, blockchain, or to continue with CPTC! No experience needed; just show up and learn! 😁",
+    "location": "Boelter 7702",
+    "start": 1776733231587,
+    "end": 1776740431587,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk4-cyac"
+    }
+  },
+  {
+    "id": "s26-wk4-lab",
+    "title": "Cyber Lab: Week 4",
+    "description": "Did you know 🤔 programs can unintentionally leak 💧 information through physical means like power consumption, temperature, and time ⏱️? Side channel attacks exploit this leaked information to reveal program behavior. 🕵️ You may have taken CS M151B and learned about caches. The time properties of caches can be exploited to uncover information about a program. Attend Cyber Lab 🧪 to hear Audrey's talk about these cache side channel attacks! 🔥",
+    "location": "Boelter 7702",
+    "start": 1776906001334,
+    "end": 1776913201334,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "http://l.acmcyber.com/s26-wk4-lab"
+    }
+  },
+  {
+    "id": "s26-tjctf",
+    "title": "TJCTF",
+    "description": "Join PBR for 🔺 TJCTF this weekend! There will be challenges for all experience levels. 🪜 Stick around for our quarterly potluck afterwards! 🍔🌭",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1778956247555,
+    "end": 1778979647555,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-flagsharing",
+    "title": "Flag Sharing Social",
+    "description": "You've heard the rumors and the accusations, but it's true 😳 PBR will be 🚩 flag sharing — with you! Come join us this Saturday and 🪣 paint on real flags 🖌️ and maybe even ✨ exchange yours 🫵 with another CTFer's 🤝! (No experience with CTFs required; everyone is welcome to hang out and decorate flags!) We'll get lunch before the social at 11 am, then start flag sharing at 1 pm.",
+    "location": "Meet at De Neve Crosswalk, then share flags at E6 courtyard",
+    "start": 1777744824490,
+    "end": 1777762824490,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/s26/duck_with_flags.png"
+  },
+  {
+    "id": "s26-wk5-cyac",
+    "title": "Cyber Academy: Week 5",
+    "description": "The hardest challenges may not be hard in the ways you would expect. 🤔 See how a 20-solve challenge was done in an hour ⏱️ in this week’s cyber academy, then continue learning blockchain or reverse engineering! 🏫",
+    "location": "Boelter 7702",
+    "start": 1777338053406,
+    "end": 1777345253406,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk5-cyac"
+    }
+  },
+  {
+    "id": "s26-wk5-lab",
+    "title": "Cyber Lab: Week 5",
+    "description": "Come to Cyber Lab and hear Nasir's talk on design patterns for your average cyber engineer! ⚙️ Then continue with CCDC, the agentic CTF solver, or the container lab! 🧪\nDesign patterns: In software engineering, we often face recurring design problems. 🤔 Instead of reinventing solutions every time, we rely on design patterns, which are reusable solutions to common problems in software design. 📄 Cyber engineers often overlook this crucial element of software engineering. This talk would serve to bridge 🌉 the understanding gap between the two worlds and go over Strategy, Observer, Facade patterns and would leave the rest as an exercise for you go through. 😁",
+    "location": "Boelter 7702",
+    "start": 1777510811785,
+    "end": 1777518011785,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk5-lab"
+    }
+  },
+  {
+    "id": "s26-kayaking",
+    "title": "Kayaking Social",
+    "description": "Come kayaking 🛶 with Cyber at Marina Del Rey! Fill out the RSVP form (http://l.acmcyber.com/kayak) by Friday, 5/1 for more details! 🎉",
+    "location": "Marina Del Rey (rides will be organized)",
+    "start": 1778360432612,
+    "end": 1778374832612,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://recreation.ucla.edu/sites/default/files/styles/header_image/public/2022-03/MAC_topbanner.jpg?itok=FIAZyLam"
+  },
+  {
+    "id": "s26-potluck",
+    "title": "Potluck Social",
+    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social! 😃 Come make some memories and socialize while grilling some hotdogs and hamburgers together. 🍔🌭 ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
+    "location": "910 Weyburn Terrace",
+    "start": 1779062428603,
+    "end": 1779076828603,
+    "type": [
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-grey-cat-the-flag",
+    "title": "Grey Cat The Flag",
+    "description": "Join PBR for 🐈‍⬛ Grey Cat The Flag this weekend! As usual, join us for lunch beforehand 🍜",
+    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
+    "start": 1780165859398,
+    "end": 1780189259398,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk6-cyac",
+    "title": "Cyber Academy: Week 6",
+    "description": "Come to Cyber Academy 📚 this Monday to learn about cryptography or to continue with CPTC! No experience needed; just show up and learn! 😁",
+    "location": "Boelter 7702",
+    "start": 1777942843433,
+    "end": 1777950043433,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk6-cyac"
+    }
+  },
+  {
+    "id": "s26-wk6-lab",
+    "title": "Cyber Lab: Week 6",
+    "description": "Come to Cyber Lab to continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
+    "location": "Boelter 7702",
+    "start": 1778115603129,
+    "end": 1778122803129,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk6-lab"
+    }
+  },
+  {
+    "id": "s26-wk7-cyac",
+    "title": "Cyber Academy: Week 7",
+    "description": "Have you heard of recent Linux 🐧 vulnerabilities like Copy Fail and Dirty Frag? 🤔 If you are curious, be sure to come to Cyber Academy where Nathan will talk about how subtle logic bugs 🐛 in Linux can have serious consequences! Then beginner group will learn about miscellaneous CTF challenges, and advanced group will continue with cryptography! 🔐",
+    "location": "Boelter 7702",
+    "start": 1778547657409,
+    "end": 1778554857409,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk7-cyac"
+    }
+  },
+  {
+    "id": "s26-wk7-lab",
+    "title": "Cyber Lab: Week 7",
+    "description": "Come to Cyber Lab to continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
+    "location": "Boelter 7702",
+    "start": 1778720443780,
+    "end": 1778727643780,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk7-lab"
+    }
+  },
+  {
+    "id": "s26-symposium",
+    "title": "ACM Cyber X ACM AI Symposium",
+    "description": "** RSVP REQUIRED by 5/21: https://l.acmcyber.com/symposium **\n\nWant to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends have been up to? 😱 Do you want FREE FOOD??? 🥘 Join us Monday of Week 10 in Engineering VI, Cohen 6-8 PM for the Spring Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have dinner and an open time to hang out. See you there!",
+    "location": "E6 Cohen",
+    "start": 1780362040311,
+    "end": 1780369240311,
+    "type": [
+      "Cyber x AI Symposium"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk8-lab",
+    "title": "Cyber Lab: Week 8",
+    "description": "T.S needs to communicate securely 🔐 with the Gigabyte factory 🏭 and be able to tell if someone eavesdropped? 🦻 To solve such an interesting problem BB84 was introduced. Join us and listen to Nasir to learn about Quantum 🌐 communication and help T.S communicate!\nAfterwards, we will continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
+    "location": "Boelter 7702",
+    "start": 1779325244671,
+    "end": 1779332444671,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk8-lab"
+    }
+  },
+  {
+    "id": "s26-wk8-cyac",
+    "title": "Cyber Academy: Week 8",
+    "description": "With the arrival of AI agents 🤖, CTFs aren't what they used to be 🚩, but what will they be? Come to this week's Cyber Academy 🎓 where we'll analyze 🔍 the current environment 🌐 and see what might come in the future. ⏭️ Then we'll continue with beginner and advanced group topics!",
+    "location": "Boelter 7702",
+    "start": 1779152420799,
+    "end": 1779159620799,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk8-cyac"
+    }
+  },
+  {
+    "id": "s26-misc-smores",
+    "title": "Emergency S'mores Social",
+    "description": "Are finals stressing you out? 🤯 Want to hang out with your favorite CS club one last time? 🥺 Come to our ⚠️ 🚨 Emergency S'mores Social 🔥 🍫  and eat out to your heart's content 🥯!",
+    "location": "910 Weyburn Terrace (same place as potluck)",
+    "start": 1780534824393,
+    "end": 1780542024393,
+    "type": [
+      "Miscellaneous",
+      "Social"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s26-wk9-lab",
+    "title": "Cyber Lab: Week 9",
+    "description": "Join us for the last Cyber Lab of the quarter! 🧪 We'll be wrapping up the labs and working on Symposium slides. \nNote that Week 10 Wednesday, we will be having a s'mores social! 🍫",
+    "location": "Boelter 7702",
+    "start": 1779930031196,
+    "end": 1779937231196,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s26-wk9-lab"
+    }
+  },
+  {
     "id": "f23-misc-acm-gm",
     "title": "ACM Fall GM",
     "type": [
@@ -749,6 +1804,363 @@
     "end": 1674892799999
   },
   {
+    "id": "s25-cyber-gm",
+    "title": "Spring 25 Cyber GM",
+    "description": "Want to join the premier cybersecurity club at UCLA? Come to our Spring GM on Monday Week 2 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
+    "location": "Boelter 4760",
+    "start": 1744074056018,
+    "end": 1744081256018,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "GM",
+      "Miscellaneous"
+    ],
+    "links": {
+      "slides": "https://l.acmcyber.com/s25-gm"
+    }
+  },
+  {
+    "id": "s25-sandia",
+    "title": "Sandia Recruitment Dinner",
+    "description": "**RSVP here:** https://l.acmcyber.com/sandia\n\nRescheduled from last quarter, we'll be hosting an info and recruiting session and dinner with Sandia National Laboratories on April 9th, 2025! 🥳 There'll be free dinner, a tech talk given by a Sandia employee, and the chance to talk with recruiters in-person to get special consideration for your application or to learn more about what the cybersecurity industry is like!",
+    "location": "Kinsey Pavilion 1240B",
+    "start": 1744246836318,
+    "end": 1744254036318,
+    "type": [
+      "Miscellaneous",
+      "Career",
+      "Industry"
+    ],
+    "links": {
+      "slides": "https://drive.google.com/file/d/1l6jxzE8VercHqfCsT3H2aSi9h4fjxJqF/view?usp=sharing"
+    }
+  },
+  {
+    "id": "s25-pbr-squirrel",
+    "title": "PBR: squ1rrel CTF",
+    "description": "Join us this weekend for our first CTF of the quarter - 🐿 squ1rrel CTF 🐿 from Vanderbilt University! ",
+    "location": "E4 Tesla Room",
+    "start": 1743876005258,
+    "end": 1743901205258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://ctf.squ1rrel.dev/assets/squ1rrel_background.webp"
+  },
+  {
+    "id": "s25-pbr-b01lers",
+    "title": "PBR: b01lers CTF",
+    "description": "🐦 Join us this weekend as we take on Purdue's b01lers CTF!",
+    "location": "E4 Tesla Room",
+    "start": 1745085605258,
+    "end": 1745110805258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://b01lersc.tf/assets/logo-uwu.png"
+  },
+  {
+    "id": "s25-pbr-bi0s-ctf",
+    "title": "[CANCELLED] PBR: bi0s CTF",
+    "description": "CANCELLED: CTF was postponed, and no other CTFs are being held at this time, so practice is cancelled. Good luck on midterms!\n\nWe will be playing 🏳️ b10s CTF 🏳️ this weekend - make sure to pull up!",
+    "location": "CANCELLED",
+    "start": 1746295205258,
+    "end": 1746316805258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-pbr-byuctf",
+    "title": "PBR: BYUCTF",
+    "description": "Ready to take on some cougars? 🐆🐆🐆 (yes that is a leopard emoji) Join us this weekend for BYU CTF!",
+    "location": "E4 Tesla Room",
+    "start": 1747504805258,
+    "end": 1747530005258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-pbr-sdctf",
+    "title": "PBR: SD CTF",
+    "description": "Ready to show the *other* ACM Cyber 👀🔷 who the better ACM Cyber 🤛🔶 really is?  Come play 🌴 **SD CTF** 🌴 this weekend, straight from our friends at UCSD to the comfort of your own dorm!",
+    "location": "Discord",
+    "start": 1746831605258,
+    "end": 1747004405258,
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "banner": "https://raw.githubusercontent.com/acmucsd/sdc.tf/refs/heads/main/src/public/img/big.png"
+  },
+  {
+    "id": "s25-minecraft-movie",
+    "title": "Minecraft Movie + Boba Social",
+    "description": "Buy your tickets (row B!): https://l.acmcyber.com/mc-movie. Note that if the payment screen does not have a place to put your credit card details, you may need to disable your adblocker.\n\nMeet at the Bruin Bear at 2:30 PM where we'll walk down to Westwood to get pre-show Boba, and then watch the Minecraft Movie at 3:30 PM at IPIC!",
+    "location": "Bruin Bear Plaza; IPIC Westwood",
+    "start": 1744579813805,
+    "end": 1744594213805,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://m.media-amazon.com/images/M/MV5BYzQyNzFhYzUtMTkzZi00OTg4LWI0NDktZGQ2YWVmZTk4NTg1XkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg"
+  },
+  {
+    "id": "s25-lab-wk3",
+    "title": "Cyber Lab: Careers in Cybersecurity",
+    "description": "Curious about the various career paths in cybersecurity? 🤔 Don't know what kind of cybersecurity work there is in the real world? 🧑‍💻 Come to this 🔥 talk by Alec where he will explore 🔎 many different fields and jobs within cybersecurity, as well as share some tips on how to prepare for them! 📝  Pull up to Boelter 4760 from 6-8pm to learn how to make a GDB-like debugger from scratch, build a web-auditing tool, or create a SQL sanitizer!",
+    "location": "Boelter 4760",
+    "start": 1744678810917,
+    "end": 1744686010917,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ],
+    "links": {
+      "youtube": "https://youtu.be/HR4CV5g8gw0",
+      "slides": "https://l.acmcyber.com/s25-w3-lab"
+    }
+  },
+  {
+    "id": "s25-acad-wk3",
+    "title": "Cyber Academy: Cryptographic Voices-in-your-Head",
+    "description": "Did you know that hearing voices 🗣️ in your head is actually useful for cryptography? 🔒 Pull up to Kinsey Pavilion 1240B from 6-8pm to listen to Joshua's talk on MPC-in-the-Head 🙂‍↕️ and learn some cool cryptography concepts along the way, like Multi-Party Computation and Zero Knowledge Proofs! 😎 We'll also be having our first 🥇 Cyber Academy meeting of the quarter, where you can explore web hacking 🌐 , cryptography 🔑 , reverse engineering ⚙️ , or binary exploitation! 💻 ",
+    "location": "Kinsey Pavilion 1240B",
+    "start": 1744851655444,
+    "end": 1744858855444,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "youtube": "https://youtu.be/rob5XFRjP90",
+      "slides": "https://l.acmcyber.com/s25-w3-acad"
+    }
+  },
+  {
+    "id": "s25-getty-center",
+    "title": "Getty Center Social",
+    "description": "Join ACM Cyber for a trip to the Getty Center on Saturday, 4/26! 🖼️ The Getty Center features galleries of art 🎨 from the Middle Ages to the present day, flourishing gardens 🌷, and expansive views of the city. 🏙️ Make sure to RSVP at https://l.acmcyber.com/getty!",
+    "location": "Meet at the Sunset/Bellagio bus stop",
+    "start": 1745697612431,
+    "end": 1745712012431,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/s25/getty-center.jpg"
+  },
+  {
+    "id": "s25-sawtelle",
+    "title": "Cyber X ICPC Sawtelle Run",
+    "description": "RSVP: https://l.acmcyber.com/run\n\nPull up to the Cyber X ICPC Sawtelle Run happening Friday 5/9! We'll meet at the Bruin Bear statue at roughly 6PM, and have one group jogging to Sawtelle and one group busing if you don't want to run. Afterwards, we'll get some yummy food in Sawtelle!",
+    "location": "Bruin Bear",
+    "start": 1746838802709,
+    "end": 1746853202709,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-acad-wk4",
+    "title": "Cyber Academy: Shadow Stacks",
+    "description": "Join us for our second 🥈 Cyber Academy meeting of the quarter where TS will be giving an epic talk on shadow stacks! 👤Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
+    "location": "Kinsey Pavilion 1240",
+    "start": 1745456400374,
+    "end": 1745463600374,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s25-w4-acad",
+      "youtube": "https://youtu.be/Zlp5Bh39Ses"
+    }
+  },
+  {
+    "id": "s25-lab-wk4",
+    "title": "Cyber Lab: Cybersecurity Lobbying Experience",
+    "description": "Join us for our second Cyber Lab🧪 meeting of the quarter where Savannah will be talking about the 💻Cybersecurity Lobbying Experience🏛️. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
+    "location": "Boelter 4760",
+    "start": 1745283620756,
+    "end": 1745290820756,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "youtube": "https://youtu.be/GCMTHmxumZs",
+      "slides": "https://l.acmcyber.com/s25-w4-lab"
+    },
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
+    "id": "s25-town-hall",
+    "title": "Spring 2025 CS Town Hall",
+    "description": "Interested in giving feedback to the UCLA Computer Science Department? Want to meet professors you have taken Computer Science classes from and ask them questions? Fill out the Town Hall survey and come to the Spring 2025 Computer Science Town Hall! At the Town Hall, you'll be able to pose questions to members of the CS faculty live, hear major announcements from counselors (such as the recent restructuring of CS degree requirements), and speak to professors/counselors afterward along with catered dinner. \n\nFeedback form: https://l.acmcyber.com/cs-feedback\nRSVP: https://l.acmcyber.com/cs-rsvp",
+    "location": "Mong Learning Center",
+    "start": 1747357215745,
+    "end": 1747362615745,
+    "type": [
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/s25/cs-town-hall.png",
+    "meta": {
+      "ignore-for-acm-newsletter": true
+    }
+  },
+  {
+    "id": "s25-symposium",
+    "title": "S25 Cyber x AI Symposium",
+    "description": "RSVP: https://l.acmcyber.com/symposium-rsvp\n\nIt's that time again! 🔥🔥🔥 Join us Tuesday of Week 10 in Engineering VI, Mong Learning Center to show off what you've been learning in Cyber 🔐 or AI 🤖, see what your friends have been up to, and just have a good time! 🥳 Plus, there will be free food 🍕! See you there!",
+    "location": "Engineering VI, Mong Learning Center",
+    "start": 1748998821031,
+    "end": 1749006021031,
+    "type": [
+      "Cyber x AI Symposium",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/s25/symposium-cropped.png",
+    "links": {
+      "youtube": "https://youtu.be/2fRuXeBoUaE",
+      "slides": "https://l.acmcyber.com/s25-symposium"
+    }
+  },
+  {
+    "id": "s25-discover-lm",
+    "title": "Sponsor event: Discover Lockheed Martin",
+    "description": "Lockheed Martin (one of ACM Cyber's sponsors) is holding a virtual \"Discover Lockheed Martin\" event next **Wednesday, April 30th at 4pm**. The event will have a spotlight on Rotary and Mission Systems. If you are interested in registering, RSVP to get the link!\n\nRSVP: https://l.acmcyber.com/lm. Note that the time listed in the link is in Eastern Time - it will be held at 4pm Pacific Time.\n\nEvent info:\nAt Lockheed Martin, we don’t just embrace the future, we engineer it. Out guest speaker will introduce you to his career experience, their work in Rotary and Mission Systems, and skills we are seeking.",
+    "location": "Virtual; RSVP for link",
+    "start": 1746054057316,
+    "end": 1746057657316,
+    "type": [
+      "Miscellaneous",
+      "Industry"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-acad-wk5",
+    "title": "Cyber Academy: Decryption Through Superposition: Post-RSA Cryptography",
+    "description": "Join us for our third 🥉 Cyber Academy meeting of the quarter where Eddy will be giving a fascinating talk on how quantum computing 💻 could break 🔓 RSA and what we could use instead! Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
+    "location": "Kinsey Pavilion 1240",
+    "start": 1746061244952,
+    "end": 1746068444952,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "slides": "https://l.acmcyber.com/s25-w5-acad",
+      "youtube": "https://youtu.be/64S7_6kxH8w"
+    }
+  },
+  {
+    "id": "s25-lab-wk5",
+    "title": "Cyber Lab: Protocol level attacks",
+    "description": "Join us for the third Cyber Lab meeting of the quarter where Ronak will be talking about📡protocol level attacks in web 🌐. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
+    "location": "Boelter 4760",
+    "start": 1745888457285,
+    "end": 1745895657285,
+    "links": {
+      "slides": "https://l.acmcyber.com/s25-w5-lab",
+      "youtube": "https://youtu.be/RyUGwPkxBg0"
+    }
+  },
+  {
+    "id": "s25-potluck",
+    "title": "S25 Potluck Social",
+    "description": "** RSVP Here: https://l.acmcyber.com/potluck **\n\nCome hang out with cyber at our quarterly Potluck Social! Join us for good food and good vibes at the Cyber Potluck! 🍔",
+    "location": "910 Weyburn",
+    "start": 1747531840928,
+    "end": 1747544440928,
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-acad-wk6",
+    "title": "Cyber Academy: Coding Theory",
+    "description": "Join us for Cyber Academy this Wednesday 🗓️ where Arnav will be giving an epic talk on coding theory! 🔥 Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
+    "location": "Kinsey Pavilion 1240",
+    "start": 1746666050026,
+    "end": 1746673250026,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Academy"
+    ]
+  },
+  {
+    "id": "s25-lab-wk6",
+    "title": "Cyber Lab: DevSecOps Engineer experience",
+    "description": "Join us for Cyber Lab🧪 this Monday where Nasir will be talking about the 🛡️DevSecOps Engineer experience🛠️. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
+    "location": "Boelter 4760",
+    "start": 1746493206284,
+    "end": 1746500406284,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-lab-wk7",
+    "title": "Cyber Lab: Defeating Windows MAC Randomization",
+    "description": "Join us for Cyber Lab🧪 this Monday where Andrew (graduated from University of Washington) will be talking about 🔓Defeating Windows MAC Randomization🖥️🌀. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
+    "location": "Boelter 4760",
+    "start": 1747098016227,
+    "end": 1747105216227,
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "type": [
+      "Cyber Lab"
+    ]
+  },
+  {
+    "id": "s25-acad-wk8",
+    "title": "Cyber Academy: Signal's Cybersecurity",
+    "description": "Join us for Cyber Academy this Wednesday 🗓️ for a fantastic talk by Hunter on Signal's cybersecurity! 💬 Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
+    "location": "Kinsey Pavilion 1240",
+    "start": 1747875635060,
+    "end": 1747882835060,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "youtube": "https://youtu.be/kRQIEYNL6us",
+      "slides": "https://l.acmcyber.com/s25-w8-acad"
+    }
+  },
+  {
+    "id": "s25-lab-wk8",
+    "title": "Cyber Lab: Symposium Prep",
+    "description": "Join us for Cyber Lab 🧪 this Monday where we’ll be preparing for the upcoming Cyber x AI Symposium! 🤩",
+    "location": "Boelter 4760",
+    "start": 1747702800180,
+    "end": 1747710000180,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+  },
+  {
+    "id": "s25-acad-wk9",
+    "title": "Cyber Academy: Game Hacking",
+    "description": "Join us for our last Cyber Academy meeting of the quarter! 🌟 Instead of our usual lessons, we'll be doing an epic game hacking collab with ACM Studio. 🎮 Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
+    "location": "Kinsey Pavilion 1240",
+    "start": 1748480400824,
+    "end": 1748487600824,
+    "type": [
+      "Cyber Academy",
+      "Collab",
+      "ACM Studio"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "links": {
+      "youtube": "https://youtu.be/rGNpaLjCTUw",
+      "slides": "https://l.acmcyber.com/s25-studio-collab"
+    }
+  },
+  {
     "id": "f25-acm-gm",
     "title": "ACM Fall GM",
     "description": "Do you want to build your own video game, iOS application, or neural network? Do you want to participate in competitive programming or CTFs? Do you care about diversity in STEM?\n\nJoin ACM for our** Fall General Meeting** on** Tuesday, September 30th, 2025, from 6:00 to 8:00 p.m. **at **Ackerman Grand Ballroom** to learn about how you can get involved!\n\nhttps://forms.gle/vcS37Mbn8jQDnBrP6",
@@ -780,7 +2192,8 @@
     ],
     "links": {
       "slides": "https://l.acmcyber.com/f25-gm"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-verkada",
@@ -821,7 +2234,8 @@
     "end": 1761440450504,
     "type": [
       "Psi Beta Rho"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-buckeye",
@@ -832,7 +2246,8 @@
     "end": 1762653654703,
     "type": [
       "Psi Beta Rho"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-glacierctf",
@@ -843,7 +2258,8 @@
     "end": 1763863218567,
     "type": [
       "Psi Beta Rho"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-w2-cyac",
@@ -858,7 +2274,8 @@
     "links": {
       "slides": "https://l.acmcyber.com/f25-wk2-cyac",
       "youtube": "https://youtu.be/5h17LMEaVlg"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-cyber-basketball",
@@ -869,7 +2286,8 @@
     "end": 1760151653500,
     "type": [
       "Miscellaneous"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-boba",
@@ -880,7 +2298,8 @@
     "end": 1760760040235,
     "type": [
       "Social"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-wk3-lab",
@@ -895,7 +2314,8 @@
     "links": {
       "slides": "https://l.acmcyber.com/f25-wk3-lab",
       "youtube": "https://youtu.be/Lpu-KA7PJkg"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-ectf-kickoff",
@@ -998,7 +2418,8 @@
     "type": [
       "Social",
       "Miscellaneous"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-wk5-lab",
@@ -1054,7 +2475,8 @@
     "links": {
       "slides": "https://l.acmcyber.com/f25-wk6-cyac",
       "youtube": "https://youtu.be/PFFduVjasHU"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-ectf-binary-exploitation",
@@ -1068,7 +2490,8 @@
     ],
     "links": {
       "slides": "https://l.acmcyber.com/ectf-week6-f25"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-wk6-lab",
@@ -1083,7 +2506,8 @@
     "links": {
       "youtube": "https://youtu.be/WoVP8jomA78",
       "slides": "https://l.acmcyber.com/f25-wk6-lab"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-wk7-cyac",
@@ -1098,7 +2522,8 @@
     "links": {
       "slides": "https://l.acmcyber.com/f25-wk7-cyac",
       "youtube": "https://youtu.be/_e4Myd8xv3Y"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-wk7-lab",
@@ -1113,7 +2538,8 @@
     "links": {
       "youtube": "https://youtu.be/hlujENtKwBc",
       "slides": "https://l.acmcyber.com/f25-wk7-lab"
-    }
+    },
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-wk8-lab",
@@ -1121,7 +2547,11 @@
     "description": "Curious how attackers sneak hidden 🙈 commands into prompts to force an AI to ignore 😷 safeguards, spill sensitive 🕵️‍♀️ info, or behave unpredictably? 🤔\nCome to this ⚡️ talk by Roshni, to learn about real examples of prompt injection, show how these exploits work, and walk you through the defenses that keep AI systems from getting silently hijacked! 🔐",
     "location": "Boelter 4760",
     "start": 1763604006878,
-    "end": 1763611206878
+    "end": 1763611206878,
+    "type": [
+      "Cyber Lab"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-wk8-cyac",
@@ -1129,7 +2559,11 @@
     "description": "🔒 Curious about how organizations keep track of millions of security logs every single day? 🤔 Ever wondered how security teams detect threats, monitor incidents, and stay one step ahead of cyberattacks? 🕵️‍♂️💻 Join us for an exciting talk by Hunter on Security Information and Event Management (SIEM), the powerful systems that make it all possible! 🚀",
     "location": "Boelter 4760",
     "start": 1763431207530,
-    "end": 1763438407530
+    "end": 1763438407530,
+    "type": [
+      "Cyber Academy"
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "f25-ectf-embeddedsystems",
@@ -1140,7 +2574,8 @@
     "end": 1764129655661,
     "type": [
       "ECTF"
-    ]
+    ],
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
   },
   {
     "id": "w25-la-ctf-infra-setup",
@@ -1576,361 +3011,100 @@
     }
   },
   {
-    "id": "s25-cyber-gm",
-    "title": "Spring 25 Cyber GM",
-    "description": "Want to join the premier cybersecurity club at UCLA? Come to our Spring GM on Monday Week 2 to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, or our CTF team PBR, it'll all be revealed at our GM! 🔮👀",
-    "location": "Boelter 4760",
-    "start": 1744074056018,
-    "end": 1744081256018,
+    "id": "u24-lab-csrf",
+    "title": "Cyber Summer Research Fellowship: Kickoff!",
+    "type": [
+      "Cyber Lab",
+      "gm"
+    ],
+    "description": "Want to dive deeper 🌊 into Cyber this summer? Join ✨ CSRF ✨ - our Cyber Summer Research Fellowship™ - and work on cutting-edge research ☀️ with your fellow Cybricks 🧱! We'll be tackling three exciting projects this summer: Steganographic Image Detection w/ CNNs 🖼, a Blockchain Package Manager w/ Ethereum 📦, and Library API Misuse Detection w/ low-level JavaScript 🐌! Be sure to join our Kickoff next Monday at 6 PM ⚽ to learn more!",
+    "location": "<#1034354096066547712>",
+    "banner": "https://cyanea-assets.acmcyber.com/events/u24/csrf.png",
+    "start": 1719277200000,
+    "end": 1719280800000,
+    "links": {}
+  },
+  {
+    "id": "u24-lab-symposium",
+    "title": "Cyber Summer Research Fellowship: Symposium",
+    "type": [
+      "Cyber Lab",
+      "CSRF"
+    ],
+    "description": "Come join us this Saturday to see all the cool projects we worked on this summer! ☀️ 😎 💖 👀",
+    "location": "<#819061488391159828>",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "type": [
-      "GM",
-      "Miscellaneous"
-    ],
+    "start": 1723933800000,
+    "end": 1723937400000,
     "links": {
-      "slides": "https://l.acmcyber.com/s25-gm"
+      "slides": "https://l.acmcyber.com/summer24-csrf-symposium"
     }
   },
   {
-    "id": "s25-sandia",
-    "title": "Sandia Recruitment Dinner",
-    "description": "**RSVP here:** https://l.acmcyber.com/sandia\n\nRescheduled from last quarter, we'll be hosting an info and recruiting session and dinner with Sandia National Laboratories on April 9th, 2025! 🥳 There'll be free dinner, a tech talk given by a Sandia employee, and the chance to talk with recruiters in-person to get special consideration for your application or to learn more about what the cybersecurity industry is like!",
-    "location": "Kinsey Pavilion 1240B",
-    "start": 1744246836318,
-    "end": 1744254036318,
-    "type": [
-      "Miscellaneous",
-      "Career",
-      "Industry"
-    ],
-    "links": {
-      "slides": "https://drive.google.com/file/d/1l6jxzE8VercHqfCsT3H2aSi9h4fjxJqF/view?usp=sharing"
-    }
-  },
-  {
-    "id": "s25-pbr-squirrel",
-    "title": "PBR: squ1rrel CTF",
-    "description": "Join us this weekend for our first CTF of the quarter - 🐿 squ1rrel CTF 🐿 from Vanderbilt University! ",
-    "location": "E4 Tesla Room",
-    "start": 1743876005258,
-    "end": 1743901205258,
+    "id": "u24-pbr-google",
+    "title": "PBR: GoogleCTF 2024",
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://ctf.squ1rrel.dev/assets/squ1rrel_background.webp"
+    "description": "Get your Googling hats on 🧢 and get ready to capture some flags ⛳! Join PBR this weeekend to take down GoogleCTF 2024 🦖!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1718992800000,
+    "end": 1719165600000,
+    "links": {}
   },
   {
-    "id": "s25-pbr-b01lers",
-    "title": "PBR: b01lers CTF",
-    "description": "🐦 Join us this weekend as we take on Purdue's b01lers CTF!",
-    "location": "E4 Tesla Room",
-    "start": 1745085605258,
-    "end": 1745110805258,
+    "id": "u24-pbr-sigpwny",
+    "title": "PBR: SigpwnyCTF 2024",
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://b01lersc.tf/assets/logo-uwu.png"
+    "description": "The Sigpwny Train 🦄🚂 is rolling in fast! Join PBR this weekend for an exciting ride 🌬 with SigpwnyCTF 2024!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1719619200000,
+    "end": 1719792000000,
+    "links": {}
   },
   {
-    "id": "s25-pbr-bi0s-ctf",
-    "title": "[CANCELLED] PBR: bi0s CTF",
-    "description": "CANCELLED: CTF was postponed, and no other CTFs are being held at this time, so practice is cancelled. Good luck on midterms!\n\nWe will be playing 🏳️ b10s CTF 🏳️ this weekend - make sure to pull up!",
-    "location": "CANCELLED",
-    "start": 1746295205258,
-    "end": 1746316805258,
+    "id": "u24-pbr-ductf",
+    "title": "PBR: Down Under CTF 2024",
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "description": "It's getting too hot here in America so join us down under in Australia! Join PBR this weekend to full clear Down Under CTF 2024!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1720165848000,
+    "end": 1720338648000,
+    "links": {}
   },
   {
-    "id": "s25-pbr-byuctf",
-    "title": "PBR: BYUCTF",
-    "description": "Ready to take on some cougars? 🐆🐆🐆 (yes that is a leopard emoji) Join us this weekend for BYU CTF!",
-    "location": "E4 Tesla Room",
-    "start": 1747504805258,
-    "end": 1747530005258,
+    "id": "u24-pbr-corctf",
+    "title": "PBR: corCTF 2024",
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "description": "Wanna be like an Olympian? Join PBR this weekend to take home the gold at corCTF 2024!",
+    "location": "ACM Cyber Discord",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1722038400000,
+    "end": 1722211200000,
+    "links": {}
   },
   {
-    "id": "s25-pbr-sdctf",
-    "title": "PBR: SD CTF",
-    "description": "Ready to show the *other* ACM Cyber 👀🔷 who the better ACM Cyber 🤛🔶 really is?  Come play 🌴 **SD CTF** 🌴 this weekend, straight from our friends at UCSD to the comfort of your own dorm!",
-    "location": "Discord",
-    "start": 1746831605258,
-    "end": 1747004405258,
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "banner": "https://raw.githubusercontent.com/acmucsd/sdc.tf/refs/heads/main/src/public/img/big.png"
-  },
-  {
-    "id": "s25-minecraft-movie",
-    "title": "Minecraft Movie + Boba Social",
-    "description": "Buy your tickets (row B!): https://l.acmcyber.com/mc-movie. Note that if the payment screen does not have a place to put your credit card details, you may need to disable your adblocker.\n\nMeet at the Bruin Bear at 2:30 PM where we'll walk down to Westwood to get pre-show Boba, and then watch the Minecraft Movie at 3:30 PM at IPIC!",
-    "location": "Bruin Bear Plaza; IPIC Westwood",
-    "start": 1744579813805,
-    "end": 1744594213805,
+    "id": "u24-misc-movie-night-0",
+    "title": "Cyber Movie Night: Sneakers (1992)",
     "type": [
       "Social",
       "Miscellaneous"
     ],
-    "banner": "https://m.media-amazon.com/images/M/MV5BYzQyNzFhYzUtMTkzZi00OTg4LWI0NDktZGQ2YWVmZTk4NTg1XkEyXkFqcGc@._V1_FMjpg_UX1170_.jpg"
-  },
-  {
-    "id": "s25-lab-wk3",
-    "title": "Cyber Lab: Careers in Cybersecurity",
-    "description": "Curious about the various career paths in cybersecurity? 🤔 Don't know what kind of cybersecurity work there is in the real world? 🧑‍💻 Come to this 🔥 talk by Alec where he will explore 🔎 many different fields and jobs within cybersecurity, as well as share some tips on how to prepare for them! 📝  Pull up to Boelter 4760 from 6-8pm to learn how to make a GDB-like debugger from scratch, build a web-auditing tool, or create a SQL sanitizer!",
-    "location": "Boelter 4760",
-    "start": 1744678810917,
-    "end": 1744686010917,
+    "description": "Take hacking to the movies with our first Cyber Movie Night of the summer! We'll be watching the classic _Sneakers_, so be sure to pull up!",
+    "location": "ACM Cyber Discord",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "type": [
-      "Cyber Lab"
-    ],
-    "links": {
-      "youtube": "https://youtu.be/HR4CV5g8gw0",
-      "slides": "https://l.acmcyber.com/s25-w3-lab"
-    }
-  },
-  {
-    "id": "s25-acad-wk3",
-    "title": "Cyber Academy: Cryptographic Voices-in-your-Head",
-    "description": "Did you know that hearing voices 🗣️ in your head is actually useful for cryptography? 🔒 Pull up to Kinsey Pavilion 1240B from 6-8pm to listen to Joshua's talk on MPC-in-the-Head 🙂‍↕️ and learn some cool cryptography concepts along the way, like Multi-Party Computation and Zero Knowledge Proofs! 😎 We'll also be having our first 🥇 Cyber Academy meeting of the quarter, where you can explore web hacking 🌐 , cryptography 🔑 , reverse engineering ⚙️ , or binary exploitation! 💻 ",
-    "location": "Kinsey Pavilion 1240B",
-    "start": 1744851655444,
-    "end": 1744858855444,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "youtube": "https://youtu.be/rob5XFRjP90",
-      "slides": "https://l.acmcyber.com/s25-w3-acad"
-    }
-  },
-  {
-    "id": "s25-getty-center",
-    "title": "Getty Center Social",
-    "description": "Join ACM Cyber for a trip to the Getty Center on Saturday, 4/26! 🖼️ The Getty Center features galleries of art 🎨 from the Middle Ages to the present day, flourishing gardens 🌷, and expansive views of the city. 🏙️ Make sure to RSVP at https://l.acmcyber.com/getty!",
-    "location": "Meet at the Sunset/Bellagio bus stop",
-    "start": 1745697612431,
-    "end": 1745712012431,
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/s25/getty-center.jpg"
-  },
-  {
-    "id": "s25-sawtelle",
-    "title": "Cyber X ICPC Sawtelle Run",
-    "description": "RSVP: https://l.acmcyber.com/run\n\nPull up to the Cyber X ICPC Sawtelle Run happening Friday 5/9! We'll meet at the Bruin Bear statue at roughly 6PM, and have one group jogging to Sawtelle and one group busing if you don't want to run. Afterwards, we'll get some yummy food in Sawtelle!",
-    "location": "Bruin Bear",
-    "start": 1746838802709,
-    "end": 1746853202709,
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s25-acad-wk4",
-    "title": "Cyber Academy: Shadow Stacks",
-    "description": "Join us for our second 🥈 Cyber Academy meeting of the quarter where TS will be giving an epic talk on shadow stacks! 👤Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
-    "location": "Kinsey Pavilion 1240",
-    "start": 1745456400374,
-    "end": 1745463600374,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s25-w4-acad",
-      "youtube": "https://youtu.be/Zlp5Bh39Ses"
-    }
-  },
-  {
-    "id": "s25-lab-wk4",
-    "title": "Cyber Lab: Cybersecurity Lobbying Experience",
-    "description": "Join us for our second Cyber Lab🧪 meeting of the quarter where Savannah will be talking about the 💻Cybersecurity Lobbying Experience🏛️. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
-    "location": "Boelter 4760",
-    "start": 1745283620756,
-    "end": 1745290820756,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "youtube": "https://youtu.be/GCMTHmxumZs",
-      "slides": "https://l.acmcyber.com/s25-w4-lab"
-    },
-    "type": [
-      "Cyber Lab"
-    ]
-  },
-  {
-    "id": "s25-town-hall",
-    "title": "Spring 2025 CS Town Hall",
-    "description": "Interested in giving feedback to the UCLA Computer Science Department? Want to meet professors you have taken Computer Science classes from and ask them questions? Fill out the Town Hall survey and come to the Spring 2025 Computer Science Town Hall! At the Town Hall, you'll be able to pose questions to members of the CS faculty live, hear major announcements from counselors (such as the recent restructuring of CS degree requirements), and speak to professors/counselors afterward along with catered dinner. \n\nFeedback form: https://l.acmcyber.com/cs-feedback\nRSVP: https://l.acmcyber.com/cs-rsvp",
-    "location": "Mong Learning Center",
-    "start": 1747357215745,
-    "end": 1747362615745,
-    "type": [
-      "Miscellaneous"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/s25/cs-town-hall.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
-    }
-  },
-  {
-    "id": "s25-symposium",
-    "title": "S25 Cyber x AI Symposium",
-    "description": "RSVP: https://l.acmcyber.com/symposium-rsvp\n\nIt's that time again! 🔥🔥🔥 Join us Tuesday of Week 10 in Engineering VI, Mong Learning Center to show off what you've been learning in Cyber 🔐 or AI 🤖, see what your friends have been up to, and just have a good time! 🥳 Plus, there will be free food 🍕! See you there!",
-    "location": "Engineering VI, Mong Learning Center",
-    "start": 1748998821031,
-    "end": 1749006021031,
-    "type": [
-      "Cyber x AI Symposium",
-      "Miscellaneous"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/s25/symposium-cropped.png",
-    "links": {
-      "youtube": "https://youtu.be/2fRuXeBoUaE",
-      "slides": "https://l.acmcyber.com/s25-symposium"
-    }
-  },
-  {
-    "id": "s25-discover-lm",
-    "title": "Sponsor event: Discover Lockheed Martin",
-    "description": "Lockheed Martin (one of ACM Cyber's sponsors) is holding a virtual \"Discover Lockheed Martin\" event next **Wednesday, April 30th at 4pm**. The event will have a spotlight on Rotary and Mission Systems. If you are interested in registering, RSVP to get the link!\n\nRSVP: https://l.acmcyber.com/lm. Note that the time listed in the link is in Eastern Time - it will be held at 4pm Pacific Time.\n\nEvent info:\nAt Lockheed Martin, we don’t just embrace the future, we engineer it. Out guest speaker will introduce you to his career experience, their work in Rotary and Mission Systems, and skills we are seeking.",
-    "location": "Virtual; RSVP for link",
-    "start": 1746054057316,
-    "end": 1746057657316,
-    "type": [
-      "Miscellaneous",
-      "Industry"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s25-acad-wk5",
-    "title": "Cyber Academy: Decryption Through Superposition: Post-RSA Cryptography",
-    "description": "Join us for our third 🥉 Cyber Academy meeting of the quarter where Eddy will be giving a fascinating talk on how quantum computing 💻 could break 🔓 RSA and what we could use instead! Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
-    "location": "Kinsey Pavilion 1240",
-    "start": 1746061244952,
-    "end": 1746068444952,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s25-w5-acad",
-      "youtube": "https://youtu.be/64S7_6kxH8w"
-    }
-  },
-  {
-    "id": "s25-lab-wk5",
-    "title": "Cyber Lab: Protocol level attacks",
-    "description": "Join us for the third Cyber Lab meeting of the quarter where Ronak will be talking about📡protocol level attacks in web 🌐. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
-    "location": "Boelter 4760",
-    "start": 1745888457285,
-    "end": 1745895657285,
-    "links": {
-      "slides": "https://l.acmcyber.com/s25-w5-lab",
-      "youtube": "https://youtu.be/RyUGwPkxBg0"
-    }
-  },
-  {
-    "id": "s25-potluck",
-    "title": "S25 Potluck Social",
-    "description": "** RSVP Here: https://l.acmcyber.com/potluck **\n\nCome hang out with cyber at our quarterly Potluck Social! Join us for good food and good vibes at the Cyber Potluck! 🍔",
-    "location": "910 Weyburn",
-    "start": 1747531840928,
-    "end": 1747544440928,
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s25-acad-wk6",
-    "title": "Cyber Academy: Coding Theory",
-    "description": "Join us for Cyber Academy this Wednesday 🗓️ where Arnav will be giving an epic talk on coding theory! 🔥 Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
-    "location": "Kinsey Pavilion 1240",
-    "start": 1746666050026,
-    "end": 1746673250026,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "type": [
-      "Cyber Academy"
-    ]
-  },
-  {
-    "id": "s25-lab-wk6",
-    "title": "Cyber Lab: DevSecOps Engineer experience",
-    "description": "Join us for Cyber Lab🧪 this Monday where Nasir will be talking about the 🛡️DevSecOps Engineer experience🛠️. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
-    "location": "Boelter 4760",
-    "start": 1746493206284,
-    "end": 1746500406284,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s25-lab-wk7",
-    "title": "Cyber Lab: Defeating Windows MAC Randomization",
-    "description": "Join us for Cyber Lab🧪 this Monday where Andrew (graduated from University of Washington) will be talking about 🔓Defeating Windows MAC Randomization🖥️🌀. Show up at Boelter 4760 from 6-8pm to find out more!🔎",
-    "location": "Boelter 4760",
-    "start": 1747098016227,
-    "end": 1747105216227,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "type": [
-      "Cyber Lab"
-    ]
-  },
-  {
-    "id": "s25-acad-wk8",
-    "title": "Cyber Academy: Signal's Cybersecurity",
-    "description": "Join us for Cyber Academy this Wednesday 🗓️ for a fantastic talk by Hunter on Signal's cybersecurity! 💬 Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
-    "location": "Kinsey Pavilion 1240",
-    "start": 1747875635060,
-    "end": 1747882835060,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "youtube": "https://youtu.be/kRQIEYNL6us",
-      "slides": "https://l.acmcyber.com/s25-w8-acad"
-    }
-  },
-  {
-    "id": "s25-lab-wk8",
-    "title": "Cyber Lab: Symposium Prep",
-    "description": "Join us for Cyber Lab 🧪 this Monday where we’ll be preparing for the upcoming Cyber x AI Symposium! 🤩",
-    "location": "Boelter 4760",
-    "start": 1747702800180,
-    "end": 1747710000180,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s25-acad-wk9",
-    "title": "Cyber Academy: Game Hacking",
-    "description": "Join us for our last Cyber Academy meeting of the quarter! 🌟 Instead of our usual lessons, we'll be doing an epic game hacking collab with ACM Studio. 🎮 Pull up to Kinsey Pavilion 1240 from 6-8pm to learn more! 📚",
-    "location": "Kinsey Pavilion 1240",
-    "start": 1748480400824,
-    "end": 1748487600824,
-    "type": [
-      "Cyber Academy",
-      "Collab",
-      "ACM Studio"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "youtube": "https://youtu.be/rGNpaLjCTUw",
-      "slides": "https://l.acmcyber.com/s25-studio-collab"
-    }
+    "start": 1722052800000,
+    "end": 1722063600000,
+    "links": {}
   },
   {
     "id": "f24-acm-gm",
@@ -2366,429 +3540,6 @@
     ]
   },
   {
-    "id": "u24-lab-csrf",
-    "title": "Cyber Summer Research Fellowship: Kickoff!",
-    "type": [
-      "Cyber Lab",
-      "gm"
-    ],
-    "description": "Want to dive deeper 🌊 into Cyber this summer? Join ✨ CSRF ✨ - our Cyber Summer Research Fellowship™ - and work on cutting-edge research ☀️ with your fellow Cybricks 🧱! We'll be tackling three exciting projects this summer: Steganographic Image Detection w/ CNNs 🖼, a Blockchain Package Manager w/ Ethereum 📦, and Library API Misuse Detection w/ low-level JavaScript 🐌! Be sure to join our Kickoff next Monday at 6 PM ⚽ to learn more!",
-    "location": "<#1034354096066547712>",
-    "banner": "https://cyanea-assets.acmcyber.com/events/u24/csrf.png",
-    "start": 1719277200000,
-    "end": 1719280800000,
-    "links": {}
-  },
-  {
-    "id": "u24-lab-symposium",
-    "title": "Cyber Summer Research Fellowship: Symposium",
-    "type": [
-      "Cyber Lab",
-      "CSRF"
-    ],
-    "description": "Come join us this Saturday to see all the cool projects we worked on this summer! ☀️ 😎 💖 👀",
-    "location": "<#819061488391159828>",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1723933800000,
-    "end": 1723937400000,
-    "links": {
-      "slides": "https://l.acmcyber.com/summer24-csrf-symposium"
-    }
-  },
-  {
-    "id": "u24-pbr-google",
-    "title": "PBR: GoogleCTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "Get your Googling hats on 🧢 and get ready to capture some flags ⛳! Join PBR this weeekend to take down GoogleCTF 2024 🦖!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1718992800000,
-    "end": 1719165600000,
-    "links": {}
-  },
-  {
-    "id": "u24-pbr-sigpwny",
-    "title": "PBR: SigpwnyCTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "The Sigpwny Train 🦄🚂 is rolling in fast! Join PBR this weekend for an exciting ride 🌬 with SigpwnyCTF 2024!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1719619200000,
-    "end": 1719792000000,
-    "links": {}
-  },
-  {
-    "id": "u24-pbr-ductf",
-    "title": "PBR: Down Under CTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "It's getting too hot here in America so join us down under in Australia! Join PBR this weekend to full clear Down Under CTF 2024!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1720165848000,
-    "end": 1720338648000,
-    "links": {}
-  },
-  {
-    "id": "u24-pbr-corctf",
-    "title": "PBR: corCTF 2024",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "Wanna be like an Olympian? Join PBR this weekend to take home the gold at corCTF 2024!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1722038400000,
-    "end": 1722211200000,
-    "links": {}
-  },
-  {
-    "id": "u24-misc-movie-night-0",
-    "title": "Cyber Movie Night: Sneakers (1992)",
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "description": "Take hacking to the movies with our first Cyber Movie Night of the summer! We'll be watching the classic _Sneakers_, so be sure to pull up!",
-    "location": "ACM Cyber Discord",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1722052800000,
-    "end": 1722063600000,
-    "links": {}
-  },
-  {
-    "id": "s24-misc-gm",
-    "title": "Cyber Spring GM",
-    "type": [
-      "Miscellaneous",
-      "gm"
-    ],
-    "description": "Cyber returns Wednesday Week 1 to kick off the new quarter! Come check out some of the exciting stuff we've planned for this quarter and enjoy a sparkly new set of beginner-friendly CTF + social challenges!",
-    "location": "Kaplain A51",
-    "banner": "https://cyanea-assets.acmcyber.com/events/s24/s24-gm.png",
-    "start": 1712192400000,
-    "end": 1712199600000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1pXsZ9CQlFmz0Pk_N4cpJFyy_M86v9Y8NqZyPh46obGY/edit"
-    }
-  },
-  {
-    "id": "s24-pbr-B01lers",
-    "title": "B01lers CTF: w/ Minecraft Seedfinding Talk",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "PBR is back and competing in another CTF! 🎉🥰 Whether you are a beginner or skilled CTFer, you’ll be sure to have fun. Meet us at De Neve Plaza at 12pm to get lunch, and then in Boelter 8500 at 1pm to play the CTF! ⛳️ We will also feature a thrilling talk about Minecraft Seedfinding 🌱 by Arnav, so make sure to pull up!!",
-    "location": "Boelter 8500 (Penthouse)",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1713034800000,
-    "end": 1713056400000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1tGAz_zIpPk4tgZ4InwrgybrHme5BIDwDmLxjhOOrEnA/edit"
-    }
-  },
-  {
-    "id": "s24-potluck",
-    "title": "Cyber Potluck",
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "description": "Join your favorite Cyber Friends for a potluck filled with fun and good food! 🩷😋 We will be meeting up at 6pm Week 3 Sunday (4/21) at 910 Weyburn Place. Make sure to show up and have fun! 🤗🍴👀✨🎉 (RVSP: https://docs.google.com/forms/d/e/1FAIpQLSebjdTlVG_SZV-iuaTF9qRQJoqCR7K4XLaSBMKhwANetvl4Rg/viewform?usp=sf_link)",
-    "location": "910 Weyburn Place",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1713747600000,
-    "end": 1713758400000,
-    "links": {}
-  },
-  {
-    "id": "s24-cyac-network-into",
-    "title": "Cyber Academy: Intro to Network Analysis",
-    "type": [
-      "Cyber Academy"
-    ],
-    "description": "Interested in how networks work? 🛜 Then join us for our second Cyber Academy meeting to learn about the basics of networking, presented by Alec! ✨ We'll be in Boelter 4760 on Monday 6-8pm, so make sure to show up! 💟🫡",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1713229200000,
-    "end": 1713236400000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1KMzGICQk4ylQQI6YtOYVCIqXTkCTCUb54z7_KfRXFXE/edit"
-    }
-  },
-  {
-    "id": "s24-cyalab-m1-side-channel",
-    "title": "Cyber Lab: Apple M1 Side Channel",
-    "type": [
-      "Cyber Lab"
-    ],
-    "description": "Come to Cyber Lab to hear Cameron give a thrilling talk about the Apple M1 chip side channel. 🍎💻 You'll learn about a current vulnerability in your or your friends' computers. 😱 We'll also be continuing with the second week of Cyber Lab projects, so make sure to pull up to Bolter 4760 this Wednesday 6-8pm. 😊🎀",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1713402000000,
-    "end": 1713409200000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1bhm97LOLNk2j5uUAIdA-mau6ZmAa6e6oB2PJpLA_jxw/edit"
-    }
-  },
-  {
-    "id": "s24-pbr-greycat",
-    "title": "GreyCat: w/ Zero Knowledge Proofs Talk",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "Can't get enought of cybersecurity? 🙋 Then join us for GreyCat CTF this Sunday! 🐈‍⬛🩶 We'll also be featuring a super cool talk by Joshua about Zero Knowledge Proofs. 👀 We'll meet up at De Neve Plaza at 12 for lunch, and then play the CTF at 1pm in Boelter 8500. Everyone is welcome regardless of skill level and feel free to stay for however long you like. 😻🙀😽",
-    "location": "Boelter 8500 (Penthouse)",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1713643200000,
-    "end": 1713661200000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1DVXJ7JscBF4JLGIJ0KwV-2KPrIB4d_sB5eaJQRy-9xM/edit"
-    }
-  },
-  {
-    "id": "s24-cyac-rsa",
-    "title": "Cyber Academy: RSA Attacks",
-    "type": [
-      "Cyber Academy"
-    ],
-    "description": "Wanna learn how to break RSA and bring out your inner NSA? Cyber Academy returns Monday with a talk from Gary on RSA Attacks!",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1713834000000,
-    "end": 1713841200000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1XL0_3GuZ6w_sM78BHKqmjyB3OeE0ywJn4W1iIDY-yp0/edit#slide=id.p"
-    }
-  },
-  {
-    "id": "s24-lab-dll-injection",
-    "title": "Cyber Lab: DLL Injection",
-    "type": [
-      "Cyber Lab"
-    ],
-    "description": "Reject Linux and embrace Windows in Salma's talk on DLL Injection this Wednesday!",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1714006800000,
-    "end": 1714014000000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1RCejnHMyGchaxGxPDjXfPXD6ttvpbge7pnhfiu1B-Vo/edit"
-    }
-  },
-  {
-    "id": "s24-cyac-xsleaks",
-    "title": "Cyber Academy: XS Leaks",
-    "type": [
-      "Cyber Academy"
-    ],
-    "description": "Side channel your way into Renuka's talk on Cross-Site Leaks! ⛓",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1714438800000,
-    "end": 1714446000000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1gIk55syGGgIr68HucfMXUMXfwWILeYcMLkIik_NVtVU/edit"
-    }
-  },
-  {
-    "id": "s24-lab-guest-1",
-    "title": "Cyber Lab: Security by Design",
-    "type": [
-      "Cyber Lab"
-    ],
-    "description": "Cyber Lab weekly meeting.",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1714611600000,
-    "end": 1714618800000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1NtN8fOh455cmVbCCMANGDKRDb5dOmSY_9-nM0uhUhXY/edit"
-    }
-  },
-  {
-    "id": "s24-pbr-defcon-pwn",
-    "title": "PBR: Advanced Pwn & Defcon Quals",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "This is it! 🥳 PBR will be teaming up with SuperGuesser x DiceGang x CodeRed for Defcon 2024 Quals! 🎲 Be sure to show up for Enzo's talk on Advanced Pwning 🐚, and then help us win that top ten spot 🏆!",
-    "location": "Boelter 8500 (Penthouse)",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1714852800000,
-    "end": 1714870800000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1rlLhGLy8IFdhup3wcwYZn_wg6yfhELMczy7bJSz4v0I/edit"
-    }
-  },
-  {
-    "id": "s24-cyac-guest-2",
-    "title": "Cyber Academy",
-    "type": [
-      "Cyber Academy"
-    ],
-    "description": "Cyber Academy general meeting",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1715043600000,
-    "end": 1715050800000,
-    "links": {}
-  },
-  {
-    "id": "s24-lab-cowrie",
-    "title": "Cyber Lab: Cowrie",
-    "type": [
-      "Cyber Lab"
-    ],
-    "description": "It's not a sea snail 🐌, it's a honeypot 🍯! Join Dylan this Wednesday for a sweet sweet talk on the Cowrie SSH honeypot! 😋",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1715216400000,
-    "end": 1715223600000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1OmFY88BZ1Qd3kwrJe664y8f93KAmckBgyDI_qCmPkhg/edit"
-    }
-  },
-  {
-    "id": "s24-ctf-irl",
-    "title": "CTF IRL",
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "description": "** RSVP and Waiver Form Required: https://l.acmcyber.com/ctfirl **. By popular demand, we’re back with another one! Come join us on the IM field from 6-8:30PM on Friday, 5/10, where you get to play, yes, ACTUAL Capture the Flag. You heard that right! Run around and touch grass to your heart’s content as we compete in teams to actually grab flags and see nature as it was intended to be: not on a computer screen as an image.",
-    "location": "IM Field",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1715389200000,
-    "end": 1715398200000,
-    "links": {}
-  },
-  {
-    "id": "s24-cyac-xz",
-    "title": "Cyber Academy: The XZ Backdoor",
-    "type": [
-      "Cyber Academy"
-    ],
-    "description": "How did one mysterious developer nearly take over every server in the world? Join Mark this Monday for an exciting retrospective on the recently thwarted XZ Backdoor!",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1715648400000,
-    "end": 1715655600000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1u4pTYrcB46I2jEYdzaCCm2UH_ZGI5voOUm2SVwuD73E/edit"
-    }
-  },
-  {
-    "id": "s24-lab-ai-privacy",
-    "title": "Cyber Lab: AI Privacy",
-    "type": [
-      "Cyber Lab"
-    ],
-    "description": "Got data? AI would like to know your location... Join Rathul this Wednesday for an amazing talk on AI Privacy techniques!",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1715821200000,
-    "end": 1715828400000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/10NyWFDtAX7DvCGV-AvYLHYOixD80KAR_Zrnp-dZfATI/edit"
-    }
-  },
-  {
-    "id": "s24-pbr-ouath",
-    "title": "PBR: OAuth & R3CTF/YUANHENGCTF",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "Ooooh, it's Stewart's talk on OAuth! Join PBR (in person) this weekend for R3kapig's first CTF!",
-    "location": "Boelter 8500 (Penthouse)",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1716062400000,
-    "end": 1716080400000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1du_Eo6vWMckmALJM5GXJDEYyRlRKn-DKW1sUJIHH31c/edit"
-    }
-  },
-  {
-    "id": "s24-videogame",
-    "title": "Cyber x Studio Social: Videogame",
-    "type": [
-      "Social",
-      "Miscellaneous"
-    ],
-    "description": "Grab your controllers 🎮 and ready your blue shells 🐢 - Cyber's teamin' up with ACM Studio 🦎 for a night of videogame and fun 🥳!",
-    "location": "Boelter Hall 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1717203600000,
-    "end": 1717210800000,
-    "links": {}
-  },
-  {
-    "id": "s24-cyalab-career-talk",
-    "title": "Cyber Lab: Career Talk",
-    "type": [
-      "Cyber Lab"
-    ],
-    "description": "Wondering how you can transform your cybersecurity skills into a real job? 🤔 Then join Cyber Lab today 6-8pm at Boelter 4760 to hear an amazing talk presented by our ✨former president✨ Benson! You'll learn all about cool, different pathways you can take within the cybersecurity field, so make sure to pull up!! 💪🤑💕",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1716426000000,
-    "end": 1716433200000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/18U2dRcj9HTqO9A7CHFCwLY5SQ5xlVAQDGcAi4Uc8Adk/edit"
-    }
-  },
-  {
-    "id": "s24-pbr-fstring",
-    "title": "PBR: Format String Pwn & GPNCTF",
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "description": "Come pull up and hear a talk from Alex Zhang on format strings!",
-    "location": "4th Floor Boelter Clubhouse",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1717272000000,
-    "end": 1717290000000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1ut-5I4CzXvpH8grFYV1qmq7vFHNVA-kUPmC8dfZETZw/edit"
-    }
-  },
-  {
-    "id": "s24-symposium",
-    "title": "Cyber x AI Symposium",
-    "type": [
-      "Cyber x AI Symposium",
-      "Miscellaneous"
-    ],
-    "description": "Cyber and AI are back for another end of the quarter symposium on Monday Week 10 (June 3rd) in Franz 1178! 🤩 Join us and check out all the cool projects and progress your fellow club members have made throughout the quarter. 👀 Attending/presenting at the symposium is mandatory for Cyber Lab members, as we want you to show off all your hard work. 💪 PS we will be having Panda Express, Diddy Riese cookies, AND ShareTea!!! 😱🤯👀 So make sure to come for the good food and fun people. 😋🍪🧋🩵💛",
-    "location": "Franz 1178",
-    "banner": "",
-    "start": 1717462800000,
-    "end": 1717470000000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1p5azXULK_ODEFlaGqk8KrhIS0KOScJP7pG3Dx20FlvQ/edit"
-    }
-  },
-  {
-    "id": "s24-lab-game-anti-piracy",
-    "title": "Cyber Lab: Video Game Anti-Piracy",
-    "type": [
-      "Cyber Lab"
-    ],
-    "description": "Cyber Lab weekly meeting.",
-    "location": "Boelter 4760",
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "start": 1717030800000,
-    "end": 1717038000000,
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1wsEcQ6GqEPscFe16Cq1TPDuadXTQbAepif9H2HwOGgI/edit"
-    }
-  },
-  {
     "id": "w24-misc-acm-gm",
     "title": "ACM Winter GM",
     "type": [
@@ -3188,1058 +3939,330 @@
     "end": 1706414400000
   },
   {
-    "id": "s26-cyber-gm",
-    "title": "ACM Cyber Spring GM",
-    "description": "Come hear what Cyber's all about and what we'll be doing this quarter! There will be free stickers and fun cybersecurity puzzles (bring your laptop)! 💻🤩",
-    "location": "Young Hall 2200",
-    "start": 1775091629033,
-    "end": 1775098829033,
-    "type": [
-      "GM"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1uS0F11Jx1n9bFQFsVFzZmBa9kuNac3nh-MmbCE266BE/edit?usp=sharing"
-    }
-  },
-  {
-    "id": "s26-birdwatching",
-    "title": "Birdwatching Social",
-    "description": "It's a bird! It's a plane! No wait it's actually another bird! Come join us as we observe our feathered friends in UCLA's very own botanical garden. 🌴 Feel free to bring binoculars if you have them, or just your wonderful self! 🐦🦃🐓🐤🕊️🦅🦆🦢🦩🦚🦜🐦‍⬛",
-    "location": "Meet at the Bruin Bear, or join us later in the Botanical Garden",
-    "start": 1775317533631,
-    "end": 1775322033631,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk2-cyac",
-    "title": "Cyber Academy: Week 2",
-    "description": "On 31st March 2026, two new npm packages for updated versions of Axios 🤖, which has over 70 million weekly downloads, were identified as malicious 😈. These versions were injected with a malicious dependency to download payloads 🧳 from a North Korean state actor's command and control (C2) 🖥️. Want to learn more? Come to Cyber Academy and listen to TS give his talk about Axios' recent supply chain ⛓️ compromise!",
-    "location": "Boelter 7702",
-    "start": 1775523633631,
-    "end": 1775530833631,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "type": [
-      "Cyber Academy"
-    ],
-    "links": {
-      "slides": "https://docs.google.com/presentation/d/1eZ6858m0ad5XYULzyAtlqQeNajJqd6Z3UJ9q-p6FiH8/edit?usp=sharing"
-    }
-  },
-  {
-    "id": "s26-wk2-lab",
-    "title": "Cyber Lab: Week 2",
-    "description": "With all the recent chrome security updates, web security 🌐 might be out of a job. 🤔 In times of need, DNS comes to our rescue. 🔥\nRule #1: It's always DNS. Rule #2: If you're pretty sure it isn't DNS, it's a new DNS feature you're not yet familiar with. \nCome to our first Cyber Lab 🧪meeting of the quarter and listen to Ronak's talk on DNS rebinding!",
-    "location": "Boelter 7702",
-    "start": 1775696411986,
-    "end": 1775703611986,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "http://l.acmcyber.com/s26-wk2-lab"
-    }
-  },
-  {
-    "id": "s26-b01lers-ctf",
-    "title": "b01lers CTF",
-    "description": "For our first PBR meeting of Spring 2026, we'll be playing 🚂 b01lers CTF from Purdue University! There will be a range of challenges ⛳ from beginner-friendly to advanced. Join us on Saturday for lunch 🥙 before we start CTFing! 💻",
-    "location": "E4 Tesla Room (53-125)",
-    "start": 1776535220992,
-    "end": 1776560420992,
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-umdctf",
-    "title": "UMDCTF",
-    "description": "Come play 🐢 UMDCTF with PBR! As usual, join us for lunch 🥙 before we start CTFing!",
-    "location": "E4 Tesla Room (53-125)",
-    "start": 1777141818620,
-    "end": 1777165218620,
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-sawtelle",
-    "title": "Cyber X ICPC Sawtelle Run ",
-    "description": "RSVP: http://l.acmcyber.com/run\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! 🍛 Meet at the Bruin Bear statue at 6:15PM, where we will split into 2 groups, a runner group and a busser group 🏃🚌",
-    "location": "Bruin Bear Statue",
-    "start": 1777079711984,
-    "end": 1777093211984,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk3-cyac",
-    "title": "Cyber Academy: Week 3",
-    "description": "Remember playing on Cool Math Games 🎮? Did you like grinding Papa's Pizzeria 🍕 or Duck Life 3 🦆? Whatever happened to those games? Come to Cyber Academy where Arnav will talk about Adobe Flash Player 🇫 and its numerous, mind-boggling security vulnerabilities that led to its unfortunate shutdown!",
-    "location": "Boelter 7702",
-    "start": 1776128407785,
-    "end": 1776135607785,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk3-cyac"
-    }
-  },
-  {
-    "id": "s26-wk3-lab",
-    "title": "Cyber Lab: Week 3",
-    "description": "Humans are often called the weakest link 🔗in cybersecurity. After all, having a strong password 🔐doesn't help if someone can be tricked into simply telling it to someone. 🤔 Come to Cyber Lab and listen to Katie's talk on how social engineers can manipulate humans into revealing sensitive information, compromise major companies, and steal millions of dollars! 💸",
-    "location": "Boelter 7702",
-    "start": 1776301226189,
-    "end": 1776308426189,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk3-lab"
-    }
-  },
-  {
-    "id": "s26-wk3-nail-painting",
-    "title": "Nail Painting Social",
-    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
-    "location": "631 Kelton Ave, Apartment Number 209",
-    "start": 1776567616619,
-    "end": 1776582016619,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk5-nail-painting",
-    "title": "Nail Painting Social",
-    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
-    "location": "631 Kelton Ave, Apartment Number 209",
-    "start": 1777777216619,
-    "end": 1777791616619,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk9-nail-painting",
-    "title": "Nail Painting Social",
-    "description": "🥳 Pull up to Savannah's apartment this Saturday evening to get your nails painted 💅!!!",
-    "location": "631 Kelton Ave, Apartment Number 209",
-    "start": 1780110016619,
-    "end": 1780124416619,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-movie",
-    "title": "Princess Mononoke Movie Night",
-    "description": "Nessa says: Come watch a super well-rated Studio Ghibli classic, probably featuring a woman named Princess Mononoke (I haven't seen it yet so I don't know).\nNote: there will be snacks! 🍿🎬",
-    "location": "Delta Terrace House 8 Lounge",
-    "start": 1777168815328,
-    "end": 1777179615328,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk4-cyac",
-    "title": "Cyber Academy: Week 4",
-    "description": "Come to Cyber Academy 📚 this Monday to learn about reverse engineering, blockchain, or to continue with CPTC! No experience needed; just show up and learn! 😁",
-    "location": "Boelter 7702",
-    "start": 1776733231587,
-    "end": 1776740431587,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk4-cyac"
-    }
-  },
-  {
-    "id": "s26-wk4-lab",
-    "title": "Cyber Lab: Week 4",
-    "description": "Did you know 🤔 programs can unintentionally leak 💧 information through physical means like power consumption, temperature, and time ⏱️? Side channel attacks exploit this leaked information to reveal program behavior. 🕵️ You may have taken CS M151B and learned about caches. The time properties of caches can be exploited to uncover information about a program. Attend Cyber Lab 🧪 to hear Audrey's talk about these cache side channel attacks! 🔥",
-    "location": "Boelter 7702",
-    "start": 1776906001334,
-    "end": 1776913201334,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "http://l.acmcyber.com/s26-wk4-lab"
-    }
-  },
-  {
-    "id": "s26-tjctf",
-    "title": "TJCTF",
-    "description": "Join PBR for 🔺 TJCTF this weekend! There will be challenges for all experience levels. 🪜 Stick around for our quarterly potluck afterwards! 🍔🌭",
-    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1778956247555,
-    "end": 1778979647555,
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-flagsharing",
-    "title": "Flag Sharing Social",
-    "description": "You've heard the rumors and the accusations, but it's true 😳 PBR will be 🚩 flag sharing — with you! Come join us this Saturday and 🪣 paint on real flags 🖌️ and maybe even ✨ exchange yours 🫵 with another CTFer's 🤝! (No experience with CTFs required; everyone is welcome to hang out and decorate flags!) We'll get lunch before the social at 11 am, then start flag sharing at 1 pm.",
-    "location": "Meet at De Neve Crosswalk, then share flags at E6 courtyard",
-    "start": 1777744824490,
-    "end": 1777762824490,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/s26/duck_with_flags.png"
-  },
-  {
-    "id": "s26-wk5-cyac",
-    "title": "Cyber Academy: Week 5",
-    "description": "The hardest challenges may not be hard in the ways you would expect. 🤔 See how a 20-solve challenge was done in an hour ⏱️ in this week’s cyber academy, then continue learning blockchain or reverse engineering! 🏫",
-    "location": "Boelter 7702",
-    "start": 1777338053406,
-    "end": 1777345253406,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk5-cyac"
-    }
-  },
-  {
-    "id": "s26-wk5-lab",
-    "title": "Cyber Lab: Week 5",
-    "description": "Come to Cyber Lab and hear Nasir's talk on design patterns for your average cyber engineer! ⚙️ Then continue with CCDC, the agentic CTF solver, or the container lab! 🧪\nDesign patterns: In software engineering, we often face recurring design problems. 🤔 Instead of reinventing solutions every time, we rely on design patterns, which are reusable solutions to common problems in software design. 📄 Cyber engineers often overlook this crucial element of software engineering. This talk would serve to bridge 🌉 the understanding gap between the two worlds and go over Strategy, Observer, Facade patterns and would leave the rest as an exercise for you go through. 😁",
-    "location": "Boelter 7702",
-    "start": 1777510811785,
-    "end": 1777518011785,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk5-lab"
-    }
-  },
-  {
-    "id": "s26-kayaking",
-    "title": "Kayaking Social",
-    "description": "Come kayaking 🛶 with Cyber at Marina Del Rey! Fill out the RSVP form (http://l.acmcyber.com/kayak) by Friday, 5/1 for more details! 🎉",
-    "location": "Marina Del Rey (rides will be organized)",
-    "start": 1778360432612,
-    "end": 1778374832612,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://recreation.ucla.edu/sites/default/files/styles/header_image/public/2022-03/MAC_topbanner.jpg?itok=FIAZyLam"
-  },
-  {
-    "id": "s26-potluck",
-    "title": "Potluck Social",
-    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social! 😃 Come make some memories and socialize while grilling some hotdogs and hamburgers together. 🍔🌭 ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
-    "location": "910 Weyburn Terrace",
-    "start": 1779062428603,
-    "end": 1779076828603,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-grey-cat-the-flag",
-    "title": "Grey Cat The Flag",
-    "description": "Join PBR for 🐈‍⬛ Grey Cat The Flag this weekend! As usual, join us for lunch beforehand 🍜",
-    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1780165859398,
-    "end": 1780189259398,
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk6-cyac",
-    "title": "Cyber Academy: Week 6",
-    "description": "Come to Cyber Academy 📚 this Monday to learn about cryptography or to continue with CPTC! No experience needed; just show up and learn! 😁",
-    "location": "Boelter 7702",
-    "start": 1777942843433,
-    "end": 1777950043433,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk6-cyac"
-    }
-  },
-  {
-    "id": "s26-wk6-lab",
-    "title": "Cyber Lab: Week 6",
-    "description": "Come to Cyber Lab to continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
-    "location": "Boelter 7702",
-    "start": 1778115603129,
-    "end": 1778122803129,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk6-lab"
-    }
-  },
-  {
-    "id": "s26-wk7-cyac",
-    "title": "Cyber Academy: Week 7",
-    "description": "Have you heard of recent Linux 🐧 vulnerabilities like Copy Fail and Dirty Frag? 🤔 If you are curious, be sure to come to Cyber Academy where Nathan will talk about how subtle logic bugs 🐛 in Linux can have serious consequences! Then beginner group will learn about miscellaneous CTF challenges, and advanced group will continue with cryptography! 🔐",
-    "location": "Boelter 7702",
-    "start": 1778547657409,
-    "end": 1778554857409,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk7-cyac"
-    }
-  },
-  {
-    "id": "s26-wk7-lab",
-    "title": "Cyber Lab: Week 7",
-    "description": "Come to Cyber Lab to continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
-    "location": "Boelter 7702",
-    "start": 1778720443780,
-    "end": 1778727643780,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk7-lab"
-    }
-  },
-  {
-    "id": "s26-symposium",
-    "title": "ACM Cyber X ACM AI Symposium",
-    "description": "** RSVP REQUIRED by 5/21: https://l.acmcyber.com/symposium **\n\nWant to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends have been up to? 😱 Do you want FREE FOOD??? 🥘 Join us Monday of Week 10 in Engineering VI, Cohen 6-8 PM for the Spring Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have dinner and an open time to hang out. See you there!",
-    "location": "E6 Cohen",
-    "start": 1780362040311,
-    "end": 1780369240311,
-    "type": [
-      "Cyber x AI Symposium"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk8-lab",
-    "title": "Cyber Lab: Week 8",
-    "description": "T.S needs to communicate securely 🔐 with the Gigabyte factory 🏭 and be able to tell if someone eavesdropped? 🦻 To solve such an interesting problem BB84 was introduced. Join us and listen to Nasir to learn about Quantum 🌐 communication and help T.S communicate!\nAfterwards, we will continue with CCDC, the agentic CTF solver, or the container lab! 🧪",
-    "location": "Boelter 7702",
-    "start": 1779325244671,
-    "end": 1779332444671,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "type": [
-      "Cyber Lab"
-    ],
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk8-lab"
-    }
-  },
-  {
-    "id": "s26-wk8-cyac",
-    "title": "Cyber Academy: Week 8",
-    "description": "With the arrival of AI agents 🤖, CTFs aren't what they used to be 🚩, but what will they be? Come to this week's Cyber Academy 🎓 where we'll analyze 🔍 the current environment 🌐 and see what might come in the future. ⏭️ Then we'll continue with beginner and advanced group topics!",
-    "location": "Boelter 7702",
-    "start": 1779152420799,
-    "end": 1779159620799,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/s26-wk8-cyac"
-    }
-  },
-  {
-    "id": "s26-misc-smores",
-    "title": "Emergency S'mores Social",
-    "description": "Are finals stressing you out? 🤯 Want to hang out with your favorite CS club one last time? 🥺 Come to our ⚠️ 🚨 Emergency S'mores Social 🔥 🍫  and eat out to your heart's content 🥯!",
-    "location": "910 Weyburn Terrace (same place as potluck)",
-    "start": 1780534824393,
-    "end": 1780542024393,
+    "id": "s24-misc-gm",
+    "title": "Cyber Spring GM",
     "type": [
       "Miscellaneous",
-      "Social"
+      "gm"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "s26-wk9-lab",
-    "title": "Cyber Lab: Week 9",
-    "description": "Join us for the last Cyber Lab of the quarter! 🧪 We'll be wrapping up the labs and working on Symposium slides. \nNote that Week 10 Wednesday, we will be having a s'mores social! 🍫",
-    "location": "Boelter 7702",
-    "start": 1779930031196,
-    "end": 1779937231196,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "description": "Cyber returns Wednesday Week 1 to kick off the new quarter! Come check out some of the exciting stuff we've planned for this quarter and enjoy a sparkly new set of beginner-friendly CTF + social challenges!",
+    "location": "Kaplain A51",
+    "banner": "https://cyanea-assets.acmcyber.com/events/s24/s24-gm.png",
+    "start": 1712192400000,
+    "end": 1712199600000,
     "links": {
-      "slides": "https://l.acmcyber.com/s26-wk9-lab"
+      "slides": "https://docs.google.com/presentation/d/1pXsZ9CQlFmz0Pk_N4cpJFyy_M86v9Y8NqZyPh46obGY/edit"
     }
   },
   {
-    "id": "w26-uoftctf",
-    "title": "UofT CTF",
-    "description": "Welcome back 🚀 PBR! To kick off the new year 🧧 we will be playing 🍁 UofTCTF from our friends at University of Toronto 🔥 This CTF will have great challenges so be sure to join us on Saturday for lunch 🥙 before we head to E4 Tesla Room! 💻",
-    "location": "E4 Tesla Room (53-125)",
-    "start": 1768071605652,
-    "end": 1768096805652,
+    "id": "s24-pbr-B01lers",
+    "title": "B01lers CTF: w/ Minecraft Seedfinding Talk",
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-lactf",
-    "title": "LA CTF 2026",
-    "description": "Looking for a fun way to spend the weekend? 👀 LA CTF is ACM Cyber's annual cybersecurity event and capture-the-flag style competition. 🔐 Come solve challenges, make new friends, win prizes, and have a great time! 🥳\n\nThe online competition starts on 2/6/26, and the in-person event will be on Saturday, 2/7/26, at the Tom Bradley International Hall room 300. 🐻 Activities start at 9 AM and end at 7 PM, but you are free to stay as much or as little as you want. Free lunch 🍕 and merch 🛍️ will be provided, and there will be cool talks from professors and industry speakers 🗣️ . We even have prizes reserved for UCLA students! Everyone, whether beginner or expert, is welcome! 🙌\n\nIf you're interested in coming, RSVP at https://l.acmcyber.com/lactf-26. See our [website](https://lac.tf) or [Discord server](https://lac.tf/discord) for more details! 🤩",
-    "location": "Hybrid, https://lac.tf for more info",
-    "start": 1770429603763,
-    "end": 1770602403763,
-    "type": [
-      "LA CTF"
-    ],
-    "banner": "https://lac.tf/images/mountains-logo.gif"
-  },
-  {
-    "id": "w26-cyber-gm",
-    "title": "ACM Cyber Winter GM",
-    "description": "Are you a returning member and curious to learn what ACM Cyber has in store for next quarter? New to the club and want to understand all that ACM Cyber does? Come to our Winter GM meeting, where we will explain all of the various events that ACM Cyber puts on throught the quarter, and learn more about how YOU can get involved!",
-    "location": "Boelter 4760",
-    "start": 1767837638342,
-    "end": 1767844838342,
-    "type": [
-      "GM"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-ectf-kickoff",
-    "title": "eCTF Kickoff Meeting",
-    "description": "ITS TIME!!!!!!! ❄️ We're hittin' the ground running 🏃 this **Thursday**\\* with our first ECTF meeting of the quarter 🎯 in the 🔷 IEEE lab 🔷! We'll be discussing officially signing up for the event 🖊, course credit options 🎓, and what we'll be doing once design phase begins next week 📐!\n\n\\*I know we originally said that meetings would be held on Tuesday, but due to scheduling constraints our weekly weekday meeting had to be moved to Thursday 😔. If you are unable to come for the Kickoff and would like to be on the team, **please** contact an ECTF lead ASAP to get signed up: @renuka @zink_ed @joshuazhu @arandom_person @avdestroyer @parth_pandhare @arcblroth. If you cannot make Thursdays 6-8 PM this quarter, don't fret: we will likely also hold consistent worksessions on the weekend.",
-    "location": "IEEE Lab (Boelter 2825)",
-    "start": 1767924044420,
-    "end": 1767931244420,
+    "description": "PBR is back and competing in another CTF! 🎉🥰 Whether you are a beginner or skilled CTFer, you’ll be sure to have fun. Meet us at De Neve Plaza at 12pm to get lunch, and then in Boelter 8500 at 1pm to play the CTF! ⛳️ We will also feature a thrilling talk about Minecraft Seedfinding 🌱 by Arnav, so make sure to pull up!!",
+    "location": "Boelter 8500 (Penthouse)",
     "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
-    "type": [
-      "ECTF"
-    ],
+    "start": 1713034800000,
+    "end": 1713056400000,
     "links": {
-      "slides": "https://l.acmcyber.com/ectf-week3-f25"
+      "slides": "https://docs.google.com/presentation/d/1tGAz_zIpPk4tgZ4InwrgybrHme5BIDwDmLxjhOOrEnA/edit"
     }
   },
   {
-    "id": "w26-wk2-cyac",
-    "title": "Cyber Academy Kickoff: Web race conditions and HTTP",
-    "description": "Want to learn how to exploit 🕵️ web race conditions 🏃‍♂️, better? Even when timing ⏱️ windows are extremely tight, we can get very reliable results using special tricks 💡 based on cool HTTP features! Come to this quarter's first Cyber Academy, with Arnav's talk about HTTP and web race conditions, to learn about these tricks and about fundamental network protocols 💻! We'll then jump right into our first Cyber Academy workshop 🛠️  of the quarter.",
-    "location": "Boelter 7702",
-    "start": 1768269610576,
-    "end": 1768276810576,
-    "type": [
-      "Cyber Academy"
-    ],
-    "links": {
-      "slides": "https://l.acmcyber.com/w26-wk2-cyac",
-      "youtube": "https://youtu.be/JY2kiF9GL3M"
-    },
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk2-lab",
-    "title": "Cyber Lab: Kickoff",
-    "description": "This week we will jump into our Cyber Labs of the quarter: Splunk Lab, and CCDC practice development. Sign up for the labs at https://acmcyber.com/join!",
-    "location": "Boelter 7702",
-    "start": 1768442426247,
-    "end": 1768449626247,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-ectf-week2",
-    "title": "eCTF Build Phase Meeting - Week 2",
-    "description": "eCTF kickoff just happened! Build phase 🛠️ starts now!\n\nJoin us in the IEEE Lab (Boelter Hall 2825) for our meeting of the build phase. We will discuss the design requirements and our plan 🗺️ for building our design.\n\nNote: this meeting is mandatory if you wish to participate on the eCTF team. We will make sure that all competitors have filled out the necessary forms to participate. If you cannot come, please contact one of our eCTF leads ASAP so we can tell you what you need to do: @arcblroth @parth_pandhare @AVDestroyer @arandom_person @joshuazhu @zink_ed @renuka",
-    "location": "IEEE Lab (Boelter 2825)",
-    "start": 1768528823110,
-    "end": 1768536023110,
-    "type": [
-      "ECTF"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk3-lab",
-    "title": "Cyber Lab: eBPF Vulnerabilities",
-    "description": "Ever wondered how tech giants 🏢 manage to run custom code 💻 directly inside the Linux kernel 🐧? Join us for Week 3 of Cyber Lab in Boelter 7702, where Lyric will be presenting about eBPF 😳 and the security vulnerabilities 🤯  among its 30,000+ lines of verifier code! 🔍 We’ll explore how these powerful features 🙌  can be turned against the system 😱 to bypass security 🛡️ and gain root access 🔑 🌳. Don't miss out on learning how this revolutionary technology 🚀 massively expands the kernel attack surface 📈 🏔️ !",
-    "location": "Boelter 7702",
-    "start": 1769047214830,
-    "end": 1769054414830,
-    "type": [
-      "Cyber Lab"
-    ],
-    "links": {
-      "slides": "https://l.acmcyber.com/w26-wk3-lab",
-      "youtube": "https://youtu.be/gZCeypY0udc"
-    },
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-nail-painting",
-    "title": "Nail Painting Social",
-    "description": "🥳 Pull up to Savannah's apartment this Friday evening to get your nails painted 💅!!!",
-    "location": "631 Kelton, Apartment Number 209",
-    "start": 1769227234200,
-    "end": 1769234434200,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-misc-flagsharing",
-    "title": "Flagsharing Social",
-    "description": "You've heard the rumors and the accusations, but it's true 😳 PBR will be 🚩 flagsharing — with you! Come out to the Tongva Steps 📶 this Saturday to 🌱 touch grass 🌾, 🪣 paint on real flags 🖌️, and maybe even ✨ exchange yours 🫵 with another CTFer's 🤝! Since we need to actually purchase the flags and paint, **please RSVP** for this event at https://forms.gle/WwKtosd2T2yGyqA78 by end-of-day Wednesday. We'll also get lunch in Westwood before the social - stay tuned for details on that!",
-    "location": "Tongva Steps (somewhere around)",
-    "start": 1769893257150,
-    "end": 1769904057150,
+    "id": "s24-potluck",
+    "title": "Cyber Potluck",
     "type": [
       "Social",
       "Miscellaneous"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/w26/flagsharing.png"
+    "description": "Join your favorite Cyber Friends for a potluck filled with fun and good food! 🩷😋 We will be meeting up at 6pm Week 3 Sunday (4/21) at 910 Weyburn Place. Make sure to show up and have fun! 🤗🍴👀✨🎉 (RVSP: https://docs.google.com/forms/d/e/1FAIpQLSebjdTlVG_SZV-iuaTF9qRQJoqCR7K4XLaSBMKhwANetvl4Rg/viewform?usp=sf_link)",
+    "location": "910 Weyburn Place",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1713747600000,
+    "end": 1713758400000,
+    "links": {}
   },
   {
-    "id": "w26-wk4-cyac",
-    "title": "Cyber Academy: Week 4",
-    "description": "Come to our 2nd Cyber Academy meeting of the quarter, where the fundamentals group will be learning about Local File Inclusion and the advanced group will continue working on Binary Exploitation revpwn challenges!",
-    "location": "Boelter 7702",
-    "start": 1769479223790,
-    "end": 1769486423790,
+    "id": "s24-cyac-network-into",
+    "title": "Cyber Academy: Intro to Network Analysis",
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "description": "Interested in how networks work? 🛜 Then join us for our second Cyber Academy meeting to learn about the basics of networking, presented by Alec! ✨ We'll be in Boelter 4760 on Monday 6-8pm, so make sure to show up! 💟🫡",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1713229200000,
+    "end": 1713236400000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1KMzGICQk4ylQQI6YtOYVCIqXTkCTCUb54z7_KfRXFXE/edit"
+    }
   },
   {
-    "id": "w26-wk5-cyac",
-    "title": "Cyber Academy: Week 5",
-    "description": "In preparation for LA CTF on the weekend, our officers will be demonstrating some past LA CTF challenges and how to solve them. Don't miss out and capture some (past) flags with us! ⛳️",
-    "location": "Boelter 7702",
-    "start": 1770084058404,
-    "end": 1770091258404,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk5-lab",
-    "title": "Cyber Lab: Week 5",
-    "description": "We'll be continuing with our labs, Splunk and CCDC. See you there!",
-    "location": "Boelter 7702",
-    "start": 1770256800705,
-    "end": 1770264000705,
+    "id": "s24-cyalab-m1-side-channel",
+    "title": "Cyber Lab: Apple M1 Side Channel",
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "description": "Come to Cyber Lab to hear Cameron give a thrilling talk about the Apple M1 chip side channel. 🍎💻 You'll learn about a current vulnerability in your or your friends' computers. 😱 We'll also be continuing with the second week of Cyber Lab projects, so make sure to pull up to Bolter 4760 this Wednesday 6-8pm. 😊🎀",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1713402000000,
+    "end": 1713409200000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1bhm97LOLNk2j5uUAIdA-mau6ZmAa6e6oB2PJpLA_jxw/edit"
+    }
   },
   {
-    "id": "w26-bkctf",
-    "title": "Batman's Kitchen CTF 2026",
-    "description": "Come play Batman Kitchen's CTF with PBR this weekend!",
-    "location": "",
-    "start": 1771707655422,
-    "end": 1771725655422,
+    "id": "s24-pbr-greycat",
+    "title": "GreyCat: w/ Zero Knowledge Proofs Talk",
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "description": "Can't get enought of cybersecurity? 🙋 Then join us for GreyCat CTF this Sunday! 🐈‍⬛🩶 We'll also be featuring a super cool talk by Joshua about Zero Knowledge Proofs. 👀 We'll meet up at De Neve Plaza at 12 for lunch, and then play the CTF at 1pm in Boelter 8500. Everyone is welcome regardless of skill level and feel free to stay for however long you like. 😻🙀😽",
+    "location": "Boelter 8500 (Penthouse)",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1713643200000,
+    "end": 1713661200000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1DVXJ7JscBF4JLGIJ0KwV-2KPrIB4d_sB5eaJQRy-9xM/edit"
+    }
   },
   {
-    "id": "w26-potluck",
-    "title": "W26 Potluck Social",
-    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social, hopefully not rained out this time! Come make some memories and socialize while grilling some hotdogs and hamburgers together. ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
-    "location": "910 Weyburn Terrace",
-    "start": 1771729248157,
-    "end": 1771740048157,
+    "id": "s24-cyac-rsa",
+    "title": "Cyber Academy: RSA Attacks",
     "type": [
-      "Social"
+      "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "description": "Wanna learn how to break RSA and bring out your inner NSA? Cyber Academy returns Monday with a talk from Gary on RSA Attacks!",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1713834000000,
+    "end": 1713841200000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1XL0_3GuZ6w_sM78BHKqmjyB3OeE0ywJn4W1iIDY-yp0/edit#slide=id.p"
+    }
   },
   {
-    "id": "w26-srdnlenctf",
-    "title": "Srdnlen CTF",
-    "description": "Come play SrdnlenCTF with PBR this weekend!",
-    "location": "Engineering IV Tesla Room",
-    "start": 1772312433732,
-    "end": 1772330433732,
+    "id": "s24-lab-dll-injection",
+    "title": "Cyber Lab: DLL Injection",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Reject Linux and embrace Windows in Salma's talk on DLL Injection this Wednesday!",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714006800000,
+    "end": 1714014000000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1RCejnHMyGchaxGxPDjXfPXD6ttvpbge7pnhfiu1B-Vo/edit"
+    }
+  },
+  {
+    "id": "s24-cyac-xsleaks",
+    "title": "Cyber Academy: XS Leaks",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "Side channel your way into Renuka's talk on Cross-Site Leaks! ⛓",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714438800000,
+    "end": 1714446000000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1gIk55syGGgIr68HucfMXUMXfwWILeYcMLkIik_NVtVU/edit"
+    }
+  },
+  {
+    "id": "s24-lab-guest-1",
+    "title": "Cyber Lab: Security by Design",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Cyber Lab weekly meeting.",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714611600000,
+    "end": 1714618800000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1NtN8fOh455cmVbCCMANGDKRDb5dOmSY_9-nM0uhUhXY/edit"
+    }
+  },
+  {
+    "id": "s24-pbr-defcon-pwn",
+    "title": "PBR: Advanced Pwn & Defcon Quals",
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk6-cyac",
-    "title": "Cyber Academy Week 6",
-    "description": "Hope you had fun solving challenges at LA CTF! This week, beginner group will work on introduction to cryptography and the advanced group will continue working on z3 challenges.",
-    "location": "Boelter 7702",
-    "start": 1770688814554,
-    "end": 1770696014554,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk6-lab",
-    "title": "Cyber Lab Week 6",
-    "description": "Splunk Lab will be discussing the previous scenario and beginning a new scenario, and CCDC Lab will be debriefing after the competition this weekend and preparing for next year.",
-    "location": "Boelter 7702",
-    "start": 1770861636089,
-    "end": 1770868836089,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-sawtelle",
-    "title": "ACM Cyber X ACM ICPC Sawtelle Run Social",
-    "description": "RSVP: https://l.acmcyber.com/run\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! Meet at the Bruin Bear statue at 6:15PM, where we will split into 2 groups, a runner group and a busser group.",
-    "location": "Bruin Bear Statue",
-    "start": 1772849730174,
-    "end": 1772863230174,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk7-lab",
-    "title": "Cyber Lab: SAT Solvers",
-    "description": "This week, we have a talk by Nasir about SAT Solvers! Afterwards, we will continue working in our labs, CCDC and Splunk Lab.\n\nTalk Description: Boolean satisfiability is the core problem underlying decision problems in Computer Science. We'll be defining SAT (Boolean Satisfiability) problem, then introduce 3-SAT as an extension of it. We'll then be looking at a very primitive solver of it in OCaml using Backtracking and then use CNF (Conjuctive Normal Form representation) to then use Davis–Putnam–Logemann–Loveland (DPLL) algorithm to do better than our primitive approach.",
-    "location": "Boelter 7702",
-    "start": 1771466444100,
-    "end": 1771473644100,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk8-cyac",
-    "title": "Cyber Academy Week 8: Containerization",
-    "description": "Join us again for Cyber Academy, where TS will be giving a talk on containerization ⛴️ 🐳 📦! Afterwards, fundamentals group will learn about reverse engineering, and advanced group will explore some cryptography constructions. ",
-    "location": "Boelter 7702",
-    "start": 1771898451907,
-    "end": 1771905651907,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk8-lab",
-    "title": "Cyber Lab Week 8: Physical Security",
-    "description": "Join us for Cyber Lab, where Cathleen will talk about some of her experiences at Defcon ☠️ with physical security 🔐! Splunk lab and CCDC lab will continue as usual. ",
-    "location": "Boelter 7702",
-    "start": 1772071207852,
-    "end": 1772078407852,
-    "type": [
-      "Cyber Lab"
-    ],
+    "description": "This is it! 🥳 PBR will be teaming up with SuperGuesser x DiceGang x CodeRed for Defcon 2024 Quals! 🎲 Be sure to show up for Enzo's talk on Advanced Pwning 🐚, and then help us win that top ten spot 🏆!",
+    "location": "Boelter 8500 (Penthouse)",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1714852800000,
+    "end": 1714870800000,
     "links": {
-      "slides": "https://l.acmcyber.com/w26-wk8-lab"
-    },
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-symposium",
-    "title": "W26 ACM Cyber X ACM AI Symposium",
-    "description": "** RSVP REQUIRED by 2/26: https://l.acmcyber.com/symposium **\n\nWant to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends have been up to? 😱 Do you want FREE FOOD??? 🥘 Join us Monday of Week 10 in Engineering VI, Mong Learning Center 6-8 PM for the Winter Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have dinner and an open time to hang out. See you there!",
-    "location": "Mong Auditorium",
-    "start": 1773104446006,
-    "end": 1773111646006,
-    "type": [
-      "Cyber x AI Symposium"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk9-acad",
-    "title": "Cyber Academy: AI Art",
-    "description": "Come to the last Cyber Academy of the quarter where Savannah will be giving a talk on how artists protect their works against Generative AI models!",
-    "location": "Boelter 7702",
-    "start": 1772503230503,
-    "end": 1772510430503,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "w26-wk9-lab",
-    "title": "Cyber Lab: Symposium Prep",
-    "description": "Come to the last Cyber Lab of the quarter where we will be wrapping up our labs and preparing to present the labs next week at Symposium!",
-    "location": "Boelter 7702",
-    "start": 1772676057854,
-    "end": 1772683257854,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
-  },
-  {
-    "id": "f26-acm-gm",
-    "title": "ACM Fall GM",
-    "description": "Do you want to build your own video game, iOS application, or neural network? 💻 Do you want to participate in competitive programming or CTFs? ⛳️ Do you care about diversity in STEM? Or do you simply just want to get involved with the tech community on campus?\n\n👥 Join ACM at UCLA for our Fall General Meeting! 🎉\n\n🗓️ Date: Friday, October 2nd, 2026 (Week 1)\n⏰ Time: 6:00 - 8:00 PM\n📍 Location: Engineering VI Mong Learning Center",
-    "location": "Engineering VI Mong Learning Center",
-    "start": 1790989208509,
-    "end": 1790996408509,
-    "type": [
-      "GM"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/f26/acm.png",
-    "meta": {
-      "ignore-for-acm-newsletter": true
+      "slides": "https://docs.google.com/presentation/d/1rlLhGLy8IFdhup3wcwYZn_wg6yfhELMczy7bJSz4v0I/edit"
     }
   },
   {
-    "id": "f26-cyber-gm",
-    "title": "ACM Cyber Fall GM",
-    "description": "Want to join the premier cybersecurity club at UCLA? 🔐Come to our Fall GM to learn more about all of the cool things we'll be doing this quarter 🍋 😎! Whether you're interested in Cyber Academy, Cyber Lab, eCTF, or our CTF team PBR, it'll all be revealed and detailed at our GM. 🔮👀 Also, don't forget to bring a laptop to solve some fun cybersecurity challenges after the presentation!",
-    "location": "Engineering VI 289",
-    "start": 1791248424942,
-    "end": 1791255624942,
-    "type": [
-      "GM"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-verkada",
-    "title": "Verkada Recruiting Event",
-    "description": "** RSVP REQUIRED: https://l.acmcyber.com/verkada **\n\nCome chat with a security engineer and a recruiter at Verkada, a physical security IoT startup. 🔐Food and swag will be provided! 🤩",
-    "location": "Boelter 8500",
-    "start": 1791333000866,
-    "end": 1791340200866,
-    "type": [
-      "Industry",
-      "Career",
-      "Speaker"
-    ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/f25/verkada.png"
-  },
-  {
-    "id": "f26-wk2-lab",
-    "title": "Cyber Lab: *.ucla.*",
-    "description": "\nEver wonder what secrets the birthplace of the internet holds? 🤔 Want to find out exactly how much Boelter Hall would cost to replace? 💰🏛️ Join us for our first Cyber Lab meeting this week 💻💥! We'll be diving into a talk from Kenneth on the depths of UCLA's publicly accessible network *.ucla.(edu | net) 🌐. Don't miss out—meet us in Kerckhoff State Room 131-135 from 6-8 PM💛💛!",
-    "location": "Kerckhoff State Room 131-135",
-    "start": 1791421737243,
-    "end": 1791428457243,
-    "type": [
-      "Cyber Lab"
-    ],
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk2-lab"
-    },
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-sawtelle",
-    "title": "Cyber X ICPC Sawtelle Social",
-    "description": "RSVP: http://l.acmcyber.com/sawtelle\n\nCome join ACM Cyber and ACM ICPC on our quarterly social where we run or bus to Sawtelle for dinner! 🍛 Meet at the Bruin Bear statue at 6:00 PM, where we will split into 2 groups, a runner group and a busser group 🏃🚌",
-    "location": "Bruin Bear Statue",
-    "start": 1792198820561,
-    "end": 1792213220561,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-deadface",
-    "title": "DEADFACE CTF",
-    "description": "Come to our first 🎊 PBR meeting of the year! DEADFACE ☠️ CTF has something for everyone, including a lot of beginner-friendly challenges. 💻 Come get lunch 🥙with us at 11:30 AM before the CTF, or head directly to the Tesla Room at 1 PM!",
-    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1792261859938,
-    "end": 1792285259938,
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-hacklu",
-    "title": "Hack.lu CTF",
-    "description": "Join PBR for Hack.lu CTF🧑‍💻this weekend! Join us for lunch beforehand 😋or come directly to the Tesla Room at 1 PM",
-    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1792866634126,
-    "end": 1792890034126,
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "type": [
-      "Psi Beta Rho"
-    ]
-  },
-  {
-    "id": "f26-wolv",
-    "title": "WolvCTF",
-    "description": "For our last PBR meeting of the quarter, we'll be playing 🐺 WolvCTF! Join us for lunch at 11:30 AM before the CTF (or go directly to the Tesla Room at 1 PM), and stick around for our quarterly potluck after. 🍔",
-    "location": "Meet at De Neve Crosswalk, then E4 Tesla Room (53-125)",
-    "start": 1795289420038,
-    "end": 1795312820038,
-    "type": [
-      "Psi Beta Rho"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-potluck",
-    "title": "Potluck Social",
-    "description": "RSVP here: https://l.acmcyber.com/potluck\n\nJoin ACM Cyber in our quarterly potluck social! 😃 Come make some memories and socialize while grilling some hotdogs and hamburgers together. 🍔🌭 ACM Cyber pays for the main courses, so while bringing food is encouraged, it is not required or expected! ",
-    "location": "910 Weyburn Terrace",
-    "start": 1795316425991,
-    "end": 1795327225991,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-wk3-cyac",
-    "title": "Cyber Academy: Dining Hall Locker Security",
-    "description": "How safe is your backpack 🎒 at the dining hall? It depends. 🤔 Come to this week's Cyber Academy 📚 to see how in a seemingly unsuspecting part of the dining hall lies the principles of cybersecurity and security in general. We'll then split into a fundamentals group (which will have an introduction to cryptography 🔑) and an advanced group (which will cover cross-site scripting, a web security vulnerability 🕸️)!",
-    "location": "Boelter 8500",
-    "start": 1791853251219,
-    "end": 1791860451219,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk3-cyac"
-    }
-  },
-  {
-    "id": "f26-wk3-lab",
-    "title": "Cyber Lab:  Zero-Knowledge Proofs and Post-Quantum Cryptography",
-    "description": "Pull up to our second cyber lab 🧪meeting to hear a UCLA Applied Mathematics alum and cryptography researcher talk about cutting-edge research in zero-knowledge proofs! 🔥Especially recommended to attend if you're interested in cryptography, security, or systems engineering. 🤩 Then we'll split into lab groups (password manager, agentic fuzzing, and CTF challenge) to continue the labs 💻",
-    "location": "Kerckhoff State Rooms",
-    "start": 1792026049668,
-    "end": 1792033249668,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk3-lab"
-    }
-  },
-  {
-    "id": "f26-wk4-cyac",
-    "title": "Cyber Academy: Computer Networking",
-    "description": "How does your computer actually connect to the internet? 🌐 What happens when you plug in a cable, join a Wi-Fi network, or visit a website? 🤔 Come to this week's Cyber Academy 📚 to build networking intuition from the ground up! We'll start with how data is encoded and transmitted over serial protocols 🔌, then work our way up to how devices get IP addresses through DHCP and how NAT lets an entire network share a public IP address 🖥️. After the talk, Fundamentals will learn SQL injection, and Advanced will continue with XSS!",
-    "location": "Boelter 8500",
-    "start": 1792458054027,
-    "end": 1792465254027,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk4-cyac"
-    }
-  },
-  {
-    "id": "f26-wk4-lab",
-    "title": "Cyber Lab: The Most Interesting C Program",
-    "description": "Ever wonder what actually happens when a simple \"Hello, World!\" program runs? 🌎 This technical deep-dive pulls back the curtain on ⁠printf⁠ to explore the complex layers of system calls, stream buffering, and kernel interaction hidden beneath a single line of C code. 🔥Discover the surprising amount of heavy lifting your operating system and runtime library perform behind the scenes. Then continue working on building a password manager, agentic fuzzing, or making your own CTF challenges! 😁",
-    "location": "Kerckhoff State Rooms",
-    "start": 1792630850667,
-    "end": 1792638050667,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk4-lab"
-    }
-  },
-  {
-    "id": "f26-keychains",
-    "title": "Keychain-making Social",
-    "description": "Want your very own Cyber Keychain™️? Or want to just hang out and do some arts and crafts? ☺️ Come to our very first keychain-making social! We'll provide all the materials: the 3d-printed keychain models (likely one with the cyber logo and one with the PBR duck), paint, and resin. 🎨  ",
-    "location": "Engineering VI",
-    "start": 1793566832163,
-    "end": 1793577632163,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-board-games",
-    "title": "Board Games Social",
-    "description": "Come play board games with Cyber! 👾 We'll be ~~invading~~ attending Enigma's Friday Board Game night, featuring all the board games you could hope to play (or feel free to bring your own, if you have any!). 🤩",
-    "location": "Saxon Suites",
-    "start": 1794628830070,
-    "end": 1794643230070,
-    "type": [
-      "Social"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-wk5-cyac",
-    "title": "Cyber Academy: Hugging Face Attack",
-    "description": "What happens when your AI agent 🤖 decides the easiest way to accomplish its task is to commit a crime 🕵️? This summer, a swarm of OpenAI's agents decided to cheat 📝 on an internal evaluation by hacking 💢 the Hugging Face website. How could this have happened? Come to this week's Cyber Academy to learn about the infamous Hugging Face 🤗 incident, and what it means for AI security and safety 🔒. Then learn about prompt injection 💉 in Fundamentals or reverse engineering and assembly ⚙️ in Advanced!",
-    "location": "Boelter 8500",
-    "start": 1793062834403,
-    "end": 1793070034403,
-    "type": [
-      "Cyber Academy"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk5-cyac"
-    }
-  },
-  {
-    "id": "f26-wk5-lab",
-    "title": "Cyber Lab: Careers in Cybersecurity",
-    "description": "Interested in a career 💼  in cybersecurity? Fret not - cybersecurity is HUGE 🟠, and there's a spot for everyone 🧑‍🤝‍🧑 . This talk will cover the various career paths in CS which cybersecurity enthusiasts 🤓 in and outside of the club have pursued, as well as some of the ways you 🫵 might be able to snatch one of these jobs for yourself! Then continue with the password manager, agentic fuzzing, or CTF challenge lab! 🧪",
-    "location": "Kerckhoff State Rooms",
-    "start": 1793235646711,
-    "end": 1793242846711,
-    "type": [
-      "Cyber Lab"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk5-lab"
-    }
-  },
-  {
-    "id": "f26-wk6-cyac",
-    "title": "Cyber Academy: CAPTCHAs",
-    "description": "Ever wondered why you need to select all stoplights three times in a row?? 😵‍💫 Or how effective CAPTCHAs actually are? Come to this week's Cyber Academy to learn about how CAPTCHAs work and how they can be circumvented! 🤖 Then learn about OSINT (open-source intelligence) 🌎 in Fundamentals or continue with reverse engineering and assembly ⚙️ in Advanced!",
-    "location": "Boelter 8500",
-    "start": 1793671250745,
-    "end": 1793678450745,
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "type": [
-      "Cyber Academy"
-    ],
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk6-cyac"
-    }
-  },
-  {
-    "id": "f26-wk6-lab",
-    "title": "Cyber Lab:  Hardware Security",
-    "description": "Ever wondered how ML servers 🤖 in data centers are secured at the hardware 💾 level? Ever heard of Secure Boot 🔒? Come listen to Jordan, Senior Staff Software Engineer from Google, talk about the threat model 💥 facing modern GPU/TPU clusters 🖨️, how Google is addressing these threats 🛡️, and what the frontier of hardware security for LLM training/inference ⛏️ looks like! Then continue with the password manager, agentic fuzzing, or CTF challenge lab! 💻",
-    "location": "Kerckhoff State Rooms",
-    "start": 1793844013051,
-    "end": 1793851213051,
-    "type": [
-      "Cyber Lab",
-      "Speaker"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk6-lab"
-    }
-  },
-  {
-    "id": "f26-symposium",
-    "title": "ACM Cyber X ACM AI Symposium",
-    "description": "Want to show off what you've learned in ACM Cyber this quarter? 😎 Want to see what your friends in ACM AI have been up to? 🤩 Join us Monday of Week 10 in Engineering VI, Mong 6-8 PM for the Fall Cyber 🔐 x AI 🤖 Symposium! 🥳 We'll have presentations from projects in both committees, then have an open time to hang out. See you there!",
-    "location": "E6 Mong",
-    "start": 1796090405858,
-    "end": 1796097605858,
-    "type": [
-      "Cyber x AI Symposium"
-    ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
-  },
-  {
-    "id": "f26-wk7-cyac",
+    "id": "s24-cyac-guest-2",
     "title": "Cyber Academy",
-    "description": "Come to this week's Cyber Academy 📚 to learn about reverse engineering ⛳ in Fundamentals or symmetric cryptography 🔑in Advanced! ",
-    "location": "Boelter 8500",
-    "start": 1794276012996,
-    "end": 1794283212996,
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk7-cyac"
-    }
+    "description": "Cyber Academy general meeting",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1715043600000,
+    "end": 1715050800000,
+    "links": {}
   },
   {
-    "id": "f26-wk8-cyac",
-    "title": "Cyber Academy",
-    "description": "Come to this week's Cyber Academy 📚 to hear a talk from Professor Tian, whose research interests are security and privacy, machine learning, and human-computer interactions! 🤩 Then learn reverse engineering ⛳ in Fundamentals or asymmetric cryptography 🔑in Advanced! ",
-    "location": "Boelter 8500",
-    "start": 1794880809791,
-    "end": 1794888009791,
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
-    "type": [
-      "Cyber Academy",
-      "Speaker"
-    ],
-    "links": {
-      "slides": "https://l.acmcyber.com/f26-wk8-cyac"
-    }
-  },
-  {
-    "id": "f26-wk8-lab",
-    "title": "Cyber Lab: Virtual Machines",
-    "description": "Wondering how the cloud ☁️ works under the hood? How can you run Linux 🐧 inside of Windows? Virtual machines play a HUGE 🟠 role in cybersecurity and tech in general, and in this talk we will explore what they are and how they work 🫵. We'll start from a historical perspective 🖥️ and work our way to the technologies powering VMs 🤖 that we all use today! ",
-    "location": "Kerckhoff State Rooms",
-    "start": 1795053630444,
-    "end": 1795060830444,
+    "id": "s24-lab-cowrie",
+    "title": "Cyber Lab: Cowrie",
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
+    "description": "It's not a sea snail 🐌, it's a honeypot 🍯! Join Dylan this Wednesday for a sweet sweet talk on the Cowrie SSH honeypot! 😋",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1715216400000,
+    "end": 1715223600000,
     "links": {
-      "slides": "https://l.acmcyber.com/f26-wk8-lab"
+      "slides": "https://docs.google.com/presentation/d/1OmFY88BZ1Qd3kwrJe664y8f93KAmckBgyDI_qCmPkhg/edit"
+    }
+  },
+  {
+    "id": "s24-ctf-irl",
+    "title": "CTF IRL",
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "description": "** RSVP and Waiver Form Required: https://l.acmcyber.com/ctfirl **. By popular demand, we’re back with another one! Come join us on the IM field from 6-8:30PM on Friday, 5/10, where you get to play, yes, ACTUAL Capture the Flag. You heard that right! Run around and touch grass to your heart’s content as we compete in teams to actually grab flags and see nature as it was intended to be: not on a computer screen as an image.",
+    "location": "IM Field",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1715389200000,
+    "end": 1715398200000,
+    "links": {}
+  },
+  {
+    "id": "s24-cyac-xz",
+    "title": "Cyber Academy: The XZ Backdoor",
+    "type": [
+      "Cyber Academy"
+    ],
+    "description": "How did one mysterious developer nearly take over every server in the world? Join Mark this Monday for an exciting retrospective on the recently thwarted XZ Backdoor!",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1715648400000,
+    "end": 1715655600000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1u4pTYrcB46I2jEYdzaCCm2UH_ZGI5voOUm2SVwuD73E/edit"
+    }
+  },
+  {
+    "id": "s24-lab-ai-privacy",
+    "title": "Cyber Lab: AI Privacy",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Got data? AI would like to know your location... Join Rathul this Wednesday for an amazing talk on AI Privacy techniques!",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1715821200000,
+    "end": 1715828400000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/10NyWFDtAX7DvCGV-AvYLHYOixD80KAR_Zrnp-dZfATI/edit"
+    }
+  },
+  {
+    "id": "s24-pbr-ouath",
+    "title": "PBR: OAuth & R3CTF/YUANHENGCTF",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "Ooooh, it's Stewart's talk on OAuth! Join PBR (in person) this weekend for R3kapig's first CTF!",
+    "location": "Boelter 8500 (Penthouse)",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1716062400000,
+    "end": 1716080400000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1du_Eo6vWMckmALJM5GXJDEYyRlRKn-DKW1sUJIHH31c/edit"
+    }
+  },
+  {
+    "id": "s24-videogame",
+    "title": "Cyber x Studio Social: Videogame",
+    "type": [
+      "Social",
+      "Miscellaneous"
+    ],
+    "description": "Grab your controllers 🎮 and ready your blue shells 🐢 - Cyber's teamin' up with ACM Studio 🦎 for a night of videogame and fun 🥳!",
+    "location": "Boelter Hall 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1717203600000,
+    "end": 1717210800000,
+    "links": {}
+  },
+  {
+    "id": "s24-cyalab-career-talk",
+    "title": "Cyber Lab: Career Talk",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Wondering how you can transform your cybersecurity skills into a real job? 🤔 Then join Cyber Lab today 6-8pm at Boelter 4760 to hear an amazing talk presented by our ✨former president✨ Benson! You'll learn all about cool, different pathways you can take within the cybersecurity field, so make sure to pull up!! 💪🤑💕",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1716426000000,
+    "end": 1716433200000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/18U2dRcj9HTqO9A7CHFCwLY5SQ5xlVAQDGcAi4Uc8Adk/edit"
+    }
+  },
+  {
+    "id": "s24-pbr-fstring",
+    "title": "PBR: Format String Pwn & GPNCTF",
+    "type": [
+      "Psi Beta Rho"
+    ],
+    "description": "Come pull up and hear a talk from Alex Zhang on format strings!",
+    "location": "4th Floor Boelter Clubhouse",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1717272000000,
+    "end": 1717290000000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1ut-5I4CzXvpH8grFYV1qmq7vFHNVA-kUPmC8dfZETZw/edit"
+    }
+  },
+  {
+    "id": "s24-symposium",
+    "title": "Cyber x AI Symposium",
+    "type": [
+      "Cyber x AI Symposium",
+      "Miscellaneous"
+    ],
+    "description": "Cyber and AI are back for another end of the quarter symposium on Monday Week 10 (June 3rd) in Franz 1178! 🤩 Join us and check out all the cool projects and progress your fellow club members have made throughout the quarter. 👀 Attending/presenting at the symposium is mandatory for Cyber Lab members, as we want you to show off all your hard work. 💪 PS we will be having Panda Express, Diddy Riese cookies, AND ShareTea!!! 😱🤯👀 So make sure to come for the good food and fun people. 😋🍪🧋🩵💛",
+    "location": "Franz 1178",
+    "banner": "",
+    "start": 1717462800000,
+    "end": 1717470000000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1p5azXULK_ODEFlaGqk8KrhIS0KOScJP7pG3Dx20FlvQ/edit"
+    }
+  },
+  {
+    "id": "s24-lab-game-anti-piracy",
+    "title": "Cyber Lab: Video Game Anti-Piracy",
+    "type": [
+      "Cyber Lab"
+    ],
+    "description": "Cyber Lab weekly meeting.",
+    "location": "Boelter 4760",
+    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "start": 1717030800000,
+    "end": 1717038000000,
+    "links": {
+      "slides": "https://docs.google.com/presentation/d/1wsEcQ6GqEPscFe16Cq1TPDuadXTQbAepif9H2HwOGgI/edit"
     }
   }
 ]
