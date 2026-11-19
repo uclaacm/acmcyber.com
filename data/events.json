@@ -7,7 +7,8 @@
     "start": 1790989208509,
     "end": 1790996408509,
     "type": [
-      "GM"
+      "GM",
+      "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/f26/acm.png",
     "meta": {
@@ -22,7 +23,8 @@
     "start": 1791248424942,
     "end": 1791255624942,
     "type": [
-      "GM"
+      "GM",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -36,7 +38,8 @@
     "type": [
       "Industry",
       "Career",
-      "Speaker"
+      "Speaker",
+      "Miscellaneous"
     ],
     "banner": "https://cyanea-assets.acmcyber.com/events/f25/verkada.png"
   },
@@ -63,7 +66,8 @@
     "start": 1792198820561,
     "end": 1792213220561,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -111,7 +115,8 @@
     "start": 1795316425991,
     "end": 1795327225991,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -183,7 +188,8 @@
     "start": 1793566832163,
     "end": 1793577632163,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -195,7 +201,8 @@
     "start": 1794628830070,
     "end": 1794643230070,
     "type": [
-      "Social"
+      "Social",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -268,7 +275,8 @@
     "start": 1796090405858,
     "end": 1796097605858,
     "type": [
-      "Cyber x AI Symposium"
+      "Cyber x AI Symposium",
+      "Miscellaneous"
     ],
     "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
@@ -328,7 +336,7 @@
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-lactf",
@@ -352,7 +360,7 @@
     "type": [
       "GM"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-ectf-kickoff",
@@ -361,7 +369,7 @@
     "location": "IEEE Lab (Boelter 2825)",
     "start": 1767924044420,
     "end": 1767931244420,
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png",
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png",
     "type": [
       "ECTF"
     ],
@@ -383,7 +391,7 @@
       "slides": "https://l.acmcyber.com/w26-wk2-cyac",
       "youtube": "https://youtu.be/JY2kiF9GL3M"
     },
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk2-lab",
@@ -395,7 +403,7 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-ectf-week2",
@@ -407,7 +415,7 @@
     "type": [
       "ECTF"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk3-lab",
@@ -423,7 +431,7 @@
       "slides": "https://l.acmcyber.com/w26-wk3-lab",
       "youtube": "https://youtu.be/gZCeypY0udc"
     },
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-nail-painting",
@@ -435,7 +443,7 @@
     "type": [
       "Social"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-misc-flagsharing",
@@ -460,7 +468,7 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk5-cyac",
@@ -472,7 +480,7 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk5-lab",
@@ -484,7 +492,7 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-bkctf",
@@ -496,7 +504,7 @@
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-potluck",
@@ -508,7 +516,7 @@
     "type": [
       "Social"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-srdnlenctf",
@@ -520,7 +528,7 @@
     "type": [
       "Psi Beta Rho"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk6-cyac",
@@ -532,7 +540,7 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk6-lab",
@@ -544,7 +552,7 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-sawtelle",
@@ -556,7 +564,7 @@
     "type": [
       "Social"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk7-lab",
@@ -568,7 +576,7 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk8-cyac",
@@ -580,7 +588,7 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk8-lab",
@@ -595,7 +603,7 @@
     "links": {
       "slides": "https://l.acmcyber.com/w26-wk8-lab"
     },
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-symposium",
@@ -607,7 +615,7 @@
     "type": [
       "Cyber x AI Symposium"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk9-acad",
@@ -619,7 +627,7 @@
     "type": [
       "Cyber Academy"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "w26-wk9-lab",
@@ -631,7 +639,7 @@
     "type": [
       "Cyber Lab"
     ],
-    "banner": "https://cyanea-assets.acmcyber.com/events/default.png"
+    "banner": "https://www.acmcyber.com/images/cyber-motif-applied.png"
   },
   {
     "id": "s26-cyber-gm",
